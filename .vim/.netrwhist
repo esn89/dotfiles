@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/ep/.config'
+let g:netrw_dirhist_2='/home/ep/cpsc313/assem'
+let g:netrw_dirhist_3='/home/ep/cpsc313/homework1'
+let g:netrw_dirhist_4='/home/ep/Downloads/hm3'

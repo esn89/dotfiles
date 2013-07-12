@@ -1,0 +1,106 @@
+# Configuration file for dircolors, a utility to help you set the
+# LS_COLORS environment variable used by GNU ls with the --color option.
+
+# The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the
+# slackware version of dircolors) are recognized but ignored.
+
+# Below, there should be one TERM entry for each termtype that is colorizable
+TERM linux
+TERM linux-c
+TERM mach-color
+TERM console
+TERM con132x25
+TERM con132x30
+TERM con132x43
+TERM con132x60
+TERM con80x25
+TERM con80x28
+TERM con80x30
+TERM con80x43
+TERM con80x50
+TERM con80x60
+TERM dtterm
+TERM xterm
+TERM xterm-color
+TERM xterm-debian
+TERM rxvt
+TERM rxvt-unicode-256color
+TERM screen
+TERM screen-w
+
+
+# Below are the color init strings for the basic file types. A color init
+# string consists of one or more of the following numeric codes:
+# Attribute codes:
+# 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+# Text color codes:
+# 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+# Background color codes:
+# 40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+NORMAL 00    # global default, although everything should be something.
+FILE 00        # normal file
+DIR 01;34    # directory
+LINK 01;36    # symbolic link.  (If you set this to 'target' instead of a
+        # numerical value, the color is as for the file pointed to.)
+FIFO 40;33    # pipe
+SOCK 01;35    # socket
+DOOR 01;35    # door
+BLK 40;33;01    # block device driver
+CHR 40;33;01    # character device driver
+ORPHAN 40;31;01 # symlink to nonexistent file
+
+# This is for files with execute permission:
+EXEC 01;32
+
+# List any file extensions like '.gz' or '.tar' that you would like ls
+# to colorize below. Put the extension, a space, and the color init string.
+# (and any comments you want to add after a '#')
+
+# If you use DOS-style suffixes, you may want to uncomment the following:
+#.cmd 01;32 # executables (bright green)
+#.exe 01;32
+#.com 01;32
+#.btm 01;32
+#.bat 01;32
+
+.sh 01;36
+.cpp 01;36
+.java 01;36
+.c 01;36
+.py 01;36
+.pdf 01;31
+
+.tar 01;35 # archives or compressed (bright red)
+.tgz 01;35
+.arj 01;35
+.taz 01;35
+.lzh 01;35
+.zip 01;35
+.z   01;35
+.Z   01;35
+.gz  01;35
+.bz2 01;35
+.deb 01;35
+.rpm 01;35
+.jar 01;35
+.tbz 01;35
+.pkg.tar.gz 01;31;35
+
+# image formats
+.jpg 01;32
+.jpeg 01;32
+.gif 01;32
+.bmp 01;32
+.png 01;32
+
+# movie formats
+.mp4 01;33
+.mpg 01;33
+.mpeg 01;33
+.wmv 01;33
+.avi 01;33
+
+
+# audio formats
+.mp3 01;33
+.flac 01;33
