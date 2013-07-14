@@ -1,0 +1,31 @@
+April 26th 2013
+---------------
+- wicd systray icon tucked away. (be sure to start wicd with
+		'systemctl enable wicd.service'
+- added wicd-gtk as a pop up menu when clicking on the net
+widget (thanks danielfgray)
+- reduced clutter by merging the volume systray icon into the
+powerarrow space
+- removed the run_once(wicd-client)  from rc.lua.
+
+April 27th 2013
+---------------
+- Working signal strength indicator, which is dependent on
+wifi signal. (please see screenshots)
+- Added up/down-load speed, and data received indicator
+
+May 1st 2013
+------------
+- Added a working speaker icon, which is dependent on volume
+level.  As the system's Master sound goes up, the speaker
+changes.  (please see screenshots)
+
+May 7th 2013
+------------
+- Added two mail icons that integrate with a the gmail.lua
+module in the vicious library.
+- Added an extra icon (mailopen.png) that indicates when you have new mail.
+
+May 8th 2013
+------------
+- Included snippets of my original rc.lua

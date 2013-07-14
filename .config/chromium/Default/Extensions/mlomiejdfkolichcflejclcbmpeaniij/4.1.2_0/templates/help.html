@@ -1,0 +1,37 @@
+<div class="options-div">
+	<fieldset>
+		<h1><%- t("help_version_text", ghostery_version) %></h1>
+		<p>
+			<%- t("short_description") %>
+		</p>
+		<p>
+			<a href="ghostery_eula.txt"><%- t("license_link") %></a><span class="vr"></span><a href="http://www.ghostery.com/privacy"><%- t("privacy_policy_link") %></a><span class="vr"></span><a href="http://www.ghostery.com"><%- t("homepage_link") %></a>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend><%- t("help_help_header") %></legend>
+		<p>
+			<%= t("help_text1") %>
+		</p>
+		<p>
+			<%= t("help_text2") %>
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend><%- t("help_credits_header") %></legend>
+		<p>
+			<%- t("credits_description") %>
+		</p>
+		<ul id="code-libraries">
+			<% _(libraries)
+				.chain()
+				.sortBy(function (l) { return l.name.toLowerCase() })
+				.each(function (library, i) {
+					library.id = i %>
+					<%= _library_li(library, { variable: 'library' }) %>
+				<% }) %>
+		</ul>
+	</fieldset>
+</div>

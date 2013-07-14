@@ -1,0 +1,48 @@
+[options]
+resize_grip = false
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+visible_bell = false
+mouse_autohide = false
+allow_bold = false
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = inconsolata 11
+scrollback_lines = 1000
+search_wrap = true
+geometry = 635x390
+
+[colors]
+foreground = #D9C2B4
+foreground_bold = #fdf6e3
+foreground_dim = #888888
+background = #151915
+cursor = #93a1a1
+
+#highlight = #839496
+
+color0=     #2d2d2d
+color8=     #747369
+color1=     #f2777a
+color9=     #f2777a
+color2=     #99cc99
+color10=    #99cc99
+color3=     #ffcc66
+color11=    #ffcc66
+color4=     #6699cc
+color12=    #6699cc
+color5=     #cc99cc
+color13=    #cc99cc
+color6=     #66cccc
+color14=    #66cccc
+color7=     #d3d0c8
+color15=    #f2f0ec
+
+[hints]
+font = Inconsolata 10
+#background = #313131
+#padding = 1
+#border_width = 2.5
+#roundness = 2.0

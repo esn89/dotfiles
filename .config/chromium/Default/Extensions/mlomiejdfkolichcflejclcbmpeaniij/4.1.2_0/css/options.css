@@ -1,0 +1,149 @@
+a {
+	color: #0060bf;
+	text-decoration: none;
+}
+
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+body {
+	background: #fff;
+	font-family: sans-serif;
+	line-height: 1.4;
+	margin: 0 auto;
+}
+
+em {
+	color: red;
+	font-style: normal;
+}
+
+fieldset {
+	background-color: #fff;
+	border: none;
+	box-shadow: -20px 0 20px -19px #dae8f5;
+	margin: 20px 0 0 0;
+}
+
+fieldset:hover {
+	box-shadow: -20px 0 20px -19px #8dc3f5;
+}
+
+label {
+	font-weight: bold;
+}
+
+legend {
+	color: #0d6aac;
+	font-size: 1.5em;
+}
+
+#header {
+	background: url(/images/gradBD.gif) fixed repeat-x;
+	border-bottom: 5px solid #58b2e4;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+#options-top-content {
+	padding-top: 10px;
+}
+
+#options-top-content, .options-div, #footer {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	color: #555;
+	font-size: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#whitelist-add-input {
+	margin-right: 5px;
+	width: 295px;
+}
+
+#whitelist {
+	height: 150px;
+	resize: vertical;
+	width: 300px;
+}
+
+.vr {
+	margin: 0px 10px 0px 10px;
+	border-right: 1px solid #ccc;
+}
+
+#whitelist-div p {
+	margin-left: 15px;
+}
+
+.tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tabs li {
+	display: inline;
+}
+
+.tabs a {
+	background: #dae8f5;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	color: #666;
+	font-size: large;
+	padding: 10px 20px 8px;
+	position: relative;
+	top: -6px;
+	text-decoration: none;
+}
+
+.tabs .active a {
+	background-color: #58b2e4;
+	color: #fff;
+	padding: 15px 40px 9px;
+	top: -7px;
+}
+
+#tabs-apps a {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: medium;
+	padding: 4px 20px;
+	top: -2px;
+}
+
+#tabs-apps .active a {
+	padding: 7px 30px;
+	top: -4px;
+}
+
+#options-top-content-floater {
+	float: right;
+	color: #666666;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#walkthrough-link {
+	float: right;
+	background-color: #dae8f5;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 380px;
+}
+
+#tiptip_content {
+	font-size: 13px;
+}

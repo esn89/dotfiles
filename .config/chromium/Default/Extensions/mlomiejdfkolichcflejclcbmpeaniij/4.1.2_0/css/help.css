@@ -1,0 +1,18 @@
+h1 {
+	color: #0d6aac;
+}
+
+.license-line {
+	width: 250px;
+}
+
+.license-link {
+	float: right;
+}
+
+.license-text {
+	background-color: #eee;
+	display: none;
+	font-size: small;
+	padding: 5px;
+}

@@ -1,0 +1,15 @@
+<tr>
+	<td>
+		<img src="images/arrow_<% print(collapsed ? 'right' : 'down') %>.gif">
+	</td>
+	<td>
+		<input type="checkbox" class="cat-checkbox"<% if (all_selected) print(' checked') %>>
+	</td>
+	<td>
+		<span class="category-name help" title="<%- t('category_' + id + '_desc') %>"><%- name %></span>
+		<span class="category-stats">
+			<%- t('number_of_trackers', apps.length.toString()) %>
+			<%= t_blocking_summary(apps.where({ selected: true }).length, apps.length, true) %>
+		</span>
+	</td>
+</tr>

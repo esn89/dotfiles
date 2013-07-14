@@ -1,0 +1,122 @@
+a {
+	color: #0060bf;
+	text-decoration: none;
+}
+
+a.app-source-link {
+	font-size: 11px;
+}
+
+body {
+	background-color: #fff;
+	font-family: sans-serif;
+	margin: 4px;
+	padding: 0;
+	white-space: nowrap;
+	width: 293px;
+}
+
+div.app-div {
+	border-top: 1px dotted #bcbec0;
+	padding: 5px 0px 5px 5px;
+}
+
+div.app-div:first-child {
+	border-top: none;
+}
+
+span.app-link-span {
+	font-size: 11px;
+	margin: 3px 5px 0px 10px;
+}
+
+span.app-name-span {
+	font-size: 14px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.border-bottom-gray {
+	border-bottom: 2px #bcbec0 solid;
+}
+
+.border-top-gray {
+	border-top: 2px #bcbec0 solid;
+}
+
+.blocked {
+	color: #777;
+	text-decoration: line-through;
+}
+
+.app-checkbox {
+	display: none;
+	margin-right: 5px;
+}
+
+.float-right {
+	float: right;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.whitelisted {
+	color: green;
+}
+
+#blocking-options-div {
+	background: url(/images/panel/bg_bottom.png) repeat-x left bottom;
+	display: none;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+}
+
+#blocking-options-div a {
+	color: #2f99db;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 27px;
+}
+
+#app-list-div {
+	max-height: 300px;
+	overflow: auto;
+	overflow-x: hidden
+}
+
+#header img {
+	float: left;
+	margin: 0px 10px 0px 10px;
+}
+
+#header {
+	background: url(/images/panel/bg_top.png) repeat-x left bottom;
+    font-size: 14px;
+	font-weight: bold;
+	height: 37px;
+	margin-top: 10px;
+}
+
+#menu-div {
+	background: url(/images/panel/bg_bottom.png) repeat-x left bottom;
+	height: 27px;
+}
+
+#menu-div img {
+	float: left;
+	border-left: 2px solid #bcbec0;
+}
+
+#menu-div a:first-child img {
+	border-left: none;
+}
+
+#whitelist-site-link {
+	display: none;
+}

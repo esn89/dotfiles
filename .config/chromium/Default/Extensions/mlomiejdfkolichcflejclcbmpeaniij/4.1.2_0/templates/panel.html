@@ -1,0 +1,31 @@
+<div id="apps-div">
+</div>
+
+<div id="blocking-options-div" class="border-top-gray">
+	<div class="ellipsis">
+		<a href="#" tabIndex="1" role="button" id="edit-blocking-link"><%- t('edit_blocking_options_button') %></a>
+		<a href="#" tabIndex="0" role="button" id="whitelist-site-link"></a>
+	</div>
+</div>
+
+<% // TODO make text buttons clickable anywhere in the button %>
+<% // TODO make image buttons tabbable %>
+<div id="menu-div" class="border-top-gray">
+	<a tabIndex="0" role="button" href="#" id="pause-blocking">
+		<img src="/images/panel/<%- paused ? 'play' : 'pause' %>.png"
+			width="57" height="25"
+			title="<%- t('panel_' + (paused ? 'resume' : 'pause') + '_button') %>">
+	</a>
+	<a id="options" tabIndex="0" role="button" href="#">
+		<img src="/images/panel/settings.png" width="57" height="25" title="<%- t('panel_options_button') %>">
+	</a>
+	<a tabIndex="0" role="button" href="http://www.ghostery.com/feedback" target="_blank">
+		<img src="/images/panel/email.png" width="57" height="25" title="<%- t('panel_feedback_button') %>">
+	</a>
+	<a id="help" tabIndex="0" role="button" href="#">
+		<img src="/images/panel/questions.png" width="57" height="25" title="<%- t('panel_help_button') %>">
+	</a>
+	<a tabIndex="0" role="button" href="http://www.ghostery.com/share" target="_blank">
+		<img src="/images/panel/chat.png" width="57" height="25" title="<%- t('panel_share_ghostery_button') %>">
+	</a>
+</div>

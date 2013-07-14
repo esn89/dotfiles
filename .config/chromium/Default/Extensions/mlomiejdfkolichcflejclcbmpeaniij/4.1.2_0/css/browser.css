@@ -1,0 +1,108 @@
+#app-list-table, #whitelist-div {
+	border: 2px solid #58b2e4;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	text-align: left;
+	width: 100%;
+}
+
+#app-list-table th {
+	font-weight: normal;
+}
+
+#app-list-table table {
+	border-bottom: 1px solid #ccc;
+	border-spacing: 0;
+	display: block;
+	overflow: auto;
+	max-height: 400px;
+}
+
+#app-list-table th, #app-list-table td {
+	padding: 7px;
+}
+
+#app-toggles {
+	border-bottom: 1px solid #58b2e4;
+}
+
+#no-results {
+	display: none;
+}
+
+#app-filters {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #58b2e4;
+}
+
+#app-list-filter-name {
+	width: 120px;
+}
+
+.category-row {
+	cursor: pointer;
+}
+
+.category-row:hover, .hover {
+	background-color: #ffffcc;
+	box-shadow: 0 1px 4px 0 #ccc;
+}
+
+.alt-row {
+	background-color: #e7f4fc;
+}
+
+.category-name {
+	color: #444;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.category-stats {
+	color: #444;
+	font-size: small;
+}
+
+.loading {
+	background: url(/images/spinner.gif) no-repeat 50% 50%;
+}
+
+.app-info {
+	border-bottom: 1px solid #ccc;
+	box-shadow: inset 0 2px 4px 0 #ccc;
+}
+
+.aboutbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 10px 20px 10px 66px;
+}
+
+.aboutbox h1 {
+	color: #000;
+	display: inline;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.aboutbox h2 {
+	color: #000;
+	display: inline;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.aboutbox .company-logo {
+	float: right;
+	margin-right: 10px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.help {
+	border-bottom: 1px dotted #0060bf;
+	cursor: help;
+}

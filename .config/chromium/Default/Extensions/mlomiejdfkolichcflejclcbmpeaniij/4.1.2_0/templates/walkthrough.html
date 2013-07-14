@@ -1,0 +1,136 @@
+<a href="#" id="arrow-prev" class="arrow" tabindex="1" role="navigation" aria-label="previous section" style="display:none"></a>
+<a href="#" id="arrow-next" class="arrow" tabindex="1" role="navigation" aria-label="next section"></a>
+
+<button id="skip-button"><%- t('walkthrough_skip_button') %></button>
+
+<img src="/images/ghostery_about.png" width="295" height="78">
+
+<div id="walkthrough-progress">
+	<span class="circle active"></span>
+	<span class="circle"></span>
+	<span class="circle"></span>
+	<span class="circle"></span>
+	<span class="circle"></span>
+</div>
+<div style="clear:both"></div>
+
+<div id="slider">
+
+	<div style="display:block">
+		<legend>
+			<%- t('walkthrough_intro_header') %>
+		</legend>
+		<p>
+			<%= t('welcome_to_ghostery', '<span id="version-text"></span>') %>
+		</p>
+		<p>
+			<%- t('walkthrough_intro1') %>
+		</p>
+		<p>
+			<%= t('walkthrough_intro2') %>
+		</p>
+	</div>
+
+
+	<div style="display:none">
+		<legend>
+			<%- t('walkthrough_sharing_header') %>
+		</legend>
+		<p>
+			<%- t('walkthrough_sharing_desc') %>
+		</p>
+
+		<hr>
+
+		<%= _ghostrank() %>
+		<p>
+			<label>
+				<input type="checkbox" id="ghostrank"<% if (conf.ghostrank) print(' checked') %>>
+				<%- t('walkthrough_ghostrank_checkbox') %>
+			</label>
+		</p>
+
+		<hr>
+
+		<p>
+			<%- t('walkthrough_autoupdate1') %>
+		</p>
+		<p>
+			<%- t('walkthrough_autoupdate3') %>
+		</p>
+		<p>
+			<label>
+				<input type="checkbox" id="enable-autoupdate"<% if (conf.enable_autoupdate) print(' checked') %>>
+				<%- t('walkthrough_autoupdate_checkbox') %>
+			</label>
+		</p>
+	</p>
+	</div>
+
+
+	<div style="display:none">
+		<legend>
+			<%- t('walkthrough_notification_header') %>
+		</legend>
+
+		<p>
+			<img src="images/help_alert_bubble.png" class="example">
+			<%- t('walkthrough_notification1') %>
+		</p>
+
+		<p>
+			<%- t('walkthrough_notification2') %>
+		</p>
+
+		<p>
+			<label>
+				<input type="checkbox" id="show-alert"<% if (conf.show_alert) print(' checked') %>>
+				<%- t('walkthrough_notification_checkbox') %>
+			</label>
+		</p>
+
+		<div style="clear:both"></div>
+	</div>
+
+
+	<div style="display:none">
+		<legend>
+			<%- t('walkthrough_blocking_header') %>
+		</legend>
+		<p>
+			<%- t('walkthrough_blocking1') %>
+		</p>
+		<p>
+			<%- t('walkthrough_blocking2') %>
+		</p>
+		<p>
+			<%= t('walkthrough_blocking3') %>
+		</p>
+		<p>
+			<%- t('walkthrough_blocking4') %>
+		</p>
+
+		<%= _app_browser({ _select: _select }) %>
+
+	</div>
+
+
+	<div style="display:none">
+		<legend>
+			☺
+		</legend>
+		<p>
+			<%- t('walkthrough_finished1') %>
+		</p>
+		<p>
+			<%= t('walkthrough_finished2') %>
+		</p>
+		<p>
+			<%= t('walkthrough_finished3') %>
+		</p>
+		<p>
+			<%- t('thanks_for_using_ghostery') %>
+		</p>
+	</div>
+
+</div>

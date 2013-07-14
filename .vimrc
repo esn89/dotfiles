@@ -31,7 +31,7 @@ set term=xterm-256color
 let g:indentLine_color_term = 239
 
 " Select theme
-"let base16colourspace=256
+let base16colorspace=256
 set background=dark
 colorscheme base16-default
 
@@ -146,4 +146,5 @@ autocmd Filetype python setlocal ts=4 sts=4 sw=4 textwidth=80 smarttab expandtab
 
 autocmd Filetype c setlocal ts=8 sts=8 sw=8 textwidth=80 smarttab expandtab
 
-
+" No Swap files
+set noswapfile

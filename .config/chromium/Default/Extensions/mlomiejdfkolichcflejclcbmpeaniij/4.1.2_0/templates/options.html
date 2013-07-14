@@ -1,0 +1,153 @@
+<div class="options-div" id="general-options">
+
+	<fieldset>
+		<legend><%- t("options_sharing_header") %></legend>
+		<%= _ghostrank() %>
+		<p>
+		<label>
+			<input type="checkbox" id="ghostrank"<% if (conf.ghostrank) print(' checked') %>>
+			<%- t("options_ghostrank") %>
+		</label>
+		</p>
+	</fieldset>
+
+
+	<fieldset>
+		<legend><%- t("options_autoupdate_header") %></legend>
+		<p><%- t("walkthrough_autoupdate1") %></p>
+
+		<p>
+		<label>
+			<input type="checkbox" id="enable_autoupdate"<% if (conf.enable_autoupdate) print(' checked') %>>
+			<%- t("options_autoupdate") %>
+		</label>
+		<br>
+		<input type="checkbox" style="visibility:hidden">
+		<span style="font-size:small">
+			<span id="apps-last-updated">
+				<%- t('library_never_updated') %>
+			</span>
+			<span id="update-now-span">
+				<a href="#" id="update-now-link" aria-label="Press to immediately update Ghostery tracker lists"><%- t('library_update_now_link') %></a>
+			</span>
+		</span>
+		</p>
+	</fieldset>
+
+
+	<fieldset>
+		<legend><%- t("options_blocking_header") %></legend>
+		<p>
+			<%- t("options_blocking1") %>
+		</p>
+		<p style="margin-bottom:25px">
+			<em><%- t("note") %></em>
+			<%= t("options_blocking2") %>
+		</p>
+
+		<ul class="tabs" id="tabs-apps" role="navigation">
+			<li class="active">
+				<a id="apps-tab" href="#apps" data-tab-contents-selector="#app-list-table" aria-label="Tracker browser tab"><%- t("options_trackers_tab") %></a>
+			</li>
+			<li>
+				<a id="sites-tab" href="#sites" data-tab-contents-selector="#whitelist-div" aria-label="Blocking-exempt sites tab"><%- t("options_sites_tab") %></a>
+			</li>
+		</ul>
+
+		<%= _app_browser({ _select: _select }) %>
+
+		<div id="whitelist-div" style="display:none">
+			<p>
+				<%- t("site_whitelist_description") %>
+			</p>
+			<p>
+				<%- t("site_whitelist_help") %>
+				<br>
+				<input type="text" id="whitelist-add-input" value="" autocomplete="off" placeholder="example.com">
+				<button id="whitelist-add-button"><%- t("whitelist_add_button") %></button>
+			</p>
+			<p>
+				<%- t("whitelisted_sites_header") %>
+				<br>
+				<select multiple="multiple" id="whitelist"></select>
+				<br>
+				<button id="whitelist-remove-button"><%- t("whitelist_remove_button") %></button>
+				<button id="whitelist-remove-all-button"><%- t("whitelist_remove_all_button") %></button>
+			</p>
+		</div>
+	</fieldset>
+
+</div>
+
+<div class="options-div" id="advanced-options" style="display:none">
+
+	<fieldset>
+		<legend>
+			<%- t("options_display_header") %>
+		</legend>
+
+		<p>
+			<input type="checkbox" id="show-alert"<% if (conf.show_alert) print(' checked') %>>
+			<%= '<label for="show-alert">' +
+			t("options_alert_bubble", [
+				'</label>' +
+					'<span id="alert-bubble-help" class="help">' +
+					t('alert_bubble') +
+					'</span><span id="alert-bubble-options"' +
+						(!conf.show_alert ? ' style="display:none"' : '') +
+					'>',
+
+				_select({
+					id: 'alert-bubble-pos',
+					options: [
+						{ name: t("corner1"), value: 'tr' },
+						{ name: t("corner2"), value: 'tl' },
+						{ name: t("corner3"), value: 'br' },
+						{ name: t("corner4"), value: 'bl' }
+					],
+					selected: conf.alert_bubble_pos
+				}),
+
+				_select({
+					id: "alert-bubble-timeout",
+					options: [60, 30, 25, 20, 15, 10, 5, 3],
+					selected: conf.alert_bubble_timeout
+				})
+			]) + '</span>' %>
+		</p>
+
+		<p>
+		<label>
+			<input type="checkbox" id="show_sources"<% if (conf.show_sources) print(' checked') %>>
+			Show tracker script sources
+		</label>
+		(in the <span id="browser-panel-help" class="help">findings panel</span>)
+		</p>
+	</fieldset>
+
+	<fieldset>
+		<legend>
+			<%- t("options_autoupdate_header") %>
+		</legend>
+		<p>
+		<label>
+			<input type="checkbox" id="block-by-default"<% if (conf.block_by_default) print(' checked') %>>
+			<%- t("options_block_by_default") %>
+		</label>
+		</p>
+		<p>
+		<label>
+			<input type="checkbox" id="notify-library-updates"<% if (conf.notify_library_updates) print(' checked') %>>
+			<%- t("options_notify_of_library_updates") %>
+		</label>
+		</p>
+	</fieldset>
+
+</div>
+
+<div class="options-div">
+	<p>
+	<button id="save-button" disabled><%- t("options_save_button") %></button>
+	<button id="cancel-button" disabled><%- t("options_cancel_button") %></button>
+	</p>
+</div>

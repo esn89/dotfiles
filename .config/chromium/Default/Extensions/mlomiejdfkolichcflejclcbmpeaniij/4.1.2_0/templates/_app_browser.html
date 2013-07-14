@@ -1,0 +1,57 @@
+<table id="app-list-table" role="grid">
+	<thead>
+		<tr>
+			<th>
+				<span id="block-status"></span>
+				<br>
+				<br>
+				<%- t("options_blocking3") %>
+			</th>
+		</tr>
+	</thead>
+
+	<thead id="app-filters">
+		<tr>
+			<td>
+				<%= t("tracker_browser_type_filter", _select({
+					id: 'app-list-filter-type',
+					options: [
+						{ name: t("all"), value: 'all' },
+						{ name: t("blocked"), value: 'blocked' },
+						{ name: t("unblocked"), value: 'unblocked' },
+						{ name: t("new_since_last_update"), value: 'new' }
+					]
+				})) %>
+				<span class="vr"></span>
+				<%= t("tracker_browser_name_filter", '<input type="text" id="app-list-filter-name" placeholder="' + t("tracker_browser_name_filter_placeholder") + '">') %>
+				<span class="vr"></span>
+				<a href="#" id="app-list-reset-search"><%- t("tracker_browser_filters_reset") %></a>
+			</td>
+		</tr>
+	</thead>
+
+	<thead id="app-toggles">
+		<tr>
+			<th>
+				<a href="#" id="expand-all"><%- t("toggle_expand_all") %></a>
+				<span class="vr"></span>
+				<a href="#" id="collapse-all"><%- t("toggle_collapse_all") %></a>
+				<span class="vr"></span>
+				<a href="#" id="select-all"><%- t("toggle_select_all") %></a>
+				<span class="vr"></span>
+				<a href="#" id="select-none"><%- t("toggle_select_none") %></a>
+			</th>
+		</tr>
+	</thead>
+
+	<tbody id="trackers">
+	</tbody>
+
+	<tbody id="no-results">
+		<tr>
+			<td>
+				<%- t('no_results') %>
+			</td>
+		</tr>
+	</tbody>
+</table>

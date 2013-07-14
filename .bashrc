@@ -22,22 +22,15 @@ shopt -s checkwinsize
 
 # Enable history appending instead of overwriting.
 shopt -s histappend
-
+. /usr/local/bin/base16-eighties.dark
 case ${TERM} in
-        xterm*|rxvt*|Eterm|aterm|kterm|gnome*)
+        xterm-termite|xterm*|rxvt*|Eterm|aterm|kterm|gnome*)
                 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
                 ;;
         screen)
                 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033_%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
                 ;;
 esac
-
-# fortune is a simple program that displays a pseudorandom message
-# from a database of quotations at logon and/or logout.
-# If you wish to use it, please install "fortune-mod" from the
-# official repositories, then uncomment the following line:
-
-# [[ "$PS1" ]] && /usr/bin/fortune
 
 # Set colorful PS1 only on colorful terminals.
 # dircolors --print-database uses its own built-in database
@@ -67,11 +60,8 @@ if [[ $'\n'${match_lhs} == *$'\n'"TERM "${safe_term}* ]] ; then
                         eval $(dircolors -b /etc/DIR_COLORS)
                 fi
         fi
+        PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u'; fi)\[\033[00;37m\] in\[\033[01;34m\] \W \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]✗\[\033[01;34m\] \")\[\033[01;37m\]"
 
-        PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u'; fi)\[\033[00;37m\] in\[\033[01;34m\] \W \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]✗\[\033[01;34m\] \")\[\033[0m\]"
-
-        # Use this other PS1 string if you want \W for root and \w for all other users:
-        # PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h\[\033[01;34m\] \W'; else echo '\[\033[01;32m\]\u@\h\[\033[01;34m\] \w'; fi) \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]:(\[\033[01;34m\] \")\\$\[\033[00m\] "
 
         alias ls="ls --color=auto"
         alias dir="dir --color=auto"
@@ -79,15 +69,13 @@ if [[ $'\n'${match_lhs} == *$'\n'"TERM "${safe_term}* ]] ; then
         alias dmesg='dmesg --color'
         alias rm="rm -iv"
 
-        # Uncomment the "Color" line in /etc/pacman.conf instead of uncommenting the following line...!
-
-        # alias pacman="pacman --color=auto"
 
 else
 
         # show root@ when we do not have colors
 
-        PS1="\u@\h \w \$([[ \$? != 0 ]] && echo \":( \")\$ "
+        PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[00;31m\]\h'; else echo '\[\033[00;32m\]\u'; fi)\[\033[00;37m\] in\[\033[00;34m\] \W \$([[ \$? != 0 ]] && echo \"\[\033[01;31m\]✗\[\033[01;34m\] \")\[\033[00;37m\]"
+        #PS1="\u@\h \w \$([[ \$? != 0 ]] && echo \":( \")\$ "
 
         # Use this other PS1 string if you want \W for root and \w for all other users:
         # PS1="\u@\h $(if [[ ${EUID} == 0 ]]; then echo '\W'; else echo '\w'; fi) \$([[ \$? != 0 ]] && echo \":( \")\$ "

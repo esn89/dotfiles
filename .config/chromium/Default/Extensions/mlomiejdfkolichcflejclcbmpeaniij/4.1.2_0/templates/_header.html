@@ -1,0 +1,29 @@
+<div id="header">
+	<div id="options-top-content">
+
+		<% if (typeof ratelink_url != 'undefined') { %>
+		<p id="options-top-content-floater">
+			Like Ghostery?
+			<a target="new" id="ratelink" href="<%- ratelink_url %>">Rate It!</a>
+			<img src="images/star.png" width="16" height="16" alt="">
+			Also, <a target="_blank" href="http://www.surveymonkey.com/s/ghostghost">Take our Survey!</a>
+		</p>
+		<% } %>
+
+		<img src="images/ghostery_about.png" width="295" height="78" alt="Ghostery logo">
+
+		<br style="clear:both">
+		<p id="walkthrough-link">
+			For a walkthrough of Ghostery's key options, try the <a href="walkthrough.html">Ghostery Configuration Wizard</a>.
+		</p>
+		<br style="clear:both">
+
+		<% if (typeof show_tabs != 'undefined' && show_tabs) { %>
+		<ul class="tabs" role="navigation">
+			<li class="active"><a id="general-tab" href="#general" data-tab-contents-selector="#general-options" aria-label="general options section"><%- t('options_general_tab') %></a></li>
+			<li><a id="advanced-tab" href="#advanced" data-tab-contents-selector="#advanced-options" aria-label="advanced options section"><%- t('options_advanced_tab') %></a></li>
+		</ul>
+		<% } %>
+
+	</div>
+</div>
