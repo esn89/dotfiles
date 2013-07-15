@@ -34,7 +34,7 @@ let g:indentLine_color_term = 239
 let base16colorspace=256
 set background=dark
 colorscheme base16-default
-
+set guifont=Inconsolata\ 15
 
 " My default indentation settings "
 set tabstop=8
