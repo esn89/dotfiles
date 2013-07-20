@@ -18,6 +18,13 @@ else
         eval $(dircolors)
 fi
 
+# opening from current dir (termite feature)
+
+if [[ $TERM == xterm-termite ]]; then
+        . /etc/profile.d/vte.sh
+        __vte_osc7
+fi
+
 # Some aliases
 alias ls="ls --color=auto"
 alias dir="dir --color=auto"
