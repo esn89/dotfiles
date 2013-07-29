@@ -1,0 +1,103 @@
+Xft.antialias: true
+Xft.hinting:   true
+Xft.hintstyle: hintslight
+xterm*faceName: Inconsolata\ for\ Powerline:size=11:antialias=true
+xterm*font: Inconsolata\ for\ Powerline:size=11:antialias=true
+xterm.VT100.renderFont: true
+xterm.VT100.faceSize:10
+xterm*cursorBlink: true
+xterm*geometry: 70x20
+
+!! The amount that I can scroll up
+xterm*saveLines: 2000
+
+! double-click to select whole URLs :D
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+
+! Base16 Default
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+*.color0: #151515
+*.color1: #ac4142
+*.color2: #99cc99
+*.color3: #f4bf75
+*.color4: #6a9fb5
+*.color5: #aa759f
+*.color6: #75b5aa
+*.color7: #d0d0d0
+*.color8: #505050
+*.color9: #ac4142
+*.color10: #99cc99
+*.color11: #f4bf75
+*.color12: #6a9fb5
+*.color13: #aa759f
+*.color14: #75b5aa
+*.color15: #f5f5f5
+*.color16: #d28445
+*.color17: #8f5536
+*.color18: #202020
+*.color19: #303030
+*.color20: #b0b0b0
+*.color21: #e0e0e0
+
+!*.foreground:   #D9C2B4
+!*.background:   #151915
+!*.cursorColor:  base05
+!*.color0:       base00
+!*.color1:       base08
+!*.color2:       base0B
+!*.color3:       base0A
+!*.color4:       base0D
+!*.color5:       base0E
+!*.color6:       base0C
+!*.color7:       base05
+!*.color8:       base03
+!*.color9:       base09
+!*.color10:      base01
+!*.color11:      base02
+!*.color12:      base04
+!*.color13:      base06
+!*.color14:      base0F
+!*.color15:      base07
+!*.color16:      base09
+!*.color17:      base0F
+!*.color18:      base01
+!*.color19:      base02
+!*.color20:      base04
+!*.color21:      base06
+
+! Scroll bars are lame
+URxvt.scrollBar: false
+
+!This is for native transparency:
+
+URxvt.depth: 32
+URxvt.background: [50]#313131
+URxvt.foreground: #D9C2B4
+
+URxvt.transparent: false
+URxvt.shading: 20
+URxvt.fadeColor: #000000
+URxvt.fading: 10
+
+URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=15:antialias=true:hinting=true
+
+URxvt.boldFont: xft:Inconsolata\ for\ Powerline:style=bold:antialias=true:pixelsize=15:hinting=true
+
+URxvt.italicFont: xft:Inconsolata\ for\ Powerline:style=italic:antialias=true:pixelsize=15:hinting=true
+
+URxvt.boldItalicFont: xft:Inconsolata\ for\ Powerline:style=bolditalic:antialias=true:pixelsize=15:hinting=true
+
+! Size of my terminal
+URxvt.geometry: 79x24
+
+URxvt.imLocale: pt_en_US.utf8
+
+! Amount that I can scroll up
+URxvt.saveLines: 2000
+
+! Add color to my man pages:
+!URxvt.colorIT: #87af5f
+!URxvt.colorBD: #d7dfdf
+!URxvt.colorUL: #87afdf
