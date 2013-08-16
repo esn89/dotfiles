@@ -1,4 +1,4 @@
-local simple='%{$fg[green]%}%n %{$fg[white]%}in %{$fg_bold[blue]%}%c%{$reset_color%}'
+local simple='%{$fg[green]%}%n %{$fg[white]%}in %{$fg[blue]%}%c%{$reset_color%}'
 
 local rvm=''
 if which rvm-prompt &> /dev/null; then
