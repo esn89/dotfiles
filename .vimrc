@@ -4,16 +4,25 @@ endif
 
 "  First, a few lines that I  absolutely must have "
 
-call pathogen#infect()
-call pathogen#helptags()
-execute pathogen#infect()
+" Not compatible with vi
+set nocompatible
 filetype off
-call pathogen#runtime_append_all_bundles()
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 filetype plugin indent on
 syntax on
 
-" Not compatible with vi
-set nocompatible
+Bundle 'gmarik/vundle'
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+Bundle 'majutsushi/tagbar'
+Bundle 'Yggdroot/indentLine'
+Bundle 'bling/vim-airline'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-easytags'
+Bundle 'shougo/neocomplcache'
+Bundle 'klen/python-mode'
 
 set modelines=0
 
@@ -34,6 +43,7 @@ let g:indentLine_color_term = 239
 let base16colorspace=256
 set background=dark
 colorscheme base16-default
+"colorscheme molokai
 set guifont=Inconsolata\ 15
 
 " My default indentation settings "
@@ -116,7 +126,7 @@ autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 set laststatus=2
 set encoding=utf-8
 "let g:Powerline_symbols = 'fancy'
-let g:airline_theme='light'
+let g:airline_theme='bubblegum'
 let g:airline_powerline_fonts=1
 
 " Turn off the start up message
@@ -142,9 +152,33 @@ autocmd Filetype java setlocal ts=4 sts=4 sw=4 noexpandtab
 " Set CPP file type properties:
 autocmd Filetype cpp setlocal ts=8 sts=8 sw=8
 
-autocmd Filetype python setlocal ts=4 sts=4 sw=4 textwidth=80 smarttab expandtab
+autocmd Filetype python setlocal ts=4 sts=4 sw=4 textwidth=80 smarttab expandtab smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
 autocmd Filetype c setlocal ts=8 sts=8 sw=8 textwidth=80 smarttab expandtab
 
 " No Swap files
 set noswapfile
+
+" For easytags
+let g:easytags_updatetime_min=4
+
+" For tagbar toggle
+nmap <F8> :TagbarToggle<CR>
+
+" For NERDtree toggle
+map <F5> :NERDTreeToggle<CR>
+
+" For neocomplcache autostart up
+let g:neocomplcache_enable_at_startup = 1
+
+
+" ::: All the Python-mode Stuff starts here :::
+" For Klen python-mode: autofold off:
+let g:pymode_folding = 0
+let g:pymode_syntax_all = 1
+
+let g:pymode_run = 1
+let g:pymode_run_key = '<F6>'
+
+let g:pymode_doc = 1
+let g:pymode_doc_key = 'K'
