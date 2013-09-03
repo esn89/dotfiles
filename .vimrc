@@ -126,7 +126,8 @@ autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 set laststatus=2
 set encoding=utf-8
 "let g:Powerline_symbols = 'fancy'
-let g:airline_theme='bubblegum'
+"let g:airline_theme='bubblegum'
+let g:airline_theme='evan'
 let g:airline_powerline_fonts=1
 
 " Turn off the start up message
@@ -140,6 +141,9 @@ set noshowmode
 
 " Change the : into ; so you don't have to press shift
 nnoremap ; :
+
+" Allows me to do :Q! as well as :q
+command -bang Q quit<bang>
 
 " Change the backspace so it acts as it should
 set backspace=eol,start,indent
@@ -167,6 +171,7 @@ nmap <F8> :TagbarToggle<CR>
 
 " For NERDtree toggle
 map <F5> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " For neocomplcache autostart up
 let g:neocomplcache_enable_at_startup = 1
@@ -182,3 +187,6 @@ let g:pymode_run_key = '<F6>'
 
 let g:pymode_doc = 1
 let g:pymode_doc_key = 'K'
+
+" Turn off the pink indent chunks
+let g:pymode_syntax_space_errors = 0
