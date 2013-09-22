@@ -1,0 +1,1252 @@
+{
+   "adalreadyblocked": {
+      "description": "on the ad report page, telling a user there is nothing to do",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C0F\u0C2E\u0C3F \u0C1A\u0C47\u0C2F\u0C35\u0C32\u0C38\u0C3F\u0C28 \u0C05\u0C35\u0C38\u0C30\u0C02 \u0C32\u0C47\u0C26\u0C41 \u0C0E\u0C02\u0C26\u0C41\u0C15\u0C02\u0C1F\u0C47 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C07\u0C2A\u0C4D\u0C2A\u0C1F\u0C3F\u0C15\u0C47 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C2C\u0C21\u0C3F\u0C28\u0C26\u0C3F"
+   },
+   "adblock_auto_removes_ads_thats_all": {
+      "description": "Install page: explaining how to use adblock.",
+      "message": "AdBlock \u0C2E\u0C40\u0C15\u0C4B\u0C38\u0C02 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F. \u0C05\u0C02\u0C24\u0C47!"
+   },
+   "adblock_click_for_details": {
+      "description": "Tooltip on the AdBlock button, to help users understand that they can click the button, and that they can control the number badge that appears on the button.  Do not translate the beginning 'AdBlock - ' part.",
+      "message": "AdBlock - \u0C35\u0C3F\u0C35\u0C30\u0C3E\u0C32\u0C41 \u0C15\u0C4B\u0C38\u0C02 \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F"
+   },
+   "adblock_is_paused": {
+      "description": "resourceblocking page string",
+      "message": "AdBlock \u0C2A\u0C3E\u0C1C\u0C4D \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F, \u0C05\u0C02\u0C26\u0C41\u0C15\u0C47 \u0C2E\u0C40\u0C30\u0C41 \u0C08 \u0C2A\u0C47\u0C1C\u0C3F \u0C28\u0C3F \u0C35\u0C3E\u0C21\u0C32\u0C47\u0C30\u0C41. AdBlock \u0C2A\u0C3E\u0C1C\u0C4D \u0C24\u0C40\u0C38\u0C3F\u0C35\u0C47\u0C38\u0C3F \u0C2E\u0C32\u0C4D\u0C32\u0C3F \u0C2A\u0C4D\u0C30\u0C2F\u0C24\u0C4D\u0C28\u0C3F\u0C02\u0C1A\u0C02\u0C21\u0C3F."
+   },
+   "adblock_outdated_chrome": {
+      "description": "Ad report page instructions to update AdBlock in Chrome. The link will point to 'chrome://chrome/extensions/'",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C2A\u0C3E\u0C24 AdBlock \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C09\u0C2A\u0C2F\u0C4B\u0C17\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C30\u0C41. \u0C26\u0C2F\u0C1A\u0C47\u0C38\u0C3F \u003Ca href='#'\u003Ethe extensions page\u003C/a\u003E \u0C32\u0C4B 'Developer mode'\u0C28\u0C3F \u0C0E\u0C28\u0C47\u0C2C\u0C41\u0C32\u0C4D \u0C1A\u0C47\u0C38\u0C3F, 'Update extensions now'\u0C28\u0C3F \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F."
+   },
+   "adblock_wont_run_on_pages_matching": {
+      "description": "Message displayed when the whitelister dialog will whitelist part of an entire website, for example '*.google.com/reader/*'.  The URL will appear on the next line.",
+      "message": "AdBlock \u0C08 \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C32\u0C4B \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C2F\u0C26\u0C41:"
+   },
+   "adblockinglist": {
+      "description": "List for subscribed ad blocking fiters",
+      "message": "\u0C2A\u0C4D\u0C30\u0C38\u0C4D\u0C24\u0C41\u0C24\u0C02 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C28\u0C4D\u0C28 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D"
+   },
+   "adblockreportinganad": {
+      "description": "title of ad report page",
+      "message": "AdBlock - \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D."
+   },
+   "addthisfilter": {
+      "description": "resourceblocking page string",
+      "message": "\u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C28\u0C3F \u0C1A\u0C47\u0C30\u0C4D\u0C1A\u0C41"
+   },
+   "adreport2": {
+      "description": "Instructions on ad reporting page. 'Customize' should be the same text as the 'tabcustomize' message.",
+      "message": "\u0C2E\u0C40\u0C15\u0C41 \u0C35\u0C46\u0C2C\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C4B \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C02\u0C1A\u0C3F\u0C02\u0C26\u0C3E? \u0C06 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C4D\u0C28\u0C3F \u0C0E\u0C15\u0C4D\u0C15\u0C21 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C3E\u0C32\u0C4B \u0C1A\u0C46\u0C2C\u0C41\u0C24\u0C3E\u0C2E\u0C41! \u003Cbr/\u003E \u0C17\u0C41\u0C30\u0C4D\u0C24\u0C41\u0C02\u0C1A\u0C41\u0C15\u0C4B\u0C02\u0C21\u0C3F: \u0C2A\u0C4D\u0C30\u0C38\u0C4D\u0C24\u0C41\u0C24\u0C02 \u0C2E\u0C40\u0C15\u0C41 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C1F\u0C02 \u0C07\u0C37\u0C4D\u0C1F\u0C02 \u0C32\u0C47\u0C15\u0C2A\u0C4B\u0C24\u0C47 \u0C08 \u0C35\u0C3F\u0C02\u0C21\u0C4B \u0C28\u0C3F \u0C2E\u0C42\u0C38\u0C3F\u0C35\u0C47\u0C2F\u0C02\u0C21\u0C3F. \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B\u0C28\u0C3F '\u0C15\u0C38\u0C4D\u0C1F\u0C2E\u0C48\u0C1C\u0C4D' \u0C1F\u0C3E\u0C2C\u0C4D \u0C32\u0C4B  \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C28\u0C3F \u0C24\u0C30\u0C4D\u0C35\u0C3E\u0C24 \u0C1A\u0C47\u0C30\u0C4D\u0C1A\u0C35\u0C1A\u0C4D\u0C1A\u0C41."
+   },
+   "adstillappear": {
+      "description": "question on ad reporting page",
+      "message": "\u0C07\u0C02\u0C15\u0C3E \u0C2E\u0C40\u0C15\u0C41 \u0C08 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3E?"
+   },
+   "advanced_options": {
+      "description": "Options page checkbox",
+      "message": "\u0C05\u0C21\u0C4D\u0C35\u0C3E\u0C28\u0C4D\u0C38\u0C4D\u0C21\u0C4D \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C28\u0C3F \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41. \u0C05\u0C21\u0C4D\u0C35\u0C3E\u0C28\u0C4D\u0C38\u0C4D\u0C21\u0C4D \u0C2F\u0C42\u0C1C\u0C30\u0C4D\u0C32 \u0C15\u0C4A\u0C30\u0C15\u0C41 \u0C2E\u0C3E\u0C24\u0C4D\u0C30\u0C2E\u0C47."
+   },
+   "any_new_tabs_you_open_Will_be_automatically_ad_free": {
+      "description": "Install page subtitle",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C24\u0C46\u0C30\u0C3F\u0C1A\u0C3F\u0C28\u0C3E \u0C15\u0C4A\u0C24\u0C4D\u0C24 \u0C1F\u0C3E\u0C2C\u0C4D\u0C38\u0C4D \u0C07\u0C15 \u0C28\u0C41\u0C02\u0C1A\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C32\u0C47\u0C15\u0C41\u0C02\u0C21\u0C3E \u0C09\u0C02\u0C1F\u0C3E\u0C2F\u0C3F."
+   },
+   "anysite": {
+      "description": "resourceblocking page string",
+      "message": "\u0C0F\u0C26\u0C46\u0C56\u0C28\u0C3E \u0C35\u0C46\u0C2C\u0C4D \u0C38\u0C46\u0C56\u0C1F\u0C4D"
+   },
+   "appliedwhenbrowsing": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C3F\u0C02\u0C17\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C41 \u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C35\u0C40\u0C1F\u0C3F\u0C15\u0C3F \u0C09\u0C2A\u0C2F\u0C4B\u0C17\u0C3F\u0C02\u0C1A\u0C2C\u0C21\u0C41\u0C24\u0C41\u0C02\u0C26\u0C3F:"
+   },
+   "betalabel": {
+      "description": "Option on first tab page",
+      "message": "\u0C2C\u0C40\u0C1F\u0C3E"
+   },
+   "blacklistclickmessage": {
+      "description": "Message at the top of the blacklist options tab",
+      "message": "\u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C30\u0C48\u0C1F\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C47 \u0C05\u0C35\u0C3F \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C2C\u0C21\u0C24\u0C3E\u0C2F\u0C3F, \u0C32\u0C47\u0C26\u0C3E \u0C2E\u0C40\u0C30\u0C41 \u0C07\u0C15\u0C4D\u0C15\u0C21\u0C47 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C35\u0C1A\u0C4D\u0C1A\u0C41."
+   },
+   "blacklisterattrwillbe": {
+      "description": "Checkbox label",
+      "message": "$value$ \u0C17\u0C3E $attribute$ \u0C09\u0C02\u0C21\u0C2C\u0C21\u0C41\u0C28\u0C41.",
+      "placeholders": {
+         "attribute": {
+            "content": "$1",
+            "example": "class"
+         },
+         "value": {
+            "content": "$2",
+            "example": "AdBanner"
+         }
+      }
+   },
+   "blacklisterblockedelement": {
+      "description": "Tells the user what the blocked element is on the slider page",
+      "message": "\u0C28\u0C3F\u0C30\u0C4B\u0C27\u0C3F\u0C02\u0C1A\u0C2C\u0C21\u0C3F\u0C28\u0C35\u0C3F:"
+   },
+   "blacklisterblocksalloftype": {
+      "description": "Warns the user that all elements of type X will be blocked",
+      "message": "\u0C1C\u0C3E\u0C17\u0C4D\u0C30\u0C24\u0C4D\u0C24: \u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C05\u0C28\u0C4D\u0C28\u0C40 $elementtype$ \u0C05\u0C02\u0C36\u0C3E\u0C32\u0C28\u0C41 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F.",
+      "placeholders": {
+         "elementtype": {
+            "content": "$1",
+            "example": "DIV"
+         }
+      }
+   },
+   "blacklistereditfilter": {
+      "description": "Text if the user wants to manually edit a filter.  'OK' is the standard javascript popup button text.",
+      "message": "\u0C15\u0C4D\u0C30\u0C3F\u0C02\u0C26 \u0C38\u0C30\u0C46\u0C56\u0C28 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C28\u0C3F  \u0C1F\u0C46\u0C56\u0C2A\u0C4D \u0C1A\u0C47\u0C38\u0C3F OK \u0C28\u0C4A\u0C15\u0C4D\u0C15\u0C02\u0C21\u0C3F"
+   },
+   "blacklistereditinvalid1": {
+      "description": "Messagebox if the manually edited filter is invalid. Error messages are not translated.",
+      "message": "\u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C1A\u0C46\u0C32\u0C4D\u0C32\u0C26\u0C41: $exception$",
+      "placeholders": {
+         "exception": {
+            "content": "$1",
+            "example": "This filter is not supported"
+         }
+      }
+   },
+   "blacklistermatches": {
+      "description": "Tells the user multiple matches were found",
+      "message": "\u0C08 \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C4B $matchcount$ \u0C05\u0C02\u0C36\u0C3E\u0C32\u0C41 \u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C05\u0C2F\u0C4D\u0C2F\u0C3E\u0C2F\u0C3F.",
+      "placeholders": {
+         "matchcount": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "blacklisternofilter": {
+      "description": "Warning if the user hasn't specified a filter",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C12\u0C15\u0C4D\u0C15 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C15\u0C41\u0C21\u0C3E \u0C2A\u0C46\u0C1F\u0C4D\u0C1F\u0C32\u0C47\u0C26\u0C41!"
+   },
+   "blacklisternotsure": {
+      "description": "Blacklister attribute choosing page message.  'Block it!' must be the same as the text of the 'buttonblockit' message.",
+      "message": "\u003Cb\u003E\u0C24\u0C46\u0C32\u0C3F\u0C2F\u0C21\u0C02 \u0C32\u0C47\u0C26\u0C3E?\u003C/b\u003E \u0C15\u0C4D\u0C30\u0C3F\u0C02\u0C26 'Block it!' \u0C28\u0C4A\u0C15\u0C4D\u0C15\u0C02\u0C21\u0C3F."
+   },
+   "blacklisteroptions1": {
+      "description": "Blacklister attribute choosing page message",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C08 \u0C2A\u0C47\u0C1C\u0C3F \u0C1A\u0C42\u0C38\u0C3F\u0C28\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C32\u0C4D\u0C32\u0C3E \u0C08 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C17\u0C41\u0C30\u0C3F\u0C02\u0C1A\u0C3F \u0C0F\u0C26\u0C3F \u0C28\u0C3F\u0C1C\u0C02 \u0C05\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F?"
+   },
+   "blacklisteroptionstitle": {
+      "description": "Blacklister options page title",
+      "message": "\u0C1A\u0C3F\u0C35\u0C30\u0C3F \u0C38\u0C4D\u0C1F\u0C46\u0C2A\u0C4D: \u0C07\u0C26\u0C3F  \u0C2E\u0C40\u0C15\u0C41 \u0C0F \u0C35\u0C3F\u0C27\u0C02\u0C17\u0C3E \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C3E\u0C17  \u0C05\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F?"
+   },
+   "blacklistersinglematch": {
+      "description": "Tells the user only one match was found",
+      "message": "\u0C05\u0C26\u0C3F \u0C08 \u0C35\u0C46\u0C2C\u0C4D \u0C2A\u0C47\u0C1C\u0C40 \u0C32\u0C4B \u003Cb\u003E\u0C12\u0C15\u003C/b\u003E \u0C05\u0C02\u0C36\u0C02\u0C24\u0C4B \u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C05\u0C35\u0C41\u0C24\u0C41\u0C02\u0C26\u0C3F."
+   },
+   "blacklisterthefilter": {
+      "description": "Blacklister attribute choosing page message",
+      "message": "\u0C08 \u0C15\u0C4D\u0C30\u0C3F\u0C02\u0C26\u0C3F \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C28\u0C41 '\u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D' \u0C2A\u0C47\u0C1C\u0C40 \u0C32\u0C4B \u0C2E\u0C3E\u0C30\u0C4D\u0C1A\u0C17\u0C32\u0C30\u0C41:"
+   },
+   "blacklistertype": {
+      "description": "node name is called 'Type'",
+      "message": "\u0C1F\u0C48\u0C2A\u0C4D"
+   },
+   "blacklisterwarningnofilter": {
+      "description": "Warns the user that no filter was specified",
+      "message": "\u0C39\u0C46\u0C1A\u0C4D\u0C1A\u0C30\u0C3F\u0C15: \u0C2E\u0C40\u0C30\u0C41 \u0C12\u0C15 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C15\u0C42\u0C21\u0C3E \u0C2A\u0C47\u0C30\u0C4D\u0C15\u0C4A\u0C28\u0C32\u0C47\u0C26\u0C41!"
+   },
+   "block_an_ad_on_this_page": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "\u0C08 \u0C2A\u0C47\u0C1C\u0C40 \u0C32\u0C4B \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41."
+   },
+   "block_by_url_instead": {
+      "description": "Link on blacklister slider page",
+      "message": "\u0C05\u0C21\u0C4D\u0C35\u0C3E\u0C28\u0C4D\u0C38\u0C4D\u0C21\u0C4D : URL \u0C26\u0C4D\u0C35\u0C3E\u0C30\u0C3E \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41."
+   },
+   "block_this_ad": {
+      "description": "Context and popup menu entry",
+      "message": "\u0C08 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C28\u0C3F \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41."
+   },
+   "blockanadtitle": {
+      "description": "Title of the first two dialogs of the blacklister",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41."
+   },
+   "blockdomain": {
+      "description": "Message of the url and css -blocking area",
+      "message": "\u0C08 \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C32\u0C4B \u0C35\u0C30\u0C4D\u0C24\u0C3F\u0C38\u0C4D\u0C24\u0C3E\u0C2F\u0C3F"
+   },
+   "blocked_ads": {
+      "description": "Title for popup menu section showing number of ads blocked.",
+      "message": "\u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C3F\u0C28  \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41:"
+   },
+   "blocked_n_in_total": {
+      "description": "Shown below the 'blocked_ads' message.  Shows the number of ads blocked since AdBlock was installed. $count$ will be a number between 1 and 999,999,999.",
+      "message": "\u0C2E\u0C4A\u0C24\u0C4D\u0C24\u0C02 $count$",
+      "placeholders": {
+         "count": {
+            "content": "\u003Ca\u003E123,456\u003C/a\u003E",
+            "example": "The number of ads blocked.  Do not make any changes to this string when translating."
+         }
+      }
+   },
+   "blocked_n_on_this_page": {
+      "description": "Shown below the 'blocked_ads' message.  Shows the number of ads blocked on this page. $count$ will be a number between 1 and 999.",
+      "message": "\u0C08 \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C4B \u0C2E\u0C4A\u0C24\u0C4D\u0C24\u0C02 $count$",
+      "placeholders": {
+         "count": {
+            "content": "\u003Ca\u003E123\u003C/a\u003E",
+            "example": "The number of ads blocked.  Do not make any changes to this string when translating."
+         }
+      }
+   },
+   "blockeverycontaining": {
+      "description": "resourceblocking page string",
+      "message": "\u0C08 \u0C05\u0C02\u0C36\u0C3E\u0C32\u0C41 \u0C09\u0C28\u0C4D\u0C28\u0C35\u0C28\u0C4D\u0C28\u0C40 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C2C\u0C21\u0C24\u0C3E\u0C2F\u0C3F:"
+   },
+   "blockmoreads": {
+      "description": "Section header on third tab",
+      "message": "\u0C07\u0C02\u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41:"
+   },
+   "blockurlwithtext": {
+      "description": "Message of the url-blocking area",
+      "message": "\u0C08 \u0C2A\u0C26\u0C3E\u0C32\u0C41 \u0C17\u0C32 URLs \u0C05\u0C28\u0C4D\u0C28\u0C3F\u0C1F\u0C3F\u0C28\u0C3F \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "buttonback": {
+      "description": "Back to previous wizard page button",
+      "message": "\u0C35\u0C46\u0C28\u0C15\u0C4D\u0C15\u0C3F \u0C35\u0C46\u0C33\u0C4D\u0C33\u0C41"
+   },
+   "buttonblockit": {
+      "description": "Block button",
+      "message": "\u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C3F!"
+   },
+   "buttoncancel": {
+      "description": "Cancel button",
+      "message": "\u0C30\u0C26\u0C4D\u0C26\u0C41 \u0C1A\u0C47\u0C2F\u0C3F."
+   },
+   "buttonedit": {
+      "description": "Edit filter manually button",
+      "message": "\u0C0E\u0C21\u0C3F\u0C1F\u0C4D"
+   },
+   "buttonexclude": {
+      "description": "Button for excluding a domain in the whitelister dialog",
+      "message": "\u0C2E\u0C3F\u0C28\u0C39\u0C3E\u0C2F\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "buttonlooksgood": {
+      "description": "Looks good button",
+      "message": "\u0C2C\u0C3E\u0C17\u0C41\u0C02\u0C26\u0C3F"
+   },
+   "buttonok": {
+      "description": "OK button",
+      "message": "\u0C13\u0C15\u0C47!"
+   },
+   "cantblockflash": {
+      "description": "Result of the final ad report question",
+      "message": "\u0C2B\u0C4D\u0C32\u0C3E\u0C37\u0C4D \u0C2E\u0C30\u0C3F\u0C2F\u0C41 \u0C2E\u0C3F\u0C17\u0C24\u0C3E \u0C2A\u0C4D\u0C32\u0C17\u0C3F\u0C28\u0C4D\u0C38\u0C4D \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C32\u0C47\u0C2E\u0C41. \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C41, WebKit \u0C2E\u0C26\u0C4D\u0C26\u0C24\u0C41\u0C24\u0C4B \u0C24\u0C4D\u0C35\u0C30\u0C32\u0C4B \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C3E\u0C2E\u0C41!"
+   },
+   "cantblockflashwarning": {
+      "description": "Text of the final ad report question",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C2B\u0C3F\u0C32\u0C4D\u0C2E\u0C4D/\u0C2B\u0C4D\u0C32\u0C3E\u0C37\u0C4D \u0C17\u0C47\u0C2E\u0C4D \u0C2E\u0C41\u0C02\u0C26\u0C41 \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3E? \u0C32\u0C47\u0C26\u0C3E \u0C35\u0C3E\u0C1F\u0C3F \u0C2E\u0C27\u0C4D\u0C2F\u0C32\u0C4B \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3E?"
+   },
+   "casesensitive": {
+      "description": "resourceblocking page string",
+      "message": "\u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C15\u0C47\u0C38\u0C4D \u0C38\u0C46\u0C28\u0C4D\u0C38\u0C3F\u0C1F\u0C3F\u0C35\u0C4D:"
+   },
+   "changelabel": {
+      "description": "link to change resources on the resourceblock page",
+      "message": "\u0C2E\u0C3E\u0C30\u0C4D\u0C1A\u0C41"
+   },
+   "checkinfirefox_1": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Firefox $chrome$ \u0C32\u0C47\u0C15\u0C2A\u0C4B\u0C24\u0C47, \u0C26\u0C3E\u0C28\u0C4D\u0C28\u0C3F \u0C07\u0C28\u0C4D\u0C38\u0C4D \u0C1F\u0C3E\u0C32\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F.",
+      "placeholders": {
+         "chrome": {
+            "content": "$1\u0C32\u0C47\u0C26\u0C3E Chrome$2",
+            "example": "This will only be shown in Safari. Chrome users will not see this."
+         }
+      }
+   },
+   "checkinfirefox_2": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad. Don't translate the name 'AdBlock Plus'.",
+      "message": "Firefox\u0C32\u0C4B Adblock Plus $chrome$ \u0C07\u0C28\u0C4D\u0C38\u0C4D \u0C1F\u0C3E\u0C32\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F.",
+      "placeholders": {
+         "chrome": {
+            "content": "$1\u0C32\u0C47\u0C26\u0C3E  \u0C17\u0C42\u0C17\u0C41\u0C32\u0C4D  Chrome \u0C15\u0C4B\u0C38\u0C02 AdBlockforChrome$2",
+            "example": "This will only be shown in Safari. Chrome users will not see this."
+         }
+      }
+   },
+   "checkinfirefox_3": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "\u0C06 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C41 \u0C32\u0C4B \u0C15\u0C42\u0C21\u0C3E \u0C07\u0C35\u0C47 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C1C\u0C3E\u0C2C\u0C3F\u0C24\u0C3E\u0C32\u0C41 \u0C35\u0C3E\u0C21\u0C02\u0C21\u0C3F (Firefox\u0C32\u0C4B \u0C09\u0C28\u0C4D\u0C28 AdBlock \u0C15\u0C38\u0C4D\u0C1F\u0C02 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41 \u0C15\u0C3E\u0C15\u0C41\u0C02\u0C21\u0C3E)"
+   },
+   "checkinfirefox_4": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "\u0C06 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C41 \u0C32\u0C4B \u0C2A\u0C47\u0C1C\u0C3F \u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C24\u0C4B \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41\u0C2E\u0C41."
+   },
+   "checkinfirefox_5": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C06 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C41 \u0C32\u0C4B \u0C15\u0C42\u0C21\u0C3E \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3E?"
+   },
+   "checkinfirefoxtitle": {
+      "description": "tell a user to see if a reported ad also appears in Firefox/Chrome",
+      "message": "Firefox $chrome$ \u0C32\u0C4B \u0C1A\u0C42\u0C21\u0C41\u0C2E\u0C41.",
+      "placeholders": {
+         "chrome": {
+            "content": "$1 \u0C32\u0C47\u0C26\u0C3E  Chrome$2",
+            "example": "This will only be shown in Safari. Chrome users will not see this."
+         }
+      }
+   },
+   "chromebutton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button.  'Hide Button' should match the text that Chrome displays when you right click a toolbar button.",
+      "message": "\u0C2C\u0C1F\u0C28\u0C4D \u0C28\u0C3F \u0C26\u0C3E\u0C1A\u0C3F\u0C2A\u0C46\u0C1F\u0C4D\u0C1F\u0C21\u0C3E\u0C28\u0C3F\u0C15\u0C3F, \u0C30\u0C48\u0C1F\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C3F 'Hide Button' \u0C28\u0C4A\u0C15\u0C4D\u0C15\u0C02\u0C21\u0C3F. chrome://chrome/extensions \u0C32\u0C4B \u0C2C\u0C1F\u0C28\u0C4D \u0C28\u0C3F \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C17\u0C32\u0C30\u0C41."
+   },
+   "cleanuplist": {
+      "description": "Option at the bottom of the third options tab",
+      "message": "\u0C08 \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C28\u0C3F \u0C36\u0C41\u0C2D\u0C4D\u0C30\u0C2A\u0C30\u0C1A\u0C41:"
+   },
+   "clickthead": {
+      "description": "When you have to click the ad to continue",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C28\u0C41 \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F, \u0C26\u0C3E\u0C28\u0C4D\u0C28\u0C3F \u0C0E\u0C32\u0C3E \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C3E\u0C32\u0C4B \u0C1A\u0C42\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C3E\u0C2E\u0C41."
+   },
+   "clickupdatefilters": {
+      "description": "instruction on ad report page",
+      "message": "\u0C07\u0C26\u0C3F \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F : \u003Ca\u003E\u0C28\u0C3E \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C28\u0C41 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C3F!\u003C/a\u003E"
+   },
+   "close": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2E\u0C42\u0C38\u0C3F\u0C35\u0C47\u0C2F\u0C3F."
+   },
+   "close_tab_begin_browsing": {
+      "description": "Install page string",
+      "message": "\u0C08 \u0C1F\u0C4D\u0C2F\u0C3E\u0C2C\u0C4D \u0C2E\u0C42\u0C38\u0C3F\u0C35\u0C47\u0C38\u0C3F, \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C32\u0C47\u0C15\u0C41\u0C02\u0C21\u0C3E \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41!"
+   },
+   "correctfilters": {
+      "description": "on the ad report page, label describing having the right set of filters",
+      "message": "\u0C38\u0C30\u0C48\u0C28 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41"
+   },
+   "crowdfund_intro": {
+      "description": "intro to crowdfund",
+      "message": "AdBlock  \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C15\u0C4A\u0C02\u0C1F\u0C41\u0C02\u0C26\u0C3F ... AdBlock \u0C15\u0C4B\u0C38\u0C02!"
+   },
+   "crowdfund_new": {
+      "description": "text that says new; visual cue with New badge",
+      "message": "\u0C15\u0C4A\u0C24\u0C4D\u0C24\u0C26\u0C3F"
+   },
+   "crowdfund_text": {
+      "description": "text for link to crowdfunding site",
+      "message": "\u0C30\u0C02\u0C21\u0C3F, \u0C2E\u0C3E \u0C15\u0C4D\u0C30\u0C47\u0C1C\u0C40 \u0C15\u0C3E\u0C02\u0C2A\u0C47\u0C28\u0C4D \u0C28\u0C41 \u0C1A\u0C42\u0C21\u0C02\u0C21\u0C3F"
+   },
+   "csstomatch": {
+      "description": "Message of the css-hiding area",
+      "message": "\u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C1A\u0C47\u0C2F\u0C1F\u0C3E\u0C28\u0C3F\u0C15\u0C3F  CSS"
+   },
+   "customfilters": {
+      "description": "List for custom filters the user subscribed to",
+      "message": "\u0C15\u0C38\u0C4D\u0C1F\u0C2E\u0C4D \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C32\u0C41"
+   },
+   "custompattern": {
+      "description": "Label in front of the 'custom block pattern' textbox in resourceblock, after clicking a resource",
+      "message": "\u0C15\u0C38\u0C4D\u0C1F\u0C02:"
+   },
+   "debuginlogoption": {
+      "description": "Option on first tab page",
+      "message": "\u0C21\u0C40\u0C2C\u0C17\u0C4D \u0C38\u0C4D\u0C1F\u0C47\u0C1F\u0C4D\u0C2E\u0C46\u0C02\u0C1F\u0C4D\u0C38\u0C4D \u0C28\u0C3F \u0C15\u0C28\u0C4D\u0C38\u0C4B\u0C32\u0C4D \u0C32\u0C3E\u0C17\u0C4D \u0C32\u0C4B \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41\u0C2E\u0C41. (\u0C26\u0C40\u0C28\u0C3F\u0C35\u0C32\u0C4D\u0C32 Adblock \u0C28\u0C46\u0C2E\u0C4D\u0C2E\u0C26\u0C3F\u0C17\u0C3E \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F)"
+   },
+   "description2": {
+      "description": "Extension description in manifest",
+      "message": "\u0C05\u0C24\u0C4D\u0C2F\u0C02\u0C24 \u0C2A\u0C4D\u0C30\u0C3E\u0C1A\u0C41\u0C30\u0C4D\u0C2F\u0C02 \u0C17\u0C32 \u0C15\u0C4D\u0C30\u0C4B\u0C2E\u0C4D \u0C0E\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D \u0C07\u0C26\u0C3F. \u0C15\u0C4B\u0C1F\u0C3F \u0C2E\u0C02\u0C26\u0C3F \u0C2A\u0C48\u0C17\u0C3E \u0C26\u0C40\u0C28\u0C4D\u0C28\u0C3F \u0C35\u0C3E\u0C21\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C30\u0C41! \u0C35\u0C46\u0C2C\u0C4D \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F!"
+   },
+   "did_you_know_this_is_my_full_time_job": {
+      "description": "Text of a payment request link",
+      "message": "\u0C07\u0C26\u0C3F \u0C28\u0C3E \u0C2B\u0C41\u0C32\u0C4D-\u0C1F\u0C48\u0C02 \u0C1C\u0C3E\u0C2C\u0C4D \u0C24\u0C46\u0C32\u0C41\u0C38\u0C3E?"
+   },
+   "disableallextensions": {
+      "description": "instruction on ad report page",
+      "message": "AdBlock \u0C24\u0C2A\u0C4D\u0C2A \u0C2E\u0C3F\u0C17\u0C3F\u0C32\u0C3F\u0C28 \u0C0E\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D  \u0C28\u0C41 \u0C24\u0C40\u0C38\u0C3F\u0C35\u0C47\u0C2F\u0C3F."
+   },
+   "disabled_by_filter_lists": {
+      "description": "Message shown when a user tries to unwhitelist a web page that has been whitelisted by a rule in a subscribed filter list.",
+      "message": "\u0C38\u0C3E\u0C30\u0C40, \u0C2E\u0C40 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C1C\u0C3E\u0C2C\u0C3F\u0C24\u0C3E\u0C32 \u0C35\u0C32\u0C28 Adblock \u0C08 \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C2F\u0C26\u0C41."
+   },
+   "disabled_on_this_page": {
+      "description": "Message shown in toolbar button on web pages that have been whitelisted.",
+      "message": "Adblock \u0C08 \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C2F\u0C26\u0C41."
+   },
+   "disableforchromeandsafaristeptwo": {
+      "description": "Step 2 for disabling chrome and safari extensions",
+      "message": "Uncheck the 'Enabled' checkbox next to every extension \u003Cb\u003Eexcept\u003C/b\u003E for AdBlock.  \u003Cb\u003ELeave AdBlock enabled\u003C/b\u003E."
+   },
+   "disableforchromestepone": {
+      "description": "Step 1 for disabling chrome extensions",
+      "message": "\u003Ca href='#'\u003E \u0C0E\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D \u0C2A\u0C47\u0C1C\u0C4D\u003C/a\u003E \u0C13\u0C2A\u0C46\u0C28\u0C4D \u0C1A\u0C47\u0C2F\u0C3F"
+   },
+   "disableforopera": {
+      "description": "Opera instructions",
+      "message": "\u0C12\u0C2A\u0C46\u0C30\u0C3E \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C4D \u0C15\u0C4B\u0C38\u0C02"
+   },
+   "disableforoperainstructions": {
+      "description": "shows user how to disable all their extensions in Opera.",
+      "message": "Click the menu button in the top left hand corner. Then go to Extensions-\u003EManage Extensions. Disable all extensions by clicking their respective disable buttons. Remember, DO NOT disable AdBlock!"
+   },
+   "disableforsafaristepone": {
+      "description": "Step 1 for disabling safari extensions",
+      "message": "\u0C38\u0C2B\u0C3E\u0C30\u0C3F \u0C2E\u0C47\u0C28\u0C41 \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C3F  &rarr; Preferences &rarr; Extensions."
+   },
+   "doesntmatchoriginal": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C0E\u0C02\u0C1F\u0C30\u0C4D \u0C1A\u0C47\u0C38\u0C3F\u0C28 \u0C2A\u0C3E\u0C1F\u0C30\u0C4D\u0C28\u0C4D, \u0C2E\u0C40\u0C30\u0C41 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D  \u0C1A\u0C47\u0C2F\u0C21\u0C3E\u0C28\u0C3F\u0C15\u0C3F \u0C2A\u0C4D\u0C30\u0C2F\u0C24\u0C4D\u0C28\u0C3F\u0C02\u0C1A\u0C3F\u0C28 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C4D \u0C24\u0C4B \u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C05\u0C35\u0C1F\u0C02 \u0C32\u0C47\u0C26\u0C41! \u0C2A\u0C30\u0C4D\u0C35\u0C3E\u0C32\u0C47\u0C26\u0C3E?"
+   },
+   "done": {
+      "description": "Install page: appended to the 'installing_adblock' message once the progress bar reaches 100%",
+      "message": "\u0C2A\u0C42\u0C30\u0C4D\u0C24\u0C3F \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F"
+   },
+   "dont_run_on_pages_on_domain": {
+      "description": "Menu entry to open the whitelist wizard.",
+      "message": "\u0C08 \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C32\u0C4B \u0C35\u0C3E\u0C21\u0C15\u0C41"
+   },
+   "dont_run_on_this_page": {
+      "description": "Menu entry to whitelist a page",
+      "message": "\u0C08 \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B \u0C35\u0C3E\u0C21\u0C15\u0C41"
+   },
+   "enable": {
+      "description": "Link text to un-whitelist a page, displayed immediately after 'disabled_on_this_page'.",
+      "message": "\u0C0E\u0C28\u0C47\u0C2C\u0C41\u0C32\u0C4D"
+   },
+   "excludedomainorurl": {
+      "description": "Message of the exclude area",
+      "message": "\u0C08 \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C15\u0C3E\u0C28\u0C40, URL\u0C32\u0C4B \u0C15\u0C3E\u0C28\u0C40  Adblock \u0C0F\u0C2E\u0C40 \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C15\u0C42\u0C21\u0C26\u0C41."
+   },
+   "excludefilterremoved": {
+      "description": "Warning when a page exclusion rule was removed in resourceblock.html",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C24\u0C40\u0C38\u0C3F\u0C35\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F. \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C4D \u0C09\u0C28\u0C4D\u0C28 \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D\u0C32\u0C41 \u0C24\u0C2F\u0C3E\u0C30\u0C41 \u0C1A\u0C47\u0C2F\u0C21\u0C3E\u0C28\u0C3F\u0C15\u0C3F \u0C2A\u0C47\u0C1C\u0C40\u0C28\u0C3F \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C32\u0C4B\u0C21\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F."
+   },
+   "failedtofetchfilter": {
+      "description": "Error messagebox",
+      "message": "\u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C2A\u0C4A\u0C02\u0C26\u0C1F\u0C02 \u0C35\u0C3F\u0C2B\u0C32\u0C02 \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F."
+   },
+   "faq": {
+      "description": "Text of link to a page with answers to frequently asked questions.  The capitalization should be the same as for the 'help' and 'project_home' messages",
+      "message": "\u0C24\u0C30\u0C1A\u0C42\u0C17\u0C3E \u0C05\u0C21\u0C17\u0C2C\u0C21\u0C3F\u0C28 \u0C2A\u0C4D\u0C30\u0C36\u0C4D\u0C28\u0C32\u0C41"
+   },
+   "fetchinglabel": {
+      "description": "Status label",
+      "message": "\u0C05\u0C21\u0C3F\u0C17\u0C3F\u0C02\u0C26\u0C3F \u0C2A\u0C4A\u0C02\u0C26\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C02 ... \u0C06\u0C17\u0C02\u0C21\u0C3F."
+   },
+   "filecleanerwarning": {
+      "description": "Help for users who use hyperactive file cleaners",
+      "message": "AdBlock \u0C2E\u0C4A\u0C26\u0C32\u0C41\u0C2A\u0C46\u0C1F\u0C4D\u0C1F\u0C3F\u0C28 \u0C2A\u0C4D\u0C30\u0C24\u0C3F \u0C38\u0C3E\u0C30\u0C40 \u0C08 \u0C38\u0C02\u0C26\u0C47\u0C36\u0C02 \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C47, 'localStorage' \u0C2B\u0C48\u0C32\u0C4D\u0C38\u0C4D \u0C28\u0C3F \u0C15\u0C4D\u0C32\u0C40\u0C28\u0C4D \u0C1A\u0C47\u0C38\u0C47 \u0C2B\u0C48\u0C32\u0C4D \u0C15\u0C4D\u0C32\u0C40\u0C28\u0C30\u0C4D \u0C28\u0C3F \u0C35\u0C3E\u0C21\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C30\u0C47\u0C2E\u0C4B \u0C1A\u0C42\u0C21\u0C02\u0C21\u0C3F."
+   },
+   "filteradblock_custom": {
+      "description": "A filter list. Don't translate 'AdBlock'",
+      "message": "Adblock \u0C15\u0C38\u0C4D\u0C1F\u0C02 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41 (\u0C38\u0C3F\u0C2B\u0C3E\u0C30\u0C4D\u0C38\u0C41 \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F)"
+   },
+   "filterchinese": {
+      "description": "language",
+      "message": "\u0C1A\u0C46\u0C56\u0C28\u0C40\u0C38\u0C4D"
+   },
+   "filterczech": {
+      "description": "Language names for a filter list",
+      "message": "\u0C1A\u0C46\u0C15\u0C4D \u0C2E\u0C30\u0C3F\u0C2F\u0C41 \u0C38\u0C4D\u0C32\u0C4B\u0C35\u0C3E\u0C15\u0C4D"
+   },
+   "filterdanish": {
+      "description": "language",
+      "message": "\u0C21\u0C3E\u0C28\u0C3F\u0C37\u0C4D"
+   },
+   "filterdutch": {
+      "description": "language",
+      "message": "\u0C21\u0C1A\u0C4D"
+   },
+   "filtereasylist": {
+      "description": "A filter list. Don't translate 'EasyList'",
+      "message": "EasyList (\u0C38\u0C3F\u0C2B\u0C3E\u0C30\u0C4D\u0C38\u0C41 \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F)"
+   },
+   "filtereasylist_plun_korean": {
+      "description": "language",
+      "message": "\u0C15\u0C4A\u0C30\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "filtereasylist_plus_bulgarian": {
+      "description": "language",
+      "message": "\u0C2C\u0C32\u0C4D\u0C17\u0C47\u0C30\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "filtereasylist_plus_finnish": {
+      "description": "language",
+      "message": "\u0C2B\u0C3F\u0C28\u0C4D\u0C28\u0C3F\u0C37\u0C4D"
+   },
+   "filtereasylist_plus_french": {
+      "description": "language",
+      "message": "\u0C2A\u0C4D\u0C30\u0C3E\u0C28\u0C4D\u0C38\u0C41\u0C26\u0C47\u0C36\u0C2D\u0C3E\u0C37"
+   },
+   "filtereasylist_plus_german": {
+      "description": "language",
+      "message": "\u0C1C\u0C30\u0C4D\u0C2E\u0C28\u0C4D \u0C2D\u0C3E\u0C37"
+   },
+   "filtereasylist_plus_greek": {
+      "description": "language",
+      "message": "\u0C17\u0C4D\u0C30\u0C40\u0C15\u0C41 \u0C2D\u0C3E\u0C37"
+   },
+   "filtereasylist_plus_polish": {
+      "description": "language",
+      "message": "\u0C2A\u0C4B\u0C32\u0C3F\u0C37\u0C4D"
+   },
+   "filtereasylist_plus_romanian": {
+      "description": "language",
+      "message": "\u0C30\u0C4B\u0C2E\u0C3E\u0C28\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "filtereasylist_plus_spanish": {
+      "description": "language",
+      "message": "\u0C38\u0C4D\u0C2A\u0C3E\u0C28\u0C3F\u0C37\u0C4D"
+   },
+   "filtereasyprivacy": {
+      "description": "A filter list. Don't translate the name 'EasyPrivacy'.",
+      "message": "EasyPrivacy (\u0C17\u0C4B\u0C2A\u0C4D\u0C2F\u0C24\u0C3E \u0C30\u0C15\u0C4D\u0C37\u0C23)"
+   },
+   "filterhasbeenadded": {
+      "description": "resourceblocking page string (the 'slash n' is a line break)",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C35\u0C3F\u0C1C\u0C2F\u0C35\u0C02\u0C24\u0C02\u0C17\u0C3E \u0C1A\u0C47\u0C30\u0C4D\u0C1A\u0C2C\u0C21\u0C3F\u0C28\u0C26\u0C3F! \n\u0C2B\u0C32\u0C3F\u0C24\u0C02 \u0C1A\u0C42\u0C21\u0C1F\u0C3E\u0C28\u0C3F\u0C15\u0C3F \u0C2A\u0C47\u0C1C\u0C40\u0C28\u0C3F \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C32\u0C4B\u0C21\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F!"
+   },
+   "filterhungarian": {
+      "description": "language",
+      "message": "\u0C39\u0C02\u0C17\u0C47\u0C30\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "filterisraeli": {
+      "description": "language",
+      "message": "\u0C2F\u0C42\u0C26\u0C41\u0C32 \u0C2D\u0C3E\u0C37"
+   },
+   "filteritalian": {
+      "description": "language",
+      "message": "\u0C07\u0C1F\u0C3E\u0C32\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "filterjapanese": {
+      "description": "language",
+      "message": "\u0C1C\u0C2A\u0C28\u0C40\u0C38\u0C4D"
+   },
+   "filterlistlink": {
+      "description": "Explanation of the filter lists",
+      "message": "\u0C05\u0C35\u0C38\u0C30\u0C02 \u0C15\u0C02\u0C1F\u0C47 \u0C0E\u0C15\u0C4D\u0C15\u0C41\u0C35 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C15\u0C41 \u0C38\u0C2C\u0C4D\u0C38\u0C4D\u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D  \u0C1A\u0C47\u0C2F\u0C15\u0C02\u0C21\u0C3F -- \u0C05\u0C35\u0C3F \u0C2E\u0C3F\u0C2E\u0C4D\u0C2E\u0C32\u0C4D\u0C28\u0C3F \u0C38\u0C4D\u0C32\u0C4B \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C3E\u0C2F\u0C3F. \u0C15\u0C4D\u0C30\u0C46\u0C21\u0C3F\u0C1F\u0C4D\u0C38\u0C4D \u0C2E\u0C30\u0C3F\u0C2F\u0C41 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41 \u003Ca\u003E\u0C07\u0C15\u0C4D\u0C15\u0C21\u003C/a\u003E \u0C09\u0C28\u0C4D\u0C28\u0C3E\u0C2F\u0C3F."
+   },
+   "filterlistsrock": {
+      "description": "Header text on the Customize tab.  'Filter lists' should be the same text as the tabfilterlists message.",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D\u0C32\u0C41 \u0C1A\u0C3E\u0C32\u0C3E \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C3E\u0C2F\u0C3F. \u0C2E\u0C40\u0C30\u0C41:"
+   },
+   "filterorigin": {
+      "description": "Tooltip of matching filter in resources list, telling which filter list contains the filter",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C35\u0C40\u0C1F\u0C3F \u0C28\u0C41\u0C02\u0C21\u0C3F \u0C35\u0C38\u0C4D\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C26\u0C3F:\n$list$",
+      "placeholders": {
+         "list": {
+            "content": "$1",
+            "example": "A filter list name OR AdBlock OR the translation of 'tabcustomize'"
+         }
+      }
+   },
+   "filterrussian": {
+      "description": "Language names for a filter list",
+      "message": "\u0C30\u0C37\u0C4D\u0C2F\u0C28\u0C4D \u0C2E\u0C30\u0C3F\u0C2F\u0C41 \u0C09\u0C15\u0C4D\u0C30\u0C47\u0C28\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "filtersavewarning": {
+      "description": "Warning when blacklisting manually",
+      "message": "\u0C1C\u0C3E\u0C17\u0C4D\u0C30\u0C24\u0C4D\u0C24 : \u0C07\u0C15\u0C4D\u0C15\u0C21 \u0C24\u0C2A\u0C4D\u0C2A\u0C41 \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C47 \u0C05\u0C27\u0C3F\u0C15\u0C3E\u0C30\u0C3F\u0C15 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32 \u0C24\u0C4B \u0C38\u0C39\u0C3E \u0C1A\u0C3E\u0C32\u0C3E \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41 \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C2F\u0C15\u0C2A\u0C4B\u0C2F\u0C47 \u0C05\u0C35\u0C15\u0C3E\u0C36\u0C02 \u0C09\u0C02\u0C26\u0C3F. \u003Cbr/\u003E\u0C05\u0C21\u0C4D\u0C35\u0C3E\u0C28\u0C4D\u0C38\u0C4D\u0C21\u0C4D \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C41 \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C2E\u0C30\u0C3F\u0C2F\u0C41 \u0C35\u0C48\u0C1F\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32 \u0C17\u0C41\u0C30\u0C3F\u0C02\u0C1A\u0C3F \u0C24\u0C46\u0C32\u0C41\u0C38\u0C41\u0C15\u0C4B\u0C1F\u0C3E\u0C28\u0C3F\u0C15\u0C3F, \u003Ca\u003E\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C38\u0C3F\u0C02\u0C1F\u0C3E\u0C15\u0C4D\u0C38\u0C4D \u0C1F\u0C4D\u0C2F\u0C41\u0C1F\u0C4B\u0C30\u0C3F\u0C2F\u0C32\u0C4D\u003C/a\u003E \u0C1A\u0C26\u0C35\u0C02\u0C21\u0C3F."
+   },
+   "filterstabtitle": {
+      "description": "Title of the filter list tab",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D\u0C32\u0C15\u0C41 \u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F"
+   },
+   "findingads": {
+      "description": "When you press ctrl-shift-K the blacklister searches for ads",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C35\u0C46\u0C24\u0C41\u0C15\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C02 ... \u003Cbr/\u003E\u003Cbr/\u003E\u003Ci\u003E\u0C26\u0C40\u0C28\u0C3F\u0C15\u0C3F \u0C15\u0C4A\u0C02\u0C24 \u0C38\u0C2E\u0C2F\u0C02 \u0C2E\u0C3E\u0C24\u0C4D\u0C30\u0C2E\u0C47 \u0C2A\u0C21\u0C41\u0C24\u0C41\u0C02\u0C26\u0C3F \u003C/i\u003E"
+   },
+   "firefox_explanation": {
+      "description": "Explanation of the Check-in-FireFox step in the ad reporter",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C08 \u0C2A\u0C4D\u0C30\u0C36\u0C4D\u0C28 \u0C15\u0C41 \u0C24\u0C2A\u0C4D\u0C2A\u0C41 \u0C38\u0C2E\u0C3E\u0C27\u0C3E\u0C28\u0C02 \u0C1A\u0C46\u0C2A\u0C4D\u0C24\u0C47, \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C38\u0C30\u0C48\u0C28 \u0C35\u0C4D\u0C2F\u0C15\u0C4D\u0C24\u0C41\u0C32\u0C15\u0C41 \u0C35\u0C46\u0C33\u0C4D\u0C32\u0C15\u0C41\u0C02\u0C21\u0C3E \u0C07\u0C17\u0C4D\u0C28\u0C4B\u0C30\u0C4D \u0C05\u0C2F\u0C4D\u0C2F\u0C47 \u0C05\u0C35\u0C15\u0C3E\u0C36\u0C02 \u0C09\u0C02\u0C26\u0C3F"
+   },
+   "fixityourself": {
+      "description": "telling a user who won't report an ad to us how to handle it for herself",
+      "message": "\u0C12\u0C15\u0C47. \u0C2E\u0C40\u0C30\u0C41 \u0C38\u0C4A\u0C02\u0C24\u0C02\u0C17\u0C3E \u0C08 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C28\u0C41 \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41. \u0C25\u0C3E\u0C02\u0C15\u0C4D\u0C38\u0C4D!"
+   },
+   "flashads": {
+      "description": "Title of the final ad report question if the ad didn't appear in FF",
+      "message": "\u0C35\u0C40\u0C21\u0C3F\u0C2F\u0C4B\u0C32\u0C41 \u0C2E\u0C30\u0C3F\u0C2F\u0C41 \u0C2B\u0C4D\u0C32\u0C3E\u0C37\u0C4D"
+   },
+   "for_more_options_right_click": {
+      "description": "Install page: explaining how to use adblock in more detail.",
+      "message": "\u0C07\u0C02\u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C15\u0C4B\u0C38\u0C02 \u0C35\u0C46\u0C2C\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C28\u0C41 \u0C30\u0C48\u0C1F\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F \u0C32\u0C47\u0C26\u0C3E $img$ \u0C1F\u0C42\u0C32\u0C4D \u0C2C\u0C3E\u0C30\u0C4D \u0C2C\u0C1F\u0C28\u0C4D \u0C28\u0C41 \u0C30\u0C48\u0C1F\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F.",
+      "placeholders": {
+         "img": {
+            "content": "\u003Cimg src=\"../../img/icon19.png\"/\u003E",
+            "example": "A small picture of the toolbar button.  Do not translate."
+         }
+      }
+   },
+   "format_site1_site2_site3": {
+      "description": "Example showing users how to input a list of sites on the Customize tab. You can translate the 'news' and 'siteN' but leave the '|'s and '~'s in place.",
+      "message": "\u0C2B\u0C3E\u0C30\u0C4D\u0C2E\u0C3E\u0C1F\u0C4D: ~site1.com|~site2.com|~news.site3.org"
+   },
+   "generaloptions": {
+      "description": "Title of first tab page",
+      "message": "\u0C1C\u0C28\u0C30\u0C32\u0C4D \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D"
+   },
+   "googletextads": {
+      "description": "Option on first tab page",
+      "message": "\u0C28\u0C3E\u0C15\u0C41 \u0C17\u0C42\u0C17\u0C41\u0C32\u0C4D \u0C38\u0C46\u0C30\u0C4D\u0C1A\u0C4D \u0C2B\u0C32\u0C3F\u0C24\u0C3E\u0C32\u0C32\u0C4B\u0C28\u0C3F \u0C1F\u0C46\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C4D \u0C06\u0C21\u0C4D\u0C38\u0C4D \u0C07\u0C37\u0C4D\u0C1F\u0C02. \u0C05\u0C35\u0C3F \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41."
+   },
+   "headerfilter": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C05\u0C2F\u0C3F\u0C28 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41"
+   },
+   "headerresource": {
+      "description": "resourceblocking page string",
+      "message": "\u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C4D"
+   },
+   "headertype": {
+      "description": "resourceblocking page string",
+      "message": "\u0C30\u0C15\u0C2E\u0C41"
+   },
+   "help": {
+      "description": "Text of link to a page with fixes to common problems and a list of known issues",
+      "message": "\u0C38\u0C39\u0C3E\u0C2F\u0C02"
+   },
+   "hide_this_button": {
+      "description": "Toolbar button menu entry to hide the AdBlock button",
+      "message": "\u0C08 \u0C2C\u0C1F\u0C28\u0C4D \u0C26\u0C3E\u0C1A\u0C3F\u0C2A\u0C46\u0C1F\u0C4D\u0C1F\u0C41."
+   },
+   "how_to_use_adblock": {
+      "description": "Install page section title",
+      "message": "AdBlock \u0C0E\u0C32\u0C3E \u0C35\u0C3E\u0C21\u0C3E\u0C32\u0C3F:"
+   },
+   "installedtitle": {
+      "description": "Title for the installation success page",
+      "message": "AdBlock \u0C07\u0C28\u0C4D\u0C38\u0C4D\u0C1F\u0C3E\u0C32\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F!"
+   },
+   "installing_adblock": {
+      "description": "Install page: shown while progress bar loads",
+      "message": "AdBlock \u0C07\u0C28\u0C4D\u0C38\u0C4D\u0C1F\u0C3E\u0C32\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C02..."
+   },
+   "invalidListUrl": {
+      "description": "Message when you subscribe to a non-list URL",
+      "message": "\u0C1A\u0C46\u0C32\u0C4D\u0C32\u0C28\u0C3F \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 URL. \u0C21\u0C3F\u0C32\u0C40\u0C1F\u0C4D \u0C05\u0C35\u0C41\u0C24\u0C41\u0C02\u0C26\u0C3F."
+   },
+   "lang_czech": {
+      "description": "language",
+      "message": "\u0C1A\u0C46\u0C15\u0C4D \u0C2D\u0C3E\u0C37"
+   },
+   "lang_english": {
+      "description": "language",
+      "message": "\u0C07\u0C02\u0C17\u0C4D\u0C32\u0C40\u0C37\u0C4D"
+   },
+   "lang_russian": {
+      "description": "language",
+      "message": "\u0C30\u0C37\u0C4D\u0C2F\u0C28\u0C4D"
+   },
+   "lang_slovak": {
+      "description": "language",
+      "message": "\u0C38\u0C4D\u0C32\u0C4B\u0C35\u0C3E\u0C15\u0C4D"
+   },
+   "lang_ukranian": {
+      "description": "language",
+      "message": "\u0C09\u0C15\u0C4D\u0C30\u0C47\u0C28\u0C3F\u0C2F\u0C28\u0C4D"
+   },
+   "languagedropdowndescription": {
+      "description": "Dropdown list for language specific filters",
+      "message": "\u0C2E\u0C30\u0C4A\u0C15 \u0C2D\u0C3E\u0C37 \u0C15\u0C4B\u0C38\u0C02 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41 \u0C1C\u0C4B\u0C21\u0C3F\u0C02\u0C1A\u0C02\u0C21\u0C3F: "
+   },
+   "let_me_know_how_it_is_working": {
+      "description": "Shown to users who use_experimental_feature_to_speed_up_adblock, politely encouraging them to click the link, taking them to a survey about their experience with the feature.",
+      "message": "\u0C12\u0C15 \u0C38\u0C39\u0C3E\u0C2F\u0C02 \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C3E\u0C30\u0C3E? \u0C08 \u0C2A\u0C4D\u0C30\u0C2F\u0C4B\u0C17\u0C3E\u0C24\u0C4D\u0C2E\u0C15 \u0C2B\u0C40\u0C1A\u0C30\u0C4D \u0C1F\u0C4D\u0C30\u0C48 \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F, \u0C05\u0C26\u0C3F \u0C0E\u0C32\u0C3E \u0C09\u0C02\u0C26\u0C4B \u003Ca\u003E\u0C2E\u0C3E\u0C15\u0C41 \u0C1A\u0C46\u0C2A\u0C4D\u0C2A\u0C02\u0C21\u0C3F\u003C/a\u003E"
+   },
+   "linkblockadbyurl": {
+      "description": "Link on the third tab",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C28\u0C41 \u0C26\u0C3E\u0C28\u0C3F URL \u0C2C\u0C1F\u0C4D\u0C1F\u0C3F \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "linkhidesection": {
+      "description": "Link on the third tab",
+      "message": "\u0C35\u0C46\u0C2C\u0C4D \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C4B \u0C12\u0C15 \u0C35\u0C3F\u0C2D\u0C3E\u0C17\u0C2E\u0C41 \u0C26\u0C3E\u0C1A\u0C3F\u0C2A\u0C46\u0C1F\u0C4D\u0C1F\u0C41"
+   },
+   "linkunblock": {
+      "description": "Link on the third tab",
+      "message": "\u0C35\u0C46\u0C2C\u0C4D \u0C2A\u0C47\u0C1C\u0C3F \u0C32\u0C47\u0C26\u0C3E \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "loading": {
+      "description": "resourceblocking page string",
+      "message": "\u0C32\u0C4B\u0C21\u0C4D \u0C05\u0C35\u0C41\u0C24\u0C41\u0C02\u0C26\u0C3F ..."
+   },
+   "manualfilteredit": {
+      "description": "Subtitle on the third tab",
+      "message": "\u0C2E\u0C3E\u0C28\u0C35\u0C40\u0C2F\u0C02\u0C17\u0C3E \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C28\u0C41 \u0C38\u0C35\u0C30\u0C3F\u0C02\u0C1A\u0C02\u0C21\u0C3F :"
+   },
+   "modifydomain": {
+      "description": "Caption for the whitelist wizard slider that modifies the domain part of a URL",
+      "message": "\u0C38\u0C48\u0C1F\u0C4D:"
+   },
+   "modifypath": {
+      "description": "Caption for the whitelist wizard slider that modifies the path part of a URL",
+      "message": "\u0C2A\u0C47\u0C1C\u0C3F:"
+   },
+   "multipledomainshint": {
+      "description": "resourceblocking page string",
+      "message": "\u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D\u0C32\u0C28\u0C41 \u0C15\u0C3E\u0C2E\u0C3E \u0C32\u0C47\u0C26\u0C3E \u0C38\u0C4D\u0C2A\u0C47\u0C38\u0C4D \u0C24\u0C4B \u0C35\u0C3F\u0C21\u0C24\u0C40\u0C2F\u0C41"
+   },
+   "nextstep": {
+      "description": "resourceblocking page string",
+      "message": "\u0C24\u0C26\u0C41\u0C2A\u0C30\u0C3F \u0C38\u0C4D\u0C1F\u0C46\u0C2A\u0C4D"
+   },
+   "no": {
+      "description": "A negative response to a question",
+      "message": "\u0C28\u0C4B"
+   },
+   "nodefaultfilter1": {
+      "description": "instructions on ad report page pointing users to EasyList subscriptions list. 'Customize' should be the same message as 'tabcustomize'.",
+      "message": "\u0C2E\u0C40\u0C30\u0C47 \u0C08 \u0C2D\u0C3E\u0C37\u0C15\u0C41 \u0C24\u0C17\u0C3F\u0C28 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D $link$ \u0C35\u0C46\u0C24\u0C15\u0C02\u0C21\u0C3F. \u0C32\u0C47\u0C26\u0C3E \u0C2E\u0C40\u0C30\u0C47 \u0C08 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C28\u0C41 '\u0C15\u0C38\u0C4D\u0C1F\u0C4D \u0C2E\u0C48\u0C36\u0C4D ' \u0C1F\u0C4D\u0C2F\u0C3E\u0C2C\u0C41 \u0C32\u0C4B \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F.",
+      "placeholders": {
+         "link": {
+            "content": "$1\u0C07\u0C15\u0C4D\u0C15\u0C21$2",
+            "example": "\u003Ca href='http://abp.org'\u003Ehere\u003C/a\u003E"
+         }
+      }
+   },
+   "noresourcessend2": {
+      "description": "resourceblocking page string",
+      "message": "\u0C0F\u0C26\u0C4B \u0C24\u0C2A\u0C4D\u0C2A\u0C41 \u0C1C\u0C30\u0C3F\u0C17\u0C3F\u0C02\u0C26\u0C3F. \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C0F\u0C2E\u0C40 \u0C35\u0C46\u0C33\u0C4D\u0C33\u0C32\u0C47\u0C26\u0C41. \u0C08 \u0C2A\u0C47\u0C1C\u0C3F \u0C07\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C41 \u0C15\u0C4D\u0C32\u0C4B\u0C1C\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C3E\u0C02. \u0C08 \u0C35\u0C46\u0C2C\u0C4D \u0C38\u0C48\u0C1F\u0C4D \u0C28\u0C41 \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C30\u0C40\u0C32\u0C4B\u0C21\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F."
+   },
+   "nosearchresults": {
+      "description": "Text in resourceblock shown if no results are found after searching",
+      "message": "\u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C0F\u0C2E\u0C40 \u0C26\u0C4A\u0C30\u0C15\u0C32\u0C47\u0C26\u0C41"
+   },
+   "novalidurlpattern": {
+      "description": "resourceblocking page string",
+      "message": "\u0C1A\u0C46\u0C32\u0C4D\u0C32\u0C41\u0C2C\u0C3E\u0C1F\u0C41 \u0C05\u0C2F\u0C4D\u0C2F\u0C47 URL \u0C2A\u0C3E\u0C1F\u0C30\u0C4D\u0C28\u0C4D \u0C28\u0C3F  \u0C0E\u0C02\u0C1F\u0C30\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F \u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C1A\u0C47\u0C2F\u0C1F\u0C3E\u0C28\u0C3F\u0C15\u0C3F!"
+   },
+   "now_you_have_adblock_hooray": {
+      "description": "Install page title.  'Hooray' is a silly word shouted when you are excited, for example if your team just won a game.",
+      "message": "\u0C07\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C41 \u0C2E\u0C40 \u0C26\u0C17\u0C4D\u0C17\u0C30 AdBlock \u0C09\u0C02\u0C26\u0C3F! \u0C39\u0C41\u0C30\u0C4D\u0C30\u0C47!"
+   },
+   "only_block_ads_on_these_sites": {
+      "description": "Label for textbox where user enters a list of sites on Customize tab",
+      "message": "\u0C08 \u0C38\u0C48\u0C1F\u0C4D\u0C38\u0C4D \u0C32\u0C4B \u0C2E\u0C3E\u0C24\u0C4D\u0C30\u0C2E\u0C47 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C3F:"
+   },
+   "onlyondomains": {
+      "description": "resourceblocking page string",
+      "message": "\u0C08 \u0C26\u0C4A\u0C2E\u0C48\u0C28\u0C4D\u0C38\u0C4D \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C41 \u0C2E\u0C3E\u0C24\u0C4D\u0C30\u0C2E\u0C47:"
+   },
+   "onlyresourcetypes": {
+      "description": "resourceblocking page string",
+      "message": "\u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C15\u0C4D\u0C30\u0C3F\u0C02\u0C26\u0C3F \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C15\u0C41 \u0C05\u0C28\u0C41\u0C35\u0C30\u0C4D\u0C24\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F :"
+   },
+   "opera_120_install": {
+      "description": "Opera \u003C 12.10 warning during installation",
+      "message": "Opera 12.10 \u0C15\u0C41 \u0C2E\u0C41\u0C02\u0C26\u0C41 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C32\u0C32\u0C4B \u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C15\u0C3E\u0C35\u0C41. Opera \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D 12.10 \u0C15\u0C41 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C4D\u0C2F\u0C3E\u0C15, \u0C05\u0C28\u0C4D\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C38\u0C30\u0C3F\u0C17\u0C4D\u0C17\u0C3E \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C24\u0C3E\u0C2F\u0C3F."
+   },
+   "opera_120_options": {
+      "description": "Opera \u003C 12.10 warning above options page",
+      "message": "Opera 12.10 \u0C15\u0C41 \u0C2E\u0C41\u0C02\u0C26\u0C41 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C32\u0C32\u0C4B \u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C09\u0C02\u0C21\u0C35\u0C41, \u0C0E\u0C02\u0C26\u0C41\u0C15\u0C02\u0C1F\u0C47 \u0C06 \u0C2A\u0C3E\u0C24 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C32\u0C15\u0C41 \u0C06 \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C05\u0C28\u0C41\u0C35\u0C30\u0C4D\u0C24\u0C3F\u0C02\u0C1A\u0C35\u0C41."
+   },
+   "opera_allow_secure": {
+      "description": "Content of an area in the ad report page in Opera. &rArr; makes a right arrow",
+      "message": "\u0C38\u0C46\u0C15\u0C42\u0C30\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C32\u0C4B(\u0C1F\u0C42\u0C32\u0C4D \u0C2C\u0C3E\u0C30\u0C4D \u0C32\u0C4B \u0C32\u0C3E\u0C15\u0C4D \u0C10\u0C15\u0C3E\u0C28\u0C4D \u0C09\u0C28\u0C4D\u0C28 \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C41) AdBlock \u0C35\u0C3E\u0C21\u0C3E\u0C32\u0C02\u0C1F\u0C47, \u0C2E\u0C4A\u0C26\u0C1F \u0C38\u0C46\u0C15\u0C42\u0C30\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C15\u0C41 \u0C06\u0C15\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C2F\u0C3F\u0C38\u0C4D\u0C24\u0C42 \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C32\u0C4B \u0C0E\u0C28\u0C47\u0C2C\u0C41\u0C32\u0C4D \u0C1A\u0C47\u0C2F\u0C3E\u0C32\u0C3F."
+   },
+   "opera_can_also_change_setting": {
+      "description": "Message when the storage quota is reached, for advanced users in Opera",
+      "message": "$setting$ \u0C35\u0C3F\u0C32\u0C41\u0C35 \u0C2A\u0C46\u0C02\u0C1A\u0C17\u0C32\u0C30\u0C41",
+      "placeholders": {
+         "setting": {
+            "content": "$1",
+            "example": "opera:config#PersistentStorage|DomainQuotaForWidgetPreferences"
+         }
+      }
+   },
+   "opera_donations_button": {
+      "description": "Opera donate request in the button",
+      "message": "\u0C08 \u0C0E\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D \u0C28\u0C1A\u0C4D\u0C1A\u0C3F\u0C02\u0C26\u0C3E? \u0C05\u0C2F\u0C3F\u0C24\u0C47 \u0C26\u0C2F\u0C1A\u0C47\u0C38\u0C3F \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C2A\u0C47\u0C1C\u0C3F\u0C32\u0C4B \u0C26\u0C3E\u0C28\u0C02 \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F."
+   },
+   "opera_donations_install": {
+      "description": "Opera donate request in the install page",
+      "message": "\u0C2E\u0C40\u0C15\u0C41 \u0C08 \u0C0E\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D \u0C28\u0C1A\u0C4D\u0C1A\u0C3F\u0C24\u0C47, \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C4B \u0C26\u0C2F\u0C1A\u0C47\u0C38\u0C3F \u0C26\u0C3E\u0C28\u0C02 \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F."
+   },
+   "opera_enabledin": {
+      "description": "Hover text of items disabled in an older browser version",
+      "message": "$browserversion$\u0C32\u0C4B \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F",
+      "placeholders": {
+         "browserversion": {
+            "content": "$1",
+            "example": "Opera 12.10"
+         }
+      }
+   },
+   "opera_excludedomainorurl": {
+      "description": "Opera version of the 'excludedomainorurl' string",
+      "message": "\u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B AdBlock \u0C0F\u0C2E\u0C40 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C46\u0C2F\u0C15\u0C42\u0C21\u0C26\u0C41"
+   },
+   "opera_for_more_options": {
+      "description": "Install page string telling where to find the preferences in Opera. &rArr; makes a right arrow (-\u003E)",
+      "message": "\u0C07\u0C02\u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D \u0C15\u0C4B\u0C38\u0C02 \u0C1F\u0C42\u0C32\u0C4D \u0C2C\u0C3E\u0C30\u0C4D \u0C2C\u0C1F\u0C28\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F \u0C32\u0C47\u0C26\u0C3E preferences \u0C13\u0C2A\u0C46\u0C28\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F \u0C2E\u0C46\u0C28\u0C42 \u0C32\u0C4B\u0C28\u0C3F \u0C0E\u0C15\u0C4D\u0C37\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D \u0C26\u0C4D\u0C35\u0C3E\u0C30\u0C3E &rArr; Manage Extensions &rArr; wrench icon &rArr; Preferences"
+   },
+   "opera_linkunblock": {
+      "description": "Opera version of the 'linkunblock' string",
+      "message": "\u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "opera_reenable_button": {
+      "description": "Opera browser button message when you click 'hide this button'",
+      "message": "\u0C08 \u0C0E\u0C15\u0C4D\u0C38\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D preferences\u0C32\u0C4B, \u0C08 \u0C2C\u0C1F\u0C28\u0C4D \u0C28\u0C3F \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C0E\u0C28\u0C47\u0C2C\u0C41\u0C32\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41"
+   },
+   "opera_secure_pages": {
+      "description": "Title of an area in the ad report page in Opera. Only visible if the opener tab was a secure url (https)",
+      "message": "\u0C38\u0C46\u0C15\u0C42\u0C30\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C41"
+   },
+   "opera_secure_pages_enabled": {
+      "description": "Content of an area in the ad report page in Opera. &rArr; makes a right arrow",
+      "message": "\u0C2E\u0C46\u0C28\u0C42 \u0C32\u0C4B\u0C09\u0C28\u0C4D\u0C28 \u0C0E\u0C15\u0C4D\u0C37\u0C4D\u0C1F\u0C46\u0C28\u0C4D\u0C37\u0C28\u0C4D  \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C38\u0C3F &rArr; Manage Extensions &rArr; AdBlock \u0C15\u0C4B\u0C38\u0C02 \u0C1A\u0C42\u0C38\u0C3F, \u0C26\u0C3E\u0C28\u0C3F \u0C26\u0C17\u0C4D\u0C17\u0C30 \u0C09\u0C28\u0C4D\u0C28 \u0C38\u0C4D\u0C2A\u0C3E\u0C28\u0C30\u0C4D \u0C10\u0C15\u0C3E\u0C28\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F &rArr; \u0C2A\u0C4D\u0C30\u0C48\u0C35\u0C38\u0C40 \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F.\u003Cbr/\u003E \u0C38\u0C46\u0C15\u0C42\u0C30\u0C4D \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C41 \u0C06\u0C15\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C1A\u0C47\u0C38\u0C47 \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D \u0C0E\u0C28\u0C47\u0C2C\u0C41\u0C32\u0C4D \u0C05\u0C2F\u0C3F \u0C09\u0C02\u0C26\u0C3E?"
+   },
+   "opera_show_toolbar_button": {
+      "description": "Opera option to show/hide the button",
+      "message": "\u0C1F\u0C42\u0C32\u0C4D \u0C2C\u0C3E\u0C30\u0C4D \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "options": {
+      "description": "The text of the link on chrome://chrome/extensions that gets you to the Options page for an extension",
+      "message": "\u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D"
+   },
+   "optionschangelog": {
+      "description": "changelog link",
+      "message": "\u0C1A\u0C47\u0C02\u0C1C\u0C4D \u0C32\u0C3E\u0C17\u0C4D"
+   },
+   "optionstitle": {
+      "description": "Title for the options page",
+      "message": "AdBlock \u0C06\u0C2A\u0C4D\u0C37\u0C28\u0C4D\u0C38\u0C4D"
+   },
+   "optionsversion": {
+      "description": "Version number",
+      "message": "\u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.9"
+         }
+      }
+   },
+   "orenteraurl": {
+      "description": "link for custom subscription",
+      "message": "\u0C32\u0C47\u0C26\u0C3E \u0C12\u0C15 URL \u0C0E\u0C02\u0C1F\u0C30\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F :"
+   },
+   "other": {
+      "description": "multiple choice option",
+      "message": "\u0C07\u0C24\u0C30\u0C41\u0C32\u0C41"
+   },
+   "otherfilters": {
+      "description": "List for other filters the user subscribed to",
+      "message": "\u0C07\u0C24\u0C30 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C32\u0C41"
+   },
+   "pagelanguagecheck": {
+      "description": "question on ad report page",
+      "message": "\u0C06 \u0C2A\u0C47\u0C1C\u0C40 \u0C0F \u0C2D\u0C3E\u0C37 \u0C32\u0C4B \u0C30\u0C3E\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F?"
+   },
+   "pause_adblock": {
+      "description": "Menu entry to pause AdBlock.",
+      "message": "AdBlock \u0C28\u0C3F \u0C2A\u0C3E\u0C1C\u0C4D \u0C1A\u0C47\u0C2F\u0C3F"
+   },
+   "project_home": {
+      "description": "Text of link to the AdBlock open source project homepage (not the install page)",
+      "message": "\u0C2A\u0C4D\u0C30\u0C3E\u0C1C\u0C46\u0C15\u0C4D\u0C1F\u0C4D \u0C39\u0C4B\u0C02"
+   },
+   "reenableadsonebyone": {
+      "description": "tells the user to reenable the extensions one by one.",
+      "message": "Now that the ads are gone, you must find out which extension is the cause. Go through and enable each extension one by one. The extension that brings back the ad(s) is the one that you must delete to get rid of the ads."
+   },
+   "refusetocheck": {
+      "description": "user is telling us they don't wish to investigate something for us",
+      "message": "\u0C28\u0C3E\u0C15\u0C41 \u0C07\u0C26\u0C3F \u0C1A\u0C46\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C3E\u0C32\u0C28\u0C3F \u0C32\u0C47\u0C26\u0C41"
+   },
+   "reloadadpage": {
+      "description": "instruction on ad report page",
+      "message": "\u0C2A\u0C47\u0C1C\u0C40\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C24\u0C4B \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C32\u0C4B\u0C21\u0C4D \u0C1A\u0C47\u0C2F\u0C3F."
+   },
+   "removefromlist": {
+      "description": "Label to remove a custom filter",
+      "message": "\u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C28\u0C41\u0C02\u0C1A\u0C3F \u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "removelabel": {
+      "description": "link to remove a filter",
+      "message": "\u0C24\u0C4A\u0C32\u0C17\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "report_ad_on_page": {
+      "description": "Link in the button",
+      "message": "\u0C08 \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C28\u0C41 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C3F"
+   },
+   "reportfilterlistproblem": {
+      "description": "telling the user to report an ad to a filter list maintainer",
+      "message": "\u0C07\u0C26\u0C3F \u0C12\u0C15 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C38\u0C2E\u0C38\u0C4D\u0C2F. \u0C07\u0C15\u0C4D\u0C15\u0C21 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F: $link$",
+      "placeholders": {
+         "link": {
+            "content": "$1",
+            "example": "EXAMPLE 1: \u003Ca href='mailto:someguy@list.com'\u003EJohn Doe\u003C/a\u003E  EXAMPLE 2: \u003Ca href='http://easylist.org'\u003EEasyList forums\u003C/a\u003E"
+         }
+      }
+   },
+   "reportpubliclyavailable": {
+      "description": "Ad report page string, when you're about to submit a report",
+      "message": "\u0C28\u0C4B\u0C1F\u0C4D: \u0C2E\u0C40 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C2C\u0C39\u0C3F\u0C30\u0C02\u0C17\u0C02\u0C17\u0C3E \u0C05\u0C02\u0C26\u0C41\u0C2C\u0C3E\u0C1F\u0C41\u0C32\u0C4B \u0C09\u0C02\u0C21\u0C35\u0C1A\u0C4D\u0C1A\u0C41. \u0C0F\u0C26\u0C48\u0C28 \u0C35\u0C4D\u0C2F\u0C15\u0C4D\u0C24\u0C3F\u0C17\u0C24 \u0C35\u0C3F\u0C37\u0C2F\u0C3E\u0C32\u0C41 \u0C24\u0C46\u0C32\u0C3F\u0C2A\u0C47 \u0C2E\u0C41\u0C02\u0C26\u0C41 \u0C07\u0C26\u0C3F \u0C17\u0C41\u0C30\u0C4D\u0C24\u0C41\u0C02\u0C1A\u0C41\u0C15\u0C4B\u0C02\u0C21\u0C3F."
+   },
+   "reporttous2": {
+      "description": "NOTE: non-English translations should replace the first sentence and instead say 'If you can speak English, you can report the ad to us \u003Ca\u003Ein the issue tracker\u003C/a\u003E.'",
+      "message": "\u0C2E\u0C40\u0C15\u0C41 \u0C07\u0C02\u0C17\u0C4D\u0C32\u0C40\u0C37\u0C4D \u0C35\u0C38\u0C4D\u0C24\u0C47, \u0C2E\u0C40\u0C30\u0C41 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C28\u0C41 \u0C2E\u0C3E\u0C15\u0C41 \u003Ca\u003E\u0C07\u0C37\u0C4D\u0C2F\u0C42 \u0C1F\u0C4D\u0C30\u0C3E\u0C15\u0C30\u0C4D\u003C/a\u003E\u0C32\u0C4B \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41 ."
+   },
+   "resourceblocklegend1": {
+      "description": "resourceblocking page string",
+      "message": "\u0C32\u0C46\u0C1C\u0C46\u0C02\u0C21\u0C4D:"
+   },
+   "resourceblocklegend2": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C28 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D"
+   },
+   "resourceblocklegend3": {
+      "description": "resourceblocking page string",
+      "message": "\u0C35\u0C48\u0C1F\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C28 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D"
+   },
+   "resourceblocklegend4": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C3F\u0C17\u0C3F\u0C28 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D"
+   },
+   "resourceblocklegend5": {
+      "description": "resourceblocking page string",
+      "message": "\u0C26\u0C3E\u0C1A\u0C47 \u0C30\u0C42\u0C32\u0C4D\u0C38\u0C4D \u0C05\u0C2E\u0C32\u0C41 \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C28\u0C35\u0C3F."
+   },
+   "resourceblocktitle": {
+      "description": "resourceblocking page string",
+      "message": "\u0C12\u0C15 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C4D \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C3F"
+   },
+   "resourcedomain": {
+      "description": "Text shown when hovering over an item in the third-party column",
+      "message": "\u0C08 \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C47\u0C1C\u0C40 \u0C32\u0C4B \u0C32\u0C4B\u0C21\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F:\n$domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "resourceiswhitelisted": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C0E\u0C02\u0C2A\u0C3F\u0C15 \u0C1A\u0C47\u0C38\u0C3F\u0C28 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C4D \u0C35\u0C48\u0C1F\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F. \u0C15\u0C3E\u0C2C\u0C1F\u0C4D\u0C1F\u0C3F \u0C2E\u0C40\u0C30\u0C41 \u0C26\u0C3E\u0C28\u0C4D\u0C28\u0C3F \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C32\u0C47\u0C30\u0C41."
+   },
+   "retryaftersubscribe": {
+      "description": "instructions on ad report page telling users to subscribe to a filter list and then check again to see whether the ad exists",
+      "message": "\u0C08 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41\u0C15\u0C41 \u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D \u0C1A\u0C47\u0C38\u0C3F, \u0C2E\u0C33\u0C4D\u0C32\u0C3F \u0C2A\u0C4D\u0C30\u0C2F\u0C24\u0C4D\u0C28\u0C3F\u0C02\u0C1A\u0C02\u0C21\u0C3F: $list_title$",
+      "placeholders": {
+         "list_title": {
+            "content": "$1",
+            "example": "French filters"
+         }
+      }
+   },
+   "safari50_updatenotice": {
+      "description": "A message shown to Safari 5.0 users urging them to upgrade",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 Safari \u0C2A\u0C3E\u0C24 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C35\u0C3E\u0C21\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C30\u0C41. \u0C15\u0C4A\u0C24\u0C4D\u0C24 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C32\u0C4B AdBlock \u0C28\u0C3F \u0C2A\u0C3E\u0C1C\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41, \u0C35\u0C46\u0C2C\u0C4D \u0C38\u0C48\u0C1F\u0C4D\u0C38\u0C4D \u0C28\u0C3F \u0C35\u0C48\u0C1F\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41 \u0C07\u0C02\u0C15\u0C3E \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C30\u0C3F\u0C2A\u0C4B\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41. \u003Ca\u003E\u0C07\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C47 \u0C05\u0C2A\u0C4D\u0C17\u0C4D\u0C30\u0C47\u0C21\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F!\u003C/a\u003E."
+   },
+   "savebutton": {
+      "description": "Save button",
+      "message": "\u0C38\u0C47\u0C35\u0C4D"
+   },
+   "savereminder": {
+      "description": "Reminder to press save",
+      "message": "\u0C38\u0C47\u0C35\u0C4D \u0C1A\u0C47\u0C2F\u0C1F\u0C02 \u0C2E\u0C30\u0C4D\u0C1A\u0C3F\u0C2A\u0C4B\u0C15\u0C02\u0C21\u0C3F!"
+   },
+   "searchexplanation": {
+      "description": "Text in resourceblock when you hover your mouse over the search textbox",
+      "message": "\u0C05\u0C15\u0C4D\u0C37\u0C30\u0C3E\u0C32\u0C41 \u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C1A\u0C47\u0C2F\u0C21\u0C3E\u0C28\u0C3F\u0C15\u0C3F * \u0C35\u0C3E\u0C21\u0C02\u0C21\u0C3F. \u0C09\u0C26\u0C3E\u0C39\u0C30\u0C23\u0C15\u0C41, 'banner*.gif image' \u0C35\u0C40\u0C1F\u0C3F\u0C24\u0C4B \u0C2E\u0C4D\u0C2F\u0C3E\u0C1A\u0C4D \u0C05\u0C35\u0C41\u0C24\u0C41\u0C02\u0C26\u0C3F:  'banner.gif', 'banner123.gif', 'bannerxyz.gif'."
+   },
+   "searchplaceholder": {
+      "description": "Text in resourceblock shown in the search textbox before you type something",
+      "message": "\u0C07\u0C15\u0C4D\u0C15\u0C21 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C35\u0C46\u0C24\u0C15\u0C02\u0C21\u0C3F..."
+   },
+   "seeing_this_every_time_you_start_your_browser": {
+      "description": "Install page: link to click for help",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C41 \u0C38\u0C4D\u0C1F\u0C3E\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C17\u0C3E\u0C28\u0C47 \u0C2A\u0C4D\u0C30\u0C24\u0C3F \u0C38\u0C3E\u0C30\u0C40 \u0C07\u0C26\u0C47 \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3E?"
+   },
+   "selectlanguage": {
+      "description": "Text for the first option in Langage Dropdown for Filter Lists tab in options.  Include the ' -- ' on either side of your translation.",
+      "message": " -- \u0C2D\u0C3E\u0C37\u0C3E \u0C0E\u0C02\u0C1A\u0C41\u0C15\u0C4B\u0C02\u0C21\u0C3F -- "
+   },
+   "selectresources": {
+      "description": "resourceblocking page string",
+      "message": "\u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C32\u0C47\u0C26\u0C3E \u0C05\u0C28\u0C4D-\u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C21\u0C3E\u0C28\u0C3F\u0C15\u0C3F \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C0E\u0C02\u0C1A\u0C41\u0C15\u0C4B\u0C02\u0C21\u0C3F."
+   },
+   "show_ads_except_for": {
+      "description": "Section title for blacklisting section of Customize tab",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u003Ci\u003E\u0C2A\u0C4D\u0C30\u0C24\u0C40 \u0C1A\u0C4B\u0C1F \u003C/i\u003E \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41, \u0C08 \u0C26\u0C4A\u0C2E\u0C48\u0C28\u0C4D\u0C38\u0C4D \u0C32\u0C4B \u0C24\u0C2A\u0C4D\u0C2A ..."
+   },
+   "show_on_adblock_button": {
+      "description": "Label for checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked",
+      "message": "AdBlock \u0C2C\u0C1F\u0C28\u0C4D \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "show_resourcelist": {
+      "description": "Link in the button",
+      "message": "\u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41"
+   },
+   "showcontextmenus": {
+      "description": "Option on first tab page",
+      "message": "\u0C30\u0C48\u0C1F\u0C4D \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C2E\u0C46\u0C28\u0C42 \u0C32\u0C4B \u0C05\u0C02\u0C36\u0C3E\u0C32\u0C28\u0C41 \u0C1C\u0C4B\u0C21\u0C3F\u0C02\u0C1A\u0C41."
+   },
+   "showlinkstolists": {
+      "description": "Option on second tab page",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D\u0C32\u0C15\u0C41 \u0C24\u0C40\u0C38\u0C41\u0C15\u0C41\u0C35\u0C46\u0C33\u0C4D\u0C33\u0C47 \u0C32\u0C3F\u0C02\u0C15\u0C4D\u0C32\u0C41 \u0C1A\u0C42\u0C2A\u0C3F\u0C02\u0C1A\u0C41:"
+   },
+   "sliderexplanation": {
+      "description": "Blacklister slider page message",
+      "message": "\u0C2A\u0C47\u0C1C\u0C40 \u0C32\u0C4B \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28 \u0C38\u0C30\u0C3F\u0C17\u0C4D\u0C17\u0C3E \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C05\u0C2F\u0C4D\u0C2F\u0C47\u0C02\u0C24\u0C35\u0C30\u0C15\u0C41 \u0C38\u0C4D\u0C32\u0C48\u0C21\u0C30\u0C4D \u0C28\u0C41 \u0C38\u0C4D\u0C32\u0C2F\u0C3F\u0C21\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F, \u0C05\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C41 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C05\u0C2F\u0C3F\u0C28 \u0C05\u0C02\u0C36\u0C02  \u0C09\u0C2A\u0C2F\u0C4B\u0C17\u0C15\u0C30\u0C02\u0C17\u0C3E \u0C15\u0C28\u0C3F\u0C2A\u0C3F\u0C38\u0C4D\u0C24\u0C4B\u0C02\u0C26\u0C3F."
+   },
+   "slidertitle": {
+      "description": "Blacklister slider page title",
+      "message": "\u0C38\u0C4D\u0C1F\u0C46\u0C2A\u0C4D 1: \u0C0F\u0C2E\u0C3F \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C3E\u0C32\u0C4B \u0C28\u0C3F\u0C30\u0C4D\u0C23\u0C2F\u0C3F\u0C02\u0C1A\u0C41\u0C15\u0C4A\u0C02\u0C21\u0C3F"
+   },
+   "spread_the_word": {
+      "description": "Text of a share link",
+      "message": "\u0C26\u0C2F\u0C1A\u0C47\u0C38\u0C3F \u0C26\u0C40\u0C28\u0C3F \u0C17\u0C41\u0C30\u0C3F\u0C02\u0C1A\u0C3F \u0C05\u0C02\u0C26\u0C30\u0C3F\u0C15\u0C40 \u0C1A\u0C46\u0C2A\u0C4D\u0C2A\u0C02\u0C21\u0C3F!"
+   },
+   "status_disabled": {
+      "description": "Message shown in toolbar button on web pages that disallow extensions, such as the Extensions Gallery or about:blank.",
+      "message": "AdBlock \u0C08 \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C2F\u0C26\u0C41."
+   },
+   "status_paused": {
+      "description": "Message shown in toolbar button when AdBlock is paused.",
+      "message": "AdBlock \u0C2A\u0C3E\u0C1C\u0C4D \u0C1A\u0C47\u0C2F\u0C2C\u0C21\u0C3F\u0C02\u0C26\u0C3F."
+   },
+   "stop_blocking_ads": {
+      "description": "Section header on third tab",
+      "message": "\u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C41 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C21\u0C02 \u0C06\u0C2A\u0C41:"
+   },
+   "storage_quota_exceeded": {
+      "description": "Message shown when the user uses more storage than allowed by the browser",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 AdBlock \u0C35\u0C3E\u0C21\u0C17\u0C32\u0C3F\u0C17\u0C47 \u0C38\u0C4D\u0C1F\u0C4B\u0C30\u0C47\u0C1C\u0C4D \u0C15\u0C02\u0C1F\u0C47 \u0C0E\u0C15\u0C4D\u0C15\u0C41\u0C35 \u0C35\u0C3E\u0C21\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C30\u0C41. \u0C26\u0C2F\u0C1A\u0C47\u0C38\u0C3F \u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D\u0C32 \u0C28\u0C41\u0C02\u0C21\u0C3F \u0C05\u0C28\u0C4D-\u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F!"
+   },
+   "subscribebutton": {
+      "description": "subscribe to a list button",
+      "message": "\u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D"
+   },
+   "subscribingfailed": {
+      "description": "abp: link subscriber result",
+      "message": "\u0C35\u0C3F\u0C2B\u0C32\u0C2E\u0C46\u0C56\u0C02\u0C26\u0C3F!"
+   },
+   "subscribingfinished": {
+      "description": "abp: link subscriber result",
+      "message": "\u0C2A\u0C42\u0C30\u0C4D\u0C24\u0C3F \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F!"
+   },
+   "subscribingtitle": {
+      "description": "abp: link subscriber title",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C15\u0C41 \u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C2E\u0C41 ..."
+   },
+   "tabcustomize": {
+      "description": "A tab on the options page",
+      "message": "\u0C15\u0C38\u0C4D\u0C1F\u0C2E\u0C48\u0C1C\u0C4D"
+   },
+   "tabcustomizetitle": {
+      "description": "Title of the third tab",
+      "message": "AdBlock\u0C28\u0C3F \u0C15\u0C38\u0C4D\u0C1F\u0C2E\u0C48\u0C1C\u0C4D \u0C1A\u0C47\u0C2F\u0C3F"
+   },
+   "tabfilterlists": {
+      "description": "A tab on the options page",
+      "message": "\u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C32\u0C41"
+   },
+   "tabgeneral": {
+      "description": "A tab on the options page",
+      "message": "\u0C1C\u0C28\u0C30\u0C32\u0C4D"
+   },
+   "thats_it": {
+      "description": "Install page string",
+      "message": "\u0C05\u0C02\u0C24\u0C47!"
+   },
+   "thirdparty": {
+      "description": "Resource list column title telling if the resource originates from a different domain",
+      "message": "\u0C2E\u0C42\u0C21\u0C35 \u0C2A\u0C3E\u0C30\u0C4D\u0C1F\u0C40"
+   },
+   "thirdpartycheckbox": {
+      "description": "resourceblocking page string",
+      "message": "$domain$ \u0C21\u0C4A\u0C2E\u0C48\u0C28\u0C4D \u0C32\u0C4B\u0C28\u0C3F \u0C35\u0C46\u0C2C\u0C4D \u0C38\u0C48\u0C1F\u0C4D\u0C38\u0C4D \u0C15\u0C3E\u0C15\u0C41\u0C02\u0C21\u0C3E, \u0C0F \u0C35\u0C46\u0C2C\u0C4D \u0C38\u0C48\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C28\u0C3E",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "translator_credit": {
+      "description": "Credit for your translation with $translator_names$ being your own name below. Multiple names should be separated by a comma.",
+      "message": "\u0C05\u0C28\u0C41\u0C35\u0C3E\u0C26\u0C02 \u0C1A\u0C47\u0C38\u0C3F\u0C02\u0C26\u0C3F: $translator_names$",
+      "placeholders": {
+         "translator_names": {
+            "content": "Ponakala P",
+            "example": "Michael G, Drew R"
+         }
+      }
+   },
+   "typehiding": {
+      "description": "A resource type",
+      "message": "\u0C26\u0C3E\u0C17\u0C3F \u0C09\u0C02\u0C26\u0C3F"
+   },
+   "typeimage": {
+      "description": "A resource type",
+      "message": "\u0C2C\u0C4A\u0C2E\u0C4D\u0C2E"
+   },
+   "typemedia": {
+      "description": "A resource type",
+      "message": "\u0C06\u0C21\u0C3F\u0C2F\u0C4B/\u0C35\u0C40\u0C21\u0C3F\u0C2F\u0C4B"
+   },
+   "typeobject": {
+      "description": "A resource type",
+      "message": "\u0C07\u0C02\u0C1F\u0C30\u0C3E\u0C15\u0C4D\u0C1F\u0C3F\u0C35\u0C4D \u0C35\u0C38\u0C4D\u0C24\u0C41\u0C35\u0C41"
+   },
+   "typeobject_subrequest": {
+      "description": "A resource type",
+      "message": "\u0C35\u0C38\u0C4D\u0C24\u0C41\u0C35\u0C41_\u0C09\u0C2A\u0C05\u0C2D\u0C4D\u0C2F\u0C30\u0C4D\u0C25\u0C28"
+   },
+   "typeother": {
+      "description": "A resource type",
+      "message": "\u0C07\u0C24\u0C30 \u0C35\u0C38\u0C4D\u0C24\u0C41\u0C35\u0C41\u0C32\u0C41"
+   },
+   "typepage": {
+      "description": "A resource type",
+      "message": "\u0C2A\u0C47\u0C1C\u0C40"
+   },
+   "typepopup": {
+      "description": "A resource type",
+      "message": "\u0C2A\u0C3E\u0C2A\u0C4D \u0C05\u0C2A\u0C4D"
+   },
+   "typescript": {
+      "description": "A resource type",
+      "message": "\u0C38\u0C4D\u0C15\u0C4D\u0C30\u0C3F\u0C2A\u0C4D\u0C1F\u0C4D"
+   },
+   "typestylesheet": {
+      "description": "A resource type",
+      "message": "\u0C36\u0C46\u0C56\u0C32\u0C3F \u0C28\u0C3F\u0C30\u0C4D\u0C35\u0C1A\u0C28\u0C02"
+   },
+   "typesubdocument": {
+      "description": "A resource type",
+      "message": "\u0C2B\u0C4D\u0C30\u0C47\u0C2E\u0C4D"
+   },
+   "typeunknown": {
+      "description": "A resource type",
+      "message": "\u0C24\u0C46\u0C32\u0C3F\u0C2F\u0C28\u0C3F\u0C26\u0C3F"
+   },
+   "typexmlhttprequest": {
+      "description": "A resource type",
+      "message": "xmlhttp\u0C30\u0C3F\u0C15\u0C4D\u0C35\u0C46\u0C38\u0C4D\u0C1F\u0C4D"
+   },
+   "undo_last_block": {
+      "description": "Menu entry to let the user cancel the result of running the blacklist wizard.",
+      "message": "\u0C17\u0C24 \u0C2C\u0C4D\u0C32\u0C3E\u0C15\u0C4D \u0C28\u0C41 \u0C1A\u0C46\u0C30\u0C1A\u0C41"
+   },
+   "unpause": {
+      "description": "Link text to unpause AdBlock, displayed immediately after 'status_paused'.",
+      "message": "\u0C05\u0C28\u0C4D-\u0C2A\u0C3E\u0C1C\u0C4D"
+   },
+   "unsubscribedlabel": {
+      "description": "Status label",
+      "message": "\u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D \u0C30\u0C26\u0C4D\u0C26\u0C41 \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F."
+   },
+   "updateddayago": {
+      "description": "Label for subscription",
+      "message": "\u0C12\u0C15 \u0C30\u0C4B\u0C1C\u0C41 \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F"
+   },
+   "updateddaysago": {
+      "description": "Label for subscription",
+      "message": "$days$ \u0C30\u0C4B\u0C1C\u0C41\u0C32 \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedhourago": {
+      "description": "Label for subscription",
+      "message": "\u0C12\u0C15 \u0C17\u0C02\u0C1F \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F"
+   },
+   "updatedhoursago": {
+      "description": "Label for subscription",
+      "message": "$hours$  \u0C17\u0C02\u0C1F\u0C32  \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedminuteago": {
+      "description": "Label for subscription",
+      "message": "\u0C12\u0C15 \u0C28\u0C3F\u0C2E\u0C3F\u0C37\u0C02 \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F"
+   },
+   "updatedminutesago": {
+      "description": "Label for subscription",
+      "message": "$minutes$ \u0C28\u0C3F\u0C2E\u0C3F\u0C37\u0C3E\u0C32 \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedrightnow": {
+      "description": "Label for subscription",
+      "message": "\u0C07\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C47 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F"
+   },
+   "updatedsecondsago": {
+      "description": "Label for subscription",
+      "message": "$seconds$ \u0C38\u0C46\u0C15\u0C28\u0C4D\u0C32 \u0C15\u0C4D\u0C30\u0C3F\u0C24\u0C02 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D \u0C05\u0C2F\u0C3F\u0C02\u0C26\u0C3F",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatefromoldversion": {
+      "description": "Ad report page instructions to update AdBlock in Safari",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 AdBlock \u0C2A\u0C3E\u0C24 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C35\u0C3E\u0C21\u0C41\u0C24\u0C41\u0C28\u0C4D\u0C28\u0C3E\u0C30\u0C41. \u0C26\u0C2F\u0C1A\u0C47\u0C38\u0C3F \u0C15\u0C4A\u0C24\u0C4D\u0C24 \u0C35\u0C46\u0C30\u0C4D\u0C37\u0C28\u0C4D \u0C15\u0C41 $updatelink$ \u0C05\u0C35\u0C4D\u0C35\u0C02\u0C21\u0C3F",
+      "placeholders": {
+         "updatelink": {
+            "content": "$1\u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D$2",
+            "example": "\u003Ca href='http://chrome.com/update_here.ctx'\u003Eupdate\u003C/a\u003E"
+         }
+      }
+   },
+   "updatenowmessage": {
+      "description": "update filters text + button",
+      "message": "\u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D\u0C32\u0C41 \u0C38\u0C4D\u0C35\u0C2F\u0C02\u0C1A\u0C3E\u0C32\u0C15\u0C02\u0C17\u0C3E \u0C05\u0C35\u0C41\u0C24\u0C3E\u0C2F\u0C3F. \u0C15\u0C3E\u0C35\u0C3E\u0C32\u0C02\u0C1F\u0C47 \u0C2E\u0C40\u0C30\u0C41 \u003Ca\u003E\u0C07\u0C2A\u0C4D\u0C2A\u0C41\u0C21\u0C41 \u0C05\u0C2A\u0C4D\u0C21\u0C47\u0C1F\u0C4D\u003C/a\u003E \u0C1A\u0C47\u0C2F\u0C17\u0C32\u0C30\u0C41."
+   },
+   "updateyourlists": {
+      "description": "instruction on ad report page",
+      "message": "\u0C2E\u0C40 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C32\u0C41 \u0C05\u0C2A\u0C4D-\u0C1F\u0C41-\u0C21\u0C47\u0C1F\u0C4D \u0C09\u0C28\u0C4D\u0C28\u0C3E\u0C2F\u0C4B \u0C32\u0C47\u0C26\u0C4B \u0C1A\u0C42\u0C38\u0C41\u0C15\u0C4B\u0C02\u0C21\u0C3F."
+   },
+   "use_experimental_feature_to_speed_up_adblock": {
+      "description": "Option on first tab page",
+      "message": "Safari \u0C32\u0C4B\u0C28\u0C3F \u0C2A\u0C4D\u0C30\u0C2F\u0C4B\u0C17\u0C3E\u0C24\u0C4D\u0C2E\u0C15 \u0C2B\u0C40\u0C1A\u0C30\u0C4D \u0C24\u0C4B AdBlock \u0C35\u0C47\u0C17\u0C35\u0C02\u0C24\u0C02 \u0C1A\u0C47\u0C2F\u0C3F."
+   },
+   "warning_overrules_filters": {
+      "description": "Message on the third tab of the options page, explaining the danger of adding a blacklisting filter",
+      "message": "\u0C39\u0C46\u0C1A\u0C4D\u0C1A\u0C30\u0C3F\u0C15: \u0C05\u0C28\u0C4D\u0C28\u0C3F \u0C07\u0C24\u0C30 \u0C38\u0C46\u0C56\u0C1F\u0C4D\u0C32\u0C32\u0C4B \u0C2E\u0C40\u0C30\u0C41 \u0C2A\u0C4D\u0C30\u0C15\u0C1F\u0C28\u0C32\u0C28\u0C41 \u0C1A\u0C42\u0C38\u0C4D\u0C24\u0C3E\u0C30\u0C41!\u003Cbr\u003E \u0C06 \u0C38\u0C48\u0C1F\u0C4D\u0C32\u0C32\u0C4B\u0C28\u0C3F \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C28\u0C4D\u0C28\u0C3F\u0C26\u0C40\u0C28\u0C3F \u0C35\u0C32\u0C28 \u0C30\u0C26\u0C4D\u0C26\u0C41 \u0C05\u0C35\u0C41\u0C24\u0C3E\u0C2F\u0C3F."
+   },
+   "whats_this": {
+      "description": "Text of a link pointing to the explanation of a new feature",
+      "message": "\u0C07\u0C26\u0C47\u0C02\u0C1F\u0C3F?"
+   },
+   "whitelistertitle2": {
+      "description": "The title of the whitelister dialog",
+      "message": "AdBlock\u0C28\u0C3F \u0C35\u0C40\u0C1F\u0C3F \u0C2E\u0C40\u0C26 \u0C09\u0C2A\u0C2F\u0C4B\u0C17\u0C3F\u0C02\u0C1A\u0C15\u0C42\u0C21\u0C26\u0C41 ..."
+   },
+   "whitelisteverycontaining": {
+      "description": "resourceblocking page string",
+      "message": "\u0C07\u0C35\u0C3F \u0C09\u0C28\u0C4D\u0C28 \u0C30\u0C3F\u0C38\u0C4B\u0C30\u0C4D\u0C38\u0C46\u0C38\u0C4D \u0C32\u0C28\u0C4D\u0C28\u0C3F\u0C1F\u0C3F\u0C28\u0C3F \u0C35\u0C48\u0C1F\u0C4D \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C1A\u0C47\u0C2F\u0C3F:"
+   },
+   "wildcardhint": {
+      "description": "resourceblocking page string",
+      "message": "\u0C17\u0C2E\u0C28\u0C3F\u0C15: \u0C2E\u0C40\u0C30\u0C41 \u0C07\u0C15\u0C4D\u0C15\u0C21 * \u0C35\u0C48\u0C32\u0C4D\u0C21\u0C4D \u0C15\u0C3E\u0C30\u0C4D\u0C21\u0C41 \u0C32\u0C3E\u0C17 \u0C09\u0C2A\u0C2F\u0C4B\u0C17\u0C3F\u0C02\u0C1A\u0C35\u0C1A\u0C4D\u0C1A\u0C41"
+   },
+   "work_around_hulu_problems": {
+      "description": "Advanced Options page checkbox, which users only need to use if Hulu.com videos break.  It directs the user to restart their browser in order for changes to the checkbox to take effect",
+      "message": "Hulu.com \u0C35\u0C40\u0C21\u0C3F\u0C2F\u0C4B\u0C32\u0C41 \u0C07\u0C15\u0C4D\u0C15\u0C21 \u0C06\u0C21\u0C1F\u0C02 \u0C32\u0C47\u0C26\u0C41 (\u0C2E\u0C40\u0C30\u0C41 \u0C2E\u0C40 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C4D\u0C28\u0C3F \u0C2E\u0C32\u0C4D\u0C32\u0C3F \u0C30\u0C40\u0C38\u0C4D\u0C1F\u0C3E\u0C30\u0C4D\u0C1F\u0C4D \u0C1A\u0C47\u0C2F\u0C3E\u0C32\u0C4D\u0C38\u0C3F\u0C28 \u0C05\u0C35\u0C38\u0C30\u0C02 \u0C09\u0C02\u0C26\u0C3F)"
+   },
+   "yes": {
+      "description": "A positive response to a question",
+      "message": "\u0C05\u0C35\u0C41\u0C28\u0C41"
+   },
+   "you_can_slide_to_change": {
+      "description": "Instructions for how to use the whitelister slider controls.  Sometimes only one slider will show, and sometimes two will show, and if possible the text should handle both cases.",
+      "message": "\u0C15\u0C4D\u0C30\u0C3F\u0C02\u0C26\u0C3F\u0C15\u0C3F \u0C38\u0C4D\u0C32\u0C48\u0C21\u0C4D \u0C1A\u0C47\u0C38\u0C3F AdBlock \u0C0F \u0C2A\u0C47\u0C1C\u0C40\u0C32\u0C32\u0C4B \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C2F\u0C15\u0C42\u0C21\u0C26\u0C4B \u0C2E\u0C40\u0C30\u0C41 \u0C0E\u0C02\u0C2A\u0C3F\u0C15 \u0C1A\u0C47\u0C38\u0C41\u0C15\u0C4B\u0C35\u0C1A\u0C4D\u0C1A\u0C41."
+   },
+   "you_know_thats_a_bad_idea_right": {
+      "description": "Confirmation message shown to user if they try to subscribe to too many lists. The user will have two options: OK and Cancel.",
+      "message": "\u0C2E\u0C40\u0C30\u0C41 \u0C0E\u0C28\u0C4D\u0C28\u0C3F \u0C0E\u0C15\u0C4D\u0C15\u0C41\u0C35 \u0C2B\u0C3F\u0C32\u0C4D\u0C1F\u0C30\u0C4D\u0C32\u0C41 \u0C35\u0C3E\u0C21\u0C3F\u0C24\u0C47 \u0C05\u0C02\u0C24 \u0C38\u0C4D\u0C32\u0C4B \u0C17\u0C3E AdBlock \u0C2A\u0C28\u0C3F \u0C1A\u0C47\u0C38\u0C4D\u0C24\u0C41\u0C02\u0C26\u0C3F. \u0C2E\u0C30\u0C40 \u0C0E\u0C15\u0C4D\u0C15\u0C41\u0C35 \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C4D \u0C32\u0C41 \u0C09\u0C02\u0C1F\u0C47, \u0C2E\u0C40 \u0C2C\u0C4D\u0C30\u0C4C\u0C1C\u0C30\u0C41 \u0C15\u0C4A\u0C28\u0C4D\u0C28\u0C3F \u0C35\u0C46\u0C2C\u0C4D \u0C38\u0C48\u0C1F\u0C4D\u0C32\u0C32\u0C4B \u0C15\u0C4D\u0C30\u0C3E\u0C37\u0C4D \u0C05\u0C2F\u0C4D\u0C2F\u0C47 \u0C05\u0C35\u0C15\u0C3E\u0C36\u0C02 \u0C15\u0C42\u0C21\u0C3E \u0C09\u0C02\u0C26\u0C3F. \u0C05\u0C2F\u0C3F\u0C28\u0C3E \u0C2A\u0C30\u0C4D\u0C35\u0C3E\u0C32\u0C47\u0C26\u0C02\u0C1F\u0C47, \u0C08 \u0C32\u0C3F\u0C38\u0C4D\u0C1F\u0C41 \u0C15\u0C41 \u0C38\u0C2C\u0C4D\u0C38\u0C4D \u0C15\u0C4D\u0C30\u0C48\u0C2C\u0C4D \u0C05\u0C35\u0C4D\u0C35\u0C1F\u0C3E\u0C28\u0C3F\u0C15\u0C3F \u0C12\u0C15\u0C47 \u0C15\u0C4D\u0C32\u0C3F\u0C15\u0C4D \u0C1A\u0C47\u0C2F\u0C02\u0C21\u0C3F."
+   }
+}

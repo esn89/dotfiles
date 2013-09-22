@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "\u00C0rea"
+   },
+   "1241217935227812429": {
+      "message": "M\u00E8tode de pagament"
+   },
+   "1251555475707160311": {
+      "message": "Les fluctuacions del tipus de canvi i les comissions banc\u00E0ries poden modificar l'import final facturat al vostre compte."
+   },
+   "1362191621078934138": {
+      "message": "No hem pogut processar aquesta sol\u00B7licitud. La comanda s'ha cancel\u00B7lat autom\u00E0ticament i no se us far\u00E0 cap c\u00E0rrec per la compra. Torneu-ho a provar m\u00E9s tard."
+   },
+   "1408247765057411879": {
+      "message": "La targeta ha caducat."
+   },
+   "1465846685473775446": {
+      "message": "Pa\u00EDs"
+   },
+   "1623041851701577559": {
+      "message": "Sembla que aquest codi postal no coincideix amb la resta de l'adre\u00E7a."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B no es reconeix com a un valor conegut per a aquest camp."
+   },
+   "1710433699132727166": {
+      "message": "Seleccioneu una forma de pagament diferent per completar la vostra compra"
+   },
+   "1778481694021312420": {
+      "message": "No s'ha pogut iniciar la compra a causa d'un problema t\u00E8cnic."
+   },
+   "1828231775026606412": {
+      "message": "Seleccioneu un instrument de facturaci\u00F3."
+   },
+   "184964329731217200": {
+      "message": "Exemple: $3\u200B. No sabeu quin \u00E9s el vostre codi postal? Descobriu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nom"
+   },
+   "1911221012794788296": {
+      "message": "N\u00FAmero de targeta"
+   },
+   "195501871775480185": {
+      "message": "Parr\u00F2quia"
+   },
+   "1959457175344566910": {
+      "message": "Hi ha un error a la configuraci\u00F3 de la compra. Contacteu amb el comerciant per resoldre el problema."
+   },
+   "1960454644696014517": {
+      "message": "Sembla que el codi postal no coincideix amb l'adre\u00E7a."
+   },
+   "2033323276322498862": {
+      "message": "El n\u00FAmero de targeta de cr\u00E8dit no \u00E9s v\u00E0lid."
+   },
+   "2034494361870910998": {
+      "message": "No es reconeix el format d'aquest codi postal."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables{END_BOLD} el dia {START_BOLD}{DATE}{END_BOLD}.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada {FREQUENCY_UNIT_COUNT} mesos{END_BOLD} durant els propers {START_BOLD}{NUM_RECURRENCES_2} mesos{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada any{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada {FREQUENCY_UNIT_COUNT_2} anys{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}}"
+   },
+   "2847382170871301506": {
+      "message": "Aquest format de codi postal no es reconeix."
+   },
+   "2847737339885115125": {
+      "message": "Estat"
+   },
+   "2850460462496931023": {
+      "message": "No hem pogut verificar la informaci\u00F3 del vostre compte. Visiteu $2\u200Bwallet.google.com/manage$1\u200B per resoldre el problema."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B: rebutjat"
+   },
+   "2997291709564172031": {
+      "message": "Sembla que el codi postal no coincideix amb la resta de l'adre\u00E7a. No sabeu quin \u00E9s el vostre codi postal? Esbrineu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "El CVC no \u00E9s v\u00E0lid."
+   },
+   "3134831338223050412": {
+      "message": "Tanca"
+   },
+   "3167935320133055769": {
+      "message": "S'ha produ\u00EFt un problema."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Pa\u00EDs/regi\u00F3"
+   },
+   "3258279995976898903": {
+      "message": "Adre\u00E7a postal"
+   },
+   "3314408358311476388": {
+      "message": "Bescanvia la targeta regal o el codi promocional de Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Exemple: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "No es reconeix el format del codi postal. Exemple de codi postal v\u00E0lid: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "No s'ha pogut processar aquesta sol\u00B7licitud. Torneu-ho a provar m\u00E9s tard."
+   },
+   "3631100366179556676": {
+      "message": "Accepta i compra"
+   },
+   "3719225755450392126": {
+      "message": "La informaci\u00F3 de facturaci\u00F3 \u00E9s la mateixa que la ubicaci\u00F3 del domicili."
+   },
+   "3745637225460177011": {
+      "message": "Desa i continua"
+   },
+   "392637004226857303": {
+      "message": "Gr\u00E0cies per la vostra compra"
+   },
+   "4032878564184720978": {
+      "message": "He llegit i accepto les $2\u200BCondicions del servei$1\u200B."
+   },
+   "4081289954473604488": {
+      "message": "Nom"
+   },
+   "4172829093050641190": {
+      "message": "Ubicaci\u00F3 del domicili"
+   },
+   "419181302975727827": {
+      "message": "Accepta i continua"
+   },
+   "4263059013900008685": {
+      "message": "Informaci\u00F3 de facturaci\u00F3"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada mes{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada {FREQUENCY_UNIT_COUNT_2} mesos{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}}"
+   },
+   "4429302098472575216": {
+      "message": "Tanca"
+   },
+   "4634308040786352090": {
+      "message": "S'ha superat el temps d'espera de la sol\u00B7licitud de compra. Torneu-ho a provar."
+   },
+   "4750645007889628835": {
+      "message": "Aquest camp no es pot deixar en blanc."
+   },
+   "487772095106728308": {
+      "message": "Codi postal"
+   },
+   "5009369992123803733": {
+      "message": "S'ha produ\u00EFt un error a la configuraci\u00F3 de la compra. Contacteu amb el comerciant i indiqueu-li aquest missatge d'error:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "afegeix una l\u00EDnia"
+   },
+   "5191851017039683844": {
+      "message": "Cancel\u00B7la"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B: no hi ha prou fons disponibles"
+   },
+   "5375779080833659264": {
+      "message": "Compra"
+   },
+   "5408750669387206869": {
+      "message": "Fet"
+   },
+   "5455061473703313433": {
+      "message": "Municipi dependent"
+   },
+   "5693829359112864056": {
+      "message": "Comtat"
+   },
+   "5709243647038761785": {
+      "message": "S'ha rebutjat la targeta de cr\u00E8dit. Seleccioneu un altre m\u00E8tode de pagament o contacteu amb l'emissor de la targeta perqu\u00E8 autoritzi la compra."
+   },
+   "5731352514282693755": {
+      "message": "Malauradament, no hem pogut confirmar la vostra compra amb el servidor del comerciant. S'ha cancel\u00B7lat la vostra comanda. Si el problema continua, contacteu amb el comerciant."
+   },
+   "5775442217879920265": {
+      "message": "Reviseu la compra"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Heu d'indicar un codi postal, com ara $3\u200B. No sabeu quin \u00E9s el vostre codi postal? Esbrineu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Mes"
+   },
+   "5999277657241413253": {
+      "message": "Afegeix un m\u00E8tode de pagament nou"
+   },
+   "6060257219410469243": {
+      "message": "Sembla que el codi postal no coincideix amb la resta de l'adre\u00E7a. No sabeu quin \u00E9s el vostre codi postal? Esbrineu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Prov\u00EDncia"
+   },
+   "6223713516581400986": {
+      "message": "Heu d'indicar un codi postal, com ara $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B: m\u00E8tode de pagament no adm\u00E8s"
+   },
+   "6406068463830609732": {
+      "message": "S'ha cancel\u00B7lat la comanda perqu\u00E8 no podeu comprar els vostres propis articles."
+   },
+   "6441964001210288441": {
+      "message": "He llegit i accepto les condicions del $3\u200Bdocument de la Declaraci\u00F3 de divulgaci\u00F3 del producte/Condicions del servei$1\u200B i l'$4\u200BAv\u00EDs de privadesa$1\u200B de Google Wallet i accepto rebre'ls en l\u00EDnia."
+   },
+   "6643725951150665259": {
+      "message": "Barri"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada dia{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT_2} dies{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada dia{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada {FREQUENCY_UNIT_COUNT_2} dies{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE}{END_BOLD} el dia {START_BOLD}{DATE}{END_BOLD}.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT} mesos{END_BOLD} durant els propers {START_BOLD}{NUM_RECURRENCES_2} mesos{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Exemple: $3\u200B. No sabeu quin \u00E9s el vostre codi postal? Descobriu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departament"
+   },
+   "6940850784031726893": {
+      "message": "Envia'm ofertes especials, invitacions per proporcionar comentaris de producte i butlletins de not\u00EDcies de Google Wallet."
+   },
+   "6952974317491911390": {
+      "message": "No es reconeix el format del codi postal. Exemple de codi postal v\u00E0lid: $3\u200B. No sabeu quin \u00E9s el vostre codi postal? Esbrineu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Seleccioneu"
+   },
+   "7026703400430960720": {
+      "message": "Any"
+   },
+   "7041462460226543908": {
+      "message": "Illa"
+   },
+   "7134287411704210613": {
+      "message": "Codi postal"
+   },
+   "7201243556561197557": {
+      "message": "Heu completat una compra de $5\u200B$4\u200B$2\u200B. Se n'ha enviat un rebut detallat a $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Aquest camp no es pot deixar en blanc."
+   },
+   "7414801576887533495": {
+      "message": "Preu"
+   },
+   "748206580479839913": {
+      "message": "No s'ha pogut completar la compra a causa d'un problema t\u00E8cnic."
+   },
+   "7555701388564834489": {
+      "message": "Ciutat"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE}{END_BOLD} el dia {START_BOLD}{DATE}{END_BOLD}.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada mes{END_BOLD} durant els propers {START_BOLD}{NUM_RECURRENCES_2} mesos{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Total del pagament"
+   },
+   "7955094861997417068": {
+      "message": "Continua"
+   },
+   "7961358682448049092": {
+      "message": "Aquesta compra no es pot dur a terme a la vostra configuraci\u00F3 regional actual."
+   },
+   "8069103702517962649": {
+      "message": "Impostos"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B: caducat"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada mes{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT_2} mesos{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}}"
+   },
+   "8175465107894358488": {
+      "message": "Accepto les $3\u200BCondicions del servei$1\u200B de Google Wallet i he llegit l'$4\u200BAv\u00EDs de privadesa$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "No es reconeix el format del codi postal. Exemple de codi postal v\u00E0lid: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "No hem pogut processar aquesta sol\u00B7licitud. Qualsevol c\u00E0rrec es cancel\u00B7lar\u00E0 autom\u00E0ticament en un termini de 24 hores. Torneu-ho a provar d'aqu\u00ED a 24 hores."
+   },
+   "8401318454955949161": {
+      "message": "Total"
+   },
+   "8571469142225833639": {
+      "message": "Detalls de facturaci\u00F3"
+   },
+   "8636143988042581467": {
+      "message": "Urbanitzaci\u00F3"
+   },
+   "865452984547897019": {
+      "message": "Prefectura"
+   },
+   "8696254863055694906": {
+      "message": "Heu d'indicar un codi postal, com ara $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Creeu un compte de Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B: desactivat en funci\u00F3 de la vostra configuraci\u00F3 de pa\u00EDs"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada any{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT_2} anys{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD} fins que no cancel\u00B7leu la subscripci\u00F3.}}"
+   },
+   "8929214462880609574": {
+      "message": "Heu d'indicar un codi postal, com ara $3\u200B. No sabeu quin \u00E9s el vostre codi postal? Esbrineu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "S'ha pagat amb"
+   },
+   "8997532101299466079": {
+      "message": "Accepto les $3\u200BCondicions del servei$1\u200B i l'$4\u200BAv\u00EDs de privadesa$1\u200B de Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "Sembla que aquesta l\u00EDnia de l'adre\u00E7a cont\u00E9 un apartat de correus. Feu servir una adre\u00E7a postal."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables{END_BOLD} el dia {START_BOLD}{DATE}{END_BOLD}.}other{Se us carregar\u00E0 autom\u00E0ticament una quantitat de {START_BOLD}{PRICE} a m\u00E9s dels impostos aplicables cada mes{END_BOLD} durant els propers {START_BOLD}{NUM_RECURRENCES_2} mesos{END_BOLD} a partir del dia {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "No es reconeix el format del codi postal. Exemple de codi postal v\u00E0lid: $3\u200B. No sabeu quin \u00E9s el vostre codi postal? Esbrineu-lo $1\u200Baqu\u00ED$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "impost"
+   }
+}

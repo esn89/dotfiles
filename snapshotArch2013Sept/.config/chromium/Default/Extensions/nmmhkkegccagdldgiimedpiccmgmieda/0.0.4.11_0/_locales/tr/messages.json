@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Alan"
+   },
+   "1241217935227812429": {
+      "message": "\u00D6deme y\u00F6ntemi"
+   },
+   "1251555475707160311": {
+      "message": "Kur dalgalanmalar\u0131 ve banka \u00FCcretleri sizden al\u0131nan nihai \u00F6deme tutar\u0131n\u0131 etkileyebilir."
+   },
+   "1362191621078934138": {
+      "message": "Maalesef bu iste\u011Fi i\u015Fleme koyamad\u0131k. Sipari\u015F otomatik olarak iptal edildi ve sizden bu sat\u0131n alma i\u015Flemi i\u00E7in \u00F6deme al\u0131nmayacakt\u0131r. L\u00FCtfen tekrar deneyin."
+   },
+   "1408247765057411879": {
+      "message": "Kart\u0131n ge\u00E7erlilik s\u00FCresi doldu."
+   },
+   "1465846685473775446": {
+      "message": "\u00DClke"
+   },
+   "1623041851701577559": {
+      "message": "Bu posta kodu, bu adresin geri kalan\u0131yla e\u015Fle\u015Fiyormu\u015F gibi g\u00F6r\u00FCnm\u00FCyor."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B, bu alan i\u00E7in bilinen bir de\u011Fer olarak tan\u0131nmad\u0131."
+   },
+   "1710433699132727166": {
+      "message": "Sat\u0131n alma i\u015Fleminizi tamamlamak i\u00E7in l\u00FCtfen farkl\u0131 bir \u00F6deme \u015Fekli se\u00E7in"
+   },
+   "1778481694021312420": {
+      "message": "Teknik bir sorun nedeniyle sat\u0131n alma i\u015Fleminizi ba\u015Flatamad\u0131k."
+   },
+   "1828231775026606412": {
+      "message": "L\u00FCtfen bir faturaland\u0131rma arac\u0131 se\u00E7in."
+   },
+   "184964329731217200": {
+      "message": "\u00D6rnek: $3\u200B. Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "1909512393626136359": {
+      "message": "Ad"
+   },
+   "1911221012794788296": {
+      "message": "Kart numaras\u0131"
+   },
+   "195501871775480185": {
+      "message": "Mahalle"
+   },
+   "1959457175344566910": {
+      "message": "Sat\u0131n alma i\u015Fleminizin ayar\u0131nda bir hata olu\u015Ftu. L\u00FCtfen bu sorunla ilgili olarak sat\u0131c\u0131yla ba\u011Flant\u0131 kurun."
+   },
+   "1960454644696014517": {
+      "message": "Bu posta kodu, bu adresin geri kalan\u0131yla e\u015Fle\u015Fiyormu\u015F gibi g\u00F6r\u00FCnm\u00FCyor."
+   },
+   "2033323276322498862": {
+      "message": "Ge\u00E7ersiz kredi kart\u0131 numaras\u0131."
+   },
+   "2034494361870910998": {
+      "message": "Bu posta kodu bi\u00E7imi tan\u0131nmad\u0131."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinde, {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, gelecek {START_BOLD}{NUM_RECURRENCES_2} ay{END_BOLD} boyunca {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her {FREQUENCY_UNIT_COUNT} ayda bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{ {START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her y\u0131l{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her {FREQUENCY_UNIT_COUNT_2} y\u0131lda bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "2847382170871301506": {
+      "message": "Bu posta kodu bi\u00E7imi tan\u0131nmad\u0131."
+   },
+   "2847737339885115125": {
+      "message": "Eyalet"
+   },
+   "2850460462496931023": {
+      "message": "Hesap bilgilerinizi do\u011Frulayamad\u0131k. L\u00FCtfen bu sorunu \u00E7\u00F6zmek i\u00E7in $2\u200Bwallet.google.com/manage$1\u200B adresini ziyaret edin."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B - Reddedildi"
+   },
+   "2997291709564172031": {
+      "message": "Bu posta kodu, adresin geri kalan\u0131yla e\u015Fle\u015Fmiyor. Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "3007846166083888728": {
+      "message": "Ge\u00E7ersiz CVC."
+   },
+   "3134831338223050412": {
+      "message": "Kapat"
+   },
+   "3167935320133055769": {
+      "message": "Hata. Bir sorun olu\u015Ftu."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "\u00DClke / B\u00F6lge"
+   },
+   "3258279995976898903": {
+      "message": "Adres"
+   },
+   "3314408358311476388": {
+      "message": "Google Play Hediye Kart\u0131n\u0131 veya Tan\u0131t\u0131m Kodunu Kullan"
+   },
+   "3333007012173588619": {
+      "message": "\u00D6rnek: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Bu posta kodu bi\u00E7imi tan\u0131nmad\u0131. Ge\u00E7erli bir posta kodu \u00F6rne\u011Fi: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Maalesef, bu iste\u011Fi i\u015Fleme koyamad\u0131k. L\u00FCtfen daha sonra tekrar deneyin."
+   },
+   "3631100366179556676": {
+      "message": "Kabul Et ve Sat\u0131n Al"
+   },
+   "3719225755450392126": {
+      "message": "Fatura bilgileri ad ve ev adresiyle ayn\u0131"
+   },
+   "3745637225460177011": {
+      "message": "Kaydet ve devam et"
+   },
+   "392637004226857303": {
+      "message": "Al\u0131\u015Fveri\u015Finiz i\u00E7in te\u015Fekk\u00FCr ederiz"
+   },
+   "4032878564184720978": {
+      "message": "$2\u200BHizmet \u015Eartlar\u0131$1\u200B'n\u0131 okudum ve kabul ediyorum"
+   },
+   "4081289954473604488": {
+      "message": "Ad"
+   },
+   "4172829093050641190": {
+      "message": "Ev konumu"
+   },
+   "419181302975727827": {
+      "message": "Kabul et ve devam et"
+   },
+   "4263059013900008685": {
+      "message": "Fatura bilgileri"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her ay{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her {FREQUENCY_UNIT_COUNT_2} ayda bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "4429302098472575216": {
+      "message": "Kapat"
+   },
+   "4634308040786352090": {
+      "message": "Sat\u0131n alma iste\u011Finiz zaman a\u015F\u0131m\u0131na u\u011Frad\u0131. L\u00FCtfen sat\u0131n alma i\u015Fleminizi tekrar yapmay\u0131 deneyin."
+   },
+   "4750645007889628835": {
+      "message": "Bunu bo\u015F b\u0131rakamazs\u0131n\u0131z."
+   },
+   "487772095106728308": {
+      "message": "Posta kodu"
+   },
+   "5009369992123803733": {
+      "message": "Sat\u0131n alma i\u015Fleminizin ayar\u0131nda bir hata olu\u015Ftu. L\u00FCtfen sat\u0131c\u0131yla ba\u011Flant\u0131 kurup \u015Fu hata mesaj\u0131n\u0131 bildirin:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "sat\u0131r ekle"
+   },
+   "5191851017039683844": {
+      "message": "\u0130ptal"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B - Yetersiz bakiye"
+   },
+   "5375779080833659264": {
+      "message": "Sat\u0131n al"
+   },
+   "5408750669387206869": {
+      "message": "Tamamland\u0131"
+   },
+   "5455061473703313433": {
+      "message": "Ba\u011Fl\u0131 Yerel Birim"
+   },
+   "5693829359112864056": {
+      "message": "\u0130l\u00E7e"
+   },
+   "5709243647038761785": {
+      "message": "Kredi kart\u0131n\u0131z reddedildi. L\u00FCtfen ba\u015Fka bir \u00F6deme y\u00F6ntemi se\u00E7in veya bu sat\u0131n alma i\u015Flemini yetkilendirmesi i\u00E7in, kredi kart\u0131n\u0131z\u0131 veren kurulu\u015Fla ba\u011Flant\u0131 kurun."
+   },
+   "5731352514282693755": {
+      "message": "Maalesef sat\u0131n alma i\u015Fleminizi sat\u0131c\u0131n\u0131n sunucusuyla do\u011Frulayamad\u0131k. Sipari\u015Finiz iptal edildi. Bu sorun devam ederse l\u00FCtfen sat\u0131c\u0131yla ba\u011Flant\u0131 kurun."
+   },
+   "5775442217879920265": {
+      "message": "Sat\u0131n alma i\u015Fleminizi inceleyin"
+   },
+   "5883995280582852838": {
+      "message": "Emirlik"
+   },
+   "5891444382711799549": {
+      "message": "Bir posta kodu sa\u011Flamal\u0131s\u0131n\u0131z (\u00F6rne\u011Fin, $3\u200B). Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "5951460568046770023": {
+      "message": "Ay"
+   },
+   "5999277657241413253": {
+      "message": "Yeni bir \u00F6deme y\u00F6ntemi ekle"
+   },
+   "6060257219410469243": {
+      "message": "Bu posta kodu, adresin geri kalan\u0131yla e\u015Fle\u015Fmiyor. Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "6091224361698582930": {
+      "message": "Vilayet"
+   },
+   "6223713516581400986": {
+      "message": "Bir posta kodu sa\u011Flamal\u0131s\u0131n\u0131z (\u00F6rne\u011Fin, $1\u200B)."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B - Desteklenmeyen \u00F6deme y\u00F6ntemi"
+   },
+   "6406068463830609732": {
+      "message": "Kendinizden sat\u0131n alma yapamayaca\u011F\u0131n\u0131z i\u00E7in sipari\u015Finiz iptal edildi."
+   },
+   "6441964001210288441": {
+      "message": "Google C\u00FCzdan $3\u200B\u00DCr\u00FCn \u0130f\u015Fa Beyan\u0131n\u0131/Hizmet \u015Eartlar\u0131 Dok\u00FCman\u0131n\u0131$1\u200B ve $4\u200BGizlilik Uyar\u0131s\u0131$1\u200B'n\u0131 okuyup kabul ettim ve bunlar\u0131 \u00E7evrimi\u00E7i olarak almay\u0131 onayl\u0131yorum."
+   },
+   "6643725951150665259": {
+      "message": "B\u00F6lge"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her g\u00FCn{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her {FREQUENCY_UNIT_COUNT_2} g\u00FCnde bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her g\u00FCn{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her {FREQUENCY_UNIT_COUNT_2} g\u00FCnde bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinde {START_BOLD}{PRICE}{END_BOLD} tutar\u0131ndaki \u00F6deme hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, gelecek {START_BOLD}{NUM_RECURRENCES_2} ay{END_BOLD} boyunca {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her {FREQUENCY_UNIT_COUNT} ayda bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "687752267107884722": {
+      "message": "\u00D6rnek: $3\u200B. Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "6938228650978607653": {
+      "message": "B\u00F6l\u00FCm"
+   },
+   "6940850784031726893": {
+      "message": "Google C\u00FCzdan \u00F6zel tekliflerini, \u00FCr\u00FCn geri bildirimi sa\u011Flama davetiyelerini ve haber b\u00FCltenlerini almak istiyorum."
+   },
+   "6952974317491911390": {
+      "message": "Bu posta kodu bi\u00E7imi tan\u0131nmad\u0131. Ge\u00E7erli bir posta kodu \u00F6rne\u011Fi: $3\u200B. Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "6997118023159880890": {
+      "message": "L\u00FCtfen se\u00E7in"
+   },
+   "7026703400430960720": {
+      "message": "Y\u0131l"
+   },
+   "7041462460226543908": {
+      "message": "Ada"
+   },
+   "7134287411704210613": {
+      "message": "Posta kodu"
+   },
+   "7201243556561197557": {
+      "message": "$5\u200B$4\u200B$2\u200B adl\u0131 sat\u0131c\u0131dan sat\u0131n alma i\u015Flemi ger\u00E7ekle\u015Ftirdiniz. Ayr\u0131nt\u0131l\u0131 bir makbuz $6\u200B$1\u200B$2\u200B adresine g\u00F6nderilmi\u015Ftir."
+   },
+   "7295612354973086657": {
+      "message": "Bunu bo\u015F b\u0131rakamazs\u0131n\u0131z."
+   },
+   "7414801576887533495": {
+      "message": "Fiyat"
+   },
+   "748206580479839913": {
+      "message": "Teknik bir sorun nedeniyle sat\u0131n alma i\u015Fleminizi tamamlayamad\u0131k."
+   },
+   "7555701388564834489": {
+      "message": "\u015Eehir"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinde {START_BOLD}{PRICE}{END_BOLD} tutar\u0131ndaki \u00F6deme hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren gelecek {START_BOLD}{NUM_RECURRENCES_2} ay{END_BOLD} boyunca {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her ay{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Toplam \u00F6deme"
+   },
+   "7955094861997417068": {
+      "message": "Devam"
+   },
+   "7961358682448049092": {
+      "message": "Bu sat\u0131n alma i\u015Flemi mevcut yerel ayar\u0131n\u0131zda ger\u00E7ekle\u015Ftirilemez."
+   },
+   "8069103702517962649": {
+      "message": "Vergi"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B - Kullan\u0131m s\u00FCresi doldu"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her ay{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD}tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her {FREQUENCY_UNIT_COUNT_2} ayda bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "8175465107894358488": {
+      "message": "Google C\u00FCzdan $3\u200BHizmet \u015Eartlar\u0131$1\u200B'n\u0131 kabul ediyor ve $4\u200BGizlilik Uyar\u0131s\u0131$1\u200B'n\u0131 okudu\u011Fumu onayl\u0131yorum."
+   },
+   "8261307552167893934": {
+      "message": "Bu posta kodu bi\u00E7imi tan\u0131nmad\u0131. Ge\u00E7erli bir posta kodu \u00F6rne\u011Fi: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Maalesef bu iste\u011Fi i\u015Fleme koyamad\u0131k. \u00D6deme al\u0131nd\u0131ysa 24 saat i\u00E7inde otomatik olarak iptal edilecektir. L\u00FCtfen 24 saat sonra tekrar deneyin."
+   },
+   "8401318454955949161": {
+      "message": "Toplam"
+   },
+   "8571469142225833639": {
+      "message": "Fatura ayr\u0131nt\u0131lar\u0131"
+   },
+   "8636143988042581467": {
+      "message": "Banliy\u00F6"
+   },
+   "865452984547897019": {
+      "message": "Y\u00F6netim Birimi"
+   },
+   "8696254863055694906": {
+      "message": "Bir posta kodu sa\u011Flamal\u0131s\u0131n\u0131z (\u00F6rne\u011Fin, $1\u200B)."
+   },
+   "878912143203622849": {
+      "message": "Google C\u00FCzdan hesab\u0131 olu\u015Ftur"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B - \u00DClke ayarlar\u0131n\u0131za g\u00F6re devre d\u0131\u015F\u0131 b\u0131rak\u0131ld\u0131"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{ {START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her y\u0131l{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, aboneli\u011Finizi iptal edene kadar {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme her {FREQUENCY_UNIT_COUNT_2} y\u0131lda bir{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "8929214462880609574": {
+      "message": "Bir posta kodu sa\u011Flamal\u0131s\u0131n\u0131z (\u00F6rne\u011Fin, $3\u200B). Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "8951304378317814966": {
+      "message": "\u015Eununla \u00F6dendi:"
+   },
+   "8997532101299466079": {
+      "message": "Google C\u00FCzdan $3\u200BHizmet \u015Eartlar\u0131$1\u200B'n\u0131 ve $4\u200BGizlilik Uyar\u0131s\u0131$1\u200B'n\u0131 kabul ediyorum."
+   },
+   "9011575563787161706": {
+      "message": "Bu adres sat\u0131r\u0131n\u0131n bir posta kutusu i\u00E7erdi\u011Fi anla\u015F\u0131l\u0131yor. L\u00FCtfen bir sokak veya bina adresi kullan\u0131n."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} tarihinde {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}other{{START_BOLD}{DATE}{END_BOLD} tarihinden itibaren, gelecek {START_BOLD}{NUM_RECURRENCES_2} ay{END_BOLD} boyunca {START_BOLD}{PRICE} tutar\u0131ndaki \u00F6deme ve ayr\u0131ca ilgili vergiler her ay{END_BOLD} hesab\u0131n\u0131zdan otomatik olarak al\u0131nacakt\u0131r.}}"
+   },
+   "9088302330007274067": {
+      "message": "Bu posta kodu bi\u00E7imi tan\u0131nmad\u0131. Ge\u00E7erli bir posta kodu \u00F6rne\u011Fi: $3\u200B. Posta kodunuzu bilmiyor musunuz? $1\u200BBuradan$2\u200B bulabilirsiniz."
+   },
+   "9211202438445284903": {
+      "message": "vergi"
+   }
+}

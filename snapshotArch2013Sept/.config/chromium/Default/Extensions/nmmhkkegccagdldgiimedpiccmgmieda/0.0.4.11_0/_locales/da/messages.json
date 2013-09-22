@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Omr\u00E5de"
+   },
+   "1241217935227812429": {
+      "message": "Betalingsmetode"
+   },
+   "1251555475707160311": {
+      "message": "Kursudsving og bankgebyrer kan p\u00E5virke det bel\u00F8b, der i sidste ende debiteres."
+   },
+   "1362191621078934138": {
+      "message": "Vi beklager, men vi kunne ikke behandle denne anmodning. Ordren er automatisk blevet annulleret, og du debiteres ikke for k\u00F8bet. Pr\u00F8v igen senere."
+   },
+   "1408247765057411879": {
+      "message": "Kortet er udl\u00F8bet."
+   },
+   "1465846685473775446": {
+      "message": "Land"
+   },
+   "1623041851701577559": {
+      "message": "Det ser ikke ud til, at dette postnummer stemmer overens med resten af adressen."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B anerkendes ikke som en v\u00E6rdi for dette felt."
+   },
+   "1710433699132727166": {
+      "message": "V\u00E6lg en anden betalingsform for at fuldf\u00F8re dit k\u00F8b"
+   },
+   "1778481694021312420": {
+      "message": "Vi kunne ikke starte dit k\u00F8b p\u00E5 grund af et teknisk problem."
+   },
+   "1828231775026606412": {
+      "message": "V\u00E6lg en faktureringsmetode."
+   },
+   "184964329731217200": {
+      "message": "Eksempel: $3\u200B. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Navn"
+   },
+   "1911221012794788296": {
+      "message": "Kortnummer"
+   },
+   "195501871775480185": {
+      "message": "Sogn"
+   },
+   "1959457175344566910": {
+      "message": "Der er sket en fejl i ops\u00E6tningen af dit k\u00F8b. Kontakt s\u00E6lgeren om dette problem."
+   },
+   "1960454644696014517": {
+      "message": "Dette postnummer ser ikke ud til at passe til resten af denne adresse."
+   },
+   "2033323276322498862": {
+      "message": "Ugyldigt kreditkortnummer."
+   },
+   "2034494361870910998": {
+      "message": "Dette postnummerformat genkendes ikke."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter{END_BOLD} den {START_BOLD}{DATE}{END_BOLD}.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hver {FREQUENCY_UNIT_COUNT}. m\u00E5ned{END_BOLD} de n\u00E6ste {START_BOLD}{NUM_RECURRENCES_2} m\u00E5neder{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hvert \u00E5r{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hvert {FREQUENCY_UNIT_COUNT_2}. \u00E5r {END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}}"
+   },
+   "2847382170871301506": {
+      "message": "Dette postnummerformat genkendes ikke."
+   },
+   "2847737339885115125": {
+      "message": "Delstat"
+   },
+   "2850460462496931023": {
+      "message": "Vi kunne ikke bekr\u00E6fte dine kontooplysninger. G\u00E5 til $2\u200Bwallet.google.com/manage$1\u200B for at l\u00F8se dette problem."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 Afvist"
+   },
+   "2997291709564172031": {
+      "message": "Dette postnummer passer ikke til resten af denne adresse. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Ugyldigt CVC."
+   },
+   "3134831338223050412": {
+      "message": "Luk"
+   },
+   "3167935320133055769": {
+      "message": "Hov, der var et problem."
+   },
+   "3185642516695299369": {
+      "message": "Kontrolkode"
+   },
+   "3186233853946910538": {
+      "message": "Land/omr\u00E5de"
+   },
+   "3258279995976898903": {
+      "message": "Gadenavn"
+   },
+   "3314408358311476388": {
+      "message": "Indl\u00F8s gavekort eller promoveringskode til Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Eksempel: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Vi genkender ikke dette postnummerformat. Eksempel p\u00E5 et gyldigt postnummer: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Vi beklager, men vi kunne ikke behandle denne anmodning. Pr\u00F8v igen senere."
+   },
+   "3631100366179556676": {
+      "message": "Accept\u00E9r og k\u00F8b"
+   },
+   "3719225755450392126": {
+      "message": "Faktureringsoplysningerne er identiske med bop\u00E6len"
+   },
+   "3745637225460177011": {
+      "message": "Gem og forts\u00E6t"
+   },
+   "392637004226857303": {
+      "message": "Tak for dit k\u00F8b"
+   },
+   "4032878564184720978": {
+      "message": "Jeg har l\u00E6st og accepterer $2\u200Bservicevilk\u00E5rene$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Navn"
+   },
+   "4172829093050641190": {
+      "message": "Adresse"
+   },
+   "419181302975727827": {
+      "message": "Accept\u00E9r og forts\u00E6t"
+   },
+   "4263059013900008685": {
+      "message": "Faktureringsoplysninger"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hver m\u00E5ned{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hver {FREQUENCY_UNIT_COUNT_2}. m\u00E5ned{END_BOLD} med start den {START_BOLD} {DATE}{END_BOLD}, indtil du opsiger dit abonnement.}}"
+   },
+   "4429302098472575216": {
+      "message": "Luk"
+   },
+   "4634308040786352090": {
+      "message": "Din k\u00F8bsanmodning fik timeout. Pr\u00F8v at foretage dit k\u00F8b igen."
+   },
+   "4750645007889628835": {
+      "message": "Dette felt skal udfyldes."
+   },
+   "487772095106728308": {
+      "message": "Postnummer"
+   },
+   "5009369992123803733": {
+      "message": "Der er sket en fejl i ops\u00E6tningen af dit k\u00F8b. Kontakt s\u00E6lgeren vedr\u00F8rende denne fejlmeddelelse:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "tilf\u00F8j linje"
+   },
+   "5191851017039683844": {
+      "message": "Annuller"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 Utilstr\u00E6kkelige midler til r\u00E5dighed"
+   },
+   "5375779080833659264": {
+      "message": "K\u00F8b"
+   },
+   "5408750669387206869": {
+      "message": "F\u00E6rdig"
+   },
+   "5455061473703313433": {
+      "message": "Lokalomr\u00E5de"
+   },
+   "5693829359112864056": {
+      "message": "County"
+   },
+   "5709243647038761785": {
+      "message": "Dit kreditkort blev afvist. V\u00E6lg en anden betalingsmetode, eller kontakt din kreditkortudsteder for at f\u00E5 godkendt dette k\u00F8b."
+   },
+   "5731352514282693755": {
+      "message": "Vi kunne desv\u00E6rre ikke bekr\u00E6fte dit k\u00F8b med s\u00E6lgerens server. Din ordre er blevet annulleret. Kontakt s\u00E6lgeren, hvis problemet forts\u00E6tter."
+   },
+   "5775442217879920265": {
+      "message": "Gennemg\u00E5 dit k\u00F8b"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Du skal angive et postnummer s\u00E5som $3\u200B. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "M\u00E5ned"
+   },
+   "5999277657241413253": {
+      "message": "Tilf\u00F8j en ny betalingsmetode"
+   },
+   "6060257219410469243": {
+      "message": "Dette postnummer passer ikke til resten af denne adresse. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provins"
+   },
+   "6223713516581400986": {
+      "message": "Du skal angive et postnummer s\u00E5som $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 Ikke-underst\u00F8ttet betalingsmetode"
+   },
+   "6406068463830609732": {
+      "message": "Din ordre blev annulleret, fordi du ikke kan k\u00F8be fra dig selv."
+   },
+   "6441964001210288441": {
+      "message": "Jeg har l\u00E6st og accepterer vilk\u00E5rene i $3\u200Bprodukterkl\u00E6ringen/dokumentet med servicevilk\u00E5rene$1\u200B og $4\u200Bbem\u00E6rkningerne om beskyttelse af personlige oplysninger$1\u200B for Google Wallet, og jeg accepterer desuden at modtage denne dokumentation via nettet."
+   },
+   "6643725951150665259": {
+      "message": "Distrikt"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hver dag{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hver {FREQUENCY_UNIT_COUNT_2}. dag{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hver dag{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hver {FREQUENCY_UNIT_COUNT_2}. dag{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE}{END_BOLD} den {START_BOLD}{DATE}{END_BOLD}.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hver {FREQUENCY_UNIT_COUNT}. m\u00E5ned{END_BOLD} de n\u00E6ste {START_BOLD}{NUM_RECURRENCES_2} m\u00E5neder{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Eksempel: $3\u200B. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departement"
+   },
+   "6940850784031726893": {
+      "message": "Send mig s\u00E6rtilbud fra Google Wallet, invitationer til at give produktfeedback og nyhedsbreve."
+   },
+   "6952974317491911390": {
+      "message": "Vi kan ikke genkende dette postnummerformat. Eksempel p\u00E5 et gyldigt postnummer: $3\u200B. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "V\u00E6lg"
+   },
+   "7026703400430960720": {
+      "message": "\u00C5r"
+   },
+   "7041462460226543908": {
+      "message": "\u00D8"
+   },
+   "7134287411704210613": {
+      "message": "Postnummer"
+   },
+   "7201243556561197557": {
+      "message": "Du har k\u00F8bt en vare af $5\u200B$4\u200B$2\u200B. Der er sendt en detaljeret kvittering til $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Dette felt skal udfyldes."
+   },
+   "7414801576887533495": {
+      "message": "Pris"
+   },
+   "748206580479839913": {
+      "message": "Vi kunne ikke gennemf\u00F8re dit k\u00F8b p\u00E5 grund af et teknisk problem."
+   },
+   "7555701388564834489": {
+      "message": "By"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE}{END_BOLD} den {START_BOLD}{DATE}{END_BOLD}.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hver m\u00E5ned{END_BOLD} de n\u00E6ste {START_BOLD}{NUM_RECURRENCES_2} m\u00E5neder {END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Betalt i alt"
+   },
+   "7955094861997417068": {
+      "message": "Forts\u00E6t"
+   },
+   "7961358682448049092": {
+      "message": "Dette k\u00F8b kan ikke udf\u00F8res i dit nuv\u00E6rende omr\u00E5de."
+   },
+   "8069103702517962649": {
+      "message": "Skat"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 Udl\u00F8bet"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hver m\u00E5ned{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hver {FREQUENCY_UNIT_COUNT_2}. m\u00E5ned{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger din abonnement.}}"
+   },
+   "8175465107894358488": {
+      "message": "Jeg accepterer $3\u200Bservicevilk\u00E5rene$1\u200B\u00A0for Google Wallet og har l\u00E6st $4\u200Bbem\u00E6rkningerne om beskyttelse af personlige oplysninger$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Vi kan ikke genkende dette postnummer. Eksempel p\u00E5 et gyldigt postnummer: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Vi beklager, men vi kunne ikke behandle denne anmodning. Alle debiteringer annulleres automatisk inden for 24 timer. Pr\u00F8v igen efter 24 timer."
+   },
+   "8401318454955949161": {
+      "message": "I alt"
+   },
+   "8571469142225833639": {
+      "message": "Faktureringsoplysninger"
+   },
+   "8636143988042581467": {
+      "message": "Forstad"
+   },
+   "865452984547897019": {
+      "message": "Pr\u00E6fektur"
+   },
+   "8696254863055694906": {
+      "message": "Du skal angive et postnummer s\u00E5som $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Konfigurer Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 Deaktiveret p\u00E5 grund af dine landeindstillinger"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hvert \u00E5r{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} hvert {FREQUENCY_UNIT_COUNT_2}. \u00E5r{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}, indtil du opsiger dit abonnement.}}"
+   },
+   "8929214462880609574": {
+      "message": "Du skal angive et postnummer s\u00E5som $3\u200B. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Betalt med"
+   },
+   "8997532101299466079": {
+      "message": "Jeg accepterer $3\u200Bservicevilk\u00E5rene$1\u200B og $4\u200Bbem\u00E6rkningerne om beskyttelse af personlige oplysninger$1\u200B for Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "Adresselinjen ser ud til at indeholde en postboks. Angiv en adresse p\u00E5 en vej eller bygning."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter{END_BOLD} den {START_BOLD}{DATE}{END_BOLD}.}other{Du vil automatisk blive debiteret {START_BOLD}{PRICE} plus eventuelle skatter hver m\u00E5ned{END_BOLD} de n\u00E6ste {START_BOLD}{NUM_RECURRENCES_2} m\u00E5neder{END_BOLD} med start den {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Vi genkender ikke dette postnummerformat. Eksempel p\u00E5 et gyldigt postnummer: $3\u200B. Kender du ikke dit postnummer? Find det $1\u200Bher$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "skat"
+   }
+}

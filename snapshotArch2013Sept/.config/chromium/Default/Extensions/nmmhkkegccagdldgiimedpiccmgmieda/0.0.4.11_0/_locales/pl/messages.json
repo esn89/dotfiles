@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Obszar"
+   },
+   "1241217935227812429": {
+      "message": "Metoda p\u0142atno\u015Bci"
+   },
+   "1251555475707160311": {
+      "message": "Wahania kurs\u00F3w i op\u0142aty bankowe mog\u0105 wp\u0142yn\u0105\u0107 na ostateczn\u0105 kwot\u0119 obci\u0105\u017Cenia."
+   },
+   "1362191621078934138": {
+      "message": "Nie uda\u0142o si\u0119 przetworzy\u0107 tego \u017C\u0105dania. Zam\u00F3wienie zosta\u0142o automatycznie anulowane i nie zap\u0142acisz za ten zakup. Spr\u00F3buj ponownie p\u00F3\u017Aniej."
+   },
+   "1408247765057411879": {
+      "message": "Karta utraci\u0142a wa\u017Cno\u015B\u0107."
+   },
+   "1465846685473775446": {
+      "message": "Kraj"
+   },
+   "1623041851701577559": {
+      "message": "Ten kod pocztowy nie pasuje do reszty podanego adresu."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B nie jest rozpoznawaln\u0105 warto\u015Bci\u0105 dla tego pola."
+   },
+   "1710433699132727166": {
+      "message": "Wybierz inn\u0105 form\u0119 p\u0142atno\u015Bci, by sfinalizowa\u0107 zakup"
+   },
+   "1778481694021312420": {
+      "message": "Nie mogli\u015Bmy rozpocz\u0105\u0107 Twoich zakup\u00F3w z powodu problemu technicznego."
+   },
+   "1828231775026606412": {
+      "message": "Wybierz instrument p\u0142atniczy."
+   },
+   "184964329731217200": {
+      "message": "Przyk\u0142ad: $3\u200B. Nie znasz swojego kodu pocztowego? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Imi\u0119 i nazwisko"
+   },
+   "1911221012794788296": {
+      "message": "Numer karty"
+   },
+   "195501871775480185": {
+      "message": "Parafia"
+   },
+   "1959457175344566910": {
+      "message": "Podczas przygotowywania zakupu wyst\u0105pi\u0142 b\u0142\u0105d. Skontaktuj si\u0119 w tej sprawie ze sprzedawc\u0105."
+   },
+   "1960454644696014517": {
+      "message": "Ten kod pocztowy nie pasuje do reszty podanego adresu."
+   },
+   "2033323276322498862": {
+      "message": "Numer karty kredytowej jest nieprawid\u0142owy."
+   },
+   "2034494361870910998": {
+      "message": "Nie mo\u017Cna rozpozna\u0107 tego formatu kodu pocztowego."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatycznie pobierzemy op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek){END_BOLD} w dniu {START_BOLD}{DATE}{END_BOLD}.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT} miesi\u0105ce{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ce(y){END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT} miesi\u0119cy{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ca(y){END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT} miesi\u0105ca{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ca(y){END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co rok{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} lata{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} lat{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} roku{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}}"
+   },
+   "2847382170871301506": {
+      "message": "Nie mo\u017Cna rozpozna\u0107 tego formatu kodu pocztowego."
+   },
+   "2847737339885115125": {
+      "message": "Stan lub wojew\u00F3dztwo"
+   },
+   "2850460462496931023": {
+      "message": "Nie uda\u0142o si\u0119 zweryfikowa\u0107 informacji o Twoim koncie. Aby rozwi\u0105za\u0107 ten problem, wejd\u017A na $2\u200Bwallet.google.com/manage$1\u200B."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 odrzucono"
+   },
+   "2997291709564172031": {
+      "message": "Wygl\u0105da na to, \u017Ce ten kod pocztowy nie pasuje do reszty adresu. Nie znasz swojego kodu? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Kod CVC jest nieprawid\u0142owy."
+   },
+   "3134831338223050412": {
+      "message": "Zamknij"
+   },
+   "3167935320133055769": {
+      "message": "Ups. Wyst\u0105pi\u0142 problem."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Kraj lub region"
+   },
+   "3258279995976898903": {
+      "message": "Adres"
+   },
+   "3314408358311476388": {
+      "message": "Wykorzystaj kod karty upominkowej Google Play lub kod promocyjny"
+   },
+   "3333007012173588619": {
+      "message": "Przyk\u0142ad: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Format kodu pocztowego nie zosta\u0142 rozpoznany. Prawid\u0142owy kod ma posta\u0107: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Nie uda\u0142o si\u0119 zrealizowa\u0107 \u017C\u0105dania. Spr\u00F3buj ponownie p\u00F3\u017Aniej."
+   },
+   "3631100366179556676": {
+      "message": "Zaakceptuj i kup"
+   },
+   "3719225755450392126": {
+      "message": "Informacje rozliczeniowe s\u0105 takie same jak adres domowy"
+   },
+   "3745637225460177011": {
+      "message": "Zapisz i kontynuuj"
+   },
+   "392637004226857303": {
+      "message": "Dzi\u0119kujemy za zakup."
+   },
+   "4032878564184720978": {
+      "message": "Znam i akceptuj\u0119 $2\u200BWarunki korzystania z us\u0142ugi$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Imi\u0119 i nazwisko"
+   },
+   "4172829093050641190": {
+      "message": "Adres zamieszkania"
+   },
+   "419181302975727827": {
+      "message": "Zaakceptuj i kontynuuj"
+   },
+   "4263059013900008685": {
+      "message": "Informacje rozliczeniowe"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co miesi\u0105c{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} miesi\u0105ce{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} miesi\u0119cy{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} miesi\u0105ca{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}}"
+   },
+   "4429302098472575216": {
+      "message": "Zamknij"
+   },
+   "4634308040786352090": {
+      "message": "Up\u0142yn\u0105\u0142 limit czasu \u017C\u0105dania zakupu. Spr\u00F3buj jeszcze raz."
+   },
+   "4750645007889628835": {
+      "message": "Nie mo\u017Cesz zostawi\u0107 tego pola pustego."
+   },
+   "487772095106728308": {
+      "message": "Kod pocztowy"
+   },
+   "5009369992123803733": {
+      "message": "Podczas przygotowywania zakupu wyst\u0105pi\u0142 b\u0142\u0105d. Skontaktuj si\u0119 ze sprzedawc\u0105 i przeka\u017C mu ten komunikat o b\u0142\u0119dzie:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "dodaj wiersz"
+   },
+   "5191851017039683844": {
+      "message": "Anuluj"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 niewystarczaj\u0105ce dost\u0119pne \u015Brodki"
+   },
+   "5375779080833659264": {
+      "message": "Kup"
+   },
+   "5408750669387206869": {
+      "message": "Gotowe"
+   },
+   "5455061473703313433": {
+      "message": "Dzielnica"
+   },
+   "5693829359112864056": {
+      "message": "Hrabstwo"
+   },
+   "5709243647038761785": {
+      "message": "Twoja karta kredytowa zosta\u0142a odrzucona. Wybierz inn\u0105 metod\u0119 p\u0142atno\u015Bci lub skontaktuj si\u0119 z jej wystawc\u0105, by autoryzowa\u0107 zakup."
+   },
+   "5731352514282693755": {
+      "message": "Nie uda\u0142o si\u0119 potwierdzi\u0107 Twojego zakupu z serwerem sprzedawcy. Twoje zam\u00F3wienie zosta\u0142o anulowane. Je\u015Bli problem b\u0119dzie dalej wyst\u0119powa\u0107, skontaktuj si\u0119 ze sprzedawc\u0105."
+   },
+   "5775442217879920265": {
+      "message": "Informacje o zakupie"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Musisz poda\u0107 kod pocztowy, na przyk\u0142ad $3\u200B. Nie znasz swojego kodu? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Miesi\u0105c"
+   },
+   "5999277657241413253": {
+      "message": "Dodaj now\u0105 metod\u0119 p\u0142atno\u015Bci"
+   },
+   "6060257219410469243": {
+      "message": "Wygl\u0105da na to, \u017Ce ten kod pocztowy nie pasuje do reszty adresu. Nie znasz swojego kodu? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Okr\u0119g"
+   },
+   "6223713516581400986": {
+      "message": "Musisz poda\u0107 kod pocztowy, na przyk\u0142ad $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 nieobs\u0142ugiwana metoda p\u0142atno\u015Bci"
+   },
+   "6406068463830609732": {
+      "message": "Twoje zam\u00F3wienie zosta\u0142o anulowane, poniewa\u017C nie mo\u017Cesz kupowa\u0107 od siebie."
+   },
+   "6441964001210288441": {
+      "message": "Znam i akceptuj\u0119 tre\u015B\u0107 $3\u200BO\u015Bwiadczenia o ujawnieniu produktu/Warunk\u00F3w us\u0142ugi$1\u200B oraz $4\u200BPolityki prywatno\u015Bci$1\u200B Portfela Google i zgadzam si\u0119 na otrzymanie tych dokument\u00F3w online."
+   },
+   "6643725951150665259": {
+      "message": "Dystrykt"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} codziennie{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} dnia{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) codziennie{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co {FREQUENCY_UNIT_COUNT_2} dnia{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatycznie pobierzemy op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE}{END_BOLD} w dniu {START_BOLD}{DATE}{END_BOLD}.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT} miesi\u0105ce{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ce(y){END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT} miesi\u0119cy{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ce(y){END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT} miesi\u0105ca{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ce(y),{END_BOLD} pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Przyk\u0142ad: $3\u200B. Nie znasz swojego kodu pocztowego? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departament"
+   },
+   "6940850784031726893": {
+      "message": "Chc\u0119 dostawa\u0107 oferty specjalne, zaproszenia do dzielenia si\u0119 opini\u0105 o us\u0142udze i newslettery z Portfela Google."
+   },
+   "6952974317491911390": {
+      "message": "Format kodu pocztowego nie zosta\u0142 rozpoznany. Prawid\u0142owy kod ma posta\u0107: $3\u200B. Nie znasz swojego kodu? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Wybierz"
+   },
+   "7026703400430960720": {
+      "message": "Rok"
+   },
+   "7041462460226543908": {
+      "message": "Wyspa"
+   },
+   "7134287411704210613": {
+      "message": "Kod pocztowy"
+   },
+   "7201243556561197557": {
+      "message": "Dokona\u0142e\u015B zakupu u sprzedawcy $5\u200B$4\u200B$2\u200B. Szczeg\u00F3\u0142owe potwierdzenie zosta\u0142o wys\u0142ane na $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "To pole nie mo\u017Ce pozosta\u0107 puste."
+   },
+   "7414801576887533495": {
+      "message": "Cena"
+   },
+   "748206580479839913": {
+      "message": "Nie mogli\u015Bmy sfinalizowa\u0107 Twojego zakupu z powodu problemu technicznego."
+   },
+   "7555701388564834489": {
+      "message": "Miejscowo\u015B\u0107"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatycznie pobierzemy op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE}{END_BOLD} w dniu {START_BOLD}{DATE}{END_BOLD}.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co miesi\u0105c{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ce{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co miesi\u0105c{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0119cy{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co miesi\u0105c{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ca{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "\u0141\u0105czna zap\u0142acona kwota"
+   },
+   "7955094861997417068": {
+      "message": "Kontynuuj"
+   },
+   "7961358682448049092": {
+      "message": "Nie mo\u017Cesz dokona\u0107 tego zakupu w bie\u017C\u0105cej lokalizacji."
+   },
+   "8069103702517962649": {
+      "message": "Podatek"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 wa\u017Cno\u015B\u0107 wygas\u0142a"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co miesi\u0105c{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} miesi\u0105ce{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} miesi\u0119cy{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} miesi\u0105ca{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}}"
+   },
+   "8175465107894358488": {
+      "message": "Akceptuj\u0119 $3\u200BWarunki us\u0142ugi$1\u200B i znam tre\u015B\u0107 $4\u200BInformacji na temat ochrony prywatno\u015Bci$1\u200B w Portfelu Google."
+   },
+   "8261307552167893934": {
+      "message": "Format kodu pocztowego nie zosta\u0142 rozpoznany. Prawid\u0142owy kod ma posta\u0107: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Nie uda\u0142o si\u0119 przetworzy\u0107 tego \u017C\u0105dania. Wszelkie obci\u0105\u017Cenia zostan\u0105 automatycznie anulowane w ci\u0105gu 24 godzin. Spr\u00F3buj ponownie po 24 godzinach."
+   },
+   "8401318454955949161": {
+      "message": "\u0141\u0105cznie"
+   },
+   "8571469142225833639": {
+      "message": "Szczeg\u00F3\u0142y p\u0142atno\u015Bci"
+   },
+   "8636143988042581467": {
+      "message": "Przedmie\u015Bcie"
+   },
+   "865452984547897019": {
+      "message": "Prefektura"
+   },
+   "8696254863055694906": {
+      "message": "Musisz poda\u0107 kod pocztowy, na przyk\u0142ad $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Skonfiguruj Portfel Google"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 instrument wy\u0142\u0105czony na podstawie ustawie\u0144 kraju"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co rok{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} lata{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} lat{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} co {FREQUENCY_UNIT_COUNT_2} roku{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD} do momentu anulowania przez Ciebie subskrypcji.}}"
+   },
+   "8929214462880609574": {
+      "message": "Musisz poda\u0107 kod pocztowy, na przyk\u0142ad $3\u200B. Nie znasz swojego kodu? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Metoda p\u0142atno\u015Bci"
+   },
+   "8997532101299466079": {
+      "message": "Akceptuj\u0119 $3\u200BWarunki us\u0142ugi$1\u200B i $4\u200BInformacje na temat ochrony prywatno\u015Bci$1\u200B w Portfelu Google."
+   },
+   "9011575563787161706": {
+      "message": "Ten wiersz adresu zawiera numer skrytki pocztowej. Podaj sw\u00F3j adres zamieszkania."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatycznie pobierzemy op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek){END_BOLD} w dniu {START_BOLD}{DATE}{END_BOLD}.}few{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co miesi\u0105c{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ce{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}many{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co miesi\u0105c{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0119cy{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}other{B\u0119dziemy automatycznie pobiera\u0107 op\u0142at\u0119 w wysoko\u015Bci {START_BOLD}{PRICE} (powi\u0119kszon\u0105 o nale\u017Cny podatek) co miesi\u0105c{END_BOLD} przez kolejne {START_BOLD}{NUM_RECURRENCES_2} miesi\u0105ca{END_BOLD}, pocz\u0105wszy od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Format kodu pocztowego nie zosta\u0142 rozpoznany. Prawid\u0142owy kod ma posta\u0107: $3\u200B. Nie znasz swojego kodu? Znajdziesz go $1\u200Btutaj$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "podatek"
+   }
+}

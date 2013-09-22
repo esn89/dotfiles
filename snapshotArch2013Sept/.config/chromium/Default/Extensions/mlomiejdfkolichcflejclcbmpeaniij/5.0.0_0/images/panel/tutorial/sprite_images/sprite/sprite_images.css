@@ -1,0 +1,17 @@
+/* glue: 0.3 hash: 42330e5bf6 */
+.close_off,
+.close:hover,
+.arrow_right_off,
+.arrow_right:hover,
+.arrow_left_off,
+.arrow_left:hover,
+.control_on,
+.control_off{background-image:url('sprite_images.png');background-repeat:no-repeat}
+.close_off{background-position:-20px -20px;width:20px;height:20px;}
+.close:hover{background-position:-80px -20px;width:20px;height:20px;}
+.arrow_right_off{background-position:-140px -20px;width:8px;height:12px;}
+.arrow_right:hover{background-position:-188px -20px;width:8px;height:12px;}
+.arrow_left_off{background-position:-236px -20px;width:8px;height:12px;}
+.arrow_left:hover{background-position:-284px -20px;width:8px;height:12px;}
+.control_on{background-position:-332px -20px;width:7px;height:7px;}
+.control_off{background-position:-379px -20px;width:7px;height:7px;}

@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "\u00C1rea"
+   },
+   "1241217935227812429": {
+      "message": "M\u00E9todo de pago"
+   },
+   "1251555475707160311": {
+      "message": "Las fluctuaciones monetarias y las comisiones bancarias pueden modificar el importe final que se le cobrar\u00E1."
+   },
+   "1362191621078934138": {
+      "message": "No hemos podido procesar esta solicitud. El pedido se ha cancelado de forma autom\u00E1tica y no se le aplicar\u00E1 ning\u00FAn cargo por la compra. Vuelva a intentarlo m\u00E1s tarde."
+   },
+   "1408247765057411879": {
+      "message": "Tarjeta caducada."
+   },
+   "1465846685473775446": {
+      "message": "Pa\u00EDs"
+   },
+   "1623041851701577559": {
+      "message": "Parece que este c\u00F3digo postal no coincide con el resto de la direcci\u00F3n."
+   },
+   "1663057945455945792": {
+      "message": "No se reconoce $1\u200B como un valor conocido para este campo."
+   },
+   "1710433699132727166": {
+      "message": "Seleccione otro m\u00E9todo de pago para finalizar su compra"
+   },
+   "1778481694021312420": {
+      "message": "No se ha podido iniciar la compra debido a una incidencia t\u00E9cnica."
+   },
+   "1828231775026606412": {
+      "message": "Seleccione un m\u00E9todo de facturaci\u00F3n."
+   },
+   "184964329731217200": {
+      "message": "Ejemplo: $3\u200B. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nombre"
+   },
+   "1911221012794788296": {
+      "message": "N\u00FAmero de tarjeta"
+   },
+   "195501871775480185": {
+      "message": "Circunscripci\u00F3n"
+   },
+   "1959457175344566910": {
+      "message": "Se ha producido un error en la configuraci\u00F3n de la compra. P\u00F3ngase en contacto con el comerciante para solucionar esta incidencia."
+   },
+   "1960454644696014517": {
+      "message": "Parece que este c\u00F3digo postal no coincide con el resto de la direcci\u00F3n."
+   },
+   "2033323276322498862": {
+      "message": "N\u00FAmero de tarjeta de cr\u00E9dito no v\u00E1lido."
+   },
+   "2034494361870910998": {
+      "message": "No se reconoce este formato de c\u00F3digo postal."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables{END_BOLD} el {START_BOLD}{DATE}{END_BOLD}.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables cada {FREQUENCY_UNIT_COUNT} meses{END_BOLD} durante los pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables anualmente{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables cada {FREQUENCY_UNIT_COUNT_2} a\u00F1os{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}}"
+   },
+   "2847382170871301506": {
+      "message": "No se reconoce este formato de c\u00F3digo postal."
+   },
+   "2847737339885115125": {
+      "message": "Estado"
+   },
+   "2850460462496931023": {
+      "message": "No hemos podido verificar la informaci\u00F3n de su cuenta. Acceda a la p\u00E1gina $2\u200Bwallet.google.com/manage$1\u200B para solucionar esta incidencia."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B: se ha rechazado"
+   },
+   "2997291709564172031": {
+      "message": "Parece que este c\u00F3digo postal no coincide con el resto de la direcci\u00F3n. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "El c\u00F3digo CVC no es v\u00E1lido."
+   },
+   "3134831338223050412": {
+      "message": "Cerrar"
+   },
+   "3167935320133055769": {
+      "message": "Vaya, se ha producido una incidencia"
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Pa\u00EDs/Regi\u00F3n"
+   },
+   "3258279995976898903": {
+      "message": "Direcci\u00F3n postal"
+   },
+   "3314408358311476388": {
+      "message": "Canjear c\u00F3digo promocional o tarjeta regalo de Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Ejemplo: $1\u200B"
+   },
+   "3379667388042421701": {
+      "message": "No se reconoce este formato de c\u00F3digo postal. Ejemplo de c\u00F3digo postal v\u00E1lido: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "No hemos podido procesar esta solicitud. Int\u00E9ntelo de nuevo m\u00E1s tarde."
+   },
+   "3631100366179556676": {
+      "message": "Aceptar y comprar"
+   },
+   "3719225755450392126": {
+      "message": "La informaci\u00F3n de facturaci\u00F3n coincide con la ubicaci\u00F3n del domicilio"
+   },
+   "3745637225460177011": {
+      "message": "Guardar y continuar"
+   },
+   "392637004226857303": {
+      "message": "Gracias por su compra"
+   },
+   "4032878564184720978": {
+      "message": "He le\u00EDdo y acepto las $2\u200BCondiciones de servicio$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Nombre"
+   },
+   "4172829093050641190": {
+      "message": "Direcci\u00F3n particular"
+   },
+   "419181302975727827": {
+      "message": "Aceptar y continuar"
+   },
+   "4263059013900008685": {
+      "message": "Informaci\u00F3n de facturaci\u00F3n"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables mensualmente{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables cada {FREQUENCY_UNIT_COUNT_2} meses{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}}"
+   },
+   "4429302098472575216": {
+      "message": "Cerrar"
+   },
+   "4634308040786352090": {
+      "message": "Se ha agotado el tiempo de espera de la solicitud. Intente volver a realizar la compra."
+   },
+   "4750645007889628835": {
+      "message": "No puede dejar este campo en blanco."
+   },
+   "487772095106728308": {
+      "message": "C\u00F3digo postal"
+   },
+   "5009369992123803733": {
+      "message": "Se ha producido un error en la configuraci\u00F3n de la compra. P\u00F3ngase en contacto con el comerciante e ind\u00EDquele el siguiente mensaje de error:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "a\u00F1adir l\u00EDnea"
+   },
+   "5191851017039683844": {
+      "message": "Cancelar"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B: no dispone de fondos suficientes"
+   },
+   "5375779080833659264": {
+      "message": "Comprar"
+   },
+   "5408750669387206869": {
+      "message": "Listo"
+   },
+   "5455061473703313433": {
+      "message": "\u00C1rea dependiente"
+   },
+   "5693829359112864056": {
+      "message": "Condado"
+   },
+   "5709243647038761785": {
+      "message": "Se ha rechazado su tarjeta de cr\u00E9dito. Seleccione otro m\u00E9todo de pago o p\u00F3ngase en contacto con la entidad emisora de su tarjeta de cr\u00E9dito para autorizar esta compra."
+   },
+   "5731352514282693755": {
+      "message": "Lamentablemente, no hemos podido confirmar la compra con el servidor del comerciante. Se ha cancelado su pedido. Si la incidencia persiste, p\u00F3ngase en contacto con el comerciante."
+   },
+   "5775442217879920265": {
+      "message": "Detalles de la compra"
+   },
+   "5883995280582852838": {
+      "message": "Emirato"
+   },
+   "5891444382711799549": {
+      "message": "Debe proporcionar un c\u00F3digo postal como, por ejemplo, $3\u200B. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Mes"
+   },
+   "5999277657241413253": {
+      "message": "A\u00F1adir un nuevo m\u00E9todo de pago"
+   },
+   "6060257219410469243": {
+      "message": "Parece que este c\u00F3digo postal no coincide con el resto de la direcci\u00F3n. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provincia"
+   },
+   "6223713516581400986": {
+      "message": "Debe proporcionar un c\u00F3digo postal como, por ejemplo, $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B: m\u00E9todo de pago no admitido"
+   },
+   "6406068463830609732": {
+      "message": "Su pedido se ha cancelado porque no puede comprar sus propios art\u00EDculos."
+   },
+   "6441964001210288441": {
+      "message": "He le\u00EDdo y acepto los t\u00E9rminos de la $3\u200BDeclaraci\u00F3n de divulgaci\u00F3n de productos/el Documento de condiciones de servicio$1\u200B y el $4\u200BAviso de privacidad$1\u200B de Google Wallet y acepto recibirlos online."
+   },
+   "6643725951150665259": {
+      "message": "Distrito"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} diariamente{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT_2} d\u00EDas{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables diariamente{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables cada {FREQUENCY_UNIT_COUNT_2} d\u00EDas{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE}{END_BOLD} el {START_BOLD}{DATE}{END_BOLD}.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT} meses{END_BOLD} durante los pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Ejemplo: $3\u200B. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B"
+   },
+   "6938228650978607653": {
+      "message": "Departamento"
+   },
+   "6940850784031726893": {
+      "message": "Deseo recibir ofertas especiales de Google Wallet, boletines informativos e invitaciones para dar mi opini\u00F3n sobre el producto."
+   },
+   "6952974317491911390": {
+      "message": "No se reconoce este formato de c\u00F3digo postal. Ejemplo de c\u00F3digo postal v\u00E1lido: $3\u200B. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Seleccionar"
+   },
+   "7026703400430960720": {
+      "message": "A\u00F1o"
+   },
+   "7041462460226543908": {
+      "message": "Isla"
+   },
+   "7134287411704210613": {
+      "message": "C\u00F3digo postal"
+   },
+   "7201243556561197557": {
+      "message": "Ha completado una compra en $5\u200B$4\u200B$2\u200B. Se ha enviado un recibo detallado a la direcci\u00F3n $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "No puede dejar este campo en blanco."
+   },
+   "7414801576887533495": {
+      "message": "Precio"
+   },
+   "748206580479839913": {
+      "message": "No se ha podido completar la compra debido a una incidencia t\u00E9cnica."
+   },
+   "7555701388564834489": {
+      "message": "Ciudad"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE}{END_BOLD} el {START_BOLD}{DATE}{END_BOLD}.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} mensualmente{END_BOLD} durante los pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Importe total del pago"
+   },
+   "7955094861997417068": {
+      "message": "Continuar"
+   },
+   "7961358682448049092": {
+      "message": "Esta compra no se puede realizar en su regi\u00F3n actual."
+   },
+   "8069103702517962649": {
+      "message": "Impuestos"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B: ha caducado"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} mensualmente{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT_2} meses{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}}"
+   },
+   "8175465107894358488": {
+      "message": "Acepto las $3\u200BCondiciones de servicio$1\u200B y he le\u00EDdo el $4\u200BAviso de privacidad$1\u200B de Google Wallet."
+   },
+   "8261307552167893934": {
+      "message": "No se reconoce este formato de c\u00F3digo postal. Ejemplo de c\u00F3digo postal v\u00E1lido: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "No hemos podido procesar esta solicitud. Cualquier cargo se cancelar\u00E1 de forma autom\u00E1tica en un plazo de 24 horas. Vuelva a intentarlo en 24 horas."
+   },
+   "8401318454955949161": {
+      "message": "Total"
+   },
+   "8571469142225833639": {
+      "message": "Informaci\u00F3n de facturaci\u00F3n"
+   },
+   "8636143988042581467": {
+      "message": "Suburbio"
+   },
+   "865452984547897019": {
+      "message": "Prefectura"
+   },
+   "8696254863055694906": {
+      "message": "Debe proporcionar un c\u00F3digo postal como, por ejemplo, $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Configurar Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B: se ha inhabilitado debido a la configuraci\u00F3n de su pa\u00EDs"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} anualmente{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} cada {FREQUENCY_UNIT_COUNT_2} a\u00F1os{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD} hasta que cancele su suscripci\u00F3n.}}"
+   },
+   "8929214462880609574": {
+      "message": "Debe proporcionar un c\u00F3digo postal como, por ejemplo, $3\u200B. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Pagado con"
+   },
+   "8997532101299466079": {
+      "message": "Acepto las $3\u200BCondiciones de servicio$1\u200B y el $4\u200BAviso de privacidad$1\u200B de Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "Parece que esta l\u00EDnea de direcci\u00F3n incluye un apartado de correos. Debe utilizar la direcci\u00F3n de un edificio o una calle."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables{END_BOLD} el {START_BOLD}{DATE}{END_BOLD}.}other{Se efectuar\u00E1 un cargo autom\u00E1tico por un importe de {START_BOLD}{PRICE} y los impuestos aplicables mensualmente{END_BOLD} durante los pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD} a partir del {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "No se reconoce este formato de c\u00F3digo postal. Ejemplo de c\u00F3digo postal v\u00E1lido: $3\u200B. Si no conoce su c\u00F3digo postal, puede consultarlo en $1\u200Besta p\u00E1gina$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "impuestos"
+   }
+}

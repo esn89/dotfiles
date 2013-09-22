@@ -1,0 +1,22 @@
+{
+   "background": {
+      "page": "pdfHandler.html"
+   },
+   "content_scripts": [ {
+      "css": [ "hide-xhtml-error.css" ],
+      "matches": [ "*://*/*.pdf*", "*://*/*.PDF*" ]
+   } ],
+   "description": "Uses HTML5 to display PDF files directly in the browser.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDb5PIb8ayK6vHvEIY1nJKRSCDE8iJ1T43qFN+5dvCVQrmyEkgqB9ZuZNT24Lwot96HV51VoITHKRNIVKI2Nrbfn0M49t7qtaP34g/GXJ7mAIbSzsY4+i+Wsz8EL2SNEIw6uH8RmXG7nZ29NJ7sk7jn17QmMsO2UJ01UT8hfOOOEQIDAQAB",
+   "manifest_version": 2,
+   "name": "PDF Viewer",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls\u003E", "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.8.488",
+   "web_accessible_resources": [ "patch-worker.js", "content/build/pdf.js", "content/build/pdf.worker.js", "content/web/debugger.js", "content/web/images/annotation-check.svg", "content/web/images/annotation-comment.svg", "content/web/images/annotation-help.svg", "content/web/images/annotation-insert.svg", "content/web/images/annotation-key.svg", "content/web/images/annotation-newparagraph.svg", "content/web/images/annotation-note.svg", "content/web/images/annotation-paragraph.svg", "content/web/images/findbarButton-next-rtl.png", "content/web/images/findbarButton-next.png", "content/web/images/findbarButton-previous-rtl.png", "content/web/images/findbarButton-previous.png", "content/web/images/loading-icon.gif", "content/web/images/loading-small.png", "content/web/images/secondaryToolbarButton-firstPage.png", "content/web/images/secondaryToolbarButton-lastPage.png", "content/web/images/secondaryToolbarButton-rotateCcw.png", "content/web/images/secondaryToolbarButton-rotateCw.png", "content/web/images/shadow.png", "content/web/images/texture.png", "content/web/images/toolbarButton-bookmark.png", "content/web/images/toolbarButton-download.png", "content/web/images/toolbarButton-menuArrows.png", "content/web/images/toolbarButton-openFile.png", "content/web/images/toolbarButton-pageDown-rtl.png", "content/web/images/toolbarButton-pageDown.png", "content/web/images/toolbarButton-pageUp-rtl.png", "content/web/images/toolbarButton-pageUp.png", "content/web/images/toolbarButton-presentationMode.png", "content/web/images/toolbarButton-print.png", "content/web/images/toolbarButton-search.png", "content/web/images/toolbarButton-secondaryToolbarToggle.png", "content/web/images/toolbarButton-sidebarToggle.png", "content/web/images/toolbarButton-viewOutline.png", "content/web/images/toolbarButton-viewThumbnail.png", "content/web/images/toolbarButton-zoomIn.png", "content/web/images/toolbarButton-zoomOut.png", "content/web/l10n.js", "content/web/locale/ar/viewer.properties", "content/web/locale/ca/viewer.properties", "content/web/locale/cs/viewer.properties", "content/web/locale/da/viewer.properties", "content/web/locale/de/viewer.properties", "content/web/locale/el/viewer.properties", "content/web/locale/en-US/viewer.properties", "content/web/locale/es/viewer.properties", "content/web/locale/fi/viewer.properties", "content/web/locale/fr/viewer.properties", "content/web/locale/he/viewer.properties", "content/web/locale/it/viewer.properties", "content/web/locale/ja/viewer.properties", "content/web/locale/ko/viewer.properties", "content/web/locale/locale.properties", "content/web/locale/lt/viewer.properties", "content/web/locale/nl/viewer.properties", "content/web/locale/pl/viewer.properties", "content/web/locale/pt-BR/viewer.properties", "content/web/locale/ro/viewer.properties", "content/web/locale/ru/viewer.properties", "content/web/locale/sr/viewer.properties", "content/web/locale/sv/viewer.properties", "content/web/locale/tr/viewer.properties", "content/web/locale/vi/viewer.properties", "content/web/locale/zh-CN/viewer.properties", "content/web/locale/zh-TW/viewer.properties", "content/web/viewer.css", "content/web/viewer.html", "content/web/viewer.js" ]
+}

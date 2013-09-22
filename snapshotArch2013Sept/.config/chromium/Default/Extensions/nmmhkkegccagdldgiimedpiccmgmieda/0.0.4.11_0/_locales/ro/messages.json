@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Zon\u0103"
+   },
+   "1241217935227812429": {
+      "message": "Metod\u0103 de plat\u0103"
+   },
+   "1251555475707160311": {
+      "message": "Fluctua\u021Biile cursului valutar \u0219i taxele bancare pot influen\u021Ba suma final\u0103 cu care sunte\u021Bi taxat(\u0103)."
+   },
+   "1362191621078934138": {
+      "message": "Ne pare r\u0103u, nu am putut procesa aceast\u0103 solicitare. Comanda a fost anulat\u0103 automat \u0219i nu ve\u021Bi fi taxat(\u0103) pentru achizi\u021Bie. \u00CEncerca\u021Bi din nou mai t\u00E2rziu."
+   },
+   "1408247765057411879": {
+      "message": "Cardul a expirat."
+   },
+   "1465846685473775446": {
+      "message": "\u021Aar\u0103"
+   },
+   "1623041851701577559": {
+      "message": "Se pare c\u0103 acest cod po\u0219tal nu se potrive\u0219te cu restul adresei."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B nu este o valoare recunoscut\u0103 pentru acest c\u00E2mp."
+   },
+   "1710433699132727166": {
+      "message": "Selecta\u021Bi alt\u0103 form\u0103 de plat\u0103 pentru a finaliza achizi\u021Bia"
+   },
+   "1778481694021312420": {
+      "message": "Nu am putut ini\u021Bia achizi\u021Bia din cauza unei probleme tehnice."
+   },
+   "1828231775026606412": {
+      "message": "Selecta\u021Bi un instrument de facturare."
+   },
+   "184964329731217200": {
+      "message": "Exemplu: $3\u200B. Nu \u0219ti\u021Bi codul po\u0219tal? \u00CEl pute\u021Bi afla $1\u200Baici$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nume"
+   },
+   "1911221012794788296": {
+      "message": "Num\u0103rul cardului"
+   },
+   "195501871775480185": {
+      "message": "Parohie"
+   },
+   "1959457175344566910": {
+      "message": "A ap\u0103rut o eroare la configurarea achizi\u021Biei. Contacta\u021Bi comerciantul cu privire la aceast\u0103 problem\u0103."
+   },
+   "1960454644696014517": {
+      "message": "Se pare c\u0103 acest cod po\u0219tal nu se potrive\u0219te cu restul adresei."
+   },
+   "2033323276322498862": {
+      "message": "Num\u0103r nevalid pentru cardul de credit."
+   },
+   "2034494361870910998": {
+      "message": "Acest format de cod po\u0219tal nu este recunoscut."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile{END_BOLD}, pe {START_BOLD}{DATE}{END_BOLD}.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT} luni{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT} luni{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} de luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, \u00EEn fiecare an{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} ani{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} de ani{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}}"
+   },
+   "2847382170871301506": {
+      "message": "Acest format de cod po\u0219tal nu este recunoscut."
+   },
+   "2847737339885115125": {
+      "message": "Stat"
+   },
+   "2850460462496931023": {
+      "message": "Nu am putut verifica informa\u021Biile despre cont. Accesa\u021Bi $2\u200Bwallet.google.com/manage$1\u200B pentru a solu\u021Biona aceast\u0103 problem\u0103."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 Refuzat"
+   },
+   "2997291709564172031": {
+      "message": "Acest cod po\u0219tal nu pare s\u0103 se potriveasc\u0103 cu restul adresei. Nu \u0219ti\u021Bi ce cod po\u0219tal ave\u021Bi? Afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "CVC nevalid."
+   },
+   "3134831338223050412": {
+      "message": "\u00CEnchide\u021Bi"
+   },
+   "3167935320133055769": {
+      "message": "Hopa. A ap\u0103rut o problem\u0103."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "\u021Aar\u0103/Regiune"
+   },
+   "3258279995976898903": {
+      "message": "Adres\u0103"
+   },
+   "3314408358311476388": {
+      "message": "Valorifica\u021Bi cardul cadou sau codul promo\u021Bional Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Exemplu: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Acest format de cod po\u0219tal ZIP nu este recunoscut. Exemplu de cod po\u0219tal ZIP valid: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Ne pare r\u0103u, dar nu am putut procesa aceast\u0103 solicitare. \u00CEncerca\u021Bi din nou mai t\u00E2rziu."
+   },
+   "3631100366179556676": {
+      "message": "Accepta\u021Bi \u0219i cump\u0103ra\u021Bi"
+   },
+   "3719225755450392126": {
+      "message": "Informa\u021Biile de facturare sunt identice cu adresa de domiciliu"
+   },
+   "3745637225460177011": {
+      "message": "Salva\u021Bi \u0219i continua\u021Bi"
+   },
+   "392637004226857303": {
+      "message": "V\u0103 mul\u021Bumim pentru achizi\u021Bie"
+   },
+   "4032878564184720978": {
+      "message": "Am citit \u0219i accept $2\u200BTermenii \u0219i condi\u021Biile$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Nume"
+   },
+   "4172829093050641190": {
+      "message": "Adresa de domiciliu"
+   },
+   "419181302975727827": {
+      "message": "Accepta\u021Bi \u0219i continua\u021Bi"
+   },
+   "4263059013900008685": {
+      "message": "Informa\u021Bii de facturare"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, \u00EEn fiecare lun\u0103{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} de luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}}"
+   },
+   "4429302098472575216": {
+      "message": "\u00CEnchide\u021Bi"
+   },
+   "4634308040786352090": {
+      "message": "Solicitarea de achizi\u021Bionare a expirat. \u00CEncerca\u021Bi achizi\u021Bionarea din nou."
+   },
+   "4750645007889628835": {
+      "message": "Acest c\u00E2mp nu poate r\u0103m\u00E2ne necompletat."
+   },
+   "487772095106728308": {
+      "message": "Codul po\u0219tal"
+   },
+   "5009369992123803733": {
+      "message": "A ap\u0103rut o eroare la configurarea achizi\u021Biei. Contacta\u021Bi comerciantul specific\u00E2nd acest mesaj de eroare:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "ad\u0103uga\u021Bi un r\u00E2nd"
+   },
+   "5191851017039683844": {
+      "message": "Anula\u021Bi"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 Fonduri disponibile insuficiente"
+   },
+   "5375779080833659264": {
+      "message": "Cump\u0103ra\u021Bi"
+   },
+   "5408750669387206869": {
+      "message": "Terminat"
+   },
+   "5455061473703313433": {
+      "message": "Localitate dependent\u0103"
+   },
+   "5693829359112864056": {
+      "message": "Jude\u021B"
+   },
+   "5709243647038761785": {
+      "message": "Cardul de credit a fost refuzat. Selecta\u021Bi alt\u0103 metod\u0103 de plat\u0103 sau contacta\u021Bi emitentul cardului de credit pentru a autoriza aceast\u0103 achizi\u021Bie."
+   },
+   "5731352514282693755": {
+      "message": "Din p\u0103cate, nu am putut confirma achizi\u021Bia dvs. cu serverul comerciantului. Comanda a fost anulat\u0103. Contacta\u021Bi comerciantul dac\u0103 aceast\u0103 problem\u0103 persist\u0103."
+   },
+   "5775442217879920265": {
+      "message": "Examina\u021Bi achizi\u021Bia"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Trebuie s\u0103 specifica\u021Bi un cod po\u0219tal ZIP, de exemplu, $3\u200B. Nu \u0219ti\u021Bi ce cod po\u0219tal ZIP ave\u021Bi? Afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Lun\u0103"
+   },
+   "5999277657241413253": {
+      "message": "Ad\u0103uga\u021Bi o nou\u0103 metod\u0103 de plat\u0103"
+   },
+   "6060257219410469243": {
+      "message": "Acest cod po\u0219tal ZIP nu pare s\u0103 se potriveasc\u0103 cu restul adresei. Nu \u0219ti\u021Bi ce cod po\u0219tal ZIP ave\u021Bi? Afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provincie"
+   },
+   "6223713516581400986": {
+      "message": "Trebuie s\u0103 specifica\u021Bi un cod po\u0219tal, de exemplu, $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 Metod\u0103 de plat\u0103 neacceptat\u0103"
+   },
+   "6406068463830609732": {
+      "message": "Comanda a fost anulat\u0103, deoarece nu pute\u021Bi cump\u0103ra de la dvs."
+   },
+   "6441964001210288441": {
+      "message": "Am citit \u0219i accept termenii $3\u200BDeclara\u021Biei de prezentare a produsului/Documentului privind Termenii \u0219i condi\u021Biile$1\u200B Google Wallet \u0219i $4\u200BNotificarea de confiden\u021Bialitate$1\u200B \u0219i accept s\u0103 le primesc online."
+   },
+   "6643725951150665259": {
+      "message": "District"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, \u00EEn fiecare zi{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} zile{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} de zile{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, \u00EEn fiecare zi{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} zile{END_BOLD} \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} de zile{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}{END_BOLD}, pe {START_BOLD}{DATE}{END_BOLD}.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT} luni{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT} luni{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} de luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Exemplu: $3\u200B. Nu \u0219ti\u021Bi codul po\u0219tal? \u00CEl afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departament"
+   },
+   "6940850784031726893": {
+      "message": "Doresc s\u0103 mi se trimit\u0103 oferte speciale, invita\u021Bii de a oferi feedback despre produse \u0219i buletine informative Google Wallet."
+   },
+   "6952974317491911390": {
+      "message": "Acest format de cod po\u0219tal nu este recunoscut. Exemplu de cod po\u0219tal valid: $3\u200B. Nu \u0219ti\u021Bi ce cod po\u0219tal ave\u021Bi? Afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Selecta\u021Bi"
+   },
+   "7026703400430960720": {
+      "message": "An"
+   },
+   "7041462460226543908": {
+      "message": "Insul\u0103"
+   },
+   "7134287411704210613": {
+      "message": "Cod po\u0219tal"
+   },
+   "7201243556561197557": {
+      "message": "A\u021Bi finalizat o achizi\u021Bie de la $5\u200B$4\u200B$2\u200B. O chitan\u021B\u0103 detaliat\u0103 a fost trimis\u0103 la $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Acest c\u00E2mp nu poate r\u0103m\u00E2ne necompletat."
+   },
+   "7414801576887533495": {
+      "message": "Pre\u021B"
+   },
+   "748206580479839913": {
+      "message": "Nu am putut finaliza achizi\u021Bia din cauza unei probleme tehnice."
+   },
+   "7555701388564834489": {
+      "message": "Ora\u0219"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}{END_BOLD}, pe {START_BOLD}{DATE}{END_BOLD}.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, \u00EEn fiecare lun\u0103{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, \u00EEn fiecare lun\u0103{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} de luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Total pl\u0103tit"
+   },
+   "7955094861997417068": {
+      "message": "Continua\u021Bi"
+   },
+   "7961358682448049092": {
+      "message": "Aceast\u0103 achizi\u021Bie nu poate fi efectuat\u0103 pentru codul local actual."
+   },
+   "8069103702517962649": {
+      "message": "Taxe"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 Expirat"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, \u00EEn fiecare lun\u0103{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} de luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}}"
+   },
+   "8175465107894358488": {
+      "message": "Accept $3\u200BTermenii \u0219i condi\u021Biile$1\u200B Google Wallet \u0219i am citit $4\u200BNotificarea privind confiden\u021Bialitatea$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Acest format de cod po\u0219tal nu este recunoscut. Exemplu de cod po\u0219tal valid: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Ne pare r\u0103u, nu am putut procesa aceast\u0103 solicitare. Orice debitare din urm\u0103toarele 24 de ore va fi anulat\u0103 automat. \u00CEncerca\u021Bi din nou dup\u0103 24 de ore."
+   },
+   "8401318454955949161": {
+      "message": "Total"
+   },
+   "8571469142225833639": {
+      "message": "Detalii de facturare"
+   },
+   "8636143988042581467": {
+      "message": "Suburbie"
+   },
+   "865452984547897019": {
+      "message": "Prefectur\u0103"
+   },
+   "8696254863055694906": {
+      "message": "Trebuie s\u0103 specifica\u021Bi un cod po\u0219tal ZIP, de exemplu, $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Configura\u021Bi Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 Dezactivat \u00EEn baza set\u0103rilor pentru \u021Bara dvs."
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, \u00EEn fiecare an{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} ani{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, o dat\u0103 la fiecare {FREQUENCY_UNIT_COUNT_2} de ani{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}, p\u00E2n\u0103 c\u00E2nd anula\u021Bi abonamentul.}}"
+   },
+   "8929214462880609574": {
+      "message": "Trebuie s\u0103 specifica\u021Bi un cod po\u0219tal, de exemplu, $3\u200B. Nu \u0219ti\u021Bi ce cod po\u0219tal ave\u021Bi? Afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Pl\u0103tit\u0103 cu"
+   },
+   "8997532101299466079": {
+      "message": "Accept $3\u200BTermenii \u0219i condi\u021Biile$1\u200B \u0219i $4\u200BNotificarea privind confiden\u021Bialitatea$1\u200B Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "Se pare c\u0103 acest r\u00E2nd pentru adres\u0103 con\u021Bine o c\u0103su\u021B\u0103 po\u0219tal\u0103. Utiliza\u021Bi o adres\u0103 care men\u021Bioneaz\u0103 strada sau cl\u0103direa."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile{END_BOLD}, pe {START_BOLD}{DATE}{END_BOLD}.}few{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, \u00EEn fiecare lun\u0103{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}other{Ve\u021Bi fi taxat(\u0103) automat cu {START_BOLD}{PRICE}, la care se adaug\u0103 toate taxele aplicabile, \u00EEn fiecare lun\u0103{END_BOLD}, pentru urm\u0103toarele {START_BOLD}{NUM_RECURRENCES_2} de luni{END_BOLD}, \u00EEncep\u00E2nd cu {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Acest format de cod po\u0219tal ZIP nu este recunoscut. Exemplu de cod po\u0219tal ZIP valid: $3\u200B. Nu \u0219ti\u021Bi ce cod po\u0219tal ZIP ave\u021Bi? Afla\u021Bi $1\u200Baici$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "taxe"
+   }
+}

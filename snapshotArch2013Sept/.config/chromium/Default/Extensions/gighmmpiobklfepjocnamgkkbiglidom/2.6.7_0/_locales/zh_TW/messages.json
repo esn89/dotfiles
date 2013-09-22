@@ -1,0 +1,1252 @@
+{
+   "adalreadyblocked": {
+      "description": "on the ad report page, telling a user there is nothing to do",
+      "message": "\u60A8\u4E0D\u7528\u505A\u4EFB\u4F55\u4E8B\uFF0C\u56E0\u70BA\u5EE3\u544A\u5DF2\u88AB\u963B\u64CB"
+   },
+   "adblock_auto_removes_ads_thats_all": {
+      "description": "Install page: explaining how to use adblock.",
+      "message": " AdBlock \u6703\u81EA\u52D5\u79FB\u9664\u5EE3\u544A\u3002\u9019\u5C31\u662F\u5B83\u7684\u529F\u80FD\u3002"
+   },
+   "adblock_click_for_details": {
+      "description": "Tooltip on the AdBlock button, to help users understand that they can click the button, and that they can control the number badge that appears on the button.  Do not translate the beginning 'AdBlock - ' part.",
+      "message": "AdBlock - click for details"
+   },
+   "adblock_is_paused": {
+      "description": "resourceblocking page string",
+      "message": "AdBlock \u66AB\u505C\u3002 \u9019\u500B\u9801\u9762\u4E0D\u53EF\u7528\u3002 \u555F\u7528 AdBlock \u4E26\u518D\u8A66\u4E00\u6B21\u3002"
+   },
+   "adblock_outdated_chrome": {
+      "description": "Ad report page instructions to update AdBlock in Chrome. The link will point to 'chrome://chrome/extensions/'",
+      "message": "You are using an old version of AdBlock. Please go to \u003Ca href='#'\u003Ethe extensions page\u003C/a\u003E, enable 'Developer mode' and click 'Update extensions now'"
+   },
+   "adblock_wont_run_on_pages_matching": {
+      "description": "Message displayed when the whitelister dialog will whitelist part of an entire website, for example '*.google.com/reader/*'.  The URL will appear on the next line.",
+      "message": "AdBlock \u4E0D\u6703\u5728\u7B26\u5408\u6B64\u898F\u5247\u7684\u7DB2\u57DF\u555F\u7528:"
+   },
+   "adblockinglist": {
+      "description": "List for subscribed ad blocking fiters",
+      "message": "Ad Blocking Filter Lists"
+   },
+   "adblockreportinganad": {
+      "description": "title of ad report page",
+      "message": "AdBlock - \u5EE3\u544A\u56DE\u5831"
+   },
+   "addthisfilter": {
+      "description": "resourceblocking page string",
+      "message": "\u52A0\u5165\u9019\u500B\u898F\u5247"
+   },
+   "adreport2": {
+      "description": "Instructions on ad reporting page. 'Customize' should be the same text as the 'tabcustomize' message.",
+      "message": "\u4F60\u767C\u73FE\u9801\u9762\u4E0A\u7684\u5EE3\u544A? \u597D, \u6211\u6703\u5E6B\u4F60\u627E\u5230\u6B63\u78BA\u7684\u5730\u65B9\u4F86\u56DE\u5831!\u003Cbr/\u003E \u8A18\u5F97: \u56DE\u5831\u5EE3\u544A\u662F\u81EA\u9858\u7684\u3002 \u5982\u679C\u4F60\u4E0D\u60F3\u9019\u9EBC\u505A\uFF0C\u95DC\u9589\u9019\u500B\u8996\u7A97\u3002\u4E26\u4E14\u81EA\u884C\u5728\u9078\u9805\u4E2D\u300E\u81EA\u8A02\u300F\u5206\u9801\u52A0\u5165\u904E\u6FFE\u898F\u5247!"
+   },
+   "adstillappear": {
+      "description": "question on ad reporting page",
+      "message": "\u5EE3\u544A\u662F\u5426\u9084\u5728\uFF1F"
+   },
+   "advanced_options": {
+      "description": "Options page checkbox",
+      "message": "\u6211\u662F\u9AD8\u7D1A\u7684\u4F7F\u7528\u8005, \u986F\u793A\u9AD8\u7D1A\u7684\u9078\u9805\u3002"
+   },
+   "any_new_tabs_you_open_Will_be_automatically_ad_free": {
+      "description": "Install page subtitle",
+      "message": "\u4EFB\u4F55\u4F60\u958B\u555F\u7684\u65B0\u5206\u9801\u5C07\u6C92\u6709\u5EE3\u544A\u3002"
+   },
+   "anysite": {
+      "description": "resourceblocking page string",
+      "message": "\u4EFB\u4F55\u7DB2\u7AD9"
+   },
+   "appliedwhenbrowsing": {
+      "description": "resourceblocking page string",
+      "message": "\u7576\u4F60\u700F\u89BD\u6642\uFF0C\u9019\u500B\u904E\u6FFE\u898F\u5247\u5C07\u88AB\u5957\u7528:"
+   },
+   "betalabel": {
+      "description": "Option on first tab page",
+      "message": "Beta"
+   },
+   "blacklistclickmessage": {
+      "description": "Message at the top of the blacklist options tab",
+      "message": "\u53F3\u9375\u9EDE\u9078\u9801\u9762\u4E0A\u7684\u5EE3\u544A\u4F86\u963B\u64CB\u5B83 \u2500 \u6216\u5728\u6B64\u8655\u624B\u52D5\u963B\u64CB\u3002"
+   },
+   "blacklisterattrwillbe": {
+      "description": "Checkbox label",
+      "message": "$attribute$ \u5C07\u70BA $value$",
+      "placeholders": {
+         "attribute": {
+            "content": "$1",
+            "example": "class"
+         },
+         "value": {
+            "content": "$2",
+            "example": "AdBanner"
+         }
+      }
+   },
+   "blacklisterblockedelement": {
+      "description": "Tells the user what the blocked element is on the slider page",
+      "message": "\u88AB\u963B\u64CB\u7684\u9801\u9762\u5143\u7D20\uFF1A"
+   },
+   "blacklisterblocksalloftype": {
+      "description": "Warns the user that all elements of type X will be blocked",
+      "message": "\u6CE8\u610F\uFF1A\u6B64\u904E\u6FFE\u898F\u5247\u6703\u963B\u64CB\u9801\u9762\u4E0A\u6240\u6709\u7684 $elementtype$ \u5143\u7D20\uFF01",
+      "placeholders": {
+         "elementtype": {
+            "content": "$1",
+            "example": "DIV"
+         }
+      }
+   },
+   "blacklistereditfilter": {
+      "description": "Text if the user wants to manually edit a filter.  'OK' is the standard javascript popup button text.",
+      "message": "\u8ACB\u5728\u4E0B\u9762\u8F38\u5165\u6B63\u78BA\u7684\u904E\u6FFE\u898F\u5247\uFF0C\u4E26\u9EDE\u9078 \u300C\u78BA\u5B9A\u300D"
+   },
+   "blacklistereditinvalid1": {
+      "description": "Messagebox if the manually edited filter is invalid. Error messages are not translated.",
+      "message": "\u7121\u6548\u7684\u904E\u6FFE\u898F\u5247: $exception$",
+      "placeholders": {
+         "exception": {
+            "content": "$1",
+            "example": "This filter is not supported"
+         }
+      }
+   },
+   "blacklistermatches": {
+      "description": "Tells the user multiple matches were found",
+      "message": "\u9801\u9762\u4E0A\u6709 $matchcount$ \u500B\u5339\u914D\u9805\u76EE\u88AB\u963B\u64CB\u3002",
+      "placeholders": {
+         "matchcount": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "blacklisternofilter": {
+      "description": "Warning if the user hasn't specified a filter",
+      "message": "\u672A\u6307\u5B9A\u904E\u6FFE\u898F\u5247\uFF01"
+   },
+   "blacklisternotsure": {
+      "description": "Blacklister attribute choosing page message.  'Block it!' must be the same as the text of the 'buttonblockit' message.",
+      "message": "\u003Cb\u003E\u4E0D\u78BA\u5B9A\uFF1F\u003C/b\u003E\u76F4\u63A5\u9EDE\u9078\u4E0B\u65B9\u7684 \u300C\u963B\u64CB\u300D\u3002"
+   },
+   "blacklisteroptions1": {
+      "description": "Blacklister attribute choosing page message",
+      "message": "\u60A8\u8A8D\u70BA\u4E0B\u5217\u54EA\u500B\u898F\u5247\u6703\u5728\u700F\u89BD\u9801\u9762\u6642\u963B\u64CB\u6B64\u5EE3\u544A\uFF1F"
+   },
+   "blacklisteroptionstitle": {
+      "description": "Blacklister options page title",
+      "message": "\u6700\u5F8C\u4E00\u6B65\uFF1A\u6B64\u5EE3\u544A\u662F\u7531\u4EC0\u9EBC\u7D44\u6210\u7684\uFF1F"
+   },
+   "blacklistersinglematch": {
+      "description": "Tells the user only one match was found",
+      "message": "\u9801\u9762\u4E0A\u53EA\u6709 \u003Cb\u003E1\u003C/b\u003E \u500B\u5339\u914D\u9805\u76EE\u88AB\u963B\u64CB\u3002"
+   },
+   "blacklisterthefilter": {
+      "description": "Blacklister attribute choosing page message",
+      "message": "\u5373\u5C07\u5957\u7528\u7684\u898F\u5247\uFF0C\u4ECD\u53EF\u5728\u9078\u9805\u4E2D\u7DE8\u8F2F\uFF1A"
+   },
+   "blacklistertype": {
+      "description": "node name is called 'Type'",
+      "message": "\u985E\u578B"
+   },
+   "blacklisterwarningnofilter": {
+      "description": "Warns the user that no filter was specified",
+      "message": "\u8B66\u544A\uFF1A\u672A\u6307\u5B9A\u904E\u6FFE\u898F\u5247\uFF01"
+   },
+   "block_an_ad_on_this_page": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "\u963B\u64CB\u6B64\u9801\u9762\u4E0A\u7684\u5EE3\u544A"
+   },
+   "block_by_url_instead": {
+      "description": "Link on blacklister slider page",
+      "message": "\u9AD8\u7D1A: \u4F7F\u7528\u7DB2\u5740\u963B\u64CB"
+   },
+   "block_this_ad": {
+      "description": "Context and popup menu entry",
+      "message": "\u963B\u64CB\u9019\u500B\u5EE3\u544A"
+   },
+   "blockanadtitle": {
+      "description": "Title of the first two dialogs of the blacklister",
+      "message": "\u963B\u64CB\u5EE3\u544A"
+   },
+   "blockdomain": {
+      "description": "Message of the url and css -blocking area",
+      "message": "\u5957\u7528\u7684\u7DB2\u57DF"
+   },
+   "blocked_ads": {
+      "description": "Title for popup menu section showing number of ads blocked.",
+      "message": "Blocked ads:"
+   },
+   "blocked_n_in_total": {
+      "description": "Shown below the 'blocked_ads' message.  Shows the number of ads blocked since AdBlock was installed. $count$ will be a number between 1 and 999,999,999.",
+      "message": "$count$ in total",
+      "placeholders": {
+         "count": {
+            "content": "\u003Ca\u003E123,456\u003C/a\u003E",
+            "example": "The number of ads blocked.  Do not make any changes to this string when translating."
+         }
+      }
+   },
+   "blocked_n_on_this_page": {
+      "description": "Shown below the 'blocked_ads' message.  Shows the number of ads blocked on this page. $count$ will be a number between 1 and 999.",
+      "message": "$count$ on this page",
+      "placeholders": {
+         "count": {
+            "content": "\u003Ca\u003E123\u003C/a\u003E",
+            "example": "The number of ads blocked.  Do not make any changes to this string when translating."
+         }
+      }
+   },
+   "blockeverycontaining": {
+      "description": "resourceblocking page string",
+      "message": "\u963B\u64CB\u8CC7\u6E90\u5305\u542B:"
+   },
+   "blockmoreads": {
+      "description": "Section header on third tab",
+      "message": "\u963B\u64CB\u66F4\u591A\u5EE3\u544A:"
+   },
+   "blockurlwithtext": {
+      "description": "Message of the url-blocking area",
+      "message": "\u963B\u64CB\u5305\u542B\u4EE5\u4E0B\u5B57\u4E32\u7684\u7DB2\u5740"
+   },
+   "buttonback": {
+      "description": "Back to previous wizard page button",
+      "message": "\u8FD4\u56DE"
+   },
+   "buttonblockit": {
+      "description": "Block button",
+      "message": "\u963B\u64CB"
+   },
+   "buttoncancel": {
+      "description": "Cancel button",
+      "message": "\u53D6\u6D88"
+   },
+   "buttonedit": {
+      "description": "Edit filter manually button",
+      "message": "\u7DE8\u8F2F"
+   },
+   "buttonexclude": {
+      "description": "Button for excluding a domain in the whitelister dialog",
+      "message": "\u6392\u9664"
+   },
+   "buttonlooksgood": {
+      "description": "Looks good button",
+      "message": "\u770B\u4F86\u4E0D\u932F"
+   },
+   "buttonok": {
+      "description": "OK button",
+      "message": "\u78BA\u5B9A"
+   },
+   "cantblockflash": {
+      "description": "Result of the final ad report question",
+      "message": "\u76EE\u524D\u9084\u7121\u6CD5\u963B\u64CB\u5728 Flash \u6216\u5176\u4ED6\u5916\u639B\u7A0B\u5F0F\u4E2D\u7684\u5EE3\u544A\u3002\u6B64\u529F\u80FD\u5C1A\u5728\u7B49\u5F85\u700F\u89BD\u5668\u8207 WebKit \u652F\u63F4\u3002"
+   },
+   "cantblockflashwarning": {
+      "description": "Text of the final ad report question",
+      "message": "\u8A72\u5EE3\u544A\u662F\u51FA\u73FE\u5728\u5F71\u7247\u6216 Flash \u904A\u6232\u7B49\u5916\u639B\u7A0B\u5F0F\u4E2D\uFF1F"
+   },
+   "casesensitive": {
+      "description": "resourceblocking page string",
+      "message": "\u9019\u500B\u898F\u5247\u5206\u5927\u5C0F\u5BEB:"
+   },
+   "changelabel": {
+      "description": "link to change resources on the resourceblock page",
+      "message": "\u6539\u8B8A"
+   },
+   "checkinfirefox_1": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Install Firefox $chrome$ if you don't have it.",
+      "placeholders": {
+         "chrome": {
+            "content": "$1or Chrome$2",
+            "example": "This will only be shown in Safari. Chrome users will not see this."
+         }
+      }
+   },
+   "checkinfirefox_2": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad. Don't translate the name 'AdBlock Plus'.",
+      "message": "Install Adblock Plus for Firefox $chrome$ if you don't have it.",
+      "placeholders": {
+         "chrome": {
+            "content": "$1or AdBlockforChrome for Chrome$2",
+            "example": "This will only be shown in Safari. Chrome users will not see this."
+         }
+      }
+   },
+   "checkinfirefox_3": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "In that browser, subscribe to the same filter lists as you have here (except for the AdBlock Custom filters in FireFox)."
+   },
+   "checkinfirefox_4": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "In that browser, load the page with the ad."
+   },
+   "checkinfirefox_5": {
+      "description": "instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Does the ad appear in that browser too?"
+   },
+   "checkinfirefoxtitle": {
+      "description": "tell a user to see if a reported ad also appears in Firefox/Chrome",
+      "message": "Check in Firefox $chrome$",
+      "placeholders": {
+         "chrome": {
+            "content": "$1or Chrome$2",
+            "example": "This will only be shown in Safari. Chrome users will not see this."
+         }
+      }
+   },
+   "chromebutton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button.  'Hide Button' should match the text that Chrome displays when you right click a toolbar button.",
+      "message": "To hide the button, right click it and choose Hide Button.  You can show it again under chrome://chrome/extensions."
+   },
+   "cleanuplist": {
+      "description": "Option at the bottom of the third options tab",
+      "message": "\u512A\u5316\u9019\u500B\u904E\u6FFE\u6E05\u55AE\u7684\u898F\u5247:"
+   },
+   "clickthead": {
+      "description": "When you have to click the ad to continue",
+      "message": "\u9EDE\u9078\u8981\u963B\u64CB\u7684\u5EE3\u544A\uFF0CAdBlock \u6703\u5354\u52A9\u60A8\u8A2D\u5B9A\u3002"
+   },
+   "clickupdatefilters": {
+      "description": "instruction on ad report page",
+      "message": "\u9EDE\u9078: \u003Ca\u003E\u66F4\u65B0\u904E\u6FFE\u6E05\u55AE\uFF01\u003C/a\u003E"
+   },
+   "close": {
+      "description": "resourceblocking page string",
+      "message": "\u95DC\u9589"
+   },
+   "close_tab_begin_browsing": {
+      "description": "Install page string",
+      "message": "You can close this tab and begin browsing ad-free. Have fun!"
+   },
+   "correctfilters": {
+      "description": "on the ad report page, label describing having the right set of filters",
+      "message": "\u6B63\u78BA\u7684\u904E\u6FFE\u6E05\u55AE"
+   },
+   "crowdfund_intro": {
+      "description": "intro to crowdfund",
+      "message": "AdBlock is buying Ads . . . for AdBlock!"
+   },
+   "crowdfund_new": {
+      "description": "text that says new; visual cue with New badge",
+      "message": "New"
+   },
+   "crowdfund_text": {
+      "description": "text for link to crowdfunding site",
+      "message": "Come see our crazy campaign"
+   },
+   "csstomatch": {
+      "description": "Message of the css-hiding area",
+      "message": "\u7B26\u5408\u7684CSS"
+   },
+   "customfilters": {
+      "description": "List for custom filters the user subscribed to",
+      "message": "Custom Filter Lists"
+   },
+   "custompattern": {
+      "description": "Label in front of the 'custom block pattern' textbox in resourceblock, after clicking a resource",
+      "message": "Custom:"
+   },
+   "debuginlogoption": {
+      "description": "Option on first tab page",
+      "message": "\u5728 Console Log \u4E2D\u986F\u793A\u9664\u932F\u8CC7\u8A0A\uFF08\u5C07\u6703\u964D\u4F4E AdBlock \u6548\u80FD\uFF09"
+   },
+   "description2": {
+      "description": "Extension description in manifest",
+      "message": "The most popular Chrome extension, with over 15 million users!  Blocks ads all over the web."
+   },
+   "did_you_know_this_is_my_full_time_job": {
+      "description": "Text of a payment request link",
+      "message": "\u4F60\u77E5\u9053\u9019\u662F\u6211\u7684\u5168\u8077\u5DE5\u4F5C\u55CE?"
+   },
+   "disableallextensions": {
+      "description": "instruction on ad report page",
+      "message": "Disable all extensions except for AdBlock."
+   },
+   "disabled_by_filter_lists": {
+      "description": "Message shown when a user tries to unwhitelist a web page that has been whitelisted by a rule in a subscribed filter list.",
+      "message": "\u62B1\u6B49, \u56E0\u70BA\u4F60\u7684\u4E00\u500B\u904E\u6FFE\u6E05\u55AE\uFF0CAdBlock \u5728\u9019\u500B\u9801\u9762\u88AB\u95DC\u9589"
+   },
+   "disabled_on_this_page": {
+      "description": "Message shown in toolbar button on web pages that have been whitelisted.",
+      "message": "AdBlock \u5728\u9019\u500B\u9801\u9762\u95DC\u9589\u3002"
+   },
+   "disableforchromeandsafaristeptwo": {
+      "description": "Step 2 for disabling chrome and safari extensions",
+      "message": "Uncheck the 'Enabled' checkbox next to every extension \u003Cb\u003Eexcept\u003C/b\u003E for AdBlock.  \u003Cb\u003ELeave AdBlock enabled\u003C/b\u003E."
+   },
+   "disableforchromestepone": {
+      "description": "Step 1 for disabling chrome extensions",
+      "message": "Open \u003Ca href='#'\u003Ethe extensions page\u003C/a\u003E"
+   },
+   "disableforopera": {
+      "description": "Opera instructions",
+      "message": "For Opera"
+   },
+   "disableforoperainstructions": {
+      "description": "shows user how to disable all their extensions in Opera.",
+      "message": "Click the menu button in the top left hand corner. Then go to Extensions-\u003EManage Extensions. Disable all extensions by clicking their respective disable buttons. Remember, DO NOT disable AdBlock!"
+   },
+   "disableforsafaristepone": {
+      "description": "Step 1 for disabling safari extensions",
+      "message": "Click the Safari menu &rarr; Preferences &rarr; Extensions."
+   },
+   "doesntmatchoriginal": {
+      "description": "resourceblocking page string",
+      "message": "The pattern you entered doesn't match the resource you tried to block! Continue anyway?"
+   },
+   "done": {
+      "description": "Install page: appended to the 'installing_adblock' message once the progress bar reaches 100%",
+      "message": "\u5DF2\u5B8C\u6210\u3002"
+   },
+   "dont_run_on_pages_on_domain": {
+      "description": "Menu entry to open the whitelist wizard.",
+      "message": "\u4E0D\u5728\u9019\u500B\u7DB2\u57DF\u7684\u9801\u9762\u4F7F\u7528"
+   },
+   "dont_run_on_this_page": {
+      "description": "Menu entry to whitelist a page",
+      "message": "\u4E0D\u8981\u5728\u9019\u500B\u9801\u9762\u4F7F\u7528"
+   },
+   "enable": {
+      "description": "Link text to un-whitelist a page, displayed immediately after 'disabled_on_this_page'.",
+      "message": "\u958B\u555F"
+   },
+   "excludedomainorurl": {
+      "description": "Message of the exclude area",
+      "message": "AdBlock\u3000\u7DB2\u57DF\u767D\u540D\u55AE"
+   },
+   "excludefilterremoved": {
+      "description": "Warning when a page exclusion rule was removed in resourceblock.html",
+      "message": "\u904E\u6FFE\u898F\u5247\u5DF2\u79FB\u9664\u3002\u8ACB\u91CD\u65B0\u8F09\u5165\u7372\u5F97\u65B0\u7684\u904E\u6FFE\u8CC7\u6E90\u9801\u9762\u3002"
+   },
+   "failedtofetchfilter": {
+      "description": "Error messagebox",
+      "message": "\u7121\u6CD5\u7372\u53D6\u6B64\u904E\u6FFE\u6E05\u55AE\uFF01"
+   },
+   "faq": {
+      "description": "Text of link to a page with answers to frequently asked questions.  The capitalization should be the same as for the 'help' and 'project_home' messages",
+      "message": "\u5E38\u898B\u554F\u984C"
+   },
+   "fetchinglabel": {
+      "description": "Status label",
+      "message": "\u6B63\u5728\u7372\u53D6\u6E05\u55AE...\u8ACB\u7A0D\u5019\u3002"
+   },
+   "filecleanerwarning": {
+      "description": "Help for users who use hyperactive file cleaners",
+      "message": "\u5982\u679C\u60A8\u6BCF\u6B21\u958B\u555F AdBlock \u90FD\u770B\u5230\u6B64\u8A0A\u606F\uFF0C\u8ACB\u78BA\u8A8D\u60A8\u4F7F\u7528\u7684\u6A94\u6848\u6E05\u7406\u7A0B\u5F0F\u4E0D\u6703\u6E05\u9664 \u300ClocalStorage\u300D \u6A94\u6848\u3002"
+   },
+   "filteradblock_custom": {
+      "description": "A filter list. Don't translate 'AdBlock'",
+      "message": "AdBlock \u81EA\u8A02\u904E\u6FFE\u6E05\u55AE \uFF08\u63A8\u85A6\uFF09"
+   },
+   "filterchinese": {
+      "description": "language",
+      "message": "\u4E2D\u6587"
+   },
+   "filterczech": {
+      "description": "Language names for a filter list",
+      "message": "Czech and Slovak"
+   },
+   "filterdanish": {
+      "description": "language",
+      "message": "\u4E39\u9EA5\u6587"
+   },
+   "filterdutch": {
+      "description": "language",
+      "message": "\u8377\u862D\u6587"
+   },
+   "filtereasylist": {
+      "description": "A filter list. Don't translate 'EasyList'",
+      "message": "EasyList \uFF08\u63A8\u85A6\uFF09"
+   },
+   "filtereasylist_plun_korean": {
+      "description": "language",
+      "message": "\u97D3\u6587"
+   },
+   "filtereasylist_plus_bulgarian": {
+      "description": "language",
+      "message": "\u4FDD\u52A0\u5229\u4E9E\u6587"
+   },
+   "filtereasylist_plus_finnish": {
+      "description": "language",
+      "message": "\u82AC\u862D\u6587"
+   },
+   "filtereasylist_plus_french": {
+      "description": "language",
+      "message": "\u6CD5\u6587"
+   },
+   "filtereasylist_plus_german": {
+      "description": "language",
+      "message": "\u5FB7\u6587"
+   },
+   "filtereasylist_plus_greek": {
+      "description": "language",
+      "message": "\u5E0C\u81D8\u6587"
+   },
+   "filtereasylist_plus_polish": {
+      "description": "language",
+      "message": "\u6CE2\u862D\u6587"
+   },
+   "filtereasylist_plus_romanian": {
+      "description": "language",
+      "message": "\u7F85\u99AC\u5C3C\u4E9E\u6587"
+   },
+   "filtereasylist_plus_spanish": {
+      "description": "language",
+      "message": "\u897F\u73ED\u7259\u6587"
+   },
+   "filtereasyprivacy": {
+      "description": "A filter list. Don't translate the name 'EasyPrivacy'.",
+      "message": "EasyPrivacy (\u96B1\u79C1\u4FDD\u8B77)"
+   },
+   "filterhasbeenadded": {
+      "description": "resourceblocking page string (the 'slash n' is a line break)",
+      "message": "\u904E\u6FFE\u898F\u5247\u5DF2\u52A0\u5165!\n\u8ACB\u91CD\u65B0\u8F09\u5165\u9801\u9762!"
+   },
+   "filterhungarian": {
+      "description": "language",
+      "message": "\u5308\u7259\u5229\u6587"
+   },
+   "filterisraeli": {
+      "description": "language",
+      "message": "Hebrew"
+   },
+   "filteritalian": {
+      "description": "language",
+      "message": "\u7FA9\u5927\u5229\u6587"
+   },
+   "filterjapanese": {
+      "description": "language",
+      "message": "\u65E5\u6587"
+   },
+   "filterlistlink": {
+      "description": "Explanation of the filter lists",
+      "message": "\u8ACB\u4E0D\u8981\u8A02\u95B1\u904E\u591A\u6E05\u55AE\uFF0C\u6BCF\u65B0\u589E\u4E00\u500B\u6E05\u55AE\u90FD\u6703\u8B93\u700F\u89BD\u5668\u7684\u901F\u5EA6\u964D\u4F4E\uFF01\u66F4\u591A\u8A73\u7D30\u8CC7\u8A0A\u548C\u904E\u6FFE\u6E05\u55AE\u53EF\u5728\u003Ca\u003E\u9019\u88E1\u003C/a\u003E\u627E\u5230\u3002"
+   },
+   "filterlistsrock": {
+      "description": "Header text on the Customize tab.  'Filter lists' should be the same text as the tabfilterlists message.",
+      "message": "\u963B\u64CB\u6700\u591A\u7DB2\u7AD9\u7684\u904E\u6FFE\u6E05\u55AE\u3002 \u4F60\u53EF\u4EE5:"
+   },
+   "filterorigin": {
+      "description": "Tooltip of matching filter in resources list, telling which filter list contains the filter",
+      "message": "Filter origin:\n$list$",
+      "placeholders": {
+         "list": {
+            "content": "$1",
+            "example": "A filter list name OR AdBlock OR the translation of 'tabcustomize'"
+         }
+      }
+   },
+   "filterrussian": {
+      "description": "Language names for a filter list",
+      "message": "Russian and Ukrainian"
+   },
+   "filtersavewarning": {
+      "description": "Warning when blacklisting manually",
+      "message": "\u5C0F\u5FC3: \u5982\u679C\u5728\u9019\u88E1\u7684\u8A2D\u5B9A\u51FA\u932F\uFF0C\u5305\u542B\u5B98\u65B9\u7684\u904E\u6FFE\u6E05\u55AE\uFF0C\u53EF\u80FD\u6703\u5931\u6548\uFF01\u003Cbr/\u003E\u53C3\u95B1\u003Ca\u003E\u904E\u6FFE\u898F\u5247\u8A9E\u6CD5\u6559\u5B78\u003C/a\u003E\u4F86\u6B63\u78BA\u5730\u6DFB\u52A0\u9032\u968E\u9ED1\u540D\u55AE\u3001\u767D\u540D\u55AE\u898F\u5247\u3002"
+   },
+   "filterstabtitle": {
+      "description": "Title of the filter list tab",
+      "message": "\u8A02\u95B1\u904E\u6FFE\u6E05\u55AE"
+   },
+   "findingads": {
+      "description": "When you press ctrl-shift-K the blacklister searches for ads",
+      "message": "\u6B63\u5728\u5C0B\u627E\u5EE3\u544A...\u003Cbr/\u003E\u003Cbr/\u003E\u003Ci\u003E\u9019\u53EA\u9700\u8981\u4E00\u9EDE\u6642\u9593\u3002\u003C/i\u003E"
+   },
+   "firefox_explanation": {
+      "description": "Explanation of the Check-in-FireFox step in the ad reporter",
+      "message": "The purpose of this question is to determine who should receive your report. If you answer this question incorrectly, the report will be sent to the wrong people, so it may get ignored."
+   },
+   "fixityourself": {
+      "description": "telling a user who won't report an ad to us how to handle it for herself",
+      "message": "\u60A8\u9084\u662F\u53EF\u4EE5\u5728\u300C\u9ED1\u540D\u55AE\u300D\u9801\u9762\u4E2D\u624B\u52D5\u963B\u64CB\u6B64\u5EE3\u544A\u3002"
+   },
+   "flashads": {
+      "description": "Title of the final ad report question if the ad didn't appear in FF",
+      "message": "\u5F71\u7247\u548C Flash"
+   },
+   "for_more_options_right_click": {
+      "description": "Install page: explaining how to use adblock in more detail.",
+      "message": "\u5982\u679C\u9700\u8981\u66F4\u591A\u9078\u9805,\u4F60\u53EF\u4EE5\u5728\u9801\u9762\u9EDE\u64CA\u53F3\u9375 \u6216 \u9EDE\u64CA $img$ \u5DE5\u5177\u5217\u6309\u9215\u3002",
+      "placeholders": {
+         "img": {
+            "content": "\u003Cimg src=\"../../img/icon19.png\"/\u003E",
+            "example": "A small picture of the toolbar button.  Do not translate."
+         }
+      }
+   },
+   "format_site1_site2_site3": {
+      "description": "Example showing users how to input a list of sites on the Customize tab. You can translate the 'news' and 'siteN' but leave the '|'s and '~'s in place.",
+      "message": "\u683C\u5F0F: ~site1.com|~site2.com|~news.site3.org"
+   },
+   "generaloptions": {
+      "description": "Title of first tab page",
+      "message": "\u4E00\u822C\u9078\u9805"
+   },
+   "googletextads": {
+      "description": "Option on first tab page",
+      "message": "\u986F\u793A Google \u641C\u5C0B\u7D50\u679C\u4E2D\u7684\u6587\u5B57\u5EE3\u544A"
+   },
+   "headerfilter": {
+      "description": "resourceblocking page string",
+      "message": "\u7B26\u5408\u7684\u904E\u6FFE\u898F\u5247"
+   },
+   "headerresource": {
+      "description": "resourceblocking page string",
+      "message": "\u8CC7\u6E90"
+   },
+   "headertype": {
+      "description": "resourceblocking page string",
+      "message": "\u985E\u578B"
+   },
+   "help": {
+      "description": "Text of link to a page with fixes to common problems and a list of known issues",
+      "message": "\u5E6B\u52A9"
+   },
+   "hide_this_button": {
+      "description": "Toolbar button menu entry to hide the AdBlock button",
+      "message": "\u96B1\u85CF\u9019\u500B\u6309\u9215"
+   },
+   "how_to_use_adblock": {
+      "description": "Install page section title",
+      "message": "\u5982\u4F55\u4F7F\u7528 AdBlock:"
+   },
+   "installedtitle": {
+      "description": "Title for the installation success page",
+      "message": "AdBlock \u5B89\u88DD\u6210\u529F\uFF01"
+   },
+   "installing_adblock": {
+      "description": "Install page: shown while progress bar loads",
+      "message": "\u5B89\u88DD AdBlock..."
+   },
+   "invalidListUrl": {
+      "description": "Message when you subscribe to a non-list URL",
+      "message": "\u7121\u6548\u7684\u6E05\u55AE\u7DB2\u5740\u3002 \u5B83\u5C07\u6703\u88AB\u522A\u9664\u3002"
+   },
+   "lang_czech": {
+      "description": "language",
+      "message": "\u6377\u514B\u6587"
+   },
+   "lang_english": {
+      "description": "language",
+      "message": "\u82F1\u6587"
+   },
+   "lang_russian": {
+      "description": "language",
+      "message": "\u4FC4\u6587"
+   },
+   "lang_slovak": {
+      "description": "language",
+      "message": "Slovak"
+   },
+   "lang_ukranian": {
+      "description": "language",
+      "message": "\u70CF\u514B\u862D\u6587"
+   },
+   "languagedropdowndescription": {
+      "description": "Dropdown list for language specific filters",
+      "message": "Add filters for another language: "
+   },
+   "let_me_know_how_it_is_working": {
+      "description": "Shown to users who use_experimental_feature_to_speed_up_adblock, politely encouraging them to click the link, taking them to a survey about their experience with the feature.",
+      "message": "Do me a favor?  Try this experimental feature for a while, then \u003Ca\u003Elet me know\u003C/a\u003E how well it works for you."
+   },
+   "linkblockadbyurl": {
+      "description": "Link on the third tab",
+      "message": "\u4F9D\u7DB2\u5740\u963B\u64CB\u5EE3\u544A"
+   },
+   "linkhidesection": {
+      "description": "Link on the third tab",
+      "message": "\u96B1\u85CF\u90E8\u5206\u9801\u9762"
+   },
+   "linkunblock": {
+      "description": "Link on the third tab",
+      "message": "\u986F\u793A\u5EE3\u544A\u5728\u4E00\u500B\u7DB2\u9801\u6216\u7DB2\u57DF"
+   },
+   "loading": {
+      "description": "resourceblocking page string",
+      "message": "\u8F09\u5165\u4E2D..."
+   },
+   "manualfilteredit": {
+      "description": "Subtitle on the third tab",
+      "message": "\u624B\u52D5\u7DE8\u8F2F\u60A8\u7684\u904E\u6FFE\u898F\u5247\uFF1A"
+   },
+   "modifydomain": {
+      "description": "Caption for the whitelist wizard slider that modifies the domain part of a URL",
+      "message": "\u7DB2\u7AD9:"
+   },
+   "modifypath": {
+      "description": "Caption for the whitelist wizard slider that modifies the path part of a URL",
+      "message": "\u9801\u9762:"
+   },
+   "multipledomainshint": {
+      "description": "resourceblocking page string",
+      "message": "\u4F7F\u7528\u7A7A\u767D\u6216\u662F\u9017\u865F\u5206\u958B\u591A\u500B\u7DB2\u57DF"
+   },
+   "nextstep": {
+      "description": "resourceblocking page string",
+      "message": "\u4E0B\u4E00\u6B65"
+   },
+   "no": {
+      "description": "A negative response to a question",
+      "message": "\u5426"
+   },
+   "nodefaultfilter1": {
+      "description": "instructions on ad report page pointing users to EasyList subscriptions list. 'Customize' should be the same message as 'tabcustomize'.",
+      "message": "\u6211\u5011\u6C92\u6709\u9019\u500B\u8A9E\u8A00\u7684\u9810\u8A2D\u904E\u6FFE\u6E05\u55AE\u3002\u003Cbr/\u003E\u8ACB\u5617\u8A66\u5C0B\u627E\u4E00\u500B\u9069\u5408\u7684\u6E05\u55AE\u4F86\u652F\u63F4\u9019\u500B\u8A9E\u8A00 $link$ \u6216\u8005 \u81EA\u884C\u5728\u9078\u9805\u4E2D\u300E\u81EA\u8A02\u300F\u5206\u9801\u52A0\u5165\u904E\u6FFE\u898F\u5247\u3002",
+      "placeholders": {
+         "link": {
+            "content": "$1\u9019\u88E1$2",
+            "example": "\u003Ca href='http://abp.org'\u003Ehere\u003C/a\u003E"
+         }
+      }
+   },
+   "noresourcessend2": {
+      "description": "resourceblocking page string",
+      "message": "Something went wrong. No resources have been sent through. This page will now close. Try reloading the website."
+   },
+   "nosearchresults": {
+      "description": "Text in resourceblock shown if no results are found after searching",
+      "message": "No resources found"
+   },
+   "novalidurlpattern": {
+      "description": "resourceblocking page string",
+      "message": "\u8ACB\u8F38\u5165\u6709\u6548\u7684\u7DB2\u5740!"
+   },
+   "now_you_have_adblock_hooray": {
+      "description": "Install page title.  'Hooray' is a silly word shouted when you are excited, for example if your team just won a game.",
+      "message": "\u73FE\u5728\u4F60\u5DF2\u7D93\u6709 AdBlock! \u592A\u597D\u4E86!"
+   },
+   "only_block_ads_on_these_sites": {
+      "description": "Label for textbox where user enters a list of sites on Customize tab",
+      "message": "\u53EA\u5728\u4EE5\u4E0B\u7DB2\u7AD9\u555F\u7528:"
+   },
+   "onlyondomains": {
+      "description": "resourceblocking page string",
+      "message": "\u300E\u53EA\u6709\u300F\u9019\u4E9B\u7DB2\u57DF\u7684\u9801\u9762: "
+   },
+   "onlyresourcetypes": {
+      "description": "resourceblocking page string",
+      "message": "\u9019\u500B\u898F\u5247\u5957\u7528\u5728\u9019\u4E9B\u985E\u578B\u7684\u8CC7\u6E90:"
+   },
+   "opera_120_install": {
+      "description": "Opera \u003C 12.10 warning during installation",
+      "message": "In Opera versions before Opera 12.10, some ads may not be blocked as it is not possible to parse all rules in those versions. This will be fixed when Opera updates to version 12.10. From that moment, all ads will be correctly blocked."
+   },
+   "opera_120_options": {
+      "description": "Opera \u003C 12.10 warning above options page",
+      "message": "In Opera versions before Opera 12.10, some options are greyed out, because they can't be supported in those versions."
+   },
+   "opera_allow_secure": {
+      "description": "Content of an area in the ad report page in Opera. &rArr; makes a right arrow",
+      "message": "If you want to use AdBlock on secure pages (pages with a lock icon in the toolbar), you first have to enable the option to allow access to secure pages."
+   },
+   "opera_can_also_change_setting": {
+      "description": "Message when the storage quota is reached, for advanced users in Opera",
+      "message": "You can also increase the value of\n$setting$",
+      "placeholders": {
+         "setting": {
+            "content": "$1",
+            "example": "opera:config#PersistentStorage|DomainQuotaForWidgetPreferences"
+         }
+      }
+   },
+   "opera_donations_button": {
+      "description": "Opera donate request in the button",
+      "message": "Like this extension? If so, please consider donating in the options page!"
+   },
+   "opera_donations_install": {
+      "description": "Opera donate request in the install page",
+      "message": "If you really like this extension, please consider donating via the options page."
+   },
+   "opera_enabledin": {
+      "description": "Hover text of items disabled in an older browser version",
+      "message": "Enabled in $browserversion$",
+      "placeholders": {
+         "browserversion": {
+            "content": "$1",
+            "example": "Opera 12.10"
+         }
+      }
+   },
+   "opera_excludedomainorurl": {
+      "description": "Opera version of the 'excludedomainorurl' string",
+      "message": "The domain where AdBlock shouldn't block anything"
+   },
+   "opera_for_more_options": {
+      "description": "Install page string telling where to find the preferences in Opera. &rArr; makes a right arrow (-\u003E)",
+      "message": "For more options, you can click the toolbar button or open the preferences via Extensions (in the menu) &rArr; Manage Extensions &rArr; wrench icon &rArr; Preferences"
+   },
+   "opera_linkunblock": {
+      "description": "Opera version of the 'linkunblock' string",
+      "message": "Show ads on a domain"
+   },
+   "opera_reenable_button": {
+      "description": "Opera browser button message when you click 'hide this button'",
+      "message": "You can re-enable the button in the preferences of this extension"
+   },
+   "opera_secure_pages": {
+      "description": "Title of an area in the ad report page in Opera. Only visible if the opener tab was a secure url (https)",
+      "message": "Secure pages"
+   },
+   "opera_secure_pages_enabled": {
+      "description": "Content of an area in the ad report page in Opera. &rArr; makes a right arrow",
+      "message": "Click Extensions (in the menu) &rArr; Manage Extensions &rArr; look for AdBlock and click the spanner icon near it &rArr; click Privacy.\u003Cbr/\u003EIs the option to allow access to secure pages enabled?"
+   },
+   "opera_show_toolbar_button": {
+      "description": "Opera option to show/hide the button",
+      "message": "Show the toolbar button"
+   },
+   "options": {
+      "description": "The text of the link on chrome://chrome/extensions that gets you to the Options page for an extension",
+      "message": "\u9078\u9805"
+   },
+   "optionschangelog": {
+      "description": "changelog link",
+      "message": "changelog"
+   },
+   "optionstitle": {
+      "description": "Title for the options page",
+      "message": "AdBlock \u9078\u9805"
+   },
+   "optionsversion": {
+      "description": "Version number",
+      "message": "\u7248\u672C $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.9"
+         }
+      }
+   },
+   "orenteraurl": {
+      "description": "link for custom subscription",
+      "message": "\u6216\u8F38\u5165\u904E\u6FFE\u6E05\u55AE\u7DB2\u5740\uFF1A"
+   },
+   "other": {
+      "description": "multiple choice option",
+      "message": "\u5176\u4ED6"
+   },
+   "otherfilters": {
+      "description": "List for other filters the user subscribed to",
+      "message": "Other Filter Lists"
+   },
+   "pagelanguagecheck": {
+      "description": "question on ad report page",
+      "message": "\u6B64\u9801\u9762\u4F7F\u7528\u4EC0\u9EBC\u8A9E\u8A00\uFF1F"
+   },
+   "pause_adblock": {
+      "description": "Menu entry to pause AdBlock.",
+      "message": "\u66AB\u505C AdBlock"
+   },
+   "project_home": {
+      "description": "Text of link to the AdBlock open source project homepage (not the install page)",
+      "message": "\u8A08\u756B\u9996\u9801"
+   },
+   "reenableadsonebyone": {
+      "description": "tells the user to reenable the extensions one by one.",
+      "message": "Now that the ads are gone, you must find out which extension is the cause. Go through and enable each extension one by one. The extension that brings back the ad(s) is the one that you must delete to get rid of the ads."
+   },
+   "refusetocheck": {
+      "description": "user is telling us they don't wish to investigate something for us",
+      "message": "\u6211\u4E0D\u60F3\u6AA2\u67E5\u9019\u500B"
+   },
+   "reloadadpage": {
+      "description": "instruction on ad report page",
+      "message": "\u91CD\u65B0\u8F09\u5165\u51FA\u73FE\u5EE3\u544A\u7684\u9801\u9762\u3002"
+   },
+   "removefromlist": {
+      "description": "Label to remove a custom filter",
+      "message": "\u5F9E\u6E05\u55AE\u5217\u8868\u4E2D\u79FB\u9664"
+   },
+   "removelabel": {
+      "description": "link to remove a filter",
+      "message": "\u79FB\u9664"
+   },
+   "report_ad_on_page": {
+      "description": "Link in the button",
+      "message": "\u56DE\u5831\u9019\u500B\u9801\u9762\u7684\u5EE3\u544A"
+   },
+   "reportfilterlistproblem": {
+      "description": "telling the user to report an ad to a filter list maintainer",
+      "message": "\u9019\u662F\u5EE3\u544A\u904E\u6FFE\u6E05\u55AE\u65B9\u9762\u7684\u554F\u984C\u3002\u8ACB\u5728\u9019\u88E1\u56DE\u5831\uFF1A $link$",
+      "placeholders": {
+         "link": {
+            "content": "$1",
+            "example": "EXAMPLE 1: \u003Ca href='mailto:someguy@list.com'\u003EJohn Doe\u003C/a\u003E  EXAMPLE 2: \u003Ca href='http://easylist.org'\u003EEasyList forums\u003C/a\u003E"
+         }
+      }
+   },
+   "reportpubliclyavailable": {
+      "description": "Ad report page string, when you're about to submit a report",
+      "message": "Note: your report may become publicly available. Keep that in mind before including anything private."
+   },
+   "reporttous2": {
+      "description": "NOTE: non-English translations should replace the first sentence and instead say 'If you can speak English, you can report the ad to us \u003Ca\u003Ein the issue tracker\u003C/a\u003E.'",
+      "message": "\u60A8\u53EF\u4EE5\u5728\u003Ca\u003E\u554F\u984C\u8FFD\u8E64\u9801\u9762\u003C/a\u003E\u56DE\u5831\u5EE3\u544A\u3002"
+   },
+   "resourceblocklegend1": {
+      "description": "resourceblocking page string",
+      "message": "\u6B04\u4F4D:"
+   },
+   "resourceblocklegend2": {
+      "description": "resourceblocking page string",
+      "message": "\u5DF2\u963B\u64CB\u7684\u8CC7\u6E90"
+   },
+   "resourceblocklegend3": {
+      "description": "resourceblocking page string",
+      "message": "\u5DF2\u52A0\u5165\u767D\u540D\u55AE\u7684\u8CC7\u6E90"
+   },
+   "resourceblocklegend4": {
+      "description": "resourceblocking page string",
+      "message": "\u53EF\u963B\u64CB\u7684\u8CC7\u6E90"
+   },
+   "resourceblocklegend5": {
+      "description": "resourceblocking page string",
+      "message": "\u96B1\u85CF\u898F\u5247\u5DF2\u5957\u7528"
+   },
+   "resourceblocktitle": {
+      "description": "resourceblocking page string",
+      "message": "\u963B\u64CB\u4E00\u500B\u8CC7\u6E90"
+   },
+   "resourcedomain": {
+      "description": "Text shown when hovering over an item in the third-party column",
+      "message": "Loaded on page with domain:\n$domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "resourceiswhitelisted": {
+      "description": "resourceblocking page string",
+      "message": "\u9019\u500B\u8CC7\u6E90\u5DF2\u88AB\u52A0\u5165\u767D\u540D\u55AE\u3002\u6240\u4EE5\u4F60\u4E0D\u80FD\u963B\u64CB\u5B83\u3002"
+   },
+   "retryaftersubscribe": {
+      "description": "instructions on ad report page telling users to subscribe to a filter list and then check again to see whether the ad exists",
+      "message": "\u5148\u8A02\u95B1\u6B64\u904E\u6FFE\u6E05\u55AE\uFF0C\u7136\u5F8C\u91CD\u8A66\u4E00\u6B21\uFF1A$list_title$",
+      "placeholders": {
+         "list_title": {
+            "content": "$1",
+            "example": "French filters"
+         }
+      }
+   },
+   "safari50_updatenotice": {
+      "description": "A message shown to Safari 5.0 users urging them to upgrade",
+      "message": "You are using an old version of Safari. Get the latest version in order to use the AdBlock toolbar button to pause AdBlock, whitelist websites, and report ads. \u003Ca\u003EUpgrade now\u003C/a\u003E."
+   },
+   "savebutton": {
+      "description": "Save button",
+      "message": "\u5132\u5B58"
+   },
+   "savereminder": {
+      "description": "Reminder to press save",
+      "message": "\u5225\u5FD8\u4E86\u5132\u5B58\uFF01"
+   },
+   "searchexplanation": {
+      "description": "Text in resourceblock when you hover your mouse over the search textbox",
+      "message": "Use * to match zero or more letters.  For example, 'banner*.gif image' matches the images 'banner.gif', 'banner123.gif', and 'bannerxyz.gif'."
+   },
+   "searchplaceholder": {
+      "description": "Text in resourceblock shown in the search textbox before you type something",
+      "message": "Search resources..."
+   },
+   "seeing_this_every_time_you_start_your_browser": {
+      "description": "Install page: link to click for help",
+      "message": "\u6BCF\u6B21\u4F60\u555F\u52D5\u700F\u89BD\u5668\u90FD\u6703\u770B\u898B\u9019\u500B\u55CE?"
+   },
+   "selectlanguage": {
+      "description": "Text for the first option in Langage Dropdown for Filter Lists tab in options.  Include the ' -- ' on either side of your translation.",
+      "message": " -- Select Language -- "
+   },
+   "selectresources": {
+      "description": "resourceblocking page string",
+      "message": "\u9078\u64C7\u4F60\u8981\u963B\u64CB\u6216\u662F\u53D6\u6D88\u963B\u64CB\u7684\u8CC7\u6E90"
+   },
+   "show_ads_except_for": {
+      "description": "Section title for blacklisting section of Customize tab",
+      "message": "\u986F\u793A\u5EE3\u544A \u003Ci\u003E\u5728\u6240\u6709\u7DB2\u7AD9\u003C/i\u003E \u9664\u4E86\u9019\u4E9B\u7DB2\u57DF..."
+   },
+   "show_on_adblock_button": {
+      "description": "Label for checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked",
+      "message": "Show on AdBlock button"
+   },
+   "show_resourcelist": {
+      "description": "Link in the button",
+      "message": "\u986F\u793A\u8CC7\u6E90\u6E05\u55AE"
+   },
+   "showcontextmenus": {
+      "description": "Option on first tab page",
+      "message": "\u5728\u53F3\u9375\u9078\u55AE\u4E2D\u65B0\u589E\u9078\u9805\u3002"
+   },
+   "showlinkstolists": {
+      "description": "Option on second tab page",
+      "message": "\u986F\u793A\u904E\u6FFE\u6E05\u55AE\u7684\u7DB2\u5740\uFF1A"
+   },
+   "sliderexplanation": {
+      "description": "Blacklister slider page message",
+      "message": "\u6ED1\u52D5\u63A7\u5236\u5668\u76F4\u5230\u9801\u9762\u4E0A\u7684\u5EE3\u544A\u5DF2\u88AB\u6B63\u78BA\u5730\u963B\u64CB\u3002"
+   },
+   "slidertitle": {
+      "description": "Blacklister slider page title",
+      "message": "\u7B2C\u4E00\u6B65:\u627E\u51FA\u8981\u963B\u64CB\u7684\u76EE\u6A19"
+   },
+   "spread_the_word": {
+      "description": "Text of a share link",
+      "message": "Please, help me spread the word!"
+   },
+   "status_disabled": {
+      "description": "Message shown in toolbar button on web pages that disallow extensions, such as the Extensions Gallery or about:blank.",
+      "message": "AdBlock\u4E0D\u80FD\u5728\u9019\u500B\u7DB2\u57DF\u4F7F\u7528\u3002"
+   },
+   "status_paused": {
+      "description": "Message shown in toolbar button when AdBlock is paused.",
+      "message": "AdBlock \u5DF2\u66AB\u505C"
+   },
+   "stop_blocking_ads": {
+      "description": "Section header on third tab",
+      "message": "\u505C\u6B62\u963B\u64CB\u5EE3\u544A:"
+   },
+   "storage_quota_exceeded": {
+      "description": "Message shown when the user uses more storage than allowed by the browser",
+      "message": "\u4F60\u8D85\u51FA\u4E86 AdBlock \u80FD\u4F7F\u7528\u7684\u5132\u5B58\u7A7A\u9593\u3002 \u8ACB\u53D6\u6D88\u8A02\u95B1\u4E00\u4E9B\u6E05\u55AE!"
+   },
+   "subscribebutton": {
+      "description": "subscribe to a list button",
+      "message": "\u8A02\u95B1"
+   },
+   "subscribingfailed": {
+      "description": "abp: link subscriber result",
+      "message": "\u5931\u6557"
+   },
+   "subscribingfinished": {
+      "description": "abp: link subscriber result",
+      "message": "\u5B8C\u6210"
+   },
+   "subscribingtitle": {
+      "description": "abp: link subscriber title",
+      "message": "\u6B63\u5728\u8A02\u95B1\u904E\u6FFE\u6E05\u55AE..."
+   },
+   "tabcustomize": {
+      "description": "A tab on the options page",
+      "message": "\u81EA\u8A02"
+   },
+   "tabcustomizetitle": {
+      "description": "Title of the third tab",
+      "message": "\u81EA\u8A02 AdBlock"
+   },
+   "tabfilterlists": {
+      "description": "A tab on the options page",
+      "message": "\u904E\u6FFE\u6E05\u55AE"
+   },
+   "tabgeneral": {
+      "description": "A tab on the options page",
+      "message": "\u4E00\u822C"
+   },
+   "thats_it": {
+      "description": "Install page string",
+      "message": "That's it!"
+   },
+   "thirdparty": {
+      "description": "Resource list column title telling if the resource originates from a different domain",
+      "message": "Third-party"
+   },
+   "thirdpartycheckbox": {
+      "description": "resourceblocking page string",
+      "message": "\u4EFB\u4F55\u7DB2\u7AD9 \u300E\u9664\u4E86\u300F \u6B64\u7DB2\u57DF $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "translator_credit": {
+      "description": "Credit for your translation with $translator_names$ being your own name below. Multiple names should be separated by a comma.",
+      "message": "\u7FFB\u8B6F\u8CA2\u737B: $translator_names$",
+      "placeholders": {
+         "translator_names": {
+            "content": "Tai-Lin Chu (tailinchu@gmail.com), Illusionmist62442",
+            "example": "Michael G, Drew R"
+         }
+      }
+   },
+   "typehiding": {
+      "description": "A resource type",
+      "message": "hiding"
+   },
+   "typeimage": {
+      "description": "A resource type",
+      "message": "image"
+   },
+   "typemedia": {
+      "description": "A resource type",
+      "message": "audio/video"
+   },
+   "typeobject": {
+      "description": "A resource type",
+      "message": "interactive object"
+   },
+   "typeobject_subrequest": {
+      "description": "A resource type",
+      "message": "object_subrequest"
+   },
+   "typeother": {
+      "description": "A resource type",
+      "message": "other"
+   },
+   "typepage": {
+      "description": "A resource type",
+      "message": "page"
+   },
+   "typepopup": {
+      "description": "A resource type",
+      "message": "popup"
+   },
+   "typescript": {
+      "description": "A resource type",
+      "message": "script"
+   },
+   "typestylesheet": {
+      "description": "A resource type",
+      "message": "style definition"
+   },
+   "typesubdocument": {
+      "description": "A resource type",
+      "message": "frame"
+   },
+   "typeunknown": {
+      "description": "A resource type",
+      "message": "unknown"
+   },
+   "typexmlhttprequest": {
+      "description": "A resource type",
+      "message": "xmlhttprequest"
+   },
+   "undo_last_block": {
+      "description": "Menu entry to let the user cancel the result of running the blacklist wizard.",
+      "message": "Undo last block"
+   },
+   "unpause": {
+      "description": "Link text to unpause AdBlock, displayed immediately after 'status_paused'.",
+      "message": "\u53D6\u6D88\u66AB\u505C"
+   },
+   "unsubscribedlabel": {
+      "description": "Status label",
+      "message": "\u5DF2\u53D6\u6D88\u8A02\u95B1\u3002"
+   },
+   "updateddayago": {
+      "description": "Label for subscription",
+      "message": "1 \u5929\u524D\u66F4\u65B0"
+   },
+   "updateddaysago": {
+      "description": "Label for subscription",
+      "message": "$days$ \u5929\u524D\u66F4\u65B0",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedhourago": {
+      "description": "Label for subscription",
+      "message": "1 \u5C0F\u6642\u524D\u66F4\u65B0"
+   },
+   "updatedhoursago": {
+      "description": "Label for subscription",
+      "message": "$hours$ \u5C0F\u6642\u524D\u66F4\u65B0",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedminuteago": {
+      "description": "Label for subscription",
+      "message": "1 \u5206\u9418\u524D\u66F4\u65B0"
+   },
+   "updatedminutesago": {
+      "description": "Label for subscription",
+      "message": "$minutes$ \u5206\u9418\u524D\u66F4\u65B0",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedrightnow": {
+      "description": "Label for subscription",
+      "message": "\u525B\u525B\u66F4\u65B0"
+   },
+   "updatedsecondsago": {
+      "description": "Label for subscription",
+      "message": "$seconds$ \u79D2\u524D\u66F4\u65B0",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatefromoldversion": {
+      "description": "Ad report page instructions to update AdBlock in Safari",
+      "message": "\u60A8\u6B63\u5728\u4F7F\u7528\u820A\u7248\u672C\u7684 AdBlock\u3002\u8ACB\u5148$updatelink$\u5230\u6700\u65B0\u7248\u672C",
+      "placeholders": {
+         "updatelink": {
+            "content": "$1\u66F4\u65B0$2",
+            "example": "\u003Ca href='http://chrome.com/update_here.ctx'\u003Eupdate\u003C/a\u003E"
+         }
+      }
+   },
+   "updatenowmessage": {
+      "description": "update filters text + button",
+      "message": "AdBlock\u6703\u81EA\u52D5\u7372\u53D6\u66F4\u65B0\uFF1B\u60A8\u4E5F\u53EF\u4EE5\u8981\u6C42\u003Ca\u003E\u73FE\u5728\u66F4\u65B0\u003C/a\u003E"
+   },
+   "updateyourlists": {
+      "description": "instruction on ad report page",
+      "message": "\u78BA\u8A8D\u60A8\u7684\u904E\u6FFE\u6E05\u55AE\u90FD\u5DF2\u5728\u6700\u65B0\u72C0\u614B"
+   },
+   "use_experimental_feature_to_speed_up_adblock": {
+      "description": "Option on first tab page",
+      "message": "Speed up AdBlock using an experimental feature in Safari."
+   },
+   "warning_overrules_filters": {
+      "description": "Message on the third tab of the options page, explaining the danger of adding a blacklisting filter",
+      "message": "\u8B66\u544A: \u4F60\u6703\u5728\u5176\u4ED6\u7DB2\u7AD9\u770B\u898B\u5EE3\u544A!\u003Cbr\u003E\u4F60\u6703\u5728\u5176\u4ED6\u7DB2\u7AD9\u770B\u898B\u5EE3\u544A\u3002"
+   },
+   "whats_this": {
+      "description": "Text of a link pointing to the explanation of a new feature",
+      "message": "What's this?"
+   },
+   "whitelistertitle2": {
+      "description": "The title of the whitelister dialog",
+      "message": "\u4E0D\u8981\u5728\u6B64\u7DB2\u57DF\u4F7F\u7528 AdBlock..."
+   },
+   "whitelisteverycontaining": {
+      "description": "resourceblocking page string",
+      "message": "\u7565\u904E\u7269\u4EF6\u5305\u542B:"
+   },
+   "wildcardhint": {
+      "description": "resourceblocking page string",
+      "message": "\u6CE8\u610F: \u4F60\u53EF\u4EE5\u4F7F\u7528 * \u4F5C\u70BA\u901A\u914D\u7B26"
+   },
+   "work_around_hulu_problems": {
+      "description": "Advanced Options page checkbox, which users only need to use if Hulu.com videos break.  It directs the user to restart their browser in order for changes to the checkbox to take effect",
+      "message": "Work around Hulu.com videos not playing (requires restarting your browser)"
+   },
+   "yes": {
+      "description": "A positive response to a question",
+      "message": "\u662F"
+   },
+   "you_can_slide_to_change": {
+      "description": "Instructions for how to use the whitelister slider controls.  Sometimes only one slider will show, and sometimes two will show, and if possible the text should handle both cases.",
+      "message": "\u4F60\u53EF\u4EE5\u6ED1\u52D5\u4F86\u6539\u8B8A AdBlock \u7DB2\u57DF\u767D\u540D\u55AE\u3002"
+   },
+   "you_know_thats_a_bad_idea_right": {
+      "description": "Confirmation message shown to user if they try to subscribe to too many lists. The user will have two options: OK and Cancel.",
+      "message": "\u4F7F\u7528\u8D8A\u591A\u7684\u904E\u6FFE\u6E05\u55AE\u6703\u4F7F AdBlock \u8D8A\u6162\u3002 \u904E\u591A\u7684\u904E\u6FFE\u6E05\u55AE\u6703\u4F7F\u700F\u89BD\u5668\u5728\u90E8\u4EFD\u7DB2\u7AD9\u7576\u6A5F\u3002 \u9EDE\u9078\u300E\u78BA\u8A8D\u300F\u7E7C\u7E8C\u3002"
+   }
+}

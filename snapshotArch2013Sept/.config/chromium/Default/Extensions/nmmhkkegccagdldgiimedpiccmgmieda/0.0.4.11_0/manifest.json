@@ -1,0 +1,30 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "Chrome In-App Payments service",
+   "display_in_launcher": false,
+   "display_in_new_tab_page": false,
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrKfMnLqViEyokd1wk57FxJtW2XXpGXzIHBzv9vQI/01UsuP0IV5/lj0wx7zJ/xcibUgDeIxobvv9XD+zO1MdjMWuqJFcKuSS4Suqkje6u+pMrTSGOSHq1bmBVh0kpToN8YoJs/P/yrRd7FEtAXTaFTGxQL4C385MeXSjaQfiRiQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29",
+   "name": "Chrome In-App Payments service",
+   "oauth2": {
+      "auto_approve": true,
+      "client_id": "203784468217.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/payments.inapp_purchase", "https://www.googleapis.com/auth/paymentssandbox.inapp_purchase", "https://www.googleapis.com/auth/payments.profile_readwrite", "https://www.googleapis.com/auth/paymentssandbox.profile_readwrite", "https://www.googleapis.com/auth/sierra", "https://www.googleapis.com/auth/sierrasandbox" ]
+   },
+   "permissions": [ "identity", "webview", "https://checkout.google.com/", "https://sandbox.google.com/checkout/" ],
+   "sandbox": {
+      "pages": [ "pbhelper.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.4.11"
+}

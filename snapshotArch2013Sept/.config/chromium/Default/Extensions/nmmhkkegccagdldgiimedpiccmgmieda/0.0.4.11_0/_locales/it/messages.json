@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Area"
+   },
+   "1241217935227812429": {
+      "message": "Metodo di pagamento"
+   },
+   "1251555475707160311": {
+      "message": "Le fluttuazioni della valuta e le commissioni bancarie potrebbero influire sull'importo finale addebitato."
+   },
+   "1362191621078934138": {
+      "message": "Spiacenti, impossibile evadere la richiesta. L'ordine \u00E8 stato annullato automaticamente e l'acquisto non ti verr\u00E0 addebitato. Riprova pi\u00F9 tardi."
+   },
+   "1408247765057411879": {
+      "message": "Carta scaduta."
+   },
+   "1465846685473775446": {
+      "message": "Paese"
+   },
+   "1623041851701577559": {
+      "message": "Il codice postale specificato non sembra corrispondere al resto dell'indirizzo."
+   },
+   "1663057945455945792": {
+      "message": "Il valore $1\u200B non \u00E8 un valore noto riconosciuto per questo campo."
+   },
+   "1710433699132727166": {
+      "message": "Per completare l'acquisto, seleziona una forma di pagamento diversa"
+   },
+   "1778481694021312420": {
+      "message": "Impossibile avviare l'acquisto a causa di un problema tecnico."
+   },
+   "1828231775026606412": {
+      "message": "Seleziona un metodo di fatturazione."
+   },
+   "184964329731217200": {
+      "message": "Esempio: $3\u200B. Non conosci il tuo codice ZIP? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nome"
+   },
+   "1911221012794788296": {
+      "message": "Numero carta"
+   },
+   "195501871775480185": {
+      "message": "Distretto"
+   },
+   "1959457175344566910": {
+      "message": "Si \u00E8 verificato un errore nella configurazione dell'acquisto. Contatta il commerciante comunicandogli il problema."
+   },
+   "1960454644696014517": {
+      "message": "Il codice ZIP specificato non sembra corrispondere al resto dell'indirizzo."
+   },
+   "2033323276322498862": {
+      "message": "Numero di carta di credito non valido."
+   },
+   "2034494361870910998": {
+      "message": "Il formato di questo codice ZIP non \u00E8 riconosciuto."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili{END_BOLD} il {START_BOLD}{DATE}{END_BOLD}.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni {FREQUENCY_UNIT_COUNT} mesi{END_BOLD} per i prossimi {START_BOLD}{NUM_RECURRENCES_2} mesi{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni anno{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni {FREQUENCY_UNIT_COUNT_2} anni{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}}"
+   },
+   "2847382170871301506": {
+      "message": "Il formato di questo codice postale non \u00E8 riconosciuto."
+   },
+   "2847737339885115125": {
+      "message": "Stato"
+   },
+   "2850460462496931023": {
+      "message": "Impossibile verificare i dati dell'account. Visita il sito $2\u200Bwallet.google.com/manage$1\u200B per risolvere il problema."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B - Rifiutato"
+   },
+   "2997291709564172031": {
+      "message": "Questo codice postale non sembra corrispondente al resto di questo indirizzo. Non conosci il tuo codice postale? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "CVC non valido."
+   },
+   "3134831338223050412": {
+      "message": "Chiudi"
+   },
+   "3167935320133055769": {
+      "message": "Spiacenti. Si \u00E8 verificato un problema."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Paese/Regione"
+   },
+   "3258279995976898903": {
+      "message": "Indirizzo"
+   },
+   "3314408358311476388": {
+      "message": "Utilizza la carta regalo/il codice promozionale Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Esempio: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Il formato di questo codice ZIP non \u00E8 riconosciuto. Esempio di codice ZIP valido: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Spiacenti, impossibile evadere la richiesta. Riprova pi\u00F9 tardi."
+   },
+   "3631100366179556676": {
+      "message": "Accetta e acquista"
+   },
+   "3719225755450392126": {
+      "message": "I dati di fatturazione corrispondono all'indirizzo di casa"
+   },
+   "3745637225460177011": {
+      "message": "Salva e continua"
+   },
+   "392637004226857303": {
+      "message": "Grazie per il tuo acquisto"
+   },
+   "4032878564184720978": {
+      "message": "Ho letto e accetto i $2\u200BTermini di servizio$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Nome"
+   },
+   "4172829093050641190": {
+      "message": "Indirizzo abitazione"
+   },
+   "419181302975727827": {
+      "message": "Accetta e continua"
+   },
+   "4263059013900008685": {
+      "message": "Dati di fatturazione"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni mese{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni {FREQUENCY_UNIT_COUNT_2} mesi{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}}"
+   },
+   "4429302098472575216": {
+      "message": "Chiudi"
+   },
+   "4634308040786352090": {
+      "message": "La tua richiesta di acquisto \u00E8 scaduta. Riprova a effettuare l'acquisto."
+   },
+   "4750645007889628835": {
+      "message": "Questo campo non pu\u00F2 restare vuoto."
+   },
+   "487772095106728308": {
+      "message": "Codice ZIP"
+   },
+   "5009369992123803733": {
+      "message": "Si \u00E8 verificato un errore nella configurazione dell'acquisto. Contatta il commerciante e comunicagli il seguente messaggio di errore: $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "aggiungi riga"
+   },
+   "5191851017039683844": {
+      "message": "Annulla"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B - La disponibilit\u00E0 di fondi \u00E8 insufficiente"
+   },
+   "5375779080833659264": {
+      "message": "Acquista"
+   },
+   "5408750669387206869": {
+      "message": "Fine"
+   },
+   "5455061473703313433": {
+      "message": "Localit\u00E0 dipendente"
+   },
+   "5693829359112864056": {
+      "message": "Contea"
+   },
+   "5709243647038761785": {
+      "message": "La tua carta di credito \u00E8 stata rifiutata. Seleziona un altro metodo di pagamento o contatta l'emittente della carta di credito affinch\u00E9 autorizzi l'acquisto."
+   },
+   "5731352514282693755": {
+      "message": "Purtroppo non \u00E8 stato possibile confermare l'acquisto con il server del commerciante. L'ordine \u00E8 stato annullato. Se il problema persiste, contatta il commerciante."
+   },
+   "5775442217879920265": {
+      "message": "Controlla il tuo acquisto"
+   },
+   "5883995280582852838": {
+      "message": "Emirato"
+   },
+   "5891444382711799549": {
+      "message": "Devi fornire un codice ZIP, ad esempio $3\u200B. Non conosci il tuo codice ZIP? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Mese"
+   },
+   "5999277657241413253": {
+      "message": "Aggiungi un nuovo metodo di pagamento"
+   },
+   "6060257219410469243": {
+      "message": "Questo codice ZIP non sembra corrispondente al resto di questo indirizzo. Non conosci il tuo codice ZIP? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provincia"
+   },
+   "6223713516581400986": {
+      "message": "Devi fornire un codice postale, ad esempio $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B - Metodo di pagamento non supportato"
+   },
+   "6406068463830609732": {
+      "message": "Il tuo ordine \u00E8 stato annullato perch\u00E9 non puoi acquistare da te stesso."
+   },
+   "6441964001210288441": {
+      "message": "Ho letto e accetto i termini del $3\u200BDocumento di Dichiarazione relativa alla divulgazione del prodotto/dei Termini di servizio$1\u200B e dell'$4\u200BInformativa sulla privacy$1\u200B di Google Wallet e accetto di riceverli online."
+   },
+   "6643725951150665259": {
+      "message": "Distretto"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni giorno{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni {FREQUENCY_UNIT_COUNT_2} giorni{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni giorno{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni {FREQUENCY_UNIT_COUNT_2} giorni{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE}{END_BOLD} il {START_BOLD}{DATE}{END_BOLD}.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni {FREQUENCY_UNIT_COUNT} mesi{END_BOLD} per i prossimi {START_BOLD}{NUM_RECURRENCES_2} mesi{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Esempio: $3\u200B. Non conosci il tuo codice postale? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Dipartimento"
+   },
+   "6940850784031726893": {
+      "message": "Inviami offerte speciali di Google Wallet, inviti a fornire feedback sui prodotti e newsletter."
+   },
+   "6952974317491911390": {
+      "message": "Il formato di questo codice postale non \u00E8 riconosciuto. Esempio di codice postale valido: $3\u200B. Non conosci il tuo codice postale? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Seleziona un'opzione"
+   },
+   "7026703400430960720": {
+      "message": "Anno"
+   },
+   "7041462460226543908": {
+      "message": "Isola"
+   },
+   "7134287411704210613": {
+      "message": "Codice postale"
+   },
+   "7201243556561197557": {
+      "message": "Hai completato un acquisto da $5\u200B$4\u200B$2\u200B. \u00C8 stata inviata una ricevuta dettagliata a $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Questo campo non pu\u00F2 restare vuoto."
+   },
+   "7414801576887533495": {
+      "message": "Prezzo"
+   },
+   "748206580479839913": {
+      "message": "Impossibile portare a termine l'acquisto a causa di un problema tecnico."
+   },
+   "7555701388564834489": {
+      "message": "Citt\u00E0"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE}{END_BOLD} il {START_BOLD}{DATE}{END_BOLD}.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni mese{END_BOLD} per i prossimi {START_BOLD}{NUM_RECURRENCES_2} mesi{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Totale pagato"
+   },
+   "7955094861997417068": {
+      "message": "Continua"
+   },
+   "7961358682448049092": {
+      "message": "L'acquisto non pu\u00F2 essere effettuato nel tuo Paese."
+   },
+   "8069103702517962649": {
+      "message": "IVA"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B - Scaduto"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni mese{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni {FREQUENCY_UNIT_COUNT_2} mesi{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}}"
+   },
+   "8175465107894358488": {
+      "message": "Accetto i $3\u200BTermini di servizio$1\u200B e ho letto l'$4\u200BInformativa sulla privacy$1\u200B di Google Wallet."
+   },
+   "8261307552167893934": {
+      "message": "Il formato di questo codice postale non \u00E8 riconosciuto. Esempio di codice postale valido: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Spiacenti, impossibile evadere la richiesta. Gli addebiti verranno annullati automaticamente entro 24 ore. Riprova tra 24 ore."
+   },
+   "8401318454955949161": {
+      "message": "Totale"
+   },
+   "8571469142225833639": {
+      "message": "Dettagli di fatturazione"
+   },
+   "8636143988042581467": {
+      "message": "Sobborgo"
+   },
+   "865452984547897019": {
+      "message": "Prefettura"
+   },
+   "8696254863055694906": {
+      "message": "Devi fornire un codice ZIP, ad esempio $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Imposta Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B - Disabilitato sulla base delle impostazioni del tuo Paese"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni anno{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} ogni {FREQUENCY_UNIT_COUNT_2} anni{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD} fino all'annullamento dell'abbonamento.}}"
+   },
+   "8929214462880609574": {
+      "message": "Devi fornire un codice postale, ad esempio $3\u200B. Non conosci il tuo codice postale? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Pagato con"
+   },
+   "8997532101299466079": {
+      "message": "Accetto i $3\u200BTermini di servizio$1\u200B e l'$4\u200BInformativa sulla privacy$1\u200B di Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "Questa riga dell'indirizzo sembra contenere una casella postale. Specifica una via o l'indirizzo di un edificio."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili{END_BOLD} il {START_BOLD}{DATE}{END_BOLD}.}other{Ti verranno addebitati automaticamente {START_BOLD}{PRICE} pi\u00F9 eventuali imposte applicabili ogni mese{END_BOLD} per i prossimi {START_BOLD}{NUM_RECURRENCES_2} mesi{END_BOLD} a partire dal {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Il formato di questo codice ZIP non \u00E8 riconosciuto. Esempio di codice ZIP valido: $3\u200B. Non conosci il tuo codice ZIP? Trovalo $1\u200Bqui$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "imposta"
+   }
+}

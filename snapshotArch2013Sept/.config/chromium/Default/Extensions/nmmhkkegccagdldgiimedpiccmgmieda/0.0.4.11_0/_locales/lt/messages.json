@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Sritis"
+   },
+   "1241217935227812429": {
+      "message": "Mok\u0117jimo metodas"
+   },
+   "1251555475707160311": {
+      "message": "Valiutos kurso kitimas ir banko mokes\u010Diai gali tur\u0117ti \u012Ftakos galutinei sumai, kuria b\u016Bsite apmokestinti."
+   },
+   "1362191621078934138": {
+      "message": "Deja, nepavyko apdoroti u\u017Eklausos. U\u017Esakymas buvo automati\u0161kai at\u0161auktas ir l\u0117\u0161os u\u017E pirkin\u012F nebus i\u0161skaitytos. V\u0117liau bandykite dar kart\u0105."
+   },
+   "1408247765057411879": {
+      "message": "Kortel\u0117s galiojimo laikas baig\u0117si."
+   },
+   "1465846685473775446": {
+      "message": "\u0160alis"
+   },
+   "1623041851701577559": {
+      "message": "\u0160is pa\u0161to kodas neatitinka likusios \u0161io adreso dalies."
+   },
+   "1663057945455945792": {
+      "message": "\u201E$1\u200B\u201C neatpa\u017Einta kaip \u017Einoma \u0161io lauko vert\u0117."
+   },
+   "1710433699132727166": {
+      "message": "Jei norite u\u017Ebaigti pirkim\u0105, pasirinkite kit\u0105 mok\u0117jimo form\u0105"
+   },
+   "1778481694021312420": {
+      "message": "D\u0117l technini\u0173 problem\u0173 nepavyko prad\u0117ti pirkimo."
+   },
+   "1828231775026606412": {
+      "message": "Pasirinkite atsiskaitymo b\u016Bd\u0105."
+   },
+   "184964329731217200": {
+      "message": "Pavyzdys: $3\u200B. Ne\u017Einote savo pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Vardas"
+   },
+   "1911221012794788296": {
+      "message": "Kortel\u0117s numeris"
+   },
+   "195501871775480185": {
+      "message": "Apylink\u0117"
+   },
+   "1959457175344566910": {
+      "message": "\u012Evyko pirkinio s\u0105rankos klaida. Susisiekite su prekybininku d\u0117l \u0161ios problemos."
+   },
+   "1960454644696014517": {
+      "message": "Pana\u0161u, kad \u0161is pa\u0161to kodas neatitinka likusios adreso dalies."
+   },
+   "2033323276322498862": {
+      "message": "Netinkamas kredito kortel\u0117s numeris."
+   },
+   "2034494361870910998": {
+      "message": "\u0160is pa\u0161to kodo formatas neatpa\u017Eintas."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais {END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT} m\u0117nes\u012F{END_BOLD} kit\u0105 {START_BOLD}{NUM_RECURRENCES_2} m\u0117nes\u012F {END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT} m\u0117nesius{END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesius {END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT} m\u0117nesi\u0173{END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesi\u0173 {END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas metus{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}one{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} metus{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} metus{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} met\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2847382170871301506": {
+      "message": "\u0160is pa\u0161to kodo formatas neatpa\u017Eintas."
+   },
+   "2847737339885115125": {
+      "message": "Valstija"
+   },
+   "2850460462496931023": {
+      "message": "Nepavyko patvirtinti paskyros informacijos. Apsilankykite adresu $2\u200Bwallet.google.com/manage$1\u200B, kad i\u0161spr\u0119stum\u0117te \u0161i\u0105 problem\u0105."
+   },
+   "2951584905898104421": {
+      "message": "\u201E$1\u200B\u201C \u2013 atmesta"
+   },
+   "2997291709564172031": {
+      "message": "\u0160is pa\u0161to kodas neatitinka likusio adreso. Ne\u017Einote pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Netinkamas kortel\u0117s saugos kodas (CVC)."
+   },
+   "3134831338223050412": {
+      "message": "U\u017Edaryti"
+   },
+   "3167935320133055769": {
+      "message": "Oi, i\u0161kilo problema."
+   },
+   "3185642516695299369": {
+      "message": "Kortel\u0117s saugos kodas (CVC)"
+   },
+   "3186233853946910538": {
+      "message": "\u0160alis / regionas"
+   },
+   "3258279995976898903": {
+      "message": "Adresas"
+   },
+   "3314408358311476388": {
+      "message": "I\u0161pirkti \u201EGoogle Play\u201C dovan\u0173 kortel\u0119 arba reklamos kredito kod\u0105"
+   },
+   "3333007012173588619": {
+      "message": "Pavyzdys: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "\u0160is pa\u0161to kodo formatas neatpa\u017Eintas. Tinkamo pa\u0161to kodo pavyzdys: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Deja, nepavyko apdoroti u\u017Eklausos. V\u0117liau bandykite dar kart\u0105."
+   },
+   "3631100366179556676": {
+      "message": "Sutikti ir pirkti"
+   },
+   "3719225755450392126": {
+      "message": "Atsiskaitymo informacija yra gyvenamoji vieta"
+   },
+   "3745637225460177011": {
+      "message": "I\u0161saugoti ir t\u0119sti"
+   },
+   "392637004226857303": {
+      "message": "D\u0117kojame, kad pirkote"
+   },
+   "4032878564184720978": {
+      "message": "Perskai\u010Diau ir sutinku su $2\u200Bpaslaug\u0173 teikimo s\u0105lygomis$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Vardas"
+   },
+   "4172829093050641190": {
+      "message": "Gyvenamoji vieta"
+   },
+   "419181302975727827": {
+      "message": "Sutikti ir t\u0119sti"
+   },
+   "4263059013900008685": {
+      "message": "Atsiskaitymo informacija"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas m\u0117nes\u012F{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}one{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} m\u0117nes\u012F{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} m\u0117nesius{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} m\u0117nesi\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "4429302098472575216": {
+      "message": "U\u017Edaryti"
+   },
+   "4634308040786352090": {
+      "message": "Baig\u0117si skirtasis pirkimo u\u017Eklausos laikas. Bandykite \u012Fsigyti pirkin\u012F dar kart\u0105."
+   },
+   "4750645007889628835": {
+      "message": "\u0160io lauko negalima palikti tu\u0161\u010Dio."
+   },
+   "487772095106728308": {
+      "message": "Pa\u0161to kodas"
+   },
+   "5009369992123803733": {
+      "message": "\u012Evyko pirkinio s\u0105rankos klaida. Susisiekite su prekybininku ir pateikite \u0161\u012F klaidos prane\u0161im\u0105:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "prid\u0117ti eilut\u0119"
+   },
+   "5191851017039683844": {
+      "message": "At\u0161aukti"
+   },
+   "532788497236169830": {
+      "message": "\u201E$1\u200B\u201C \u2013 nepakanka l\u0117\u0161\u0173"
+   },
+   "5375779080833659264": {
+      "message": "Pirkti"
+   },
+   "5408750669387206869": {
+      "message": "Atlikta"
+   },
+   "5455061473703313433": {
+      "message": "Priemies\u010Dio vietov\u0117"
+   },
+   "5693829359112864056": {
+      "message": "Apygarda"
+   },
+   "5709243647038761785": {
+      "message": "Kredito kortel\u0117 buvo atmesta. Pasirinkite kit\u0105 mok\u0117jimo metod\u0105 arba susisiekite su kredito kortel\u0117s i\u0161dav\u0117ju, kad \u0161is autorizuot\u0173 \u0161\u012F pirkim\u0105."
+   },
+   "5731352514282693755": {
+      "message": "Deja, negal\u0117jome patvirtinti j\u016Bs\u0173 pirkinio prekybininko serveryje. J\u016Bs\u0173 u\u017Esakymas buvo at\u0161auktas. Jei problema i\u0161liks, susisiekite su prekybininku."
+   },
+   "5775442217879920265": {
+      "message": "Per\u017Ei\u016Br\u0117kite pirkin\u012F"
+   },
+   "5883995280582852838": {
+      "message": "Emyratas"
+   },
+   "5891444382711799549": {
+      "message": "Turite nurodyti pa\u0161to kod\u0105, pvz., $3\u200B. Ne\u017Einote pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "M\u0117nuo"
+   },
+   "5999277657241413253": {
+      "message": "Prid\u0117ti nauj\u0105 mok\u0117jimo metod\u0105"
+   },
+   "6060257219410469243": {
+      "message": "\u0160is pa\u0161to kodas neatitinka likusio adreso. Ne\u017Einote pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provincija"
+   },
+   "6223713516581400986": {
+      "message": "Turite nurodyti pa\u0161to kod\u0105, pvz., $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "\u201E$1\u200B\u201C \u2013 nepalaikomas mok\u0117jimo metodas"
+   },
+   "6406068463830609732": {
+      "message": "U\u017Esakymas at\u0161auktas, nes negalite pirkti i\u0161 sav\u0119s."
+   },
+   "6441964001210288441": {
+      "message": "Perskai\u010Diau \u201EGoogle\u201C pinigin\u0117s $3\u200Bprodukto atskleidimo parei\u0161kim\u0105 / paslaug\u0173 teikimo s\u0105lyg\u0173 dokument\u0105$1\u200B ir $4\u200Bprivatumo prane\u0161im\u0105$1\u200B, sutinku su j\u0173 s\u0105lygomis ir sutinku gauti juos internetu."
+   },
+   "6643725951150665259": {
+      "message": "Rajonas"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kiekvien\u0105 dien\u0105{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}one{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} dien\u0105{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} dienas{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} dien\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kasdien{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}one{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} dien\u0105{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} dienas{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas {FREQUENCY_UNIT_COUNT_2} dien\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE}{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT} m\u0117nes\u012F {END_BOLD} kit\u0105 {START_BOLD}{NUM_RECURRENCES_2} m\u0117nes\u012F{END_BOLD} nuo{START_BOLD}{DATE}{END_BOLD}.}few{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT} m\u0117nesius {END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesius{END_BOLD} nuo{START_BOLD}{DATE}{END_BOLD}.}other{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT} m\u0117nesi\u0173 {END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesi\u0173{END_BOLD} nuo{START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Pavyzdys: $3\u200B. Ne\u017Einote savo pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departamentas"
+   },
+   "6940850784031726893": {
+      "message": "Si\u0173skite man specialius \u201EGoogle\u201C pinigin\u0117s pasi\u016Blymus, kvietimus pateikti atsiliepim\u0173 apie produktus ir naujienlai\u0161kius."
+   },
+   "6952974317491911390": {
+      "message": "\u0160is pa\u0161to kodo formatas neatpa\u017Eintas. Tinkamo pa\u0161to kodo pavyzdys: $3\u200B. Ne\u017Einote pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Pasirinkite"
+   },
+   "7026703400430960720": {
+      "message": "Metai"
+   },
+   "7041462460226543908": {
+      "message": "Sala"
+   },
+   "7134287411704210613": {
+      "message": "Pa\u0161to kodas"
+   },
+   "7201243556561197557": {
+      "message": "U\u017Ebaig\u0117te pirkim\u0105 i\u0161 $5\u200B$4\u200B$2\u200B. I\u0161samus kvitas i\u0161si\u0173stas adresu $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "\u0160\u012F lauk\u0105 b\u016Btina u\u017Epildyti."
+   },
+   "7414801576887533495": {
+      "message": "Kaina"
+   },
+   "748206580479839913": {
+      "message": "D\u0117l technini\u0173 problem\u0173 nepavyko u\u017Ebaigti pirkimo."
+   },
+   "7555701388564834489": {
+      "message": "Miestas"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE}{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas m\u0117nes\u012F{END_BOLD} kit\u0105 {START_BOLD}{NUM_RECURRENCES_2} m\u0117nes\u012F{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas m\u0117nes\u012F{END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesius{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas m\u0117nes\u012F{END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesi\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Provincija / miestas"
+   },
+   "7721535992050019842": {
+      "message": "I\u0161 viso sumok\u0117ta"
+   },
+   "7955094861997417068": {
+      "message": "T\u0119sti"
+   },
+   "7961358682448049092": {
+      "message": "\u0160is pirkimas negalimas dabartin\u0117je j\u016Bs\u0173 lokal\u0117je."
+   },
+   "8069103702517962649": {
+      "message": "Mokestis"
+   },
+   "8111802979117986671": {
+      "message": "\u201E$1\u200B\u201C \u2013 baig\u0117si galiojimo laikas"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kiekvien\u0105 m\u0117nes\u012F{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}one{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} m\u0117nes\u012F{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} m\u0117nesius{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} m\u0117nesi\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "8175465107894358488": {
+      "message": "Sutinku su \u201EGoogle\u201C pinigin\u0117s $3\u200Bpaslaug\u0173 teikimo s\u0105lygomis$1\u200B ir perskai\u010Diau $4\u200Bprivatumo prane\u0161im\u0105$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "\u0160is pa\u0161to kodo formatas neatpa\u017Eintas. Tinkamo pa\u0161to kodo pavyzdys: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Deja, u\u017Eklausos apdoroti nepavyko. Visi apmokestinimai bus automati\u0161kai at\u0161aukti per 24 valandas. Bandykite dar kart\u0105 po 24 val."
+   },
+   "8401318454955949161": {
+      "message": "I\u0161 viso"
+   },
+   "8571469142225833639": {
+      "message": "I\u0161sami atsiskaitymo informacija"
+   },
+   "8636143988042581467": {
+      "message": "Priemiestis"
+   },
+   "865452984547897019": {
+      "message": "Prefekt\u016Bra"
+   },
+   "8696254863055694906": {
+      "message": "Turite nurodyti pa\u0161to kod\u0105, pvz., $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Nustatyti \u201EGoogle\u201C pinigin\u0119"
+   },
+   "8833832822310593640": {
+      "message": "\u201E$1\u200B\u201C \u2013 neleid\u017Eiama pagal \u0161alies nustatymus"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kiekvienais metais{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}one{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} metus{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} metus{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{Kol at\u0161auksite prenumerat\u0105, b\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} kas {FREQUENCY_UNIT_COUNT_2} met\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "8929214462880609574": {
+      "message": "Turite nurodyti pa\u0161to kod\u0105, pvz., $3\u200B. Ne\u017Einote pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Sumok\u0117ta naudojant"
+   },
+   "8997532101299466079": {
+      "message": "Sutinku su \u201EGoogle\u201C pinigin\u0117s $3\u200Bpaslaug\u0173 teikimo s\u0105lygomis$1\u200B ir $4\u200Bprivatumo prane\u0161imu$1\u200B."
+   },
+   "9011575563787161706": {
+      "message": "Pana\u0161u, kad tai yra pa\u0161to d\u0117\u017Eut\u0117s adresas. Naudokite gatv\u0119 ir pastato numer\u012F arba vis\u0105 adres\u0105."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais {END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas m\u0117nes\u012F{END_BOLD} kit\u0105 {START_BOLD}{NUM_RECURRENCES_2} m\u0117nes\u012F{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}few{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas m\u0117nes\u012F{END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesius{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}other{B\u016Bsite automati\u0161kai apmokestinti {START_BOLD}{PRICE} ir visais taikomais mokes\u010Diais kas m\u0117nes\u012F{END_BOLD} kitus {START_BOLD}{NUM_RECURRENCES_2} m\u0117nesi\u0173{END_BOLD} nuo {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "\u0160is pa\u0161to kodo formatas neatpa\u017Eintas. Tinkamo pa\u0161to kodo pavyzdys: $3\u200B. Ne\u017Einote pa\u0161to kodo? Su\u017Einokite j\u012F $1\u200B\u010Dia$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "mokestis"
+   }
+}

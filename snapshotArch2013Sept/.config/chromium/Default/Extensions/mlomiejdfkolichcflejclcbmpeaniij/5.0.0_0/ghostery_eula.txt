@@ -1,0 +1,25 @@
+END-USER LICENSE AGREEMENT (IN SCARY ALL CAPS) FOR GHOSTERY.
+ 
+This End-User License Agreement ("EULA") is a legal agreement between you, Ghostery, and its parent company, Evidon, Inc. It includes the Ghostery tool itself, media, printed materials, and online or electronic documentation. This agreement includes all the of the terms of use in their entirety, and supersedes any other agreement or understanding. If you don't like what you see here, do not install or use Ghostery. By using Ghostery in your browser, you agree to the terms of this license. They're pretty agreeable.
+ 
+Ghostery is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. Ghostery is free to download and use, but this license still applies. This EULA allows for a lot, but does not surrender copyright. All rights not expressly granted are reserved by Ghostery and Evidon, Inc.
+ 
+1. GRANT OF LICENSE
+Ghostery and Evidon, Inc. grant you the right to install and use copies of Ghostery on any supported computer platform, in any supported browser. The number of copies of Ghostery you can download and use is not limited - install as often as you'd like.
+ 
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+(a) You must not remove or alter any copyright notices on any and all copies of Ghostery.
+(b) You may not distribute Ghostery to third parties, except by directing them to download from Ghostery.com or an officially licensed browser add-on or extension gallery.
+(c) You may not disassemble or reverse engineer Ghostery for any purpose other than reviewing the code for personal edification.
+(d) We don't charge for Ghostery, and neither can you. You may not rent, lease, or lend Ghostery.
+(e) Ghostery may provide you with support services, and any supplemental software code provided to you as part of those services shall be considered part of Ghostery and subject to the terms and conditions of this EULA.
+(f) You must comply with all applicable laws regarding use of Ghostery.
+ 
+3. TERMINATION
+If you violate this agreement, we reserve the right to terminate it. If that happens, you must destroy all copies of Ghostery in your possession.
+ 
+4. NO WARRANTIES
+Ghostery is provided 'As Is' and does not come with any kind of warranty. Ghostery and Evidon, Inc. do not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within Ghostery. Ghostery makes no warranties respecting any harm that may be caused by the transmission of any kind of  computer virus.
+ 
+5. LIMITATION OF LIABILITY
+In no event shall Ghostery or Evidon, Inc. be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of use of or inability to use Ghostery. In no event will Ghostery or Evidon, Inc. be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. Ghostery or Evidon, Inc. shall have no liability with respect to the content or operation of Ghostery.

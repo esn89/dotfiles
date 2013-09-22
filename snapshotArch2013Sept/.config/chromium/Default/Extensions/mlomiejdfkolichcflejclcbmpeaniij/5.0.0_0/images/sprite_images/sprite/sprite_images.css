@@ -1,0 +1,18 @@
+/* glue: 0.3 hash: 5a54cd1440 */
+.sprite_images-tab_app_browser,
+.sprite_images-tab,
+.sprite_images-button_down,
+.sprite_images-button,
+.sprite_images-big_arrow_prev,
+.sprite_images-big_arrow_next{background-image:url('sprite_images.png');background-repeat:no-repeat}
+.sprite_images-tab_app_browser:hover{background-position:-20px -20px;width:177px;height:39px;}
+.sprite_images-tab_app_browser{background-position:-237px -20px;width:177px;height:39px;}
+.sprite_images-tab:hover{background-position:-454px -20px;width:111px;height:40px;}
+.sprite_images-tab{background-position:-605px -20px;width:111px;height:40px;}
+.sprite_images-button:hover{background-position:-756px -20px;width:86px;height:35px;}
+.sprite_images-button_down{background-position:-882px -20px;width:86px;height:35px;}
+.sprite_images-button{background-position:-1008px -20px;width:86px;height:35px;}
+.sprite_images-big_arrow_prev{background-position:-1134px -20px;width:81px;height:81px;}
+.sprite_images-big_arrow_next{background-position:-1255px -20px;width:81px;height:81px;}
+.sprite_images-big_arrow_prev:hover{background-position:-1376px -20px;width:81px;height:81px;}
+.sprite_images-big_arrow_next:hover{background-position:-1497px -20px;width:81px;height:81px;}

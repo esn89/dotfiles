@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "\u00C1rea"
+   },
+   "1241217935227812429": {
+      "message": "Forma de pagamento"
+   },
+   "1251555475707160311": {
+      "message": "Varia\u00E7\u00F5es cambiais e cobran\u00E7as banc\u00E1rias podem afetar o valor final cobrado."
+   },
+   "1362191621078934138": {
+      "message": "N\u00E3o foi poss\u00EDvel processar esta solicita\u00E7\u00E3o. O pedido foi cancelado automaticamente e, portanto, esta compra n\u00E3o ser\u00E1 cobrada. Tente novamente mais tarde."
+   },
+   "1408247765057411879": {
+      "message": "Cart\u00E3o expirado."
+   },
+   "1465846685473775446": {
+      "message": "Pa\u00EDs"
+   },
+   "1623041851701577559": {
+      "message": "Este c\u00F3digo postal parece n\u00E3o corresponder ao restante deste endere\u00E7o."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B n\u00E3o \u00E9 identificado como um valor conhecido para este campo."
+   },
+   "1710433699132727166": {
+      "message": "Selecione uma forma de pagamento diferente para concluir sua compra"
+   },
+   "1778481694021312420": {
+      "message": "N\u00E3o foi poss\u00EDvel iniciar sua compra devido a um problema t\u00E9cnico."
+   },
+   "1828231775026606412": {
+      "message": "Selecione um instrumento de faturamento."
+   },
+   "184964329731217200": {
+      "message": "Exemplo: $3\u200B. N\u00E3o sabe seu CEP? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nome"
+   },
+   "1911221012794788296": {
+      "message": "N\u00FAmero do cart\u00E3o"
+   },
+   "195501871775480185": {
+      "message": "Par\u00F3quia"
+   },
+   "1959457175344566910": {
+      "message": "Erro na defini\u00E7\u00E3o de sua compra. Entre em contato com o comerciante sobre este assunto."
+   },
+   "1960454644696014517": {
+      "message": "Este CEP parece n\u00E3o corresponder ao restante deste endere\u00E7o."
+   },
+   "2033323276322498862": {
+      "message": "N\u00FAmero de cart\u00E3o de cr\u00E9dito inv\u00E1lido."
+   },
+   "2034494361870910998": {
+      "message": "Este formato de CEP n\u00E3o \u00E9 reconhecido."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}, mais impostos aplic\u00E1veis{END_BOLD}, em {START_BOLD}{DATE}{END_BOLD}.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}, mais impostos aplic\u00E1veis, a cada {FREQUENCY_UNIT_COUNT} meses{END_BOLD} durante os pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD}, a partir de {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Uma vez por ano, voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} mais impostos aplic\u00E1veis {END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} mais impostos aplic\u00E1veis a cada {FREQUENCY_UNIT_COUNT_2} anos{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}}"
+   },
+   "2847382170871301506": {
+      "message": "Este formato de c\u00F3digo postal n\u00E3o \u00E9 reconhecido."
+   },
+   "2847737339885115125": {
+      "message": "Estado"
+   },
+   "2850460462496931023": {
+      "message": "N\u00E3o foi poss\u00EDvel confirmar as informa\u00E7\u00F5es de sua conta. Visite $2\u200Bwallet.google.com/manage$1\u200B para resolver este problema."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B: recusado"
+   },
+   "2997291709564172031": {
+      "message": "Este c\u00F3digo postal parece n\u00E3o corresponder ao restante do endere\u00E7o. N\u00E3o sabe seu c\u00F3digo postal? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "CVC inv\u00E1lido."
+   },
+   "3134831338223050412": {
+      "message": "Fechar"
+   },
+   "3167935320133055769": {
+      "message": "Ocorreu um problema."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Pa\u00EDs/regi\u00E3o"
+   },
+   "3258279995976898903": {
+      "message": "Endere\u00E7o"
+   },
+   "3314408358311476388": {
+      "message": "Resgatar c\u00F3digo do cart\u00E3o-presente ou da promo\u00E7\u00E3o do Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Exemplo: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Este CEP n\u00E3o \u00E9 reconhecido. Exemplo de um CEP v\u00E1lido: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "N\u00E3o foi poss\u00EDvel processar esta solicita\u00E7\u00E3o. Tente novamente mais tarde."
+   },
+   "3631100366179556676": {
+      "message": "Aceitar e comprar"
+   },
+   "3719225755450392126": {
+      "message": "As informa\u00E7\u00F5es de faturamento e o local de resid\u00EAncia s\u00E3o iguais"
+   },
+   "3745637225460177011": {
+      "message": "Salvar e continuar"
+   },
+   "392637004226857303": {
+      "message": "Agradecemos sua compra"
+   },
+   "4032878564184720978": {
+      "message": "Li e aceito os $2\u200BTermos de Servi\u00E7o$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Nome"
+   },
+   "4172829093050641190": {
+      "message": "Local de resid\u00EAncia"
+   },
+   "419181302975727827": {
+      "message": "Aceitar e continuar"
+   },
+   "4263059013900008685": {
+      "message": "Informa\u00E7\u00F5es de faturamento"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Uma vez ao m\u00EAs, voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} mais impostos aplic\u00E1veis{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} mais impostos aplic\u00E1veis a cada {FREQUENCY_UNIT_COUNT_2} meses{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}}"
+   },
+   "4429302098472575216": {
+      "message": "Fechar"
+   },
+   "4634308040786352090": {
+      "message": "Voc\u00EA atingiu o tempo limite para o pedido de compra. Tente comprar novamente."
+   },
+   "4750645007889628835": {
+      "message": "Este campo n\u00E3o pode ficar em branco."
+   },
+   "487772095106728308": {
+      "message": "CEP"
+   },
+   "5009369992123803733": {
+      "message": "Erro na defini\u00E7\u00E3o de sua compra. Entre em contato com o comerciante fornecendo esta mensagem de erro: $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "adicionar linha"
+   },
+   "5191851017039683844": {
+      "message": "Cancelar"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B: fundos dispon\u00EDveis insuficientes"
+   },
+   "5375779080833659264": {
+      "message": "Comprar"
+   },
+   "5408750669387206869": {
+      "message": "Conclu\u00EDdo"
+   },
+   "5455061473703313433": {
+      "message": "Local de refer\u00EAncia"
+   },
+   "5693829359112864056": {
+      "message": "Condado"
+   },
+   "5709243647038761785": {
+      "message": "Seu cart\u00E3o de cr\u00E9dito foi recusado. Selecione outra forma de pagamento ou entre em contato com o emissor do cart\u00E3o de cr\u00E9dito para autorizar esta compra."
+   },
+   "5731352514282693755": {
+      "message": "N\u00E3o foi poss\u00EDvel confirmar sua compra com o servidor do comerciante. Seu pedido foi cancelado. Entre em contato com o comerciante se o problema persistir."
+   },
+   "5775442217879920265": {
+      "message": "Analisar sua compra"
+   },
+   "5883995280582852838": {
+      "message": "Emirado"
+   },
+   "5891444382711799549": {
+      "message": "\u00C9 necess\u00E1rio fornecer um CEP, por exemplo, $3\u200B. N\u00E3o sabe seu CEP? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "M\u00EAs"
+   },
+   "5999277657241413253": {
+      "message": "Adicionar uma nova forma de pagamento"
+   },
+   "6060257219410469243": {
+      "message": "Este CEP parece n\u00E3o corresponder ao restante do endere\u00E7o. N\u00E3o sabe seu CEP? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Prov\u00EDncia"
+   },
+   "6223713516581400986": {
+      "message": "\u00C9 necess\u00E1rio fornecer um c\u00F3digo postal, por exemplo, $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B: forma de pagamento n\u00E3o suportada"
+   },
+   "6406068463830609732": {
+      "message": "Seu pedido foi cancelado porque voc\u00EA n\u00E3o pode comprar de si mesmo."
+   },
+   "6441964001210288441": {
+      "message": "Li e aceito os termos da $3\u200BDeclara\u00E7\u00E3o de divulga\u00E7\u00E3o do produto/do Documento dos Termos de Servi\u00E7o$1\u200B e do $4\u200BAviso de Privacidade$1\u200B da Carteira virtual do Google e concordo em receb\u00EA-los on-line."
+   },
+   "6643725951150665259": {
+      "message": "Distrito"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} todos os dias{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD}, at\u00E9 cancelar sua assinatura.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} a cada {FREQUENCY_UNIT_COUNT_2} dias{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD}, at\u00E9 cancelar sua assinatura.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}, mais impostos aplic\u00E1veis, todos os dias{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}, mais impostos aplic\u00E1veis, a cada {FREQUENCY_UNIT_COUNT_2} dias{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD}, at\u00E9 cancelar sua assinatura.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}{END_BOLD} em {START_BOLD}{DATE}{END_BOLD}.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} a cada {FREQUENCY_UNIT_COUNT} meses{END_BOLD} durante os pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD}, a partir de {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Exemplo: $3\u200B. N\u00E3o sabe seu c\u00F3digo postal? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departamento"
+   },
+   "6940850784031726893": {
+      "message": "Envie-me ofertas especiais da Carteira virtual do Google, convites para fornecer feedback sobre produtos e boletins informativos."
+   },
+   "6952974317491911390": {
+      "message": "Este c\u00F3digo postal n\u00E3o \u00E9 reconhecido. Exemplo de um c\u00F3digo postal v\u00E1lido: $3\u200B. N\u00E3o sabe seu c\u00F3digo postal? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Selecione"
+   },
+   "7026703400430960720": {
+      "message": "Ano"
+   },
+   "7041462460226543908": {
+      "message": "Ilha"
+   },
+   "7134287411704210613": {
+      "message": "C\u00F3digo postal"
+   },
+   "7201243556561197557": {
+      "message": "Voc\u00EA concluiu a compra de $5\u200B$4\u200B$2\u200B. Um recibo detalhado foi enviado para $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Voc\u00EA n\u00E3o pode deixar este campo vazio."
+   },
+   "7414801576887533495": {
+      "message": "Pre\u00E7o"
+   },
+   "748206580479839913": {
+      "message": "N\u00E3o foi poss\u00EDvel concluir sua compra devido a um problema t\u00E9cnico."
+   },
+   "7555701388564834489": {
+      "message": "Cidade"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}{END_BOLD} em {START_BOLD}{DATE}{END_BOLD}.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} uma vez ao m\u00EAs{END_BOLD} durante os pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD}, a partir de {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Total pago"
+   },
+   "7955094861997417068": {
+      "message": "Continuar"
+   },
+   "7961358682448049092": {
+      "message": "N\u00E3o \u00E9 poss\u00EDvel realizar esta compra em seu local atual."
+   },
+   "8069103702517962649": {
+      "message": "Imposto"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B: vencido"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} uma vez por m\u00EAs{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} a cada {FREQUENCY_UNIT_COUNT_2} meses{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}}"
+   },
+   "8175465107894358488": {
+      "message": "Aceito os $3\u200BTermos de Servi\u00E7o$1\u200B e li o $4\u200BAviso de Privacidade$1\u200B da Carteira virtual do Google."
+   },
+   "8261307552167893934": {
+      "message": "Este c\u00F3digo postal n\u00E3o \u00E9 reconhecido. Exemplo de um c\u00F3digo postal v\u00E1lido: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "N\u00E3o foi poss\u00EDvel processar esta solicita\u00E7\u00E3o. Qualquer cobran\u00E7a ser\u00E1 automaticamente cancelada em 24 horas. Tente novamente ap\u00F3s 24 horas."
+   },
+   "8401318454955949161": {
+      "message": "Total"
+   },
+   "8571469142225833639": {
+      "message": "Detalhes de faturamento"
+   },
+   "8636143988042581467": {
+      "message": "Sub\u00FArbio"
+   },
+   "865452984547897019": {
+      "message": "Munic\u00EDpio"
+   },
+   "8696254863055694906": {
+      "message": "\u00C9 necess\u00E1rio fornecer um CEP, por exemplo, $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Configurar a Carteira virtual do Google"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B: desativado com base nas configura\u00E7\u00F5es de seu pa\u00EDs"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} anualmente{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} a cada {FREQUENCY_UNIT_COUNT_2} anos{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD} at\u00E9 cancelar sua assinatura.}}"
+   },
+   "8929214462880609574": {
+      "message": "\u00C9 necess\u00E1rio fornecer um c\u00F3digo postal, por exemplo, $3\u200B. N\u00E3o sabe seu c\u00F3digo postal? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Pago com"
+   },
+   "8997532101299466079": {
+      "message": "Aceito os $3\u200BTermos de Servi\u00E7o$1\u200B e o $4\u200BAviso de Privacidade$1\u200B da Carteira virtual do Google."
+   },
+   "9011575563787161706": {
+      "message": "Esta linha de endere\u00E7o parece conter uma caixa postal. Use um endere\u00E7o de um logradouro."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE}, mais impostos aplic\u00E1veis{END_BOLD}, em {START_BOLD}{DATE}{END_BOLD}.}other{Voc\u00EA receber\u00E1 automaticamente uma cobran\u00E7a de {START_BOLD}{PRICE} uma vez ao m\u00EAs, mais impostos aplic\u00E1veis, {END_BOLD} durante os pr\u00F3ximos {START_BOLD}{NUM_RECURRENCES_2} meses{END_BOLD} a partir de {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Este CEP n\u00E3o \u00E9 reconhecido. Exemplo de um CEP v\u00E1lido: $3\u200B. N\u00E3o sabe seu CEP? Encontre-o $1\u200Baqui$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "imposto"
+   }
+}

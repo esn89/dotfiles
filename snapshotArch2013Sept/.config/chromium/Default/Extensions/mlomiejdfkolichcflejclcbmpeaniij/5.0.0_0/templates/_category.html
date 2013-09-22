@@ -1,0 +1,14 @@
+<tr>
+	<td class="category-arrow <% if (!collapsed) print('down'); %>">
+	</td>
+	<td class="category-checkbox">
+		<input type="checkbox" class="cat-checkbox"<% if (all_selected) print(' checked') %>>
+	</td>
+	<td class="category-name" title="<%- t('category_' + id + '_desc') %>">
+		<span class="help"><%- name %></span>
+	</td>
+	<td class="category-stats">
+		<%- t('number_of_trackers', apps.length.toString()) %>
+		<%= t_blocking_summary(apps.where({ selected: true }).length, apps.length, true) %>
+	</td>
+</tr>

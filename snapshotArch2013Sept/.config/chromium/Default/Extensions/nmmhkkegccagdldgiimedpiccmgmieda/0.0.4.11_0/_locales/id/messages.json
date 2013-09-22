@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Area"
+   },
+   "1241217935227812429": {
+      "message": "Metode pembayaran"
+   },
+   "1251555475707160311": {
+      "message": "Fluktuasi mata uang dan biaya bank dapat memengaruhi jumlah total yang ditagihkan kepada Anda."
+   },
+   "1362191621078934138": {
+      "message": "Maaf, kami tidak dapat memproses permintaan ini. Pesanan telah dibatalkan secara otomatis dan Anda tidak akan ditagih untuk pembelian tersebut. Coba lagi nanti."
+   },
+   "1408247765057411879": {
+      "message": "Masa berlaku kartu habis."
+   },
+   "1465846685473775446": {
+      "message": "Negara"
+   },
+   "1623041851701577559": {
+      "message": "Kode pos ini tampaknya tidak cocok dengan bagian alamat yang lain."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B tidak dikenal sebagai nilai yang diketahui untuk bidang ini."
+   },
+   "1710433699132727166": {
+      "message": "Pilih bentuk pembayaran lainnya untuk menyelesaikan pembelian Anda"
+   },
+   "1778481694021312420": {
+      "message": "Kami tidak dapat memulai pembelian Anda karena masalah teknis."
+   },
+   "1828231775026606412": {
+      "message": "Pilih instrumen penagihan."
+   },
+   "184964329731217200": {
+      "message": "Contoh: $3\u200B. Tidak mengetahui kode pos Anda? Cari tahu $1\u200Bdi sini$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nama"
+   },
+   "1911221012794788296": {
+      "message": "Nomor kartu"
+   },
+   "195501871775480185": {
+      "message": "Parish"
+   },
+   "1959457175344566910": {
+      "message": "Terjadi kesalahan dalam penyiapan pembelian Anda. Hubungi pedagang tentang masalah ini."
+   },
+   "1960454644696014517": {
+      "message": "Tampaknya kode pos ini tidak cocok dengan bagian alamat ini yang lain."
+   },
+   "2033323276322498862": {
+      "message": "Nomor kartu kredit tidak valid."
+   },
+   "2034494361870910998": {
+      "message": "Format kode pos ini tidak dikenal."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku{END_BOLD} pada {START_BOLD}{DATE}{END_BOLD}.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap {FREQUENCY_UNIT_COUNT} bulan{END_BOLD} selama {START_BOLD}{NUM_RECURRENCES_2} bulan{END_BOLD} berikutnya mulai dari {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} plus pajak apa pun yang berlaku setiap tahun{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap {FREQUENCY_UNIT_COUNT_2} tahun{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}}"
+   },
+   "2847382170871301506": {
+      "message": "Format kode pos ini tidak dikenal."
+   },
+   "2847737339885115125": {
+      "message": "Negara Bagian"
+   },
+   "2850460462496931023": {
+      "message": "Kami tidak dapat memverifikasi informasi akun Anda. Kunjungi $2\u200Bwallet.google.com/manage$1\u200B untuk menyelesaikan masalah ini."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B - Ditolak"
+   },
+   "2997291709564172031": {
+      "message": "Kode pos ini tampaknya tidak cocok dengan bagian lain alamat ini. Tidak tahu kode pos Anda? Temukan $1\u200Bdi sini$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "CVC tidak valid."
+   },
+   "3134831338223050412": {
+      "message": "Tutup"
+   },
+   "3167935320133055769": {
+      "message": "Duh! Ada yang salah."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Negara / Wilayah"
+   },
+   "3258279995976898903": {
+      "message": "Alamat"
+   },
+   "3314408358311476388": {
+      "message": "Tebus Kartu Hadiah Google Play atau Kode Promo"
+   },
+   "3333007012173588619": {
+      "message": "Contoh: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Format kode pos ini tidak dikenal. Contoh kode pos yang valid: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Maaf, kami tidak dapat memproses permintaan ini. Coba lagi nanti."
+   },
+   "3631100366179556676": {
+      "message": "Terima dan Beli"
+   },
+   "3719225755450392126": {
+      "message": "Informasi penagihan sama dengan alamat rumah"
+   },
+   "3745637225460177011": {
+      "message": "Simpan dan lanjutkan"
+   },
+   "392637004226857303": {
+      "message": "Terima kasih atas pembelian Anda"
+   },
+   "4032878564184720978": {
+      "message": "Saya telah membaca dan menerima $2\u200BPersyaratan Layanan$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Nama"
+   },
+   "4172829093050641190": {
+      "message": "Alamat rumah"
+   },
+   "419181302975727827": {
+      "message": "Setujui dan lanjutkan"
+   },
+   "4263059013900008685": {
+      "message": "Informasi penagihan"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap bulan{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap {FREQUENCY_UNIT_COUNT_2} bulan{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}}"
+   },
+   "4429302098472575216": {
+      "message": "Tutup"
+   },
+   "4634308040786352090": {
+      "message": "Waktu permintaan pembelian Anda telah berakhir. Coba lagi pembelian Anda."
+   },
+   "4750645007889628835": {
+      "message": "Anda wajib mengisinya."
+   },
+   "487772095106728308": {
+      "message": "Kode pos"
+   },
+   "5009369992123803733": {
+      "message": "Terjadi kesalahan dalam penyiapan pembelian Anda. Hubungi pedagang dengan pesan kesalahan ini: $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "tambahkan baris"
+   },
+   "5191851017039683844": {
+      "message": "Batal"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B - Dana yang tersedia tidak mencukupi"
+   },
+   "5375779080833659264": {
+      "message": "Beli"
+   },
+   "5408750669387206869": {
+      "message": "Selesai"
+   },
+   "5455061473703313433": {
+      "message": "Lokalitas Bergantung"
+   },
+   "5693829359112864056": {
+      "message": "Wilayah"
+   },
+   "5709243647038761785": {
+      "message": "Kartu kredit Anda ditolak. Pilih metode pembayaran lainnya atau hubungi penerbit kartu kredit Anda untuk memberi otorisasi atas pembelian ini."
+   },
+   "5731352514282693755": {
+      "message": "Sayangnya, kami tidak dapat mengonfirmasi pembelian Anda dengan server pedagang. Pesanan Anda telah dibatalkan. Hubungi pedagang jika masalah ini berlanjut."
+   },
+   "5775442217879920265": {
+      "message": "Tinjau pembelian Anda"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Anda harus memberikan kode pos, misalnya $3\u200B. Tidak tahu kode pos Anda? Temukan $1\u200Bdi sini$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Bulan"
+   },
+   "5999277657241413253": {
+      "message": "Tambahkan metode pembayaran baru"
+   },
+   "6060257219410469243": {
+      "message": "Kode pos ini tampaknya tidak cocok dengan bagian lain alamat ini. Tidak tahu kode pos Anda? Temukan $1\u200Bdi sini$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Propinsi"
+   },
+   "6223713516581400986": {
+      "message": "Anda harus memberikan kode pos, misalnya $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B - Metode pembayaran tidak didukung"
+   },
+   "6406068463830609732": {
+      "message": "Pesanan Anda dibatalkan karena Anda tidak dapat membeli dari diri sendiri."
+   },
+   "6441964001210288441": {
+      "message": "Saya telah membaca dan menerima persyaratan $3\u200BPernyataan Pengungkapan Produk/Dokumen Persyaratan Layanan$1\u200B dan $4\u200BPemberitahuan Privasi$1\u200B Google Wallet serta bersedia menerimanya secara online."
+   },
+   "6643725951150665259": {
+      "message": "Wilayah"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap hari{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap {FREQUENCY_UNIT_COUNT_2} hari{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap hari{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap {FREQUENCY_UNIT_COUNT_2} hari{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE}{END_BOLD} pada {START_BOLD}{DATE}{END_BOLD}.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap {FREQUENCY_UNIT_COUNT} bulan{END_BOLD} selama {START_BOLD}{NUM_RECURRENCES_2} bulan{END_BOLD} berikutnya mulai dari {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Contoh: $3\u200B. Tidak mengetahui kode pos Anda? Cari tahu $1\u200Bdi sini$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departemen"
+   },
+   "6940850784031726893": {
+      "message": "Kirimkan tawaran khusus, undangan untuk memberikan masukan tentang produk, dan buletin Google Wallet kepada saya."
+   },
+   "6952974317491911390": {
+      "message": "Format kode pos ini tidak dikenal. Contoh kode pos yang valid: $3\u200B. Tidak tahu kode pos Anda? Temukan $1\u200Bdi sini$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Harap pilih"
+   },
+   "7026703400430960720": {
+      "message": "Tahun"
+   },
+   "7041462460226543908": {
+      "message": "Pulau"
+   },
+   "7134287411704210613": {
+      "message": "Kode pos"
+   },
+   "7201243556561197557": {
+      "message": "Anda sudah menyelesaikan pembelian dari $5\u200B$4\u200B$2\u200B. Tanda terima lengkap telah dikirimkan ke $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Anda wajib mengisinya."
+   },
+   "7414801576887533495": {
+      "message": "Harga"
+   },
+   "748206580479839913": {
+      "message": "Kami tidak dapat menyelesaikan pembelian Anda karena masalah teknis."
+   },
+   "7555701388564834489": {
+      "message": "Kota"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE}{END_BOLD} pada {START_BOLD}{DATE}{END_BOLD}.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap bulan{END_BOLD} selama {START_BOLD}{NUM_RECURRENCES_2} bulan{END_BOLD} berikutnya mulai dari {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Total dibayarkan"
+   },
+   "7955094861997417068": {
+      "message": "Lanjutkan"
+   },
+   "7961358682448049092": {
+      "message": "Pembelian ini tidak dapat dilakukan di lokasi Anda saat ini."
+   },
+   "8069103702517962649": {
+      "message": "Pajak"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B - Kedaluwarsa"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap bulan{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap {FREQUENCY_UNIT_COUNT_2} bulan{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}}"
+   },
+   "8175465107894358488": {
+      "message": "Saya menyetujui $3\u200BPersyaratan Layanan$1\u200B Google Wallet dan telah membaca $4\u200BPemberitahuan Privasi$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Format kode pos ini tidak dikenal. Contoh kode pos yang valid: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Maaf, kami tidak dapat memproses permintaan ini. Tagihan apa pun akan dibatalkan secara otomatis dalam waktu 24 jam. Coba lagi setelah 24 jam."
+   },
+   "8401318454955949161": {
+      "message": "Total"
+   },
+   "8571469142225833639": {
+      "message": "Detail penagihan"
+   },
+   "8636143988042581467": {
+      "message": "Pinggiran Kota"
+   },
+   "865452984547897019": {
+      "message": "Prefektur"
+   },
+   "8696254863055694906": {
+      "message": "Anda harus memberikan kode pos, misalnya $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Siapkan Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B - Dinonaktifkan berdasarkan setelan negara Anda"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap tahun{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} setiap {FREQUENCY_UNIT_COUNT_2} tahun{END_BOLD} mulai dari {START_BOLD}{DATE}{END_BOLD} hingga Anda membatalkan langganan.}}"
+   },
+   "8929214462880609574": {
+      "message": "Anda harus memberikan kode pos, misalnya $3\u200B. Tidak tahu kode pos Anda? Temukan $1\u200Bdi sini$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Dibayar dengan"
+   },
+   "8997532101299466079": {
+      "message": "Saya menyetujui $3\u200BPersyaratan Layanan$1\u200B dan $4\u200BPemberitahuan Privasi$1\u200B Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "Baris alamat ini tampaknya berisi kotak pos. Gunakan alamat rumah atau gedung."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku{END_BOLD} pada {START_BOLD}{DATE}{END_BOLD}.}other{Anda akan otomatis ditagih sebesar {START_BOLD}{PRICE} ditambah pajak apa pun yang berlaku setiap bulan{END_BOLD} selama {START_BOLD}{NUM_RECURRENCES_2} bulan{END_BOLD} berikutnya mulai dari {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Format kode pos ini tidak dikenal. Contoh kode pos yang valid: $3\u200B. Tidak tahu kode pos Anda? Temukan $1\u200Bdi sini$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "pajak"
+   }
+}

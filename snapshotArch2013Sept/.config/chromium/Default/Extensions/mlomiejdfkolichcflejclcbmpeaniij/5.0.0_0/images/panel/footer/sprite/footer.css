@@ -1,0 +1,13 @@
+/* glue: 0.3 hash: 5aca04ea79 */
+.footer-button_off,
+.footer-button:hover,
+.footer-button_down,
+.footer-help_off,
+.footer-help:hover,
+.footer-help_down{background-image:url('footer.png');background-repeat:no-repeat}
+.footer-button_off{background-position:-20px -20px;width:145px;height:45px;}
+.footer-button:hover{background-position:-20px -105px;width:145px;height:45px;}
+.footer-button_down{background-position:-20px -190px;width:145px;height:41px;}
+.footer-help_off{background-position:-20px -271px;width:45px;height:45px;}
+.footer-help:hover{background-position:-20px -356px;width:45px;height:45px;}
+.footer-help_down{background-position:-20px -441px;width:45px;height:41px;}

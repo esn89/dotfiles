@@ -1,0 +1,395 @@
+{
+   "1046767326368879179": {
+      "message": "Failed to add payment method."
+   },
+   "1073945411411012318": {
+      "message": "VAT"
+   },
+   "1082704132998724073": {
+      "message": "(includes $2\u200B $1\u200B)"
+   },
+   "1159539558618018799": {
+      "message": "Area"
+   },
+   "1241217935227812429": {
+      "message": "Payment method"
+   },
+   "1251555475707160311": {
+      "message": "Currency fluctuations and bank fees may affect the final amount charged to you."
+   },
+   "1362191621078934138": {
+      "message": "Sorry, we were unable to process this request. The order has been automatically cancelled and you will not be charged for the purchase. Please try again later."
+   },
+   "1408247765057411879": {
+      "message": "Card expired."
+   },
+   "1465846685473775446": {
+      "message": "Country"
+   },
+   "1623041851701577559": {
+      "message": "This postal code does not appear to match the rest of this address."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B is not recognized as a known value for this field."
+   },
+   "1710433699132727166": {
+      "message": "Please select a different form of payment to complete your purchase"
+   },
+   "1778481694021312420": {
+      "message": "We couldn't start your purchase because of a technical issue."
+   },
+   "1828231775026606412": {
+      "message": "Please select a billing instrument."
+   },
+   "1847180208764925264": {
+      "message": "Chrome In-App Payments service"
+   },
+   "184964329731217200": {
+      "message": "Example: $3\u200B. Don't know your ZIP code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Name"
+   },
+   "1911221012794788296": {
+      "message": "Card number"
+   },
+   "195501871775480185": {
+      "message": "Parish"
+   },
+   "1959457175344566910": {
+      "message": "There is an error in the setup for your purchase. Please contact the merchant about this issue."
+   },
+   "1960454644696014517": {
+      "message": "This ZIP code does not appear to match the rest of this address."
+   },
+   "2033323276322498862": {
+      "message": "Invalid credit card number."
+   },
+   "2034494361870910998": {
+      "message": "This ZIP code format is not recognized."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax{END_BOLD} on {START_BOLD}{DATE}{END_BOLD}.}other{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every {FREQUENCY_UNIT_COUNT} months{END_BOLD} for the next {START_BOLD}{NUM_RECURRENCES_2} months{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every year{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}other{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every {FREQUENCY_UNIT_COUNT_2} years{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}}"
+   },
+   "2847382170871301506": {
+      "message": "This postal code format is not recognized."
+   },
+   "2847737339885115125": {
+      "message": "State"
+   },
+   "2850460462496931023": {
+      "message": "We were unable to verify your account information. Please visit $2\u200Bwallet.google.com/manage$1\u200B in order to resolve this issue."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B - Declined"
+   },
+   "2997291709564172031": {
+      "message": "This postal code does not appear to match the rest of this address. Don't know your postal code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Invalid CVC."
+   },
+   "3134831338223050412": {
+      "message": "Close"
+   },
+   "3167935320133055769": {
+      "message": "Uh oh. There was a problem."
+   },
+   "3181343005700856855": {
+      "message": "Invalid credit card."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Country / Region"
+   },
+   "3258279995976898903": {
+      "message": "Street address"
+   },
+   "3314408358311476388": {
+      "message": "Redeem Google Play Gift Card or Promo Code"
+   },
+   "3333007012173588619": {
+      "message": "Example: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "This ZIP code format is not recognized. Example of a valid ZIP code : $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Sorry, we were unable to process this request. Please try again later."
+   },
+   "3631100366179556676": {
+      "message": "Accept and Buy"
+   },
+   "3719225755450392126": {
+      "message": "Billing information is the same as home location"
+   },
+   "3745637225460177011": {
+      "message": "Save and continue"
+   },
+   "392637004226857303": {
+      "message": "Thank you for your purchase"
+   },
+   "4032878564184720978": {
+      "message": "I have read and accept the $2\u200BTerms of Service$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Name"
+   },
+   "4087666480993608629": {
+      "message": "Credit card expiry date is not valid."
+   },
+   "4172829093050641190": {
+      "message": "Home location"
+   },
+   "419181302975727827": {
+      "message": "Accept and continue"
+   },
+   "4263059013900008685": {
+      "message": "Billing information"
+   },
+   "4267118836745865270": {
+      "message": "Invalid phone number."
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every month{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}other{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every {FREQUENCY_UNIT_COUNT_2} months{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}}"
+   },
+   "4429302098472575216": {
+      "message": "Close"
+   },
+   "4449053081447438869": {
+      "message": "The Gift Card code you entered has already been redeemed."
+   },
+   "4634308040786352090": {
+      "message": "Your purchase request has timed out. Please try your purchase again."
+   },
+   "4750645007889628835": {
+      "message": "You can't leave this empty."
+   },
+   "487772095106728308": {
+      "message": "ZIP code"
+   },
+   "5009369992123803733": {
+      "message": "There is an error in the setup for your purchase. Please contact the merchant with this error message:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "add line"
+   },
+   "5191851017039683844": {
+      "message": "Cancel"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B - Insufficient funds available"
+   },
+   "5375779080833659264": {
+      "message": "Buy"
+   },
+   "5389225890685695810": {
+      "message": "You cannot redeem more codes today as you have reached your daily limit. Please try again later."
+   },
+   "5408750669387206869": {
+      "message": "Done"
+   },
+   "5448247311400245952": {
+      "message": "(Free trial)"
+   },
+   "5455061473703313433": {
+      "message": "Dependent Locality"
+   },
+   "5552261125898522786": {
+      "message": "JCT"
+   },
+   "5693829359112864056": {
+      "message": "County"
+   },
+   "5709243647038761785": {
+      "message": "Your credit card was declined. Please select another payment method or contact your credit card issuer to authorize this purchase."
+   },
+   "5731352514282693755": {
+      "message": "Unfortunately, we could not confirm your purchase with the merchant's server. Your order has been cancelled. Please contact the merchant if this problem continues."
+   },
+   "5775442217879920265": {
+      "message": "Review your purchase"
+   },
+   "5883995280582852838": {
+      "message": "Emirate"
+   },
+   "5891444382711799549": {
+      "message": "You must provide a ZIP code, for example $3\u200B. Don't know your ZIP code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Month"
+   },
+   "5999277657241413253": {
+      "message": "Add a new payment method"
+   },
+   "6058629124131559053": {
+      "message": "GST"
+   },
+   "6060257219410469243": {
+      "message": "This ZIP code does not appear to match the rest of this address. Don't know your ZIP code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Province"
+   },
+   "6223713516581400986": {
+      "message": "You must provide a postal code, for example $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B - Unsupported payment method"
+   },
+   "6297748682703788123": {
+      "message": "(Prorated payment)"
+   },
+   "6406068463830609732": {
+      "message": "Your order was cancelled because you can't buy from yourself."
+   },
+   "6441964001210288441": {
+      "message": "I have read and accept the terms of the Google Wallet $3\u200BProduct Disclosure Statement/Terms of Service Document$1\u200B and $4\u200BPrivacy Notice$1\u200B and agree to receive them online."
+   },
+   "6643725951150665259": {
+      "message": "District"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} every day{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}other{You will be automatically charged {START_BOLD}{PRICE} every {FREQUENCY_UNIT_COUNT_2} days{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every day{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}other{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every {FREQUENCY_UNIT_COUNT_2} days{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE}{END_BOLD} on {START_BOLD}{DATE}{END_BOLD}.}other{You will be automatically charged {START_BOLD}{PRICE} every {FREQUENCY_UNIT_COUNT} months{END_BOLD} for the next {START_BOLD}{NUM_RECURRENCES_2} months{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Example: $3\u200B. Don't know your postal code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Department"
+   },
+   "6940850784031726893": {
+      "message": "Send me Google Wallet special offers, invitations to provide product feedback, and newsletters."
+   },
+   "6952974317491911390": {
+      "message": "This postal code format is not recognized. Example of a valid postal code: $3\u200B. Don't know your postal code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Please select"
+   },
+   "7026703400430960720": {
+      "message": "Year"
+   },
+   "7041462460226543908": {
+      "message": "Island"
+   },
+   "7134287411704210613": {
+      "message": "Postal code"
+   },
+   "7201243556561197557": {
+      "message": "You have completed a purchase from $5\u200B$4\u200B$2\u200B. A detailed receipt has been sent to $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "You can't leave this empty."
+   },
+   "7414801576887533495": {
+      "message": "Price"
+   },
+   "748206580479839913": {
+      "message": "We couldn't complete your purchase because of a technical issue."
+   },
+   "7555701388564834489": {
+      "message": "City"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE}{END_BOLD} on {START_BOLD}{DATE}{END_BOLD}.}other{You will be automatically charged {START_BOLD}{PRICE} every month{END_BOLD} for the next {START_BOLD}{NUM_RECURRENCES_2} months{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Total paid"
+   },
+   "7955094861997417068": {
+      "message": "Continue"
+   },
+   "7961358682448049092": {
+      "message": "This purchase cannot be performed in your current locale."
+   },
+   "8069103702517962649": {
+      "message": "Tax"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B - Expired"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} every month{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}other{You will be automatically charged {START_BOLD}{PRICE} every {FREQUENCY_UNIT_COUNT_2} months{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}}"
+   },
+   "8175465107894358488": {
+      "message": "I agree to the Google Wallet $3\u200BTerms of Service$1\u200B and have read the $4\u200BPrivacy Notice$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "This postal code format is not recognized. Example of a valid postal code: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Sorry, we were unable to process this request. Any charge will be automatically cancelled within 24 hours. Please try again after 24 hours."
+   },
+   "8401318454955949161": {
+      "message": "Total"
+   },
+   "8571469142225833639": {
+      "message": "Billing details"
+   },
+   "8636143988042581467": {
+      "message": "Suburb"
+   },
+   "865452984547897019": {
+      "message": "Prefecture"
+   },
+   "8696254863055694906": {
+      "message": "You must provide a ZIP code, for example $1\u200B."
+   },
+   "8703698767550075662": {
+      "message": "Your country is not supported for redemption at this time."
+   },
+   "8707401335517773860": {
+      "message": "The Gift Card code you entered is invalid. Please try entering again or contact the $2\u200Bsupport team$1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Set up Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B - Disabled based on your country settings"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} every year{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}other{You will be automatically charged {START_BOLD}{PRICE} every {FREQUENCY_UNIT_COUNT_2} years{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD} until you cancel your subscription.}}"
+   },
+   "8929214462880609574": {
+      "message": "You must provide a postal code, for example $3\u200B. Don't know your postal code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Paid with"
+   },
+   "8997532101299466079": {
+      "message": "I agree to the Google Wallet $3\u200BTerms of Service$1\u200B and $4\u200BPrivacy Notice$1\u200B."
+   },
+   "9011575563787161706": {
+      "message": "This address line appears to contain a post office box. Please use a street or building address."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural,=0{unused plural form}=1{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax{END_BOLD} on {START_BOLD}{DATE}{END_BOLD}.}other{You will be automatically charged {START_BOLD}{PRICE} plus any applicable tax every month{END_BOLD} for the next {START_BOLD}{NUM_RECURRENCES_2} months{END_BOLD} starting {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9062263226572489240": {
+      "message": "Chrome In-App Payments service"
+   },
+   "906467107849482756": {
+      "message": "Setting up Google Wallet for your account failed."
+   },
+   "9088302330007274067": {
+      "message": "This ZIP code format is not recognized. Example of a valid ZIP code: $3\u200B. Don't know your ZIP code? Find it out $1\u200Bhere$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "tax"
+   }
+}

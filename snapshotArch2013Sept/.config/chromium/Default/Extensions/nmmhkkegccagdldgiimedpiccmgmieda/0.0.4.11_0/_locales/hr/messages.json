@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Podru\u010Dje"
+   },
+   "1241217935227812429": {
+      "message": "Na\u010Din pla\u0107anja"
+   },
+   "1251555475707160311": {
+      "message": "Fluktuacije valuta i bankovne naknade mogu utjecati na kona\u010Dan iznos koji \u0107e vam se naplatiti."
+   },
+   "1362191621078934138": {
+      "message": "Na\u017Ealost, nismo uspjeli obraditi taj zahtjev. Narud\u017Eba je automatski otkazana i kupnja vam ne\u0107e biti napla\u0107ena. Poku\u0161ajte ponovo kasnije."
+   },
+   "1408247765057411879": {
+      "message": "Kartica je istekla."
+   },
+   "1465846685473775446": {
+      "message": "Zemlja"
+   },
+   "1623041851701577559": {
+      "message": "Izgleda da se po\u0161tanski broj ne podudara s ostatkom adrese."
+   },
+   "1663057945455945792": {
+      "message": "Vrijednost $1\u200B nije prepoznata kao poznata vrijednost za to polje."
+   },
+   "1710433699132727166": {
+      "message": "Odaberite drugi oblik pla\u0107anja da biste dovr\u0161ili kupnju"
+   },
+   "1778481694021312420": {
+      "message": "Zbog tehni\u010Dkih problema nismo mogli pokrenuti va\u0161u kupnju."
+   },
+   "1828231775026606412": {
+      "message": "Odaberite instrument naplate."
+   },
+   "184964329731217200": {
+      "message": "Na primjer: $3\u200B. Ne znate svoj ZIP k\u00F4d? Saznajte $1\u200Bovdje$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Ime i prezime"
+   },
+   "1911221012794788296": {
+      "message": "Broj kartice"
+   },
+   "195501871775480185": {
+      "message": "\u017Dupa"
+   },
+   "1959457175344566910": {
+      "message": "Do\u0161lo je do pogre\u0161ke u postavljanju va\u0161e kupnje. Obratite se trgovcu da biste rije\u0161ili problem."
+   },
+   "1960454644696014517": {
+      "message": "Izgleda da se ZIP k\u00F4d ne podudara s ostatkom adrese."
+   },
+   "2033323276322498862": {
+      "message": "Neva\u017Ee\u0107i broj kreditne kartice."
+   },
+   "2034494361870910998": {
+      "message": "Taj format ZIP koda nije prepoznat."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog {FREQUENCY_UNIT_COUNT}. mjeseca{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svaka {FREQUENCY_UNIT_COUNT} mjeseca{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT} mjeseci{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT} mjeseci{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svake godine{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svake {FREQUENCY_UNIT_COUNT_2}. godine{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svake {FREQUENCY_UNIT_COUNT_2} godine{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT_2} godina{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT_2} godina{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}}"
+   },
+   "2847382170871301506": {
+      "message": "Taj format po\u0161tanskog broja nije prepoznat."
+   },
+   "2847737339885115125": {
+      "message": "Savezna dr\u017Eava"
+   },
+   "2850460462496931023": {
+      "message": "Nismo uspjeli potvrditi podatke o va\u0161em ra\u010Dunu. Posjetite $2\u200Bwallet.google.com/manage$1\u200B kako biste rije\u0161ili taj problem."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 odbijeno"
+   },
+   "2997291709564172031": {
+      "message": "\u010Cini se da ovaj po\u0161tanski broj ne odgovara ostatku ove adrese. Ne znate svoj po\u0161tanski broj? Prona\u0111ite ga $1\u200Bovdje$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Neva\u017Ee\u0107i CVC."
+   },
+   "3134831338223050412": {
+      "message": "Zatvori"
+   },
+   "3167935320133055769": {
+      "message": "Uh. Do\u0161lo je do problema."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Dr\u017Eava/regija"
+   },
+   "3258279995976898903": {
+      "message": "Ulica i broj"
+   },
+   "3314408358311476388": {
+      "message": "Iskoristi darovnu karticu ili promotivni k\u00F4d za Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Na primjer: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Nije prepoznat format ovog ZIP koda. Primjer valjanog ZIP koda: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Na\u017Ealost, nismo uspjeli obraditi taj zahtjev. Poku\u0161ajte ponovno kasnije."
+   },
+   "3631100366179556676": {
+      "message": "Prihvati i kupi"
+   },
+   "3719225755450392126": {
+      "message": "Podaci o naplati isti su kao mjesto stanovanja"
+   },
+   "3745637225460177011": {
+      "message": "Spremi i nastavi"
+   },
+   "392637004226857303": {
+      "message": "Zahvaljujemo na kupnji"
+   },
+   "4032878564184720978": {
+      "message": "Pro\u010Ditao sam i prihva\u0107am $2\u200BUvjete pru\u017Eanja usluge$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Ime i prezime"
+   },
+   "4172829093050641190": {
+      "message": "Mjesto stanovanja"
+   },
+   "419181302975727827": {
+      "message": "Prihvati i nastavi"
+   },
+   "4263059013900008685": {
+      "message": "Podaci o naplati"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog {FREQUENCY_UNIT_COUNT_2}. mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svaka {FREQUENCY_UNIT_COUNT_2} mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}}"
+   },
+   "4429302098472575216": {
+      "message": "Zatvori"
+   },
+   "4634308040786352090": {
+      "message": "Va\u0161 je zahtjev za kupnju obustavljen. Obavite kupnju ponovo."
+   },
+   "4750645007889628835": {
+      "message": "To ne mo\u017Ee ostati prazno."
+   },
+   "487772095106728308": {
+      "message": "ZIP k\u00F4d"
+   },
+   "5009369992123803733": {
+      "message": "Do\u0161lo je do pogre\u0161ke u postavljanju va\u0161e kupnje. Javite trgovcu da se radi o sljede\u0107oj poruci pogre\u0161ke:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "dodaj redak"
+   },
+   "5191851017039683844": {
+      "message": "Odustani"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 nema dovoljno sredstva na raspolaganju"
+   },
+   "5375779080833659264": {
+      "message": "Kupi"
+   },
+   "5408750669387206869": {
+      "message": "Gotovo"
+   },
+   "5455061473703313433": {
+      "message": "Podru\u010Dje"
+   },
+   "5693829359112864056": {
+      "message": "\u017Dupanija"
+   },
+   "5709243647038761785": {
+      "message": "Va\u0161a je kreditna kartica odbijena. Odaberite drugi na\u010Din pla\u0107anja ili se obratite izdava\u010Du kreditne kartice radi autorizacije kupnje."
+   },
+   "5731352514282693755": {
+      "message": "Na\u017Ealost, nismo potvrdili va\u0161u kupnju na trgov\u010Devom poslu\u017Eitelju. Va\u0161a je narud\u017Eba otkazana. Obratite se trgovcu ako se problem ne rije\u0161i."
+   },
+   "5775442217879920265": {
+      "message": "Pregledajte kupnju"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Najprije morate unijeti ZIP k\u00F4d, na primjer, $3\u200B. Ne znate svoj ZIP k\u00F4d? Prona\u0111ite ga $1\u200Bovdje$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Mjesec"
+   },
+   "5999277657241413253": {
+      "message": "Dodaj novi na\u010Din pla\u0107anja"
+   },
+   "6060257219410469243": {
+      "message": "\u010Cini se da ovaj ZIP k\u00F4d ne odgovara ostatku ove adrese. Ne znate svoj ZIP k\u00F4d? Prona\u0111ite ga $1\u200Bovdje$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provincija"
+   },
+   "6223713516581400986": {
+      "message": "Morate unijeti po\u0161tanski broj, na primjer, $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 nepodr\u017Eani na\u010Din pla\u0107anja"
+   },
+   "6406068463830609732": {
+      "message": "Va\u0161a je narud\u017Eba poni\u0161tena jer ne mo\u017Eete kupovati sami od sebe."
+   },
+   "6441964001210288441": {
+      "message": "Pro\u010Ditao sam i prihva\u0107am uvjete $3\u200BDokumenta izjave o otkrivanju proizvoda/uvjeta pru\u017Eanja usluge$1\u200B i $4\u200BObavijesti o privatnosti$1\u200B usluge Google nov\u010Danik i prihva\u0107am ih primiti na mre\u017Ei."
+   },
+   "6643725951150665259": {
+      "message": "Okrug"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog {FREQUENCY_UNIT_COUNT_2}. dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svaka {FREQUENCY_UNIT_COUNT_2} dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT_2} dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT_2} dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog {FREQUENCY_UNIT_COUNT_2}. dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svaka {FREQUENCY_UNIT_COUNT_2} dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT_2} dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakih {FREQUENCY_UNIT_COUNT_2} dana{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE}{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svaki {FREQUENCY_UNIT_COUNT}. mjesec{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svaka {FREQUENCY_UNIT_COUNT} mjeseca{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT} mjeseci{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT} mjeseci{END_BOLD} tijekom {START_BOLD}{NUM_RECURRENCES_2} mj.{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Na primjer: $3\u200B. Ne znate svoj po\u0161tanski broj? Saznajte $1\u200Bovdje$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departman"
+   },
+   "6940850784031726893": {
+      "message": "\u0160aljite mi posebne ponude, pozivnice za slanje povratnih informacija o proizvodima i biltene usluge Google nov\u010Danik."
+   },
+   "6952974317491911390": {
+      "message": "Nije prepoznat format ovog po\u0161tanskog broja. Primjer valjanog po\u0161tanskog broja: $3\u200B. Ne znate svoj po\u0161tanski broj? Prona\u0111ite ga $1\u200Bovdje$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Odaberite"
+   },
+   "7026703400430960720": {
+      "message": "Godina"
+   },
+   "7041462460226543908": {
+      "message": "Otok"
+   },
+   "7134287411704210613": {
+      "message": "Po\u0161tanski broj"
+   },
+   "7201243556561197557": {
+      "message": "Dovr\u0161ili ste kupnju od trgovca $5\u200B$4\u200B$2\u200B. Detaljna potvrda o pla\u0107anju poslana je na e-adresu $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Ne mo\u017Eete to ostaviti prazno."
+   },
+   "7414801576887533495": {
+      "message": "Cijena"
+   },
+   "748206580479839913": {
+      "message": "Zbog tehni\u010Dkih problema nismo mogli dovr\u0161iti va\u0161u kupnju."
+   },
+   "7555701388564834489": {
+      "message": "Grad"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE}{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog mjeseca{END_BOLD} sljede\u0107i {START_BOLD}{NUM_RECURRENCES_2} mjesec{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog mjeseca{END_BOLD} sljede\u0107a {START_BOLD}{NUM_RECURRENCES_2} mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog mjeseca{END_BOLD} sljede\u0107ih {START_BOLD}{NUM_RECURRENCES_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog mjeseca{END_BOLD} sljede\u0107ih {START_BOLD}{NUM_RECURRENCES_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Ukupno pla\u0107eno"
+   },
+   "7955094861997417068": {
+      "message": "Nastavi"
+   },
+   "7961358682448049092": {
+      "message": "Ta se kupnja ne mo\u017Ee izvr\u0161iti na va\u0161oj trenuta\u010Dnoj lokaciji."
+   },
+   "8069103702517962649": {
+      "message": "Porez"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 isteklo"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakog {FREQUENCY_UNIT_COUNT_2}. mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svaka {FREQUENCY_UNIT_COUNT_2} mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}}"
+   },
+   "8175465107894358488": {
+      "message": "Prihva\u0107am $3\u200BUvjete pru\u017Eanja usluge$1\u200B Google nov\u010Danika i pro\u010Ditao sam $4\u200BObavijest o privatnosti$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Nije prepoznat format ovog po\u0161tanskog broja. Primjer valjanog po\u0161tanskog broja: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Na\u017Ealost, nismo uspjeli obraditi taj zahtjev. Sva \u0107e se tere\u0107enja automatski otkazati u roku od 24 sata. Poku\u0161ajte ponovo kada isteknu 24 sata."
+   },
+   "8401318454955949161": {
+      "message": "Ukupno"
+   },
+   "8571469142225833639": {
+      "message": "Pojedinosti o naplati"
+   },
+   "8636143988042581467": {
+      "message": "Predgra\u0111e"
+   },
+   "865452984547897019": {
+      "message": "Prefektura"
+   },
+   "8696254863055694906": {
+      "message": "Morate unijeti ZIP k\u00F4d, na primjer, $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Postavite Google nov\u010Danik"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 onemogu\u0107eno na temelju va\u0161ih postavki za zemlju"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svake godine{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svake {FREQUENCY_UNIT_COUNT_2}. godine{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svake {FREQUENCY_UNIT_COUNT_2} godine{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT_2} godina{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} svakih {FREQUENCY_UNIT_COUNT_2} godina{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD} dok ne otka\u017Eete pretplatu.}}"
+   },
+   "8929214462880609574": {
+      "message": "Najprije morate unijeti po\u0161tanski broj, na primjer, $3\u200B. Ne znate svoj po\u0161tanski broj? Prona\u0111ite ga $1\u200Bovdje$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Na\u010Din pla\u0107anja"
+   },
+   "8997532101299466079": {
+      "message": "Prihva\u0107am $3\u200BUvjete pru\u017Eanja usluge$1\u200B i $4\u200BObavijest o privatnosti$1\u200B usluge Google nov\u010Danik."
+   },
+   "9011575563787161706": {
+      "message": "Izgleda da taj redak adrese sadr\u017Ei po\u0161tanski pretinac. Navedite ulicu i broj."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}one{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog mjeseca{END_BOLD} sljede\u0107i {START_BOLD}{NUM_RECURRENCES_2} mjesec{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}few{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog mjeseca{END_BOLD} sljede\u0107a {START_BOLD}{NUM_RECURRENCES_2} mjeseca{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}many{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog mjeseca{END_BOLD} sljede\u0107ih {START_BOLD}{NUM_RECURRENCES_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}other{Automatski \u0107e vam se naplatiti {START_BOLD}{PRICE} i svi primjenjivi porezi svakog mjeseca{END_BOLD} sljede\u0107ih {START_BOLD}{NUM_RECURRENCES_2} mjeseci{END_BOLD} po\u010Dev\u0161i od {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Nije prepoznat format ovog ZIP koda. Primjer valjanog ZIP koda: $3\u200B. Ne znate svoj ZIP k\u00F4d? Prona\u0111ite ga $1\u200Bovdje$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "porez"
+   }
+}

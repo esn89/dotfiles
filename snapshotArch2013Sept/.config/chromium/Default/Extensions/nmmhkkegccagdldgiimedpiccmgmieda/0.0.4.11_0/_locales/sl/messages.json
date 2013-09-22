@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Obmo\u010Dje"
+   },
+   "1241217935227812429": {
+      "message": "Pla\u010Dilno sredstvo"
+   },
+   "1251555475707160311": {
+      "message": "Na kon\u010Dni znesek, ki ga boste morali pla\u010Dati, lahko vplivajo nihanja te\u010Daja in ban\u010Dne provizije."
+   },
+   "1362191621078934138": {
+      "message": "Te zahteve ni bilo mogo\u010De obdelati. Naro\u010Dilo je bilo samodejno preklicano in nakup se ne bo zara\u010Dunal. Poskusite znova pozneje."
+   },
+   "1408247765057411879": {
+      "message": "Kartica je potekla."
+   },
+   "1465846685473775446": {
+      "message": "Dr\u017Eava"
+   },
+   "1623041851701577559": {
+      "message": "Videti je, da se ta po\u0161tna \u0161tevilka ne ujema s preostalim delom naslova."
+   },
+   "1663057945455945792": {
+      "message": "Vrednost $1\u200B ni prepoznana kot znana vrednost za to polje."
+   },
+   "1710433699132727166": {
+      "message": "Izberite drug na\u010Din pla\u010Dila, da zaklju\u010Dite nakup"
+   },
+   "1778481694021312420": {
+      "message": "Nakupa ni bilo mogo\u010De za\u010Deti zaradi tehni\u010Dne te\u017Eave."
+   },
+   "1828231775026606412": {
+      "message": "Izberite pla\u010Dilno sredstvo."
+   },
+   "184964329731217200": {
+      "message": "Primer: $3\u200B. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Ime"
+   },
+   "1911221012794788296": {
+      "message": "\u0160tevilka kartice"
+   },
+   "195501871775480185": {
+      "message": "Okraj"
+   },
+   "1959457175344566910": {
+      "message": "V nastavitvah va\u0161ega nakupa je napaka. Glede te te\u017Eave se obrnite na trgovca."
+   },
+   "1960454644696014517": {
+      "message": "Videti je, da se ta po\u0161tna \u0161tevilka ne ujema s preostalim delom tega naslova."
+   },
+   "2033323276322498862": {
+      "message": "Neveljavna \u0161tevilka kreditne kartice."
+   },
+   "2034494361870910998": {
+      "message": "Te oblike po\u0161tne \u0161tevilke ni mogo\u010De prepoznati."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} vam bodo samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}one{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjem {START_BOLD}{NUM_RECURRENCES_2} mesecu{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}two{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}few{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}other{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Znesek {START_BOLD}{PRICE} letno in morebitni upo\u0161tevni davki{END_BOLD} vam bodo samodejno zara\u010Dunani od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}one{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsako {FREQUENCY_UNIT_COUNT_2} leto{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}two{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsaki {FREQUENCY_UNIT_COUNT_2} leti{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}few{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsaka {FREQUENCY_UNIT_COUNT_2} leta{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}other{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsakih {FREQUENCY_UNIT_COUNT_2} let{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}}"
+   },
+   "2847382170871301506": {
+      "message": "Ta oblika po\u0161tne \u0161tevilke ni prepoznana."
+   },
+   "2847737339885115125": {
+      "message": "Zvezna dr\u017Eava"
+   },
+   "2850460462496931023": {
+      "message": "Podatkov o ra\u010Dunu ni bilo mogo\u010De preveriti. Obi\u0161\u010Dite $2\u200Bwallet.google.com/manage$1\u200B, da odpravite te\u017Eavo."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 zavrnjeno"
+   },
+   "2997291709564172031": {
+      "message": "Videti je, da se ta po\u0161tna \u0161tevilka ne ujema s preostalim naslovom. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Neveljavna koda CVC."
+   },
+   "3134831338223050412": {
+      "message": "Zapri"
+   },
+   "3167935320133055769": {
+      "message": "Ojoj, pri\u0161lo je do te\u017Eave."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Dr\u017Eava/regija"
+   },
+   "3258279995976898903": {
+      "message": "Ulica in hi\u0161na \u0161tevilka"
+   },
+   "3314408358311476388": {
+      "message": "Unov\u010Dite darilno kartico ali promocijsko kodo za Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Primer: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Te oblike po\u0161tne \u0161tevilke ni mogo\u010De prepoznati. Primer veljavne po\u0161tne \u0161tevilke: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Zahteve ni bilo mogo\u010De obdelati. Poskusite znova pozneje."
+   },
+   "3631100366179556676": {
+      "message": "Sprejmite in kupite"
+   },
+   "3719225755450392126": {
+      "message": "Informacije za obra\u010Dun so enake kot pri doma\u010Di lokaciji"
+   },
+   "3745637225460177011": {
+      "message": "Shrani in nadaljuj"
+   },
+   "392637004226857303": {
+      "message": "Hvala za nakup"
+   },
+   "4032878564184720978": {
+      "message": "Prebral(-a) sem $2\u200Bpogoje storitve$1\u200B in se strinjam z njimi"
+   },
+   "4081289954473604488": {
+      "message": "Ime"
+   },
+   "4172829093050641190": {
+      "message": "Doma\u010Da lokacija"
+   },
+   "419181302975727827": {
+      "message": "Sprejmite in nadaljujte"
+   },
+   "4263059013900008685": {
+      "message": "Informacije za obra\u010Dun"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Znesek {START_BOLD}{PRICE} mese\u010Dno in morebitni upo\u0161tevni davki{END_BOLD} vam bodo samodejno zara\u010Dunani od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}one{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsak {FREQUENCY_UNIT_COUNT_2} mesec{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}two{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsaka {FREQUENCY_UNIT_COUNT_2} meseca{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}few{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsake {FREQUENCY_UNIT_COUNT_2} mesece{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}other{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsakih {FREQUENCY_UNIT_COUNT_2} mesecev{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}}"
+   },
+   "4429302098472575216": {
+      "message": "Zapri"
+   },
+   "4634308040786352090": {
+      "message": "\u010Casovna omejitev za nakup je potekla. Poskusite znova opraviti nakup."
+   },
+   "4750645007889628835": {
+      "message": "To polje ne sme biti prazno."
+   },
+   "487772095106728308": {
+      "message": "Po\u0161tna \u0161tevilka"
+   },
+   "5009369992123803733": {
+      "message": "V nastavitvah va\u0161ega nakupa je napaka. Obrnite se na trgovca s tem sporo\u010Dilom o napaki:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "dodaj vrstico"
+   },
+   "5191851017039683844": {
+      "message": "Prekli\u010Di"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 na voljo ni dovolj sredstev"
+   },
+   "5375779080833659264": {
+      "message": "Nakup"
+   },
+   "5408750669387206869": {
+      "message": "Dokon\u010Dano"
+   },
+   "5455061473703313433": {
+      "message": "Odvisna lokacija"
+   },
+   "5693829359112864056": {
+      "message": "Okraj"
+   },
+   "5709243647038761785": {
+      "message": "Kreditna kartica je bila zavrnjena. Izberite drugo pla\u010Dilno sredstvo ali se obrnite na izdajatelja kreditne kartice, da odobri ta nakup."
+   },
+   "5731352514282693755": {
+      "message": "Va\u0161ega nakupa nismo mogli potrditi v stre\u017Eniku trgovca. Naro\u010Dilo je preklicano. \u010Ce se te\u017Eava ponovi, se obrnite na trgovca."
+   },
+   "5775442217879920265": {
+      "message": "Preglejte nakup"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Vnesti morate po\u0161tno \u0161tevilko, na primer $3\u200B. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Mesec"
+   },
+   "5999277657241413253": {
+      "message": "Dodaj nov na\u010Din pla\u010Dila"
+   },
+   "6060257219410469243": {
+      "message": "Videti je, da se ta po\u0161tna \u0161tevilka ne ujema s preostalim naslovom. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provinca"
+   },
+   "6223713516581400986": {
+      "message": "Vnesti morate po\u0161tno \u0161tevilko, na primer $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 nepodprti na\u010Din pla\u010Dila"
+   },
+   "6406068463830609732": {
+      "message": "Va\u0161e naro\u010Dilo je bilo preklicano, ker ne morete kupiti od sebe."
+   },
+   "6441964001210288441": {
+      "message": "Prebral(-a) sem pogoje $3\u200Bizjave o razkritju podatkov za izdelek/dokumenta s pogoji storitve$1\u200B in $4\u200Bobvestila o zasebnosti$1\u200B za Google Denarnico ter jih sprejemam in se strinjam, da jih prejmem v elektronski obliki."
+   },
+   "6643725951150665259": {
+      "message": "Okro\u017Eje"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Znesek {START_BOLD}{PRICE} dnevno{END_BOLD} vam bo samodejno zara\u010Dunan od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}one{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsak {FREQUENCY_UNIT_COUNT_2} dan{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}two{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsaka {FREQUENCY_UNIT_COUNT_2} dneva{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}few{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsake {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}other{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsakih {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Znesek {START_BOLD}{PRICE} dnevno in morebitni upo\u0161tevni davki{END_BOLD} vam bodo samodejno zara\u010Dunani od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}one{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsak {FREQUENCY_UNIT_COUNT_2} dan{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}two{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsaka {FREQUENCY_UNIT_COUNT_2} dneva{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}few{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsake {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}other{Znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki vam bodo samodejno zara\u010Dunani vsakih {FREQUENCY_UNIT_COUNT_2} dni{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} vam bo samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}one{Od {START_BOLD}{DATE}{END_BOLD} vam bo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjem {START_BOLD}{NUM_RECURRENCES_2} mesecu{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}two{Od {START_BOLD}{DATE}{END_BOLD} vam bo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}few{Od {START_BOLD}{DATE}{END_BOLD} vam bo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}other{Od {START_BOLD}{DATE}{END_BOLD} vam bo vsak {FREQUENCY_UNIT_COUNT}. mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Primer: $3\u200B. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Departma"
+   },
+   "6940850784031726893": {
+      "message": "\u017Delim prejemati posebne ponudbe, vabila za po\u0161iljanje povratnih informacij o izdelkih in glasila Google Denarnice."
+   },
+   "6952974317491911390": {
+      "message": "Te oblike po\u0161tne \u0161tevilke ni mogo\u010De prepoznati. Primer veljavne po\u0161tne \u0161tevilke: $3\u200B. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Izberite"
+   },
+   "7026703400430960720": {
+      "message": "Leto"
+   },
+   "7041462460226543908": {
+      "message": "Otok"
+   },
+   "7134287411704210613": {
+      "message": "Po\u0161tna \u0161tevilka"
+   },
+   "7201243556561197557": {
+      "message": "Dokon\u010Dali ste nakup pri trgovcu $5\u200B$4\u200B$2\u200B. Potrdilo s podrobnostmi je bilo poslano na $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "To polje ne sme biti prazno."
+   },
+   "7414801576887533495": {
+      "message": "Cena"
+   },
+   "748206580479839913": {
+      "message": "Nakupa ni bilo mogo\u010De dokon\u010Dati zaradi tehni\u010Dne te\u017Eave."
+   },
+   "7555701388564834489": {
+      "message": "Kraj"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} vam bo samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}one{Od {START_BOLD}{DATE} vam bo vsak mesec{END_BOLD} v naslednjem {START_BOLD}{NUM_RECURRENCES_2} mesecu{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}two{Od {START_BOLD}{DATE} vam bo vsak mesec{END_BOLD} v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}few{Od {START_BOLD}{DATE} vam bo vsak mesec{END_BOLD} v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}other{Od {START_BOLD}{DATE} vam bo vsak mesec{END_BOLD} v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunan znesek {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Pla\u010Dani znesek"
+   },
+   "7955094861997417068": {
+      "message": "Naprej"
+   },
+   "7961358682448049092": {
+      "message": "Tega nakupa ni mogo\u010De opraviti s trenutno obmo\u010Dno nastavitvijo."
+   },
+   "8069103702517962649": {
+      "message": "Davek"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 poteklo"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Znesek {START_BOLD}{PRICE} mese\u010Dno{END_BOLD} vam bo samodejno zara\u010Dunan od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}one{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsak {FREQUENCY_UNIT_COUNT_2} mesec{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}two{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsaka {FREQUENCY_UNIT_COUNT_2} meseca{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}few{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsake {FREQUENCY_UNIT_COUNT_2} mesece{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}other{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsakih {FREQUENCY_UNIT_COUNT_2} mesecev{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}}"
+   },
+   "8175465107894358488": {
+      "message": "Strinjam se s $3\u200Bpogoji storitve$1\u200B za Google Denarnico in sem prebral(-a) $4\u200Bobvestilo o zasebnosti$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Te oblike po\u0161tne \u0161tevilke ni mogo\u010De prepoznati. Primer veljavne po\u0161tne \u0161tevilke: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Te zahteve ni bilo mogo\u010De obdelati. Vse bremenitve bodo samodejno preklicane v 24 urah. Poskusite znova po 24 urah."
+   },
+   "8401318454955949161": {
+      "message": "Skupaj"
+   },
+   "8571469142225833639": {
+      "message": "Podrobnosti za obra\u010Dun"
+   },
+   "8636143988042581467": {
+      "message": "Predmestje"
+   },
+   "865452984547897019": {
+      "message": "Prefektura"
+   },
+   "8696254863055694906": {
+      "message": "Vnesti morate po\u0161tno \u0161tevilko, na primer $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Nastavite Google Denarnico"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 onemogo\u010Deno na podlagi nastavitve dr\u017Eave"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Znesek {START_BOLD}{PRICE} letno{END_BOLD} vam bo samodejno zara\u010Dunan od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}one{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsako {FREQUENCY_UNIT_COUNT_2} leto{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}two{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsaki {FREQUENCY_UNIT_COUNT_2} leti{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}few{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsaka {FREQUENCY_UNIT_COUNT_2} leta{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}other{Znesek {START_BOLD}{PRICE} vam bo samodejno zara\u010Dunan vsakih {FREQUENCY_UNIT_COUNT_2} let{END_BOLD} od {START_BOLD}{DATE}{END_BOLD}, dokler ne prekli\u010Dete naro\u010Dnine.}}"
+   },
+   "8929214462880609574": {
+      "message": "Vnesti morate po\u0161tno \u0161tevilko, na primer $3\u200B. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Uporabljeno pla\u010Dilno sredstvo"
+   },
+   "8997532101299466079": {
+      "message": "Strinjam se s $3\u200Bpogoji storitve$1\u200B in $4\u200Bobvestilom o zasebnosti$1\u200B za Google Denarnico."
+   },
+   "9011575563787161706": {
+      "message": "Videti je, da je v tej vrstici naslova po\u0161tni predal. Uporabite naslov ulice ali zgradbe."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{{START_BOLD}{DATE}{END_BOLD} vam bodo samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}one{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak mesec v naslednjem {START_BOLD}{NUM_RECURRENCES_2} mesecu{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}two{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}few{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}other{Od {START_BOLD}{DATE}{END_BOLD} vam bodo vsak mesec v naslednjih {START_BOLD}{NUM_RECURRENCES_2} mesecih{END_BOLD} samodejno zara\u010Dunani znesek {START_BOLD}{PRICE} in morebitni upo\u0161tevni davki{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Te oblike po\u0161tne \u0161tevilke ni mogo\u010De prepoznati. Primer veljavne po\u0161tne \u0161tevilke: $3\u200B. Ne veste, katero po\u0161tno \u0161tevilko imate? Preverite $1\u200Btukaj$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "davek"
+   }
+}

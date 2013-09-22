@@ -1,0 +1,7 @@
+/* glue: 0.3 hash: 0968691b46 */
+.settings-button_off,
+.settings-button:hover,
+.settings-button_down{background-image:url('settings.png');background-repeat:no-repeat}
+.settings-button_off{background-position:-20px -20px;width:85px;height:40px;}
+.settings-button:hover{background-position:-20px -100px;width:85px;height:40px;}
+.settings-button_down{background-position:-20px -180px;width:85px;height:36px;}

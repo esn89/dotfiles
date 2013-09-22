@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Khu v\u1EF1c"
+   },
+   "1241217935227812429": {
+      "message": "Ph\u01B0\u01A1ng th\u1EE9c thanh to\u00E1n"
+   },
+   "1251555475707160311": {
+      "message": "S\u1EF1 bi\u1EBFn \u0111\u1ED9ng ti\u1EC1n t\u1EC7 v\u00E0 ph\u00ED ng\u00E2n h\u00E0ng c\u00F3 th\u1EC3 \u1EA3nh h\u01B0\u1EDFng t\u1EDBi s\u1ED1 ti\u1EC1n cu\u1ED1i c\u00F9ng \u0111\u01B0\u1EE3c t\u00EDnh cho b\u1EA1n."
+   },
+   "1362191621078934138": {
+      "message": "R\u1EA5t ti\u1EBFc, ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 x\u1EED l\u00FD y\u00EAu c\u1EA7u n\u00E0y. \u0110\u01A1n \u0111\u1EB7t h\u00E0ng \u0111\u00E3 t\u1EF1 \u0111\u1ED9ng b\u1ECB h\u1EE7y v\u00E0 b\u1EA1n s\u1EBD kh\u00F4ng b\u1ECB t\u00EDnh ph\u00ED cho giao d\u1ECBch mua h\u00E0ng. Vui l\u00F2ng th\u1EED l\u1EA1i sau."
+   },
+   "1408247765057411879": {
+      "message": "Th\u1EBB \u0111\u00E3 h\u1EBFt h\u1EA1n."
+   },
+   "1465846685473775446": {
+      "message": "Qu\u1ED1c gia"
+   },
+   "1623041851701577559": {
+      "message": "C\u00F3 v\u1EBB nh\u01B0 m\u00E3 b\u01B0u ch\u00EDnh n\u00E0y kh\u00F4ng kh\u1EDBp v\u1EDBi ph\u1EA7n c\u00F2n l\u1EA1i c\u1EE7a \u0111\u1ECBa ch\u1EC9."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B kh\u00F4ng \u0111\u01B0\u1EE3c nh\u1EADn d\u1EA1ng l\u00E0 gi\u00E1 tr\u1ECB \u0111\u00E3 bi\u1EBFt cho tr\u01B0\u1EDDng n\u00E0y."
+   },
+   "1710433699132727166": {
+      "message": "Vui l\u00F2ng ch\u1ECDn m\u1ED9t bi\u1EC3u m\u1EABu thanh to\u00E1n kh\u00E1c \u0111\u1EC3 ho\u00E0n t\u1EA5t giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n"
+   },
+   "1778481694021312420": {
+      "message": "Ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 b\u1EAFt \u0111\u1EA7u giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n do s\u1EF1 c\u1ED1 k\u1EF9 thu\u1EADt."
+   },
+   "1828231775026606412": {
+      "message": "Vui l\u00F2ng ch\u1ECDn ph\u01B0\u01A1ng th\u1EE9c thanh to\u00E1n."
+   },
+   "184964329731217200": {
+      "message": "V\u00ED d\u1EE5: $3\u200B. B\u1EA1n kh\u00F4ng bi\u1EBFt m\u00E3 zip c\u1EE7a m\u00ECnh? H\u00E3y t\u00ECm hi\u1EC3u $1\u200Bt\u1EA1i \u0111\u00E2y$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "T\u00EAn"
+   },
+   "1911221012794788296": {
+      "message": "S\u1ED1 th\u1EBB"
+   },
+   "195501871775480185": {
+      "message": "Gi\u00E1o x\u1EE9"
+   },
+   "1959457175344566910": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i khi thi\u1EBFt l\u1EADp giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n. Vui l\u00F2ng li\u00EAn h\u1EC7 v\u1EDBi ng\u01B0\u1EDDi b\u00E1n v\u1EC1 s\u1EF1 c\u1ED1 n\u00E0y."
+   },
+   "1960454644696014517": {
+      "message": "C\u00F3 v\u1EBB nh\u01B0 m\u00E3 ZIP n\u00E0y kh\u00F4ng kh\u1EDBp v\u1EDBi ph\u1EA7n c\u00F2n l\u1EA1i c\u1EE7a \u0111\u1ECBa ch\u1EC9 n\u00E0y."
+   },
+   "2033323276322498862": {
+      "message": "S\u1ED1 th\u1EBB t\u00EDn d\u1EE5ng kh\u00F4ng h\u1EE3p l\u1EC7."
+   },
+   "2034494361870910998": {
+      "message": "Kh\u00F4ng nh\u1EADn d\u1EA1ng \u0111\u01B0\u1EE3c \u0111\u1ECBnh d\u1EA1ng m\u00E3 ZIP n\u00E0y."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} v\u00E0o {START_BOLD}{DATE}{END_BOLD}.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT} th\u00E1ng m\u1ED9t l\u1EA7n c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} cho {START_BOLD}{NUM_RECURRENCES_2} th\u00E1ng{END_BOLD} t\u1EDBi b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i n\u0103m c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} n\u0103m m\u1ED9t l\u1EA7n{END_BOLD} c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}}"
+   },
+   "2847382170871301506": {
+      "message": "Kh\u00F4ng nh\u1EADn d\u1EA1ng \u0111\u01B0\u1EE3c \u0111\u1ECBnh d\u1EA1ng m\u00E3 b\u01B0u ch\u00EDnh n\u00E0y."
+   },
+   "2847737339885115125": {
+      "message": "Ti\u1EC3u bang"
+   },
+   "2850460462496931023": {
+      "message": "Ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 x\u00E1c minh th\u00F4ng tin t\u00E0i kho\u1EA3n c\u1EE7a b\u1EA1n. Vui l\u00F2ng truy c\u1EADp $2\u200Bwallet.google.com/manage$1\u200B \u0111\u1EC3 gi\u1EA3i quy\u1EBFt s\u1EF1 c\u1ED1 n\u00E0y."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B - B\u1ECB t\u1EEB ch\u1ED1i"
+   },
+   "2997291709564172031": {
+      "message": "Ma\u0303 b\u01B0u chi\u0301nh na\u0300y co\u0301 ve\u0309 nh\u01B0 kh\u00F4ng kh\u01A1\u0301p v\u01A1\u0301i ph\u00E2\u0300n co\u0300n la\u0323i cu\u0309a \u0111i\u0323a chi\u0309 na\u0300y. Ba\u0323n kh\u00F4ng bi\u00EA\u0301t ma\u0303 b\u01B0u chi\u0301nh cu\u0309a mi\u0300nh? Ha\u0303y ti\u0300m ta\u0323i $1\u200B\u0111\u00E2y$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "CVC kh\u00F4ng h\u1EE3p l\u1EC7."
+   },
+   "3134831338223050412": {
+      "message": "\u0110o\u0301ng"
+   },
+   "3167935320133055769": {
+      "message": "R\u1EA5t ti\u1EBFc. \u0110\u00E3 x\u1EA3y ra s\u1EF1 c\u1ED1."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Qu\u1ED1c gia/V\u00F9ng"
+   },
+   "3258279995976898903": {
+      "message": "\u0110\u1ECBa ch\u1EC9 \u0111\u01B0\u1EDDng ph\u1ED1"
+   },
+   "3314408358311476388": {
+      "message": "\u0110\u1ED5i m\u00E3 khuy\u1EBFn m\u00E3i ho\u1EB7c th\u1EBB qu\u00E0 t\u1EB7ng tr\u00EAn Google Play"
+   },
+   "3333007012173588619": {
+      "message": "V\u00ED d\u1EE5: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "\u0110i\u0323nh da\u0323ng ma\u0303 ZIP na\u0300y kh\u00F4ng nh\u00E2\u0323n da\u0323ng \u0111\u01B0\u01A1\u0323c. Vi\u0301 du\u0323 v\u00EA\u0300 ma\u0303 ZIP h\u01A1\u0323p l\u00EA\u0323: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Xin l\u1ED7i, ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 x\u1EED l\u00FD y\u00EAu c\u1EA7u n\u00E0y. Vui l\u00F2ng th\u1EED l\u1EA1i sau."
+   },
+   "3631100366179556676": {
+      "message": "\u0110\u1ED3ng \u00FD v\u00E0 mua"
+   },
+   "3719225755450392126": {
+      "message": "Th\u00F4ng tin thanh to\u00E1n gi\u1ED1ng v\u1EDBi \u0111\u1ECBa ch\u1EC9 nh\u00E0 ri\u00EAng"
+   },
+   "3745637225460177011": {
+      "message": "L\u01B0u v\u00E0 ti\u1EBFp t\u1EE5c"
+   },
+   "392637004226857303": {
+      "message": "C\u1EA3m \u01A1n b\u1EA1n \u0111\u00E3 mua h\u00E0ng"
+   },
+   "4032878564184720978": {
+      "message": "T\u00F4i \u0111\u00E3 \u0111\u1ECDc v\u00E0 \u0111\u1ED3ng \u00FD v\u1EDBi $2\u200B\u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "T\u00EAn"
+   },
+   "4172829093050641190": {
+      "message": "\u0110\u1ECBa ch\u1EC9 nh\u00E0 ri\u00EAng"
+   },
+   "419181302975727827": {
+      "message": "\u0110\u1ED3ng \u00FD v\u00E0 ti\u1EBFp t\u1EE5c"
+   },
+   "4263059013900008685": {
+      "message": "Th\u00F4ng tin thanh to\u00E1n"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i th\u00E1ng{END_BOLD} c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} th\u00E1ng m\u1ED9t l\u1EA7n{END_BOLD} c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}}"
+   },
+   "4429302098472575216": {
+      "message": "\u0110o\u0301ng"
+   },
+   "4634308040786352090": {
+      "message": "Y\u00EAu c\u1EA7u mua h\u00E0ng c\u1EE7a b\u1EA1n \u0111\u00E3 h\u1EBFt th\u1EDDi gian. Vui l\u00F2ng th\u1EED l\u1EA1i y\u00EAu c\u1EA7u mua h\u00E0ng c\u1EE7a b\u1EA1n."
+   },
+   "4750645007889628835": {
+      "message": "B\u1EA1n kh\u00F4ng \u0111\u01B0\u1EE3c \u0111\u1EC3 tr\u1ED1ng tr\u01B0\u1EDDng n\u00E0y."
+   },
+   "487772095106728308": {
+      "message": "M\u00E3 ZIP"
+   },
+   "5009369992123803733": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i khi thi\u1EBFt l\u1EADp giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n. Vui l\u00F2ng li\u00EAn h\u1EC7 v\u1EDBi ng\u01B0\u1EDDi b\u00E1n v\u1EC1 th\u00F4ng b\u00E1o l\u1ED7i sau:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "th\u00EAm d\u00F2ng"
+   },
+   "5191851017039683844": {
+      "message": "H\u1EE7y"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B - Kh\u00F4ng c\u00F3 \u0111\u1EE7 ti\u1EC1n"
+   },
+   "5375779080833659264": {
+      "message": "Mua"
+   },
+   "5408750669387206869": {
+      "message": "Xong"
+   },
+   "5455061473703313433": {
+      "message": "V\u1ECB tr\u00ED ph\u1EE5 thu\u1ED9c"
+   },
+   "5693829359112864056": {
+      "message": "H\u1EA1t"
+   },
+   "5709243647038761785": {
+      "message": "Th\u1EBB t\u00EDn d\u1EE5ng c\u1EE7a b\u1EA1n \u0111\u00E3 b\u1ECB t\u1EEB ch\u1ED1i. Vui l\u00F2ng ch\u1ECDn ph\u01B0\u01A1ng th\u1EE9c thanh to\u00E1n kh\u00E1c ho\u1EB7c li\u00EAn h\u1EC7 v\u1EDBi nh\u00E0 ph\u00E1t h\u00E0nh th\u1EBB t\u00EDn d\u1EE5ng c\u1EE7a b\u1EA1n \u0111\u1EC3 cho ph\u00E9p th\u1EF1c hi\u1EC7n giao d\u1ECBch mua h\u00E0ng n\u00E0y."
+   },
+   "5731352514282693755": {
+      "message": "R\u1EA5t ti\u1EBFc, ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 x\u00E1c nh\u1EADn giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n v\u1EDBi m\u00E1y ch\u1EE7 c\u1EE7a ng\u01B0\u1EDDi b\u00E1n. \u0110\u01A1n \u0111\u1EB7t h\u00E0ng c\u1EE7a b\u1EA1n \u0111\u00E3 b\u1ECB h\u1EE7y. Vui l\u00F2ng li\u00EAn h\u1EC7 v\u1EDBi ng\u01B0\u1EDDi b\u00E1n n\u1EBFu s\u1EF1 c\u1ED1 n\u00E0y v\u1EABn ti\u1EBFp di\u1EC5n."
+   },
+   "5775442217879920265": {
+      "message": "Xem l\u1EA1i giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n"
+   },
+   "5883995280582852838": {
+      "message": "Ti\u1EC3u v\u01B0\u01A1ng qu\u1ED1c \u1EA2 R\u1EADp"
+   },
+   "5891444382711799549": {
+      "message": "Ba\u0323n pha\u0309i cung c\u00E2\u0301p ma\u0303 ZIP, vi\u0301 du\u0323 nh\u01B0 $3\u200B. Ba\u0323n kh\u00F4ng bi\u00EA\u0301t ma\u0303 ZIP cu\u0309a mi\u0300nh? Ha\u0303y ti\u0300m ta\u0323i $1\u200B\u0111\u00E2y$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Th\u00E1ng"
+   },
+   "5999277657241413253": {
+      "message": "Th\u00EAm ph\u01B0\u01A1ng th\u1EE9c thanh to\u00E1n m\u1EDBi"
+   },
+   "6060257219410469243": {
+      "message": "C\u00F3 v\u1EBB nh\u01B0 m\u00E3 ZIP n\u00E0y kh\u00F4ng kh\u1EDBp v\u1EDBi ph\u1EA7n c\u00F2n l\u1EA1i c\u1EE7a \u0111\u1ECBa ch\u1EC9 n\u00E0y. Ba\u0323n kh\u00F4ng bi\u00EA\u0301t ma\u0303 ZIP cu\u0309a mi\u0300nh? Ha\u0303y ti\u0300m ta\u0323i $1\u200B\u0111\u00E2y$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Ti\u0309nh"
+   },
+   "6223713516581400986": {
+      "message": "Ba\u0323n pha\u0309i cung c\u00E2\u0301p ma\u0303 b\u01B0u chi\u0301nh, vi\u0301 du\u0323 nh\u01B0 $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B - Ph\u01B0\u01A1ng th\u1EE9c thanh to\u00E1n kh\u00F4ng \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3"
+   },
+   "6406068463830609732": {
+      "message": "\u0110\u01A1n \u0111\u1EB7t h\u00E0ng c\u1EE7a b\u1EA1n \u0111\u00E3 b\u1ECB h\u1EE7y v\u00EC b\u1EA1n kh\u00F4ng th\u1EC3 mua c\u00E1c m\u1EB7t h\u00E0ng c\u1EE7a ch\u00EDnh m\u00ECnh."
+   },
+   "6441964001210288441": {
+      "message": "T\u00F4i \u0111\u00E3 \u0111\u1ECDc v\u00E0 ch\u1EA5p nh\u1EADn c\u00E1c \u0111i\u1EC1u kho\u1EA3n v\u1EC1 $3\u200BT\u00E0i li\u1EC7u Tuy\u00EAn b\u1ED1 ti\u1EBFt l\u1ED9 s\u1EA3n ph\u1EA9m/\u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5$1\u200B v\u00E0 $4\u200BTh\u00F4ng b\u00E1o b\u1EA3o m\u1EADt$1\u200B c\u1EE7a Google Wallet v\u00E0 \u0111\u1ED3ng \u00FD nh\u1EADn t\u00E0i li\u1EC7u n\u00E0y tr\u1EF1c tuy\u1EBFn."
+   },
+   "6643725951150665259": {
+      "message": "Qu\u1EADn"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i ng\u00E0y{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} ng\u00E0y m\u1ED9t l\u1EA7n{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i ng\u00E0y c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} ng\u00E0y m\u1ED9t l\u1EA7n c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE}{END_BOLD} v\u00E0o {START_BOLD}{DATE}{END_BOLD}.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT} th\u00E1ng m\u1ED9t l\u1EA7n{END_BOLD} cho {START_BOLD}{NUM_RECURRENCES_2} th\u00E1ng{END_BOLD} t\u1EDBi b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "V\u00ED d\u1EE5: $3\u200B. B\u1EA1n kh\u00F4ng bi\u1EBFt m\u00E3 b\u01B0u ch\u00EDnh c\u1EE7a m\u00ECnh? H\u00E3y t\u00ECm hi\u1EC3u $1\u200Bt\u1EA1i \u0111\u00E2y$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Khu h\u00E0nh ch\u00EDnh"
+   },
+   "6940850784031726893": {
+      "message": "G\u1EEDi cho t\u00F4i c\u00E1c \u01B0u \u0111\u00E3i \u0111\u1EB7c bi\u1EC7t, l\u1EDDi m\u1EDDi cung c\u1EA5p ph\u1EA3n h\u1ED3i v\u1EC1 s\u1EA3n ph\u1EA9m v\u00E0 b\u1EA3n tin c\u1EE7a Google Wallet."
+   },
+   "6952974317491911390": {
+      "message": "\u0110i\u0323nh da\u0323ng ma\u0303 b\u01B0u chi\u0301nh na\u0300y kh\u00F4ng nh\u00E2\u0323n da\u0323ng \u0111\u01B0\u01A1\u0323c. Vi\u0301 du\u0323 v\u00EA\u0300 ma\u0303 b\u01B0u chi\u0301nh h\u01A1\u0323p l\u00EA\u0323: $3\u200B. Ba\u0323n kh\u00F4ng bi\u00EA\u0301t ma\u0303 b\u01B0u chi\u0301nh cu\u0309a mi\u0300nh? Ha\u0303y ti\u0300m ta\u0323i $1\u200B\u0111\u00E2y$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Vui l\u00F2ng ch\u1ECDn"
+   },
+   "7026703400430960720": {
+      "message": "N\u0103m"
+   },
+   "7041462460226543908": {
+      "message": "\u0110\u1EA3o"
+   },
+   "7134287411704210613": {
+      "message": "M\u00E3 b\u01B0u ch\u00EDnh"
+   },
+   "7201243556561197557": {
+      "message": "B\u1EA1n \u0111\u00E3 ho\u00E0n t\u1EA5t giao d\u1ECBch mua t\u1EEB $5\u200B$4\u200B$2\u200B. Bi\u00EAn lai chi ti\u1EBFt \u0111\u00E3 \u0111\u01B0\u1EE3c g\u1EEDi t\u1EDBi $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "B\u1EA1n kh\u00F4ng \u0111\u01B0\u1EE3c \u0111\u1EC3 tr\u1ED1ng tr\u01B0\u1EDDng n\u00E0y."
+   },
+   "7414801576887533495": {
+      "message": "Gi\u00E1"
+   },
+   "748206580479839913": {
+      "message": "Ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 ho\u00E0n t\u1EA5t giao d\u1ECBch mua h\u00E0ng c\u1EE7a b\u1EA1n do s\u1EF1 c\u1ED1 k\u1EF9 thu\u1EADt."
+   },
+   "7555701388564834489": {
+      "message": "Th\u00E0nh ph\u1ED1"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE}{END_BOLD} v\u00E0o {START_BOLD}{DATE}{END_BOLD}.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i th\u00E1ng{END_BOLD} cho {START_BOLD}{NUM_RECURRENCES_2} th\u00E1ng{END_BOLD} t\u1EDBi b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "T\u1EC9nh/Th\u00E0nh ph\u1ED1"
+   },
+   "7721535992050019842": {
+      "message": "T\u1ED5ng s\u1ED1 ti\u1EC1n \u0111\u00E3 thanh to\u00E1n"
+   },
+   "7955094861997417068": {
+      "message": "Ti\u1EBFp t\u1EE5c"
+   },
+   "7961358682448049092": {
+      "message": "Kh\u00F4ng th\u1EC3 th\u1EF1c hi\u1EC7n giao d\u1ECBch mua h\u00E0ng n\u00E0y b\u1EB1ng ng\u00F4n ng\u1EEF hi\u1EC7n t\u1EA1i c\u1EE7a b\u1EA1n."
+   },
+   "8069103702517962649": {
+      "message": "Thu\u1EBF"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B - \u0110\u00E3 h\u1EBFt h\u1EA1n"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i th\u00E1ng{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} th\u00E1ng m\u1ED9t l\u1EA7n{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}}"
+   },
+   "8175465107894358488": {
+      "message": "T\u00F4i \u0111\u1ED3ng \u00FD v\u1EDBi $3\u200B\u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5$1\u200B c\u1EE7a Google Wallet v\u00E0 \u0111\u00E3 \u0111\u1ECDc $4\u200BTh\u00F4ng b\u00E1o b\u1EA3o m\u1EADt$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "\u0110i\u0323nh da\u0323ng ma\u0303 b\u01B0u chi\u0301nh na\u0300y kh\u00F4ng nh\u00E2\u0323n da\u0323ng \u0111\u01B0\u01A1\u0323c. Vi\u0301 du\u0323 v\u00EA\u0300 ma\u0303 b\u01B0u chi\u0301nh h\u01A1\u0323p l\u00EA\u0323: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "R\u1EA5t ti\u1EBFc, ch\u00FAng t\u00F4i kh\u00F4ng th\u1EC3 x\u1EED l\u00FD y\u00EAu c\u1EA7u n\u00E0y. M\u1ECDi kho\u1EA3n ph\u00ED s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB h\u1EE7y trong v\u00F2ng 24 gi\u1EDD. Vui l\u00F2ng th\u1EED l\u1EA1i sau 24 gi\u1EDD."
+   },
+   "8401318454955949161": {
+      "message": "T\u1ED5ng c\u1ED9ng"
+   },
+   "8571469142225833639": {
+      "message": "Chi ti\u1EBFt thanh to\u00E1n"
+   },
+   "8636143988042581467": {
+      "message": "Ngo\u1EA1i \u00F4"
+   },
+   "865452984547897019": {
+      "message": "Qu\u1EADn"
+   },
+   "8696254863055694906": {
+      "message": "Ba\u0323n pha\u0309i cung c\u00E2\u0301p ma\u0303 ZIP cu\u0309a mi\u0300nh, vi\u0301 du\u0323 nh\u01B0 $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Thi\u1EBFt l\u1EADp Google Wallet"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B - B\u1ECB t\u1EAFt d\u1EF1a tr\u00EAn c\u00E0i \u0111\u1EB7t qu\u1ED1c gia c\u1EE7a b\u1EA1n"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i n\u0103m{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} n\u0103m m\u1ED9t l\u1EA7n{END_BOLD} b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD} cho t\u1EDBi khi b\u1EA1n h\u1EE7y \u0111\u0103ng k\u00FD c\u1EE7a m\u00ECnh.}}"
+   },
+   "8929214462880609574": {
+      "message": "Ba\u0323n pha\u0309i cung c\u00E2\u0301p ma\u0303 b\u01B0u chi\u0301nh, vi\u0301 du\u0323 nh\u01B0 $3\u200B. Ba\u0323n kh\u00F4ng bi\u00EA\u0301t ma\u0303 b\u01B0u chi\u0301nh cu\u0309a mi\u0300nh? Ha\u0303y ti\u0300m ta\u0323i $1\u200B\u0111\u00E2y$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Thanh to\u00E1n b\u1EB1ng"
+   },
+   "8997532101299466079": {
+      "message": "T\u00F4i \u0111\u1ED3ng \u00FD v\u1EDBi $3\u200B\u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5$1\u200B v\u00E0 $4\u200BTh\u00F4ng b\u00E1o b\u1EA3o m\u1EADt$1\u200B c\u1EE7a Google Wallet."
+   },
+   "9011575563787161706": {
+      "message": "C\u00F3 v\u1EBB nh\u01B0 d\u00F2ng \u0111\u1ECBa ch\u1EC9 n\u00E0y ch\u1EE9a ho\u0300m th\u01B0 b\u01B0u \u0111i\u00EA\u0323n. H\u00E3y s\u1EED d\u1EE5ng \u0111\u1ECBa ch\u1EC9 \u0111\u01B0\u1EDDng ph\u1ED1 ho\u1EB7c \u0111\u1ECBa ch\u1EC9 t\u00F2a nh\u00E0."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} v\u00E0o {START_BOLD}{DATE}{END_BOLD}.}other{B\u1EA1n s\u1EBD t\u1EF1 \u0111\u1ED9ng b\u1ECB t\u00EDnh ph\u00ED {START_BOLD}{PRICE} m\u1ED7i th\u00E1ng c\u1ED9ng v\u1EDBi m\u1ECDi kho\u1EA3n thu\u1EBF \u00E1p d\u1EE5ng{END_BOLD} cho {START_BOLD}{NUM_RECURRENCES_2} th\u00E1ng{END_BOLD} t\u1EDBi b\u1EAFt \u0111\u1EA7u t\u1EEB {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "\u0110i\u0323nh da\u0323ng ma\u0303 ZIP na\u0300y kh\u00F4ng nh\u00E2\u0323n da\u0323ng \u0111\u01B0\u01A1\u0323c. Vi\u0301 du\u0323 v\u00EA\u0300 ma\u0303 ZIP h\u01A1\u0323p l\u00EA\u0323: $3\u200B. Ba\u0323n kh\u00F4ng bi\u00EA\u0301t ma\u0303 ZIP cu\u0309a mi\u0300nh? Ha\u0303y ti\u0300m ta\u0323i $1\u200B\u0111\u00E2y$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "thu\u1EBF"
+   }
+}

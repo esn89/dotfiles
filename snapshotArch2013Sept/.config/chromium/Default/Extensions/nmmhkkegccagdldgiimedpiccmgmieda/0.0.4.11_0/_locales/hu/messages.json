@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Ter\u00FClet"
+   },
+   "1241217935227812429": {
+      "message": "Fizet\u00E9si m\u00F3d"
+   },
+   "1251555475707160311": {
+      "message": "Az esetleges \u00E1rfolyam-ingadoz\u00E1sok \u00E9s banki d\u00EDjak hat\u00E1ssal lehetnek az \u00D6nnek felsz\u00E1m\u00EDtott v\u00E9g\u00F6sszegre."
+   },
+   "1362191621078934138": {
+      "message": "Sajnos nem tudtuk feldolgozni ezt a k\u00E9r\u00E9st. A megrendel\u00E9st automatikusan t\u00F6r\u00F6lt\u00FCk, \u00E9s nem sz\u00E1m\u00EDtjuk fel a v\u00E1s\u00E1rl\u00E1s k\u00F6lts\u00E9g\u00E9t. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lkozzon k\u00E9s\u0151bb."
+   },
+   "1408247765057411879": {
+      "message": "A k\u00E1rtya lej\u00E1rt."
+   },
+   "1465846685473775446": {
+      "message": "Orsz\u00E1g"
+   },
+   "1623041851701577559": {
+      "message": "Ez a postai ir\u00E1ny\u00EDt\u00F3sz\u00E1m nem illeszkedik a c\u00EDm t\u00F6bbi r\u00E9sz\u00E9hez."
+   },
+   "1663057945455945792": {
+      "message": "E mez\u0151 eset\u00E9ben a(z) $1\u200B ismeretlen \u00E9rt\u00E9k."
+   },
+   "1710433699132727166": {
+      "message": "A v\u00E1s\u00E1rl\u00E1s befejez\u00E9s\u00E9hez v\u00E1lasszon egy m\u00E1sik fizet\u00E9si m\u00F3dot."
+   },
+   "1778481694021312420": {
+      "message": "Egy m\u0171szaki hiba miatt nem tudtuk elind\u00EDtani a v\u00E1s\u00E1rl\u00E1st."
+   },
+   "1828231775026606412": {
+      "message": "K\u00E9rj\u00FCk, v\u00E1lassza ki a sz\u00E1ml\u00E1z\u00E1si m\u00F3dot."
+   },
+   "184964329731217200": {
+      "message": "P\u00E9lda: $3\u200B. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "1909512393626136359": {
+      "message": "N\u00E9v"
+   },
+   "1911221012794788296": {
+      "message": "K\u00E1rtya sz\u00E1ma"
+   },
+   "195501871775480185": {
+      "message": "K\u00F6rzet"
+   },
+   "1959457175344566910": {
+      "message": "A v\u00E1s\u00E1rl\u00E1s be\u00E1ll\u00EDt\u00E1sai k\u00F6z\u00F6tt hib\u00E1t tal\u00E1ltunk. K\u00E9rj\u00FCk, vegye fel a kapcsolatot a keresked\u0151vel a probl\u00E9m\u00E1val kapcsolatban."
+   },
+   "1960454644696014517": {
+      "message": "Ez az ir\u00E1ny\u00EDt\u00F3sz\u00E1m nem illeszkedik a c\u00EDm t\u00F6bbi r\u00E9sz\u00E9hez."
+   },
+   "2033323276322498862": {
+      "message": "\u00C9rv\u00E9nytelen hitelk\u00E1rtyasz\u00E1m."
+   },
+   "2034494361870910998": {
+      "message": "Ezt az ir\u00E1ny\u00EDt\u00F3sz\u00E1m-form\u00E1tumot a rendszer nem ismeri fel."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal{END_BOLD} a k\u00F6vetkez\u0151 napon: {START_BOLD}{DATE}{END_BOLD}.}other{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal minden {FREQUENCY_UNIT_COUNT}. h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 {START_BOLD}{NUM_RECURRENCES_2} h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s a kapcsol\u00F3d\u00F3 ad\u00F3kkal minden \u00E9vben{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}other{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s a kapcsol\u00F3d\u00F3 ad\u00F3kkal minden {FREQUENCY_UNIT_COUNT_2}. \u00E9vben{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "2847382170871301506": {
+      "message": "A postai ir\u00E1ny\u00EDt\u00F3sz\u00E1m e form\u00E1tum\u00E1t a rendszer nem ismeri fel."
+   },
+   "2847737339885115125": {
+      "message": "\u00C1llam"
+   },
+   "2850460462496931023": {
+      "message": "Nem tudtuk ellen\u0151rizni a fi\u00F3kadatokat. K\u00E9rj\u00FCk, l\u00E1togasson el a $2\u200Bwallet.google.com/manage$1\u200B c\u00EDmre a probl\u00E9ma megold\u00E1sa \u00E9rdek\u00E9ben."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 Elutas\u00EDtva"
+   },
+   "2997291709564172031": {
+      "message": "Ez az ir\u00E1ny\u00EDt\u00F3sz\u00E1m nem egyezik a c\u00EDm t\u00F6bbi r\u00E9sz\u00E9vel. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "3007846166083888728": {
+      "message": "\u00C9rv\u00E9nytelen CVC k\u00F3d."
+   },
+   "3134831338223050412": {
+      "message": "Bez\u00E1r\u00E1s"
+   },
+   "3167935320133055769": {
+      "message": "Hopp\u00E1. Probl\u00E9ma mer\u00FClt fel."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Orsz\u00E1g/r\u00E9gi\u00F3"
+   },
+   "3258279995976898903": {
+      "message": "C\u00EDm"
+   },
+   "3314408358311476388": {
+      "message": "Google Play-aj\u00E1nd\u00E9kk\u00E1rtya/prom\u00F3ci\u00F3s k\u00F3d bev\u00E1lt\u00E1sa"
+   },
+   "3333007012173588619": {
+      "message": "P\u00E9lda: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Ezt az ir\u00E1ny\u00EDt\u00F3sz\u00E1m-form\u00E1tumot (ZIP k\u00F3dot) nem ismeri fel a rendszer. P\u00E9lda egy \u00E9rv\u00E9nyes ir\u00E1ny\u00EDt\u00F3sz\u00E1mra (ZIP k\u00F3dra): $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Sajnos nem tudtuk feldolgozni ezt a k\u00E9r\u00E9st. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lkozzon k\u00E9s\u0151bb."
+   },
+   "3631100366179556676": {
+      "message": "Elfogad\u00E1s \u00E9s v\u00E1s\u00E1rl\u00E1s"
+   },
+   "3719225755450392126": {
+      "message": "A sz\u00E1ml\u00E1z\u00E1si adatok megegyeznek a lakc\u00EDmmel"
+   },
+   "3745637225460177011": {
+      "message": "Ment\u00E9s \u00E9s folytat\u00E1s"
+   },
+   "392637004226857303": {
+      "message": "K\u00F6sz\u00F6nj\u00FCk a v\u00E1s\u00E1rl\u00E1st!"
+   },
+   "4032878564184720978": {
+      "message": "Elolvastam \u00E9s elfogadom az $2\u200B\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9teleket$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "N\u00E9v"
+   },
+   "4172829093050641190": {
+      "message": "Lakc\u00EDm"
+   },
+   "419181302975727827": {
+      "message": "Elfogad\u00E1s \u00E9s folytat\u00E1s"
+   },
+   "4263059013900008685": {
+      "message": "Sz\u00E1ml\u00E1z\u00E1si adatok"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal minden h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}other{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal minden {FREQUENCY_UNIT_COUNT_2}. h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "4429302098472575216": {
+      "message": "Bez\u00E1r\u00E1s"
+   },
+   "4634308040786352090": {
+      "message": "A v\u00E1s\u00E1rl\u00E1si k\u00E9r\u00E9sn\u00E9l id\u0151t\u00FAll\u00E9p\u00E9s t\u00F6rt\u00E9nt. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lja meg ism\u00E9t a v\u00E1s\u00E1rl\u00E1st."
+   },
+   "4750645007889628835": {
+      "message": "Ez nem maradhat \u00FCresen."
+   },
+   "487772095106728308": {
+      "message": "Ir\u00E1ny\u00EDt\u00F3sz\u00E1m"
+   },
+   "5009369992123803733": {
+      "message": "A v\u00E1s\u00E1rl\u00E1s be\u00E1ll\u00EDt\u00E1sai k\u00F6z\u00F6tt hib\u00E1t tal\u00E1ltunk. K\u00E9rj\u00FCk, k\u00FCldje el a keresked\u0151nek ezt a hiba\u00FCzenetet:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "sor hozz\u00E1ad\u00E1sa"
+   },
+   "5191851017039683844": {
+      "message": "M\u00E9gse"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 El\u00E9gtelen fedezet"
+   },
+   "5375779080833659264": {
+      "message": "V\u00E1s\u00E1rl\u00E1s"
+   },
+   "5408750669387206869": {
+      "message": "K\u00E9sz"
+   },
+   "5455061473703313433": {
+      "message": "Alr\u00E9gi\u00F3"
+   },
+   "5693829359112864056": {
+      "message": "Megye"
+   },
+   "5709243647038761785": {
+      "message": "A hitelk\u00E1rty\u00E1t elutas\u00EDtott\u00E1k. K\u00E9rj\u00FCk, v\u00E1lasszon egy m\u00E1sik fizet\u00E9si m\u00F3dot, vagy l\u00E9pjen kapcsolatba k\u00E1rtyakibocs\u00E1t\u00F3j\u00E1val a v\u00E1s\u00E1rl\u00E1s enged\u00E9lyez\u00E9s\u00E9hez."
+   },
+   "5731352514282693755": {
+      "message": "Sajnos nem tudtuk meger\u0151s\u00EDteni a v\u00E1s\u00E1rl\u00E1st a keresked\u0151 szerver\u00E9vel, ez\u00E9rt megrendel\u00E9s\u00E9t t\u00F6r\u00F6lt\u00FCk. Ha ez a probl\u00E9ma tov\u00E1bbra is fenn\u00E1ll, k\u00E9rj\u00FCk, forduljon a keresked\u0151h\u00F6z."
+   },
+   "5775442217879920265": {
+      "message": "Ellen\u0151rizze a v\u00E1s\u00E1rl\u00E1s\u00E1t"
+   },
+   "5883995280582852838": {
+      "message": "Emir\u00E1tus"
+   },
+   "5891444382711799549": {
+      "message": "Meg kell adnia egy postai ir\u00E1ny\u00EDt\u00F3sz\u00E1mot (ZIP k\u00F3dot); p\u00E9ld\u00E1ul: $3\u200B. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t (ZIP k\u00F3dj\u00E1t)? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "5951460568046770023": {
+      "message": "H\u00F3nap"
+   },
+   "5999277657241413253": {
+      "message": "\u00DAj fizet\u00E9si m\u00F3d megad\u00E1sa"
+   },
+   "6060257219410469243": {
+      "message": "Ez az ir\u00E1ny\u00EDt\u00F3sz\u00E1m (ZIP k\u00F3d) nem egyezik a c\u00EDm t\u00F6bbi r\u00E9sz\u00E9vel. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t (ZIP k\u00F3dj\u00E1t)? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "6091224361698582930": {
+      "message": "Tartom\u00E1ny"
+   },
+   "6223713516581400986": {
+      "message": "Meg kell adnia egy postai ir\u00E1ny\u00EDt\u00F3sz\u00E1mot; p\u00E9ld\u00E1ul: $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 Nem t\u00E1mogatott fizet\u00E9si m\u00F3d"
+   },
+   "6406068463830609732": {
+      "message": "T\u00F6r\u00F6lt\u00FCk a rendel\u00E9s\u00E9t, mert nem v\u00E1s\u00E1rolhat saj\u00E1t mag\u00E1t\u00F3l."
+   },
+   "6441964001210288441": {
+      "message": "Elolvastam \u00E9s elfogadom a Google Wallet $3\u200BTerm\u00E9kt\u00E1j\u00E9koztat\u00F3j\u00E1t/\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9teleit$1\u200B, valamint az $4\u200BAdatv\u00E9delmi k\u00F6zlem\u00E9nyt$1\u200B, \u00E9s hozz\u00E1j\u00E1rulok, hogy elektronikus form\u00E1ban kapjam meg azokat."
+   },
+   "6643725951150665259": {
+      "message": "K\u00F6rzet"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden nap{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}other{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden {FREQUENCY_UNIT_COUNT_2}. napon{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal minden nap{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}other{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal minden {FREQUENCY_UNIT_COUNT_2}. napon{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE}{END_BOLD} \u00F6sszeggel a k\u00F6vetkez\u0151 napon: {START_BOLD}{DATE}{END_BOLD}.}other{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden {FREQUENCY_UNIT_COUNT}. h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 {START_BOLD}{NUM_RECURRENCES_2} h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "P\u00E9lda: $3\u200B. Nem tudja a postai ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "6938228650978607653": {
+      "message": "Megye"
+   },
+   "6940850784031726893": {
+      "message": "K\u00FCldj\u00E9k el nekem a Google Wallet akci\u00F3s aj\u00E1nlatait, valamint a term\u00E9kek v\u00E9lem\u00E9nyez\u00E9s\u00E9re k\u00E9r\u0151 \u00FCzeneteket \u00E9s h\u00EDrleveleket."
+   },
+   "6952974317491911390": {
+      "message": "Ezt az ir\u00E1ny\u00EDt\u00F3sz\u00E1m-form\u00E1tumot nem ismeri fel a rendszer. P\u00E9lda egy \u00E9rv\u00E9nyes ir\u00E1ny\u00EDt\u00F3sz\u00E1mra: $3\u200B. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "6997118023159880890": {
+      "message": "K\u00E9rj\u00FCk, v\u00E1lasszon"
+   },
+   "7026703400430960720": {
+      "message": "\u00C9v"
+   },
+   "7041462460226543908": {
+      "message": "Sziget"
+   },
+   "7134287411704210613": {
+      "message": "Postai ir\u00E1ny\u00EDt\u00F3sz\u00E1m"
+   },
+   "7201243556561197557": {
+      "message": "\u00D6n v\u00E9grehajtott egy v\u00E1s\u00E1rl\u00E1st a k\u00F6vetkez\u0151 keresked\u0151n\u00E9l: $5\u200B$4\u200B$2\u200B. R\u00E9szletes sz\u00E1ml\u00E1t k\u00FCldt\u00FCnk a(z) $6\u200B$1\u200B$2\u200B c\u00EDmre."
+   },
+   "7295612354973086657": {
+      "message": "Ez nem maradhat \u00FCresen."
+   },
+   "7414801576887533495": {
+      "message": "\u00C1r"
+   },
+   "748206580479839913": {
+      "message": "Egy m\u0171szaki hiba miatt nem tudtuk teljes\u00EDteni a v\u00E1s\u00E1rl\u00E1st."
+   },
+   "7555701388564834489": {
+      "message": "Telep\u00FCl\u00E9s"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE}{END_BOLD} \u00F6sszeggel a k\u00F6vetkez\u0151 napon: {START_BOLD}{DATE}{END_BOLD}.}other{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 {START_BOLD}{NUM_RECURRENCES_2} h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Szi"
+   },
+   "7721535992050019842": {
+      "message": "Kifizetett teljes \u00F6sszeg"
+   },
+   "7955094861997417068": {
+      "message": "Folytat\u00E1s"
+   },
+   "7961358682448049092": {
+      "message": "Ezt a v\u00E1s\u00E1rl\u00E1st nem lehet v\u00E9grehajtani a jelenlegi nyelvi be\u00E1ll\u00EDt\u00E1sokkal."
+   },
+   "8069103702517962649": {
+      "message": "Ad\u00F3"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 Lej\u00E1rt"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}}other{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden {FREQUENCY_UNIT_COUNT_2}. h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "8175465107894358488": {
+      "message": "Elfogadom a Google Wallet $3\u200B\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9teleit$1\u200B, illetve elolvastam az $4\u200BAdatv\u00E9delmi k\u00F6zlem\u00E9nyt$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Ezt az ir\u00E1ny\u00EDt\u00F3sz\u00E1m-form\u00E1tumot nem ismeri fel a rendszer. P\u00E9lda egy \u00E9rv\u00E9nyes ir\u00E1ny\u00EDt\u00F3sz\u00E1mra: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Sajnos nem tudtuk feldolgozni ezt a k\u00E9r\u00E9st. Minden terhel\u00E9st 24 \u00F3r\u00E1n bel\u00FCl automatikusan t\u00F6rl\u00FCnk. K\u00E9rj\u00FCk, pr\u00F3b\u00E1lja \u00FAjra 24 \u00F3ra m\u00FAlva."
+   },
+   "8401318454955949161": {
+      "message": "\u00D6sszesen"
+   },
+   "8571469142225833639": {
+      "message": "Sz\u00E1ml\u00E1z\u00E1si adatok"
+   },
+   "8636143988042581467": {
+      "message": "K\u00FClv\u00E1ros"
+   },
+   "865452984547897019": {
+      "message": "Prefekt\u00FAra"
+   },
+   "8696254863055694906": {
+      "message": "Meg kell adnia egy postai ir\u00E1ny\u00EDt\u00F3sz\u00E1mot (ZIP k\u00F3dot); p\u00E9ld\u00E1ul: $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Google Wallet-fi\u00F3k l\u00E9trehoz\u00E1sa"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 Letiltva az orsz\u00E1gbe\u00E1ll\u00EDt\u00E1s szerint"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden \u00E9vben{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}other{El\u0151fizet\u00E9se lemond\u00E1s\u00E1ig a rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel minden {FREQUENCY_UNIT_COUNT_2}. \u00E9vben{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "8929214462880609574": {
+      "message": "Meg kell adnia egy postai ir\u00E1ny\u00EDt\u00F3sz\u00E1mot; p\u00E9ld\u00E1ul: $3\u200B. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "8951304378317814966": {
+      "message": "Fizet\u0151eszk\u00F6z"
+   },
+   "8997532101299466079": {
+      "message": "Elfogadom a Google Wallet $3\u200B\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9teleit$1\u200B \u00E9s az $4\u200BAdatv\u00E9delmi k\u00F6zlem\u00E9nyt$1\u200B."
+   },
+   "9011575563787161706": {
+      "message": "\u00DAgy t\u0171nik, a c\u00EDm postafi\u00F3kot tartalmaz. K\u00E9rj\u00FCk, adja meg a k\u00F6zter\u00FClet nev\u00E9t \u00E9s a h\u00E1zsz\u00E1mot."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal{END_BOLD} a k\u00F6vetkez\u0151 napon: {START_BOLD}{DATE}{END_BOLD}.}other{A rendszer automatikusan megterheli a sz\u00E1ml\u00E1j\u00E1t {START_BOLD}{PRICE} \u00F6sszeggel \u00E9s az esetleges ad\u00F3kkal minden h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 {START_BOLD}{NUM_RECURRENCES_2} h\u00F3napban{END_BOLD}, a k\u00F6vetkez\u0151 d\u00E1tumt\u00F3l kezd\u0151d\u0151en: {START_BOLD}{DATE}{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Ezt az ir\u00E1ny\u00EDt\u00F3sz\u00E1m-form\u00E1tumot (ZIP k\u00F3dot) nem ismeri fel a rendszer. P\u00E9lda egy \u00E9rv\u00E9nyes ir\u00E1ny\u00EDt\u00F3sz\u00E1mra (ZIP k\u00F3dra): $3\u200B. Nem tudja az ir\u00E1ny\u00EDt\u00F3sz\u00E1m\u00E1t (ZIP k\u00F3dj\u00E1t)? $1\u200BItt$2\u200B megtal\u00E1lja."
+   },
+   "9211202438445284903": {
+      "message": "ad\u00F3"
+   }
+}

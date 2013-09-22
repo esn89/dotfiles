@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Gebiet"
+   },
+   "1241217935227812429": {
+      "message": "Zahlungsmethode"
+   },
+   "1251555475707160311": {
+      "message": "M\u00F6glicherweise erhebt Ihre Bank eine Zusatzgeb\u00FChr f\u00FCr diese Transaktion."
+   },
+   "1362191621078934138": {
+      "message": "Diese Anfrage konnte nicht verarbeitet werden. Die Bestellung wurde automatisch storniert und Ihnen werden keine Kosten f\u00FCr den Kauf berechnet. Bitte versuchen Sie es sp\u00E4ter erneut."
+   },
+   "1408247765057411879": {
+      "message": "Karte abgelaufen"
+   },
+   "1465846685473775446": {
+      "message": "Land"
+   },
+   "1623041851701577559": {
+      "message": "Die Postleitzahl scheint nicht mit der \u00FCbrigen Adresse \u00FCbereinzustimmen."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B ist als Wert f\u00FCr dieses Feld nicht g\u00FCltig."
+   },
+   "1710433699132727166": {
+      "message": "Bitte w\u00E4hlen Sie ein anderes Zahlungsmittel, um den Einkauf abzuschlie\u00DFen."
+   },
+   "1778481694021312420": {
+      "message": "Aufgrund eines technischen Problems konnte Ihr Einkauf nicht aufgerufen werden."
+   },
+   "1828231775026606412": {
+      "message": "W\u00E4hlen Sie eine Zahlungsart aus."
+   },
+   "184964329731217200": {
+      "message": "Beispiel: $3\u200B. Sie kennen Ihre Postleitzahl nicht? $1\u200BHier finden Sie sie.$2\u200B"
+   },
+   "1909512393626136359": {
+      "message": "Name"
+   },
+   "1911221012794788296": {
+      "message": "Kartennummer"
+   },
+   "195501871775480185": {
+      "message": "Gemeinde"
+   },
+   "1959457175344566910": {
+      "message": "Bei Ihrem Einkauf liegt ein Einrichtungsfehler vor. Bitte wenden Sie sich an den H\u00E4ndler."
+   },
+   "1960454644696014517": {
+      "message": "Die Postleitzahl scheint nicht mit der \u00FCbrigen Adresse \u00FCbereinzustimmen."
+   },
+   "2033323276322498862": {
+      "message": "Ung\u00FCltige Kreditkartennummer"
+   },
+   "2034494361870910998": {
+      "message": "Das Format der Postleitzahl ist ung\u00FCltig."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ihnen werden am {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}{PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}other{Ihnen werden ab {START_BOLD}{DATE}{END_BOLD} f\u00FCr die n\u00E4chsten {START_BOLD}{NUM_RECURRENCES_2} Monate{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT} Monate {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}jedes Jahr {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}other{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT_2} Jahre {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}}"
+   },
+   "2847382170871301506": {
+      "message": "Das Postleitzahlenformat ist ung\u00FCltig."
+   },
+   "2847737339885115125": {
+      "message": "Staat"
+   },
+   "2850460462496931023": {
+      "message": "Ihre Kontoinformationen konnten leider nicht best\u00E4tigt werden. Bitte beheben Sie dieses Problem unter $2\u200Bwallet.google.com/manage$1\u200B."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 abgelehnt"
+   },
+   "2997291709564172031": {
+      "message": "Diese Postleitzahl stimmt nicht mit den restlichen Adressangaben \u00FCberein. Sie kennen Ihre Postleitzahl nicht? $1\u200BSie k\u00F6nnen sie hier ermitteln$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Ung\u00FCltiger CVC"
+   },
+   "3134831338223050412": {
+      "message": "Schlie\u00DFen"
+   },
+   "3167935320133055769": {
+      "message": "Hoppla, es ist ein Problem aufgetreten."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Land/Region"
+   },
+   "3258279995976898903": {
+      "message": "Postanschrift"
+   },
+   "3314408358311476388": {
+      "message": "Google Play-Geschenkkarte oder -Aktionscode einl\u00F6sen"
+   },
+   "3333007012173588619": {
+      "message": "Beispiel: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Das Format Ihrer Postleitzahl wird nicht erkannt. Beispiel f\u00FCr eine g\u00FCltige Postleitzahl: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Diese Anfrage konnte nicht verarbeitet werden. Bitte versuchen Sie es sp\u00E4ter erneut."
+   },
+   "3631100366179556676": {
+      "message": "Akzeptieren und kaufen"
+   },
+   "3719225755450392126": {
+      "message": "Privatadresse gilt als Zahlungsinformation"
+   },
+   "3745637225460177011": {
+      "message": "Speichern und fortfahren"
+   },
+   "392637004226857303": {
+      "message": "Vielen Dank f\u00FCr Ihren Einkauf!"
+   },
+   "4032878564184720978": {
+      "message": "Ich habe die $2\u200BNutzungsbedingungen$1\u200B gelesen und stimme ihnen zu."
+   },
+   "4081289954473604488": {
+      "message": "Name"
+   },
+   "4172829093050641190": {
+      "message": "Privatadresse"
+   },
+   "419181302975727827": {
+      "message": "Akzeptieren und fortfahren"
+   },
+   "4263059013900008685": {
+      "message": "Zahlungsinformationen"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}jeden Monat {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}other{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT_2} Monate {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}}"
+   },
+   "4429302098472575216": {
+      "message": "Schlie\u00DFen"
+   },
+   "4634308040786352090": {
+      "message": "Die Zeit f\u00FCr Ihre Kaufanfrage ist abgelaufen. Bitte versuchen Sie es erneut."
+   },
+   "4750645007889628835": {
+      "message": "Dieses Feld ist ein Pflichtfeld."
+   },
+   "487772095106728308": {
+      "message": "Postleitzahl"
+   },
+   "5009369992123803733": {
+      "message": "Bei Ihrem Einkauf liegt ein Einrichtungsfehler vor. Bitte wenden Sie sich an den H\u00E4ndler und teilen Sie ihm die folgende Fehlermeldung mit:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "Zeile hinzuf\u00FCgen"
+   },
+   "5191851017039683844": {
+      "message": "Abbrechen"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 unzureichender Betrag"
+   },
+   "5375779080833659264": {
+      "message": "Kaufen"
+   },
+   "5408750669387206869": {
+      "message": "Fertig"
+   },
+   "5455061473703313433": {
+      "message": "Ortsteil"
+   },
+   "5693829359112864056": {
+      "message": "Landkreis"
+   },
+   "5709243647038761785": {
+      "message": "Ihre Kreditkarte wurde abgelehnt. Bitte w\u00E4hlen Sie eine andere Zahlungsmethode oder kontaktieren Sie Ihr Kreditkartenunternehmen, um den Kauf zu autorisieren."
+   },
+   "5731352514282693755": {
+      "message": "Wir konnten Ihren Kauf beim H\u00E4ndlerserver nicht best\u00E4tigen. Ihre Bestellung wurde storniert. Sollte das Problem weiterhin bestehen, kontaktieren Sie bitte den H\u00E4ndler."
+   },
+   "5775442217879920265": {
+      "message": "Kauf \u00FCberpr\u00FCfen"
+   },
+   "5883995280582852838": {
+      "message": "Emirat"
+   },
+   "5891444382711799549": {
+      "message": "Geben Sie eine Postleitzahl an, z.\u00A0B.\u00A0$3\u200B. Sie kennen Ihre Postleitzahl nicht? $1\u200BSie k\u00F6nnen sie hier ermitteln$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Monat"
+   },
+   "5999277657241413253": {
+      "message": "Neue Zahlungsmethode hinzuf\u00FCgen"
+   },
+   "6060257219410469243": {
+      "message": "Diese Postleitzahl stimmt nicht mit den restlichen Adressangaben \u00FCberein. Sie kennen Ihre Postleitzahl nicht? $1\u200BSie k\u00F6nnen sie hier ermitteln$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provinz"
+   },
+   "6223713516581400986": {
+      "message": "Geben Sie eine Postleitzahl an, z.\u00A0B.\u00A0$1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 Zahlungsmethode wird nicht unterst\u00FCtzt"
+   },
+   "6406068463830609732": {
+      "message": "Ihre Bestellung wurde storniert, weil Sie keine Artikel von sich selbst kaufen k\u00F6nnen."
+   },
+   "6441964001210288441": {
+      "message": "Ich habe $3\u200Bdie Produktoffenlegungserkl\u00E4rung/das Dokument mit den Nutzungsbedingungen$1\u200B und die $4\u200BDatenschutzerkl\u00E4rung$1\u200B f\u00FCr Google Wallet gelesen und stimme den Bedingungen sowie ihrem Online-Erhalt zu."
+   },
+   "6643725951150665259": {
+      "message": "Bezirk"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}jeden Tag {PRICE}{END_BOLD} berechnet.}other{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT_2} Tage {PRICE}{END_BOLD} berechnet.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}jeden Tag {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}other{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT_2} Tage {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ihnen werden am {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}{PRICE}{END_BOLD} berechnet.}other{Ihnen werden ab {START_BOLD}{DATE}{END_BOLD} f\u00FCr die n\u00E4chsten {START_BOLD}{NUM_RECURRENCES_2} Monate{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT} Monate {PRICE}{END_BOLD} berechnet.}}"
+   },
+   "687752267107884722": {
+      "message": "Beispiel: $3\u200B. Kennen Sie Ihre Postleitzahl nicht? $1\u200BHier$2\u200B finden Sie sie."
+   },
+   "6938228650978607653": {
+      "message": "Verwaltungsbezirk"
+   },
+   "6940850784031726893": {
+      "message": "Ich m\u00F6chte Sonderangebote, Einladungen zum Geben von Produktfeedback und Newsletter f\u00FCr Google Wallet zugesendet bekommen"
+   },
+   "6952974317491911390": {
+      "message": "Das Format Ihrer Postleitzahl wird nicht erkannt. Beispiel f\u00FCr eine g\u00FCltige Postleitzahl: $3\u200B. Sie kennen Ihre Postleitzahl nicht? $1\u200BSie k\u00F6nnen sie hier ermitteln$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Bitte ausw\u00E4hlen"
+   },
+   "7026703400430960720": {
+      "message": "Jahr"
+   },
+   "7041462460226543908": {
+      "message": "Insel"
+   },
+   "7134287411704210613": {
+      "message": "Postleitzahl"
+   },
+   "7201243556561197557": {
+      "message": "Sie haben einen Kauf von $5\u200B$4\u200B$2\u200B abgeschlossen. Ein detaillierter Beleg wurde an $6\u200B$1\u200B$2\u200B gesendet."
+   },
+   "7295612354973086657": {
+      "message": "Dieses Feld ist ein Pflichtfeld."
+   },
+   "7414801576887533495": {
+      "message": "Preis"
+   },
+   "748206580479839913": {
+      "message": "Aufgrund eines technischen Problems konnte Ihr Einkauf nicht abgeschlossen werden."
+   },
+   "7555701388564834489": {
+      "message": "Stadt"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ihnen werden am {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}{PRICE}{END_BOLD} berechnet.}other{Ihnen werden ab {START_BOLD}{DATE}{END_BOLD} f\u00FCr die n\u00E4chsten {START_BOLD}{NUM_RECURRENCES_2} Monate{END_BOLD} automatisch {START_BOLD}jeden Monat {PRICE}{END_BOLD} berechnet.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Gesamtzahlung"
+   },
+   "7955094861997417068": {
+      "message": "Weiter"
+   },
+   "7961358682448049092": {
+      "message": "Dieser Kauf kann in Ihrem aktuellen Gebietsschema nicht durchgef\u00FChrt werden."
+   },
+   "8069103702517962649": {
+      "message": "Steuern"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 abgelaufen"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}jeden Monat {PRICE}{END_BOLD} berechnet.}other{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT_2} Monate {PRICE}{END_BOLD} berechnet.}}"
+   },
+   "8175465107894358488": {
+      "message": "Ich stimme den $3\u200BNutzungsbedingungen$1\u200B f\u00FCr Google Wallet zu und habe die $4\u200BDatenschutzerkl\u00E4rung$1\u200B gelesen."
+   },
+   "8261307552167893934": {
+      "message": "Das Format Ihrer Postleitzahl wird nicht erkannt. Beispiel f\u00FCr eine g\u00FCltige Postleitzahl: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Diese Anfrage konnte nicht verarbeitet werden. Falls Ihnen Kosten berechnet wurden, erfolgt innerhalb von 24 Stunden automatisch eine Stornierung. Bitte versuchen Sie es nach 24 Stunden erneut."
+   },
+   "8401318454955949161": {
+      "message": "Gesamt"
+   },
+   "8571469142225833639": {
+      "message": "Zahlungsangaben"
+   },
+   "8636143988042581467": {
+      "message": "Vorort"
+   },
+   "865452984547897019": {
+      "message": "Pr\u00E4fektur"
+   },
+   "8696254863055694906": {
+      "message": "Geben Sie eine Postleitzahl an, z.\u00A0B.\u00A0$1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Google Wallet einrichten"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 aufgrund Ihrer L\u00E4ndereinstellungen deaktiviert"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}jedes Jahr {PRICE}{END_BOLD} berechnet.}other{Bis Sie das Abonnement stornieren, werden Ihnen ab {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}alle {FREQUENCY_UNIT_COUNT_2} Jahre {PRICE}{END_BOLD} berechnet.}}"
+   },
+   "8929214462880609574": {
+      "message": "Geben Sie eine Postleitzahl an, z.\u00A0B.\u00A0$3\u200B. Sie kennen Ihre Postleitzahl nicht? $1\u200BSie k\u00F6nnen sie hier ermitteln$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Zahlungsmittel:"
+   },
+   "8997532101299466079": {
+      "message": "Ich stimme den $3\u200BNutzungsbedingungen$1\u200B und der $4\u200BDatenschutzerkl\u00E4rung$1\u200B f\u00FCr Google Wallet zu."
+   },
+   "9011575563787161706": {
+      "message": "Bei dieser Adresse scheint es sich um ein Postfach zu handeln. Bitte verwenden Sie eine Anschrift mit Stra\u00DFen- oder Geb\u00E4udeangabe."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Ihnen werden am {START_BOLD}{DATE}{END_BOLD} automatisch {START_BOLD}{PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}other{Ihnen werden ab {START_BOLD}{DATE}{END_BOLD} f\u00FCr die n\u00E4chsten {START_BOLD}{NUM_RECURRENCES_2} Monate{END_BOLD} automatisch {START_BOLD}jeden Monat {PRICE} zzgl. eventuell anfallender Steuern{END_BOLD} berechnet.}}"
+   },
+   "9088302330007274067": {
+      "message": "Das Format Ihrer Postleitzahl wird nicht erkannt. Beispiel f\u00FCr eine g\u00FCltige Postleitzahl: $3\u200B. Sie kennen Ihre Postleitzahl nicht? $1\u200BSie k\u00F6nnen sie hier ermitteln$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "Steuern"
+   }
+}

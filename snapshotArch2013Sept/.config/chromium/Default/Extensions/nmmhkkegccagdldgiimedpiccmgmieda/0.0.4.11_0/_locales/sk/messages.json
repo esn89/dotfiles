@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Oblas\u0165"
+   },
+   "1241217935227812429": {
+      "message": "Sp\u00F4sob platby"
+   },
+   "1251555475707160311": {
+      "message": "Kone\u010Dn\u00FA v\u00FD\u0161ku na\u00FA\u010Dtovanej sumy m\u00F4\u017Eu ovplyvni\u0165 menov\u00E9 v\u00FDkyvy a bankov\u00E9 poplatky."
+   },
+   "1362191621078934138": {
+      "message": "Je n\u00E1m to \u013E\u00FAto, ale t\u00FAto \u017Eiados\u0165 sa n\u00E1m nepodarilo spracova\u0165. Objedn\u00E1vka sa automaticky zru\u0161ila a neza\u00FA\u010Dtuje sa v\u00E1m. Sk\u00FAste to znova nesk\u00F4r."
+   },
+   "1408247765057411879": {
+      "message": "Platnos\u0165 karty vypr\u0161ala."
+   },
+   "1465846685473775446": {
+      "message": "Krajina"
+   },
+   "1623041851701577559": {
+      "message": "Po\u0161tov\u00FD k\u00F3d sa nezhoduje so zvy\u0161kom adresy."
+   },
+   "1663057945455945792": {
+      "message": "$1\u200B nie je pre toto pole povolen\u00E1 hodnota."
+   },
+   "1710433699132727166": {
+      "message": "Ak chcete dokon\u010Di\u0165 n\u00E1kup, vyberte si in\u00FD sp\u00F4sob platby"
+   },
+   "1778481694021312420": {
+      "message": "N\u00E1kup sa nepodarilo spusti\u0165, preto\u017Ee sa vyskytol technick\u00FD probl\u00E9m."
+   },
+   "1828231775026606412": {
+      "message": "Vyberte faktura\u010Dn\u00FD n\u00E1stroj."
+   },
+   "184964329731217200": {
+      "message": "Pr\u00EDklad: $3\u200B. Nepozn\u00E1te svoje PS\u010C? Zistite ho $1\u200Btu$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Meno"
+   },
+   "1911221012794788296": {
+      "message": "\u010C\u00EDslo karty"
+   },
+   "195501871775480185": {
+      "message": "Okrsok"
+   },
+   "1959457175344566910": {
+      "message": "V nastaven\u00ED v\u00E1\u0161ho n\u00E1kupu je chyba. Informujte o tomto probl\u00E9me obchodn\u00EDka."
+   },
+   "1960454644696014517": {
+      "message": "PS\u010C nezodpoved\u00E1 zvy\u0161ku adresy."
+   },
+   "2033323276322498862": {
+      "message": "Neplatn\u00E9 \u010D\u00EDslo kreditnej karty."
+   },
+   "2034494361870910998": {
+      "message": "Form\u00E1t PS\u010C sa nerozpoznal."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{K d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}few{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m {START_BOLD}ka\u017Ed\u00E9 {FREQUENCY_UNIT_COUNT} mesiace po\u010Das nasleduj\u00FAcich {NUM_RECURRENCES_2} mesiacov{END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}other{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m {START_BOLD}ka\u017Ed\u00FDch {FREQUENCY_UNIT_COUNT} mesiacov po\u010Das nasleduj\u00FAcich {NUM_RECURRENCES_2} mesiacov{END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD rok od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}few{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00E9 {FREQUENCY_UNIT_COUNT_2} roky od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma{START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}other{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FDch {FREQUENCY_UNIT_COUNT_2} rokov od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma{START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}}"
+   },
+   "2847382170871301506": {
+      "message": "Form\u00E1t po\u0161tov\u00E9ho k\u00F3du sa nerozpoznal."
+   },
+   "2847737339885115125": {
+      "message": "\u0160t\u00E1t"
+   },
+   "2850460462496931023": {
+      "message": "Nepodarilo sa n\u00E1m overi\u0165 inform\u00E1cie o va\u0161om \u00FA\u010Dte. Tento probl\u00E9m vyrie\u0161ite na str\u00E1nke $2\u200Bwallet.google.com/manage$1\u200B."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 odmietnut\u00E9"
+   },
+   "2997291709564172031": {
+      "message": "Po\u0161tov\u00E9 smerovacie \u010D\u00EDslo nezodpoved\u00E1 zvy\u0161ku adresy. Nepozn\u00E1te svoje po\u0161tov\u00E9 smerovacie \u010D\u00EDslo? N\u00E1jdete ho $1\u200Btu$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "Neplatn\u00FD k\u00F3d CVC."
+   },
+   "3134831338223050412": {
+      "message": "Zavrie\u0165"
+   },
+   "3167935320133055769": {
+      "message": "Ale nie! Vyskytol sa probl\u00E9m."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Krajina alebo oblas\u0165"
+   },
+   "3258279995976898903": {
+      "message": "Adresa"
+   },
+   "3314408358311476388": {
+      "message": "Uplatni\u0165 dar\u010Dekov\u00FA kartu alebo propaga\u010Dn\u00FD k\u00F3d Google Play"
+   },
+   "3333007012173588619": {
+      "message": "Pr\u00EDklad: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Form\u00E1t PS\u010C nebol rozpoznan\u00FD. Pr\u00EDklad platn\u00E9ho PS\u010C: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Je n\u00E1m to \u013E\u00FAto, ale t\u00FAto \u017Eiados\u0165 sa nepodarilo spracova\u0165. Sk\u00FAste to znova nesk\u00F4r."
+   },
+   "3631100366179556676": {
+      "message": "Prija\u0165 a k\u00FApi\u0165"
+   },
+   "3719225755450392126": {
+      "message": "Inform\u00E1cie o faktur\u00E1cii sa zhoduj\u00FA s miestom bydliska"
+   },
+   "3745637225460177011": {
+      "message": "Ulo\u017Ei\u0165 a pokra\u010Dova\u0165"
+   },
+   "392637004226857303": {
+      "message": "\u010Eakujeme v\u00E1m za n\u00E1kup"
+   },
+   "4032878564184720978": {
+      "message": "Pre\u010D\u00EDtal(-a) som si $2\u200BZmluvn\u00E9 podmienky$1\u200B a s\u00FAhlas\u00EDm s nimi"
+   },
+   "4081289954473604488": {
+      "message": "Meno"
+   },
+   "4172829093050641190": {
+      "message": "Bydlisko"
+   },
+   "419181302975727827": {
+      "message": "S\u00FAhlas\u00EDm, pokra\u010Dova\u0165"
+   },
+   "4263059013900008685": {
+      "message": "Inform\u00E1cie o faktur\u00E1cii"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD mesiac od d\u00E1tumu {PRICE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{DATE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}few{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00E9 {PRICE} mesiace od d\u00E1tumu {FREQUENCY_UNIT_COUNT_2}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma{START_BOLD}{DATE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}other{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FDch {PRICE} mesiacov od d\u00E1tumu {FREQUENCY_UNIT_COUNT_2}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma{START_BOLD}{DATE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}}"
+   },
+   "4429302098472575216": {
+      "message": "Zavrie\u0165"
+   },
+   "4634308040786352090": {
+      "message": "Platnos\u0165 va\u0161ej \u017Eiadosti o n\u00E1kup vypr\u0161ala. Sk\u00FAste n\u00E1kup zopakova\u0165."
+   },
+   "4750645007889628835": {
+      "message": "Toto pole nem\u00F4\u017Ee by\u0165 pr\u00E1zdne."
+   },
+   "487772095106728308": {
+      "message": "PS\u010C"
+   },
+   "5009369992123803733": {
+      "message": "V nastaven\u00ED v\u00E1\u0161ho n\u00E1kupu je chyba. Po\u0161lite obchodn\u00EDkovi t\u00FAto chybov\u00FA spr\u00E1vu:\n$1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "prida\u0165 riadok"
+   },
+   "5191851017039683844": {
+      "message": "Zru\u0161i\u0165"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 k dispoz\u00EDcii nie je dostatok prostriedkov"
+   },
+   "5375779080833659264": {
+      "message": "K\u00FApi\u0165"
+   },
+   "5408750669387206869": {
+      "message": "Hotovo"
+   },
+   "5455061473703313433": {
+      "message": "Z\u00E1visl\u00E1 lokalita"
+   },
+   "5693829359112864056": {
+      "message": "Gr\u00F3fstvo"
+   },
+   "5709243647038761785": {
+      "message": "Va\u0161a kreditn\u00E1 karta bola odmietnut\u00E1. Vyberte si in\u00FD sp\u00F4sob platby alebo kontaktujte vydavate\u013Ea va\u0161ej karty a po\u017Eiadajte o autoriz\u00E1ciu tohto n\u00E1kupu."
+   },
+   "5731352514282693755": {
+      "message": "V\u00E1\u0161 n\u00E1kup sa n\u00E1m \u017Eia\u013E nepodarilo potvrdi\u0165 so serverom obchodn\u00EDka. Va\u0161a objedn\u00E1vka bola zru\u0161en\u00E1. V pr\u00EDpade, \u017Ee tento probl\u00E9m pretrv\u00E1va, kontaktujte obchodn\u00EDka."
+   },
+   "5775442217879920265": {
+      "message": "Skontrolujte svoj n\u00E1kup"
+   },
+   "5883995280582852838": {
+      "message": "Emir\u00E1t"
+   },
+   "5891444382711799549": {
+      "message": "Mus\u00EDte zada\u0165 PS\u010C, napr\u00EDklad $3\u200B. Neviete svoje PS\u010C? N\u00E1jdete ho $1\u200Btu$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Mesiac"
+   },
+   "5999277657241413253": {
+      "message": "Prida\u0165 nov\u00FD sp\u00F4sob platby"
+   },
+   "6060257219410469243": {
+      "message": "PS\u010C nezodpoved\u00E1 zvy\u0161ku adresy. Nepozn\u00E1te svoje PS\u010C? N\u00E1jdete ho $1\u200Btu$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provincia"
+   },
+   "6223713516581400986": {
+      "message": "Mus\u00EDte zada\u0165 po\u0161tov\u00E9 smerovacie \u010D\u00EDslo, napr\u00EDklad $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 nepodporovan\u00FD sp\u00F4sob platby"
+   },
+   "6406068463830609732": {
+      "message": "Objedn\u00E1vka sa zru\u0161ila, preto\u017Ee nem\u00F4\u017Eete nakupova\u0165 od seba."
+   },
+   "6441964001210288441": {
+      "message": "Pre\u010D\u00EDtal(-a) som si podmienky v $3\u200Bdokumente Vyhl\u00E1senie o spr\u00EDstupnen\u00ED inform\u00E1ci\u00ED o slu\u017Ebe, Zmluvn\u00E9 podmienky$1\u200B a $4\u200BUpozornenie o ochrane osobn\u00FDch \u00FAdajov$1\u200B v slu\u017Ebe Pe\u0148a\u017Eenka Google a s\u00FAhlas\u00EDm s t\u00FDm, \u017Ee ich dostanem online."
+   },
+   "6643725951150665259": {
+      "message": "Okres"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Dok\u00FDm odber neodhl\u00E1site, {START_BOLD}ka\u017Ed\u00FD de\u0148 od d\u00E1tumu {DATE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}few{Dok\u00FDm odber neodhl\u00E1site, {START_BOLD}ka\u017Ed\u00E9 {FREQUENCY_UNIT_COUNT_2} dni od d\u00E1tumu {DATE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}other{Dok\u00FDm odber neodhl\u00E1site, {START_BOLD}ka\u017Ed\u00FDch {FREQUENCY_UNIT_COUNT_2} dn\u00ED od d\u00E1tumu {DATE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD de\u0148 od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}few{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00E9 {FREQUENCY_UNIT_COUNT_2} dni od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}other{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FDch {DATE} dn\u00ED od d\u00E1tumu {FREQUENCY_UNIT_COUNT_2}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{K d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}few{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m ka\u017Ed\u00E9 {START_BOLD}{FREQUENCY_UNIT_COUNT} mesiace po\u010Das nasleduj\u00FAcich {NUM_RECURRENCES_2} mesiacov {END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}other{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m ka\u017Ed\u00FDch {START_BOLD}{FREQUENCY_UNIT_COUNT} mesiacov po\u010Das nasleduj\u00FAcich {NUM_RECURRENCES_2} mesiacov {END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "687752267107884722": {
+      "message": "Pr\u00EDklad: $3\u200B. Nepozn\u00E1te svoj po\u0161tov\u00FD k\u00F3d? Zistite ho $1\u200Btu$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Spr\u00E1vna oblas\u0165"
+   },
+   "6940850784031726893": {
+      "message": "Chcem dost\u00E1va\u0165 pozv\u00E1nky na poskytnutie pripomienok ku produktom, bulletiny a \u0161peci\u00E1lne ponuky slu\u017Eby Pe\u0148a\u017Eenka Google."
+   },
+   "6952974317491911390": {
+      "message": "Form\u00E1t po\u0161tov\u00E9ho smerovacieho \u010D\u00EDsla nebol rozpoznan\u00FD. Pr\u00EDklad platn\u00E9ho po\u0161tov\u00E9ho smerovacieho \u010D\u00EDsla: $3\u200B. Nepozn\u00E1te svoje po\u0161tov\u00E9 smerovacie \u010D\u00EDslo? N\u00E1jdete ho $1\u200Btu$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Vyberte"
+   },
+   "7026703400430960720": {
+      "message": "Rok"
+   },
+   "7041462460226543908": {
+      "message": "Ostrov"
+   },
+   "7134287411704210613": {
+      "message": "Po\u0161tov\u00FD k\u00F3d"
+   },
+   "7201243556561197557": {
+      "message": "Dokon\u010Dili ste n\u00E1kup u obchodn\u00EDka $5\u200B$4\u200B$2\u200B. Potvrdenie s podrobn\u00FDmi inform\u00E1ciami sa odoslalo na adresu $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "Toto pole nem\u00F4\u017Ee by\u0165 pr\u00E1zdne."
+   },
+   "7414801576887533495": {
+      "message": "Cena"
+   },
+   "748206580479839913": {
+      "message": "N\u00E1kup sa nepodarilo dokon\u010Di\u0165, preto\u017Ee sa vyskytol technick\u00FD probl\u00E9m."
+   },
+   "7555701388564834489": {
+      "message": "Mesto"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{K d\u00E1tumu {START_BOLD}{PRICE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{DATE}{END_BOLD}.}few{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m ka\u017Ed\u00FD mesiac po\u010Das nasleduj\u00FAcich {START_BOLD}{NUM_RECURRENCES_2} mesiacov{END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}other{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m ka\u017Ed\u00FD mesiac po\u010Das nasleduj\u00FAcich {START_BOLD}{NUM_RECURRENCES_2} mesiacov{END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "\u00DAhrada v celkovej v\u00FD\u0161ke"
+   },
+   "7955094861997417068": {
+      "message": "Pokra\u010Dova\u0165"
+   },
+   "7961358682448049092": {
+      "message": "Tento n\u00E1kup nie je mo\u017En\u00E9 uskuto\u010Dni\u0165 vo va\u0161om aktu\u00E1lnom miestnom nastaven\u00ED."
+   },
+   "8069103702517962649": {
+      "message": "Da\u0148"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 platnos\u0165 vypr\u0161ala"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD mesiac od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE}{END_BOLD}.}few{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00E9 {FREQUENCY_UNIT_COUNT_2} mesiace od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE}{END_BOLD}.}other{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FDch {FREQUENCY_UNIT_COUNT_2} mesiacov od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "8175465107894358488": {
+      "message": "S\u00FAhlas\u00EDm so $3\u200BZmluvn\u00FDmi podmienkami$1\u200B a pre\u010D\u00EDtal(-a) som si $4\u200BUpozornenie o ochrane osobn\u00FDch \u00FAdajov$1\u200B v slu\u017Ebe Pe\u0148a\u017Eenka Google."
+   },
+   "8261307552167893934": {
+      "message": "Form\u00E1t po\u0161tov\u00E9ho smerovacieho \u010D\u00EDsla nebol rozpoznan\u00FD. Pr\u00EDklad platn\u00E9ho po\u0161tov\u00E9ho smerovacieho \u010D\u00EDsla: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Je n\u00E1m to \u013E\u00FAto, ale t\u00FAto \u017Eiados\u0165 sa n\u00E1m nepodarilo spracova\u0165. V\u0161etky \u00FA\u010Dtovan\u00E9 \u010Diastky sa do 24 hod\u00EDn automaticky zru\u0161ia. Sk\u00FAste to znova po uplynut\u00ED 24 hod\u00EDn."
+   },
+   "8401318454955949161": {
+      "message": "Celkom"
+   },
+   "8571469142225833639": {
+      "message": "Faktura\u010Dn\u00E9 \u00FAdaje"
+   },
+   "8636143988042581467": {
+      "message": "Predmestie"
+   },
+   "865452984547897019": {
+      "message": "Prefekt\u00FAra"
+   },
+   "8696254863055694906": {
+      "message": "Mus\u00EDte zada\u0165 PS\u010C, napr\u00EDklad $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Nastavi\u0165 slu\u017Ebu Pe\u0148a\u017Eenka Google"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 zak\u00E1zan\u00E9 na z\u00E1klade va\u0161ich nastaven\u00ED krajiny"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD rok od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE}{END_BOLD}.}few{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00E9 {FREQUENCY_UNIT_COUNT_2} roky od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE}{END_BOLD}.}other{Dok\u00FDm odber neodhl\u00E1site, bude sa v\u00E1m {START_BOLD}ka\u017Ed\u00FDch {FREQUENCY_UNIT_COUNT_2} rokov od d\u00E1tumu {DATE}{END_BOLD} automaticky \u00FA\u010Dtova\u0165 suma {START_BOLD}{PRICE}{END_BOLD}.}}"
+   },
+   "8929214462880609574": {
+      "message": "Mus\u00EDte zada\u0165 po\u0161tov\u00E9 smerovacie \u010D\u00EDslo, napr\u00EDklad $3\u200B. Neviete svoje po\u0161tov\u00E9 smerovacie \u010D\u00EDslo? N\u00E1jdete ho $1\u200Btu$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Sp\u00F4sob platby"
+   },
+   "8997532101299466079": {
+      "message": "S\u00FAhlas\u00EDm so $3\u200BZmluvn\u00FDmi podmienkami$1\u200B a $4\u200BUpozornen\u00EDm o ochrane osobn\u00FDch \u00FAdajov$1\u200B v slu\u017Ebe Pe\u0148a\u017Eenka Google."
+   },
+   "9011575563787161706": {
+      "message": "Tento riadok adresy obsahuje adresu P.O. Boxu. Pou\u017Eite adresu ulice alebo budovy."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{K d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}few{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD mesiac po\u010Das nasleduj\u00FAcich {NUM_RECURRENCES_2} mesiacov{END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}other{Od d\u00E1tumu {START_BOLD}{DATE}{END_BOLD} sa v\u00E1m {START_BOLD}ka\u017Ed\u00FD mesiac po\u010Das nasleduj\u00FAcich {NUM_RECURRENCES_2} mesiacov{END_BOLD} automaticky za\u00FA\u010Dtuje suma {START_BOLD}{PRICE} plus pr\u00EDslu\u0161n\u00E1 da\u0148{END_BOLD}.}}"
+   },
+   "9088302330007274067": {
+      "message": "Form\u00E1t PS\u010C nebol rozpoznan\u00FD. Pr\u00EDklad platn\u00E9ho PS\u010C: $3\u200B. Nepozn\u00E1te svoje PS\u010C? N\u00E1jdete ho $1\u200Btu$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "da\u0148"
+   }
+}

@@ -1,0 +1,344 @@
+{
+   "1159539558618018799": {
+      "message": "Alue"
+   },
+   "1241217935227812429": {
+      "message": "Maksutapa"
+   },
+   "1251555475707160311": {
+      "message": "Valuuttakurssivaihtelut ja pankkien maksut voivat vaikuttaa sinulta veloitettavaan lopulliseen summaan."
+   },
+   "1362191621078934138": {
+      "message": "Valitettavasti emme pystyneet k\u00E4sittelem\u00E4\u00E4n t\u00E4t\u00E4 pyynt\u00F6\u00E4. Tilaus on peruutettu automaattisesti, eik\u00E4 sinua veloiteta ostoksesta. Yrit\u00E4 my\u00F6hemmin uudelleen."
+   },
+   "1408247765057411879": {
+      "message": "Kortti on vanhentunut."
+   },
+   "1465846685473775446": {
+      "message": "Maa"
+   },
+   "1623041851701577559": {
+      "message": "T\u00E4m\u00E4 postinumero ei vaikuta t\u00E4sm\u00E4\u00E4v\u00E4n osoitteen kanssa."
+   },
+   "1663057945455945792": {
+      "message": "Arvo $1\u200B ei ole tunnettu arvo t\u00E4ss\u00E4 kent\u00E4ss\u00E4."
+   },
+   "1710433699132727166": {
+      "message": "Valitse eri maksutapa ostoksen suorittamiseen"
+   },
+   "1778481694021312420": {
+      "message": "Ostosta ei voitu aloittaa teknisen ongelman vuoksi."
+   },
+   "1828231775026606412": {
+      "message": "Valitse maksuv\u00E4line."
+   },
+   "184964329731217200": {
+      "message": "Esimerkki: $3\u200B. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "1909512393626136359": {
+      "message": "Nimi"
+   },
+   "1911221012794788296": {
+      "message": "Kortin numero"
+   },
+   "195501871775480185": {
+      "message": "Pit\u00E4j\u00E4"
+   },
+   "1959457175344566910": {
+      "message": "Ostoksesi tiedoissa on virhe. Ota yhteytt\u00E4 kauppiaaseen."
+   },
+   "1960454644696014517": {
+      "message": "T\u00E4m\u00E4 postinumero ei vaikuta t\u00E4sm\u00E4\u00E4v\u00E4n osoitteen kanssa."
+   },
+   "2033323276322498862": {
+      "message": "Luottokortin numero ei kelpaa."
+   },
+   "2034494361870910998": {
+      "message": "T\u00E4t\u00E4 postinumeromuotoa ei tunnisteta."
+   },
+   "2279475732111511964": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot {FREQUENCY_UNIT_COUNT} kuukauden v\u00E4lein{END_BOLD} seuraavat {START_BOLD}{NUM_RECURRENCES_2} kuukautta{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen.}}"
+   },
+   "2609467398020826407": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot vuosittain{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot {FREQUENCY_UNIT_COUNT_2} vuoden v\u00E4lein{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}}"
+   },
+   "2847382170871301506": {
+      "message": "T\u00E4t\u00E4 postinumeromuotoa ei tunnisteta."
+   },
+   "2847737339885115125": {
+      "message": "Osavaltio"
+   },
+   "2850460462496931023": {
+      "message": "Tilitietojesi vahvistaminen ep\u00E4onnistui. Siirry sivulle $2\u200Bwallet.google.com/manage$1\u200B ja selvit\u00E4 ongelma."
+   },
+   "2951584905898104421": {
+      "message": "$1\u200B \u2013 hyl\u00E4tty"
+   },
+   "2997291709564172031": {
+      "message": "T\u00E4m\u00E4 postinumero ei n\u00E4yt\u00E4 sopivan yhteen muiden osoitetietojen kanssa. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "3007846166083888728": {
+      "message": "CVC-koodi ei kelpaa."
+   },
+   "3134831338223050412": {
+      "message": "Sulje"
+   },
+   "3167935320133055769": {
+      "message": "Hups. Tapahtui virhe."
+   },
+   "3185642516695299369": {
+      "message": "CVC"
+   },
+   "3186233853946910538": {
+      "message": "Maa/alue"
+   },
+   "3258279995976898903": {
+      "message": "Katuosoite"
+   },
+   "3314408358311476388": {
+      "message": "K\u00E4yt\u00E4 Google Play -lahjakortti tai -kampanjakoodi"
+   },
+   "3333007012173588619": {
+      "message": "Esimerkki: $1\u200B."
+   },
+   "3379667388042421701": {
+      "message": "Tunnistamaton postinumeron muoto. Esimerkki kelvollisesta postinumerosta: $1\u200B."
+   },
+   "3441843634071591706": {
+      "message": "Pyynn\u00F6n k\u00E4sittely ep\u00E4onnistui. Yrit\u00E4 my\u00F6hemmin uudelleen."
+   },
+   "3631100366179556676": {
+      "message": "Hyv\u00E4ksy ja osta"
+   },
+   "3719225755450392126": {
+      "message": "Laskutustiedot ovat samat kuin asuinpaikka"
+   },
+   "3745637225460177011": {
+      "message": "Tallenna ja jatka"
+   },
+   "392637004226857303": {
+      "message": "Kiitos ostoksestasi"
+   },
+   "4032878564184720978": {
+      "message": "Olen lukenut ja hyv\u00E4ksyn $2\u200Bk\u00E4ytt\u00F6ehdot$1\u200B"
+   },
+   "4081289954473604488": {
+      "message": "Nimi"
+   },
+   "4172829093050641190": {
+      "message": "Kotiosoite"
+   },
+   "419181302975727827": {
+      "message": "Hyv\u00E4ksy ja jatka"
+   },
+   "4263059013900008685": {
+      "message": "Laskutustiedot"
+   },
+   "4283472278014199852": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot kuukausittain{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot {FREQUENCY_UNIT_COUNT_2} kuukauden v\u00E4lein{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}}"
+   },
+   "4429302098472575216": {
+      "message": "Sulje"
+   },
+   "4634308040786352090": {
+      "message": "Ostopyynt\u00F6si aikakatkaistiin. Yrit\u00E4 ostaa uudelleen."
+   },
+   "4750645007889628835": {
+      "message": "T\u00E4t\u00E4 ei voi j\u00E4tt\u00E4\u00E4 tyhj\u00E4ksi."
+   },
+   "487772095106728308": {
+      "message": "Postinumero"
+   },
+   "5009369992123803733": {
+      "message": "N\u00E4ytt\u00E4\u00E4 silt\u00E4, ett\u00E4 ostoksesi tiedoissa on virhe. L\u00E4het\u00E4 kauppiaalle t\u00E4m\u00E4 virheilmoitus:\n $1\u200B"
+   },
+   "5172190012369773055": {
+      "message": "lis\u00E4\u00E4 rivi"
+   },
+   "5191851017039683844": {
+      "message": "Peruuta"
+   },
+   "532788497236169830": {
+      "message": "$1\u200B \u2013 riitt\u00E4m\u00E4tt\u00F6m\u00E4t varat"
+   },
+   "5375779080833659264": {
+      "message": "Osta"
+   },
+   "5408750669387206869": {
+      "message": "Valmis"
+   },
+   "5455061473703313433": {
+      "message": "Kunta-alue"
+   },
+   "5693829359112864056": {
+      "message": "Kreivikunta"
+   },
+   "5709243647038761785": {
+      "message": "Luottokorttisi hyl\u00E4ttiin. Valitse toinen maksutapa tai valtuuta ostos ottamalla yhteytt\u00E4 luottokorttiyhti\u00F6\u00F6si."
+   },
+   "5731352514282693755": {
+      "message": "Emme valitettavasti voineet vahvistaa ostostasi kauppiaan palvelimelta. Tilauksesi on peruutettu. Ota yhteytt\u00E4 kauppiaaseen, jos ongelma toistuu."
+   },
+   "5775442217879920265": {
+      "message": "Tarkista ostoksesi"
+   },
+   "5883995280582852838": {
+      "message": "Emiirikunta"
+   },
+   "5891444382711799549": {
+      "message": "Anna postinumero, esimerkiksi $3\u200B. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "5951460568046770023": {
+      "message": "Kuukausi"
+   },
+   "5999277657241413253": {
+      "message": "Lis\u00E4\u00E4 uusi maksutapa"
+   },
+   "6060257219410469243": {
+      "message": "T\u00E4m\u00E4 postinumero ei n\u00E4yt\u00E4 sopivan yhteen muiden osoitetietojen kanssa. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "6091224361698582930": {
+      "message": "Provinssi"
+   },
+   "6223713516581400986": {
+      "message": "Anna postinumero, esimerkiksi $1\u200B."
+   },
+   "6231492172847348420": {
+      "message": "$1\u200B \u2013 maksutapaa ei tueta"
+   },
+   "6406068463830609732": {
+      "message": "Tilauksesi peruutettiin, koska et voi ostaa itselt\u00E4si."
+   },
+   "6441964001210288441": {
+      "message": "Olen lukenut ja hyv\u00E4ksyn Google Walletin tuotetiedot/k\u00E4ytt\u00F6ehdot$3\u200B$1\u200B ja $4\u200Btietosuojailmoituksen$1\u200B ja hyv\u00E4ksyn niiden vastaanottamisen internetin kautta."
+   },
+   "6643725951150665259": {
+      "message": "Piiri"
+   },
+   "6747277679415327712": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} p\u00E4ivitt\u00E4in{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} p\u00E4iv\u00E4n v\u00E4lein{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}}"
+   },
+   "6787458501598885819": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot p\u00E4ivitt\u00E4in{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot {FREQUENCY_UNIT_COUNT_2} p\u00E4iv\u00E4n v\u00E4lein{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}}"
+   },
+   "6801210347170566501": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE}{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT} kuukauden v\u00E4lein{END_BOLD} seuraavat {START_BOLD}{NUM_RECURRENCES_2} kuukautta{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen.}}"
+   },
+   "687752267107884722": {
+      "message": "Esimerkki: $3\u200B. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "6938228650978607653": {
+      "message": "Osasto"
+   },
+   "6940850784031726893": {
+      "message": "L\u00E4het\u00E4 minulle Google Walletin erikoistarjouksia, tuotepalautepyynt\u00F6j\u00E4 ja uutiskirjeit\u00E4."
+   },
+   "6952974317491911390": {
+      "message": "Tunnistamaton postinumeron muoto. Esimerkki kelvollisesta postinumerosta: $3\u200B. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "6997118023159880890": {
+      "message": "Valitse"
+   },
+   "7026703400430960720": {
+      "message": "Vuosi"
+   },
+   "7041462460226543908": {
+      "message": "Saari"
+   },
+   "7134287411704210613": {
+      "message": "Postinumero"
+   },
+   "7201243556561197557": {
+      "message": "Olet tehnyt ostoksen kauppiaalta $5\u200B$4\u200B$2\u200B. Tarkat tiedot sis\u00E4lt\u00E4v\u00E4 kuitti on l\u00E4hetetty osoitteeseen $6\u200B$1\u200B$2\u200B."
+   },
+   "7295612354973086657": {
+      "message": "T\u00E4t\u00E4 ei voi j\u00E4tt\u00E4\u00E4 tyhj\u00E4ksi."
+   },
+   "7414801576887533495": {
+      "message": "Hinta"
+   },
+   "748206580479839913": {
+      "message": "Ostosta ei voi suorittaa teknisen vian vuoksi."
+   },
+   "7555701388564834489": {
+      "message": "Postitoimipaikka"
+   },
+   "7566309213689724538": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE}{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} kuukausittain{END_BOLD} seuraavat {START_BOLD}{NUM_RECURRENCES_2} kuukautta{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen.}}"
+   },
+   "7568378245372466408": {
+      "message": "Do/Si"
+   },
+   "7721535992050019842": {
+      "message": "Summa yhteens\u00E4"
+   },
+   "7955094861997417068": {
+      "message": "Jatka"
+   },
+   "7961358682448049092": {
+      "message": "Ostosta ei voi tehd\u00E4 nykyisell\u00E4 k\u00E4ytt\u00F6kielell\u00E4."
+   },
+   "8069103702517962649": {
+      "message": "Vero"
+   },
+   "8111802979117986671": {
+      "message": "$1\u200B \u2013 vanhentunut"
+   },
+   "8168306889858254079": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} kuukausittain{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} kuukauden v\u00E4lein{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}}"
+   },
+   "8175465107894358488": {
+      "message": "Hyv\u00E4ksyn Google Walletin $3\u200Bk\u00E4ytt\u00F6ehdot$1\u200B ja olen lukenut $4\u200Btietosuojailmoituksen$1\u200B."
+   },
+   "8261307552167893934": {
+      "message": "Tunnistamaton postinumeron muoto. Esimerkki kelvollisesta postinumerosta: $1\u200B."
+   },
+   "8265387930076832394": {
+      "message": "Valitettavasti emme pystyneet k\u00E4sittelem\u00E4\u00E4n t\u00E4t\u00E4 pyynt\u00F6\u00E4. Mahdollinen veloitus peruutetaan automaattisesti 24 tunnin kuluessa. Yrit\u00E4 my\u00F6hemmin uudelleen."
+   },
+   "8401318454955949161": {
+      "message": "Yhteens\u00E4"
+   },
+   "8571469142225833639": {
+      "message": "Laskutustiedot"
+   },
+   "8636143988042581467": {
+      "message": "L\u00E4hi\u00F6"
+   },
+   "865452984547897019": {
+      "message": "Prefektuuri"
+   },
+   "8696254863055694906": {
+      "message": "Anna postinumero, esimerkiksi $1\u200B."
+   },
+   "878912143203622849": {
+      "message": "Luo Google Wallet -tili"
+   },
+   "8833832822310593640": {
+      "message": "$1\u200B \u2013 poistettu k\u00E4yt\u00F6st\u00E4 maa-asetuksiesi perusteella"
+   },
+   "8851256617694023140": {
+      "message": "{FREQUENCY_UNIT_COUNT_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} vuosittain{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} {FREQUENCY_UNIT_COUNT_2} vuoden v\u00E4lein{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen, kunnes peruutat tilauksesi.}}"
+   },
+   "8929214462880609574": {
+      "message": "Anna postinumero, esimerkiksi $3\u200B. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "8951304378317814966": {
+      "message": "Maksutapa"
+   },
+   "8997532101299466079": {
+      "message": "Hyv\u00E4ksyn Google Walletin $3\u200Bk\u00E4ytt\u00F6ehdot$1\u200B ja $4\u200Btietosuojailmoituksen$1\u200B."
+   },
+   "9011575563787161706": {
+      "message": "T\u00E4m\u00E4 osoiterivi vaikuttaa sis\u00E4lt\u00E4v\u00E4n postilokeron. K\u00E4yt\u00E4 katuosoitetta tai rakennuksen osoitetta."
+   },
+   "9031598427918528094": {
+      "message": "{NUM_RECURRENCES_1,plural, =0{unused plural form}=1{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot{END_BOLD} {START_BOLD}{DATE}{END_BOLD}.}other{Sinulta veloitetaan automaattisesti {START_BOLD}{PRICE} sek\u00E4 sovellettavat verot kuukausittain{END_BOLD} seuraavat {START_BOLD}{NUM_RECURRENCES_2} kuukautta{END_BOLD} {START_BOLD}{DATE}{END_BOLD} alkaen.}}"
+   },
+   "9088302330007274067": {
+      "message": "Tunnistamaton postinumeron muoto. Esimerkki kelvollisesta postinumerosta: $3\u200B. Etk\u00F6 tied\u00E4 postinumeroasi? L\u00F6yd\u00E4t sen $1\u200Bt\u00E4\u00E4lt\u00E4$2\u200B."
+   },
+   "9211202438445284903": {
+      "message": "verot"
+   }
+}
