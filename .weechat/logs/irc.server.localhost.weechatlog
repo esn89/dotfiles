@@ -1,0 +1,215 @@
+2013-11-04 15:09:12	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:09:12	⚠ 	irc: connection refused
+2013-11-04 15:09:12	ℹ 	irc: reconnecting to server in 10 seconds
+2013-11-04 15:09:22	ℹ 	irc: reconnecting to server...
+2013-11-04 15:09:22	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:09:22	⚠ 	irc: connection refused
+2013-11-04 15:09:22	ℹ 	irc: reconnecting to server in 20 seconds
+2013-11-04 15:09:42	ℹ 	irc: reconnecting to server...
+2013-11-04 15:09:42	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:09:42	⚠ 	irc: connection refused
+2013-11-04 15:09:42	ℹ 	irc: reconnecting to server in 40 seconds
+2013-11-04 15:10:22	ℹ 	irc: reconnecting to server...
+2013-11-04 15:10:22	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:10:22	⚠ 	irc: connection refused
+2013-11-04 15:10:22	ℹ 	irc: reconnecting to server in 1 minute, 20 seconds
+2013-11-04 15:11:42	ℹ 	irc: reconnecting to server...
+2013-11-04 15:11:42	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:11:42	⚠ 	irc: connection refused
+2013-11-04 15:11:42	ℹ 	irc: reconnecting to server in 2 minutes, 40 seconds
+2013-11-04 15:14:22	ℹ 	irc: reconnecting to server...
+2013-11-04 15:14:22	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:14:22	⚠ 	irc: connection refused
+2013-11-04 15:14:22	ℹ 	irc: reconnecting to server in 5 minutes, 20 seconds
+2013-11-04 15:19:42	ℹ 	irc: reconnecting to server...
+2013-11-04 15:19:42	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:19:42	⚠ 	irc: connection refused
+2013-11-04 15:19:42	ℹ 	irc: reconnecting to server in 10 minutes, 40 seconds
+2013-11-04 15:30:22	ℹ 	irc: reconnecting to server...
+2013-11-04 15:30:22	ℹ 	irc: connecting to server localhost/6667...
+2013-11-04 15:30:22	⚠ 	irc: connection refused
+2013-11-04 15:30:22	ℹ 	irc: reconnecting to server in 21 minutes, 20 seconds
+2013-11-06 13:36:16	ℹ 	irc: connecting to server localhost/6667...
+2013-11-06 13:36:16	⚠ 	irc: connection refused
+2013-11-06 13:36:16	ℹ 	irc: reconnecting to server in 10 seconds
+2013-11-06 13:36:26	ℹ 	irc: reconnecting to server...
+2013-11-06 13:36:26	ℹ 	irc: connecting to server localhost/6667...
+2013-11-06 13:36:26	⚠ 	irc: connection refused
+2013-11-06 13:36:26	ℹ 	irc: reconnecting to server in 20 seconds
+2013-11-06 13:36:39	ℹ 	irc: connecting to server localhost/6667...
+2013-11-06 13:36:39	⚠ 	irc: connection refused
+2013-11-06 13:36:39	ℹ 	irc: reconnecting to server in 10 seconds
+2013-11-06 13:36:49	ℹ 	irc: reconnecting to server...
+2013-11-06 13:36:49	ℹ 	irc: connecting to server localhost/6667...
+2013-11-06 13:36:49	⚠ 	irc: connection refused
+2013-11-06 13:36:49	ℹ 	irc: reconnecting to server in 20 seconds
+2013-11-06 13:37:09	ℹ 	irc: reconnecting to server...
+2013-11-06 13:37:09	ℹ 	irc: connecting to server localhost/6667...
+2013-11-06 13:37:09	⚠ 	irc: connection refused
+2013-11-06 13:37:09	ℹ 	irc: reconnecting to server in 40 seconds
+2013-11-06 13:37:11	ℹ 	irc: disconnected from server
+2013-11-06 13:38:12	ℹ 	irc: connecting to server localhost/6667...
+2013-11-06 13:38:12	ℹ 	irc: connected to localhost/6667 (::1)
+2013-11-06 13:38:12	ℹ 	localhost.localdomain (localhost.localdomain): BitlBee-IRCd initialized, please go on
+2013-11-06 13:38:12	ℹ 	Welcome to the BitlBee gateway, ep
+2013-11-06 13:38:12	ℹ 	Host localhost.localdomain is running BitlBee 3.2 Linux/i686.
+2013-11-06 13:38:12	ℹ 	BitlBee <http://www.bitlbee.org/>
+2013-11-06 13:38:12	ℹ 	localhost.localdomain 3.2 abiswRo ntC
+2013-11-06 13:38:12	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2013-11-06 13:38:12	ℹ 	- localhost.localdomain Message Of The Day -
+2013-11-06 13:38:12	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	- This server is running BitlBee version 3.2.
+2013-11-06 13:38:12	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	- You are getting this message because the server administrator has not
+2013-11-06 13:38:12	ℹ 	- yet had the time (or need) to change it.
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2013-11-06 13:38:12	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2013-11-06 13:38:12	ℹ 	- information.
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	- * BitlBee development team.
+2013-11-06 13:38:12	ℹ 	-
+2013-11-06 13:38:12	ℹ 	- ... Buzzing, haha, get it?
+2013-11-06 13:38:12	ℹ 	End of MOTD
+2013-11-06 13:38:12	ℹ 	User mode [+s] by ep
+2013-11-06 13:43:55	⚠ 	irc: too few arguments for "oper" command
+2013-11-06 13:44:14	⚠ 	irc: too few arguments for "oper" command
+2013-11-06 13:44:28	ℹ 	Password added to IM account jabber
+2013-11-06 14:03:20	ℹ 	irc: disconnected from server
+2013-11-07 13:58:52	ℹ 	irc: connecting to server localhost/6667...
+2013-11-07 13:58:52	ℹ 	irc: connected to localhost/6667 (::1)
+2013-11-07 13:58:52	ℹ 	localhost.localdomain (localhost.localdomain): BitlBee-IRCd initialized, please go on
+2013-11-07 13:58:52	ℹ 	Welcome to the BitlBee gateway, ep
+2013-11-07 13:58:52	ℹ 	Host localhost.localdomain is running BitlBee 3.2 Linux/i686.
+2013-11-07 13:58:52	ℹ 	BitlBee <http://www.bitlbee.org/>
+2013-11-07 13:58:52	ℹ 	localhost.localdomain 3.2 abiswRo ntC
+2013-11-07 13:58:52	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2013-11-07 13:58:52	ℹ 	- localhost.localdomain Message Of The Day -
+2013-11-07 13:58:52	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	- This server is running BitlBee version 3.2.
+2013-11-07 13:58:52	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	- You are getting this message because the server administrator has not
+2013-11-07 13:58:52	ℹ 	- yet had the time (or need) to change it.
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2013-11-07 13:58:52	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2013-11-07 13:58:52	ℹ 	- information.
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	- * BitlBee development team.
+2013-11-07 13:58:52	ℹ 	-
+2013-11-07 13:58:52	ℹ 	- ... Buzzing, haha, get it?
+2013-11-07 13:58:52	ℹ 	End of MOTD
+2013-11-07 13:58:52	ℹ 	User mode [+s] by ep
+2013-11-07 14:02:57	ℹ 	irc: connecting to server localhost/6667...
+2013-11-07 14:02:57	ℹ 	irc: connected to localhost/6667 (::1)
+2013-11-07 14:02:57	ℹ 	localhost.localdomain (localhost.localdomain): BitlBee-IRCd initialized, please go on
+2013-11-07 14:02:57	ℹ 	Welcome to the BitlBee gateway, ep
+2013-11-07 14:02:57	ℹ 	Host localhost.localdomain is running BitlBee 3.2 Linux/i686.
+2013-11-07 14:02:57	ℹ 	BitlBee <http://www.bitlbee.org/>
+2013-11-07 14:02:57	ℹ 	localhost.localdomain 3.2 abiswRo ntC
+2013-11-07 14:02:57	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2013-11-07 14:02:57	ℹ 	- localhost.localdomain Message Of The Day -
+2013-11-07 14:02:57	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	- This server is running BitlBee version 3.2.
+2013-11-07 14:02:57	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	- You are getting this message because the server administrator has not
+2013-11-07 14:02:57	ℹ 	- yet had the time (or need) to change it.
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2013-11-07 14:02:57	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2013-11-07 14:02:57	ℹ 	- information.
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	- * BitlBee development team.
+2013-11-07 14:02:57	ℹ 	-
+2013-11-07 14:02:57	ℹ 	- ... Buzzing, haha, get it?
+2013-11-07 14:02:57	ℹ 	End of MOTD
+2013-11-07 14:02:57	ℹ 	User mode [+s] by ep
+2013-11-07 14:03:27	ℹ 	User mode [+R] by ep
+2013-11-07 14:09:47	ℹ 	MSG(roman): i am now copying the box, it is goign to take awhile haha
+2013-11-07 14:26:00	ℹ 	irc: connecting to server localhost/6667...
+2013-11-07 14:26:00	ℹ 	irc: connected to localhost/6667 (::1)
+2013-11-07 14:26:00	ℹ 	localhost.localdomain (localhost.localdomain): BitlBee-IRCd initialized, please go on
+2013-11-07 14:26:00	ℹ 	Welcome to the BitlBee gateway, ep
+2013-11-07 14:26:00	ℹ 	Host localhost.localdomain is running BitlBee 3.2 Linux/i686.
+2013-11-07 14:26:00	ℹ 	BitlBee <http://www.bitlbee.org/>
+2013-11-07 14:26:00	ℹ 	localhost.localdomain 3.2 abiswRo ntC
+2013-11-07 14:26:00	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2013-11-07 14:26:00	ℹ 	- localhost.localdomain Message Of The Day -
+2013-11-07 14:26:00	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	- This server is running BitlBee version 3.2.
+2013-11-07 14:26:00	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	- You are getting this message because the server administrator has not
+2013-11-07 14:26:00	ℹ 	- yet had the time (or need) to change it.
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2013-11-07 14:26:00	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2013-11-07 14:26:00	ℹ 	- information.
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	- * BitlBee development team.
+2013-11-07 14:26:00	ℹ 	-
+2013-11-07 14:26:00	ℹ 	- ... Buzzing, haha, get it?
+2013-11-07 14:26:00	ℹ 	End of MOTD
+2013-11-07 14:26:00	ℹ 	User mode [+s] by ep
+2013-11-07 14:27:14	⚠ 	irc: this buffer is not a channel!
+2013-11-07 14:41:32	ℹ 	MSG(roman): could you lend me a hand here with the "vagrant up"
+2013-11-07 14:48:48	ℹ 	irc: disconnected from server
+2013-11-08 11:44:36	ℹ 	irc: connecting to server localhost/6667...
+2013-11-08 11:44:36	ℹ 	irc: connected to localhost/6667 (::1)
+2013-11-08 11:44:36	ℹ 	localhost.localdomain (localhost.localdomain): BitlBee-IRCd initialized, please go on
+2013-11-08 11:44:36	ℹ 	Welcome to the BitlBee gateway, ep
+2013-11-08 11:44:36	ℹ 	Host localhost.localdomain is running BitlBee 3.2 Linux/i686.
+2013-11-08 11:44:36	ℹ 	BitlBee <http://www.bitlbee.org/>
+2013-11-08 11:44:36	ℹ 	localhost.localdomain 3.2 abiswRo ntC
+2013-11-08 11:44:36	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2013-11-08 11:44:36	ℹ 	- localhost.localdomain Message Of The Day -
+2013-11-08 11:44:36	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	- This server is running BitlBee version 3.2.
+2013-11-08 11:44:36	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	- You are getting this message because the server administrator has not
+2013-11-08 11:44:36	ℹ 	- yet had the time (or need) to change it.
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2013-11-08 11:44:36	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2013-11-08 11:44:36	ℹ 	- information.
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	- * BitlBee development team.
+2013-11-08 11:44:36	ℹ 	-
+2013-11-08 11:44:36	ℹ 	- ... Buzzing, haha, get it?
+2013-11-08 11:44:36	ℹ 	End of MOTD
+2013-11-08 11:44:36	ℹ 	User mode [+s] by ep
+2013-11-08 11:45:03	ℹ 	root: This nick is already in use
+2013-11-08 11:45:23	ℹ 	root: This nick is already in use
+2013-11-08 11:45:33	⚠ 	irc: too few arguments for "oper" command
+2013-11-08 11:45:39	ℹ 	Trying to identify
+2013-11-08 11:45:46	⚠ 	irc: too few arguments for "oper" command
+2013-11-08 11:45:49	⚠ 	irc: too few arguments for "oper" command
+2013-11-08 11:45:57	ℹ 	Incorrect password
+2013-11-08 11:46:00	ℹ 	Incorrect password
+2013-11-08 11:46:07	⚠ 	irc: this buffer is not a channel!
+2013-11-08 11:46:09	⚠ 	irc: this buffer is not a channel!
+2013-11-08 11:46:29	ℹ 	User mode [+R] by evan

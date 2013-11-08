@@ -1,0 +1,15 @@
+[2013-11-08 11:44:28] WeeChat 0.4.2 (compiled on Oct 10 2013 15:26:45)
+[2013-11-08 11:44:28] Reading configuration file sec.conf
+[2013-11-08 11:44:28] Reading configuration file weechat.conf
+[2013-11-08 11:44:28] Reading configuration file plugins.conf
+[2013-11-08 11:44:28] Reading configuration file alias.conf
+[2013-11-08 11:44:28] Reading configuration file xfer.conf
+[2013-11-08 11:44:28] Reading configuration file relay.conf
+[2013-11-08 11:44:28] Reading configuration file script.conf
+[2013-11-08 11:44:28] Reading configuration file logger.conf
+[2013-11-08 11:44:29] Reading configuration file buffers.conf
+[2013-11-08 11:44:29] Reading configuration file rmodifier.conf
+[2013-11-08 11:44:29] Reading configuration file irc.conf
+[2013-11-08 11:44:29] Reading configuration file aspell.conf
+[2013-11-08 11:44:29] Reading configuration file charset.conf
+[2013-11-08 11:44:36] irc: connecting to server localhost/6667...

@@ -1,0 +1,277 @@
+2013-11-01 11:59:47	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-01 11:59:50	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-01 11:59:50	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-01 11:59:50	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-01 11:59:50	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-01 11:59:50	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-01 11:59:50	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-01 11:59:50	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-01 11:59:50	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-01 11:59:50	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-01 11:59:50	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-01 11:59:50	ℹ 	There are 7 users and 167 invisible on 2 servers
+2013-11-01 11:59:50	ℹ 	8 :operator(s) online
+2013-11-01 11:59:51	ℹ 	4 :channels formed
+2013-11-01 11:59:51	ℹ 	I have 166 clients and 1 servers
+2013-11-01 11:59:51	ℹ 	166 205 :Current local users 166, max 205
+2013-11-01 11:59:51	ℹ 	174 500 :Current global users 174, max 500
+2013-11-01 11:59:51	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-01 11:59:51	ℹ 	- 16/8/2013 13:42
+2013-11-01 11:59:51	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-01 11:59:51	ℹ 	-
+2013-11-01 11:59:51	ℹ 	-  __  __                       __  __           __
+2013-11-01 11:59:51	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-01 11:59:51	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-01 11:59:51	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-01 11:59:51	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-01 11:59:51	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-01 11:59:51	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-01 11:59:51	ℹ 	-
+2013-11-01 11:59:51	ℹ 	-
+2013-11-01 11:59:51	ℹ 	- -- Beastie, 2013.
+2013-11-01 11:59:51	ℹ 	End of /MOTD command.
+2013-11-01 11:59:51	ℹ 	User mode [+iwx] by ep
+2013-11-01 12:07:15	ℹ 	irc: disconnected from server
+2013-11-01 15:25:59	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-01 15:26:00	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-01 15:26:00	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-01 15:26:00	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-01 15:26:00	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-01 15:26:00	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-01 15:26:00	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-01 15:26:00	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-01 15:26:00	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-01 15:26:00	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-01 15:26:00	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-01 15:26:00	ℹ 	There are 7 users and 165 invisible on 2 servers
+2013-11-01 15:26:00	ℹ 	8 :operator(s) online
+2013-11-01 15:26:01	ℹ 	4 :channels formed
+2013-11-01 15:26:01	ℹ 	I have 164 clients and 1 servers
+2013-11-01 15:26:01	ℹ 	164 205 :Current local users 164, max 205
+2013-11-01 15:26:01	ℹ 	172 500 :Current global users 172, max 500
+2013-11-01 15:26:01	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-01 15:26:01	ℹ 	- 16/8/2013 13:42
+2013-11-01 15:26:01	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-01 15:26:01	ℹ 	-
+2013-11-01 15:26:01	ℹ 	-  __  __                       __  __           __
+2013-11-01 15:26:01	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-01 15:26:01	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-01 15:26:01	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-01 15:26:01	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-01 15:26:01	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-01 15:26:01	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-01 15:26:01	ℹ 	-
+2013-11-01 15:26:01	ℹ 	-
+2013-11-01 15:26:01	ℹ 	- -- Beastie, 2013.
+2013-11-01 15:26:01	ℹ 	End of /MOTD command.
+2013-11-01 15:26:01	ℹ 	User mode [+iwx] by ep
+2013-11-01 16:47:26	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-01 16:47:26	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-01 16:47:26	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-01 16:47:27	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-01 16:47:27	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-01 16:47:27	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-01 16:47:27	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-01 16:47:27	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-01 16:47:27	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-01 16:47:27	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-01 16:47:27	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-01 16:47:27	ℹ 	There are 7 users and 148 invisible on 2 servers
+2013-11-01 16:47:27	ℹ 	8 :operator(s) online
+2013-11-01 16:47:27	ℹ 	4 :channels formed
+2013-11-01 16:47:27	ℹ 	I have 147 clients and 1 servers
+2013-11-01 16:47:27	ℹ 	147 205 :Current local users 147, max 205
+2013-11-01 16:47:27	ℹ 	155 500 :Current global users 155, max 500
+2013-11-01 16:47:27	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-01 16:47:27	ℹ 	- 16/8/2013 13:42
+2013-11-01 16:47:27	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-01 16:47:27	ℹ 	-
+2013-11-01 16:47:27	ℹ 	-  __  __                       __  __           __
+2013-11-01 16:47:27	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-01 16:47:27	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-01 16:47:27	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-01 16:47:27	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-01 16:47:27	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-01 16:47:27	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-01 16:47:27	ℹ 	-
+2013-11-01 16:47:27	ℹ 	-
+2013-11-01 16:47:27	ℹ 	- -- Beastie, 2013.
+2013-11-01 16:47:27	ℹ 	End of /MOTD command.
+2013-11-01 16:47:27	ℹ 	User mode [+iwx] by ep
+2013-11-04 11:29:34	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-04 11:29:34	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-04 11:29:34	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-04 11:29:34	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-04 11:29:35	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-04 11:29:35	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-04 11:29:35	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-04 11:29:35	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-04 11:29:35	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-04 11:29:35	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-04 11:29:35	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-04 11:29:35	ℹ 	There are 7 users and 143 invisible on 2 servers
+2013-11-04 11:29:35	ℹ 	8 :operator(s) online
+2013-11-04 11:29:36	ℹ 	5 :channels formed
+2013-11-04 11:29:36	ℹ 	I have 142 clients and 1 servers
+2013-11-04 11:29:36	ℹ 	142 205 :Current local users 142, max 205
+2013-11-04 11:29:36	ℹ 	150 500 :Current global users 150, max 500
+2013-11-04 11:29:36	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-04 11:29:36	ℹ 	- 16/8/2013 13:42
+2013-11-04 11:29:36	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-04 11:29:36	ℹ 	-
+2013-11-04 11:29:36	ℹ 	-  __  __                       __  __           __
+2013-11-04 11:29:36	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-04 11:29:36	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-04 11:29:36	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-04 11:29:36	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-04 11:29:36	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-04 11:29:36	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-04 11:29:36	ℹ 	-
+2013-11-04 11:29:36	ℹ 	-
+2013-11-04 11:29:36	ℹ 	- -- Beastie, 2013.
+2013-11-04 11:29:36	ℹ 	End of /MOTD command.
+2013-11-04 11:29:36	ℹ 	User mode [+iwx] by ep
+2013-11-04 11:29:44	ℹ 	fenriz: Nickname is already in use.
+2013-11-04 11:30:51	ℹ 	fenriz: Nickname is already in use.
+2013-11-04 11:30:53	ℹ 	fenriz: Nickname is already in use.
+2013-11-05 09:12:09	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-05 09:12:09	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-05 09:12:10	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-05 09:12:10	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-05 09:12:10	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-05 09:12:10	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-05 09:12:10	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-05 09:12:10	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-05 09:12:10	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-05 09:12:10	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-05 09:12:10	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-05 09:12:10	ℹ 	There are 7 users and 141 invisible on 2 servers
+2013-11-05 09:12:10	ℹ 	8 :operator(s) online
+2013-11-05 09:12:10	ℹ 	4 :channels formed
+2013-11-05 09:12:10	ℹ 	I have 140 clients and 1 servers
+2013-11-05 09:12:10	ℹ 	140 205 :Current local users 140, max 205
+2013-11-05 09:12:10	ℹ 	148 500 :Current global users 148, max 500
+2013-11-05 09:12:10	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-05 09:12:10	ℹ 	- 16/8/2013 13:42
+2013-11-05 09:12:10	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-05 09:12:10	ℹ 	-
+2013-11-05 09:12:10	ℹ 	-  __  __                       __  __           __
+2013-11-05 09:12:10	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-05 09:12:10	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-05 09:12:10	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-05 09:12:10	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-05 09:12:10	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-05 09:12:10	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-05 09:12:10	ℹ 	-
+2013-11-05 09:12:10	ℹ 	-
+2013-11-05 09:12:10	ℹ 	- -- Beastie, 2013.
+2013-11-05 09:12:10	ℹ 	End of /MOTD command.
+2013-11-05 09:12:10	ℹ 	User mode [+iwx] by ep
+2013-11-05 11:42:26	ℹ 	irc: disconnected from server
+2013-11-06 13:27:09	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-06 13:27:09	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-06 13:27:10	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-06 13:27:10	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-06 13:27:10	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-06 13:27:10	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-06 13:27:10	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-06 13:27:10	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-06 13:27:10	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-06 13:27:10	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-06 13:27:10	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-06 13:27:10	ℹ 	There are 7 users and 158 invisible on 2 servers
+2013-11-06 13:27:10	ℹ 	8 :operator(s) online
+2013-11-06 13:27:11	ℹ 	4 :channels formed
+2013-11-06 13:27:11	ℹ 	I have 157 clients and 1 servers
+2013-11-06 13:27:11	ℹ 	157 205 :Current local users 157, max 205
+2013-11-06 13:27:11	ℹ 	165 500 :Current global users 165, max 500
+2013-11-06 13:27:11	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-06 13:27:11	ℹ 	- 16/8/2013 13:42
+2013-11-06 13:27:11	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-06 13:27:11	ℹ 	-
+2013-11-06 13:27:11	ℹ 	-  __  __                       __  __           __
+2013-11-06 13:27:11	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-06 13:27:11	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-06 13:27:11	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-06 13:27:11	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-06 13:27:11	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-06 13:27:11	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-06 13:27:11	ℹ 	-
+2013-11-06 13:27:11	ℹ 	-
+2013-11-06 13:27:11	ℹ 	- -- Beastie, 2013.
+2013-11-06 13:27:11	ℹ 	End of /MOTD command.
+2013-11-06 13:27:11	ℹ 	User mode [+iwx] by ep
+2013-11-06 13:36:29	ℹ 	irc: disconnected from server
+2013-11-06 14:37:33	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-06 14:37:34	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-06 14:37:34	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-06 14:37:34	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-06 14:37:35	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-06 14:37:35	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-06 14:37:35	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-06 14:37:35	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-06 14:37:35	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-06 14:37:35	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-06 14:37:35	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-06 14:37:35	ℹ 	There are 7 users and 154 invisible on 2 servers
+2013-11-06 14:37:35	ℹ 	8 :operator(s) online
+2013-11-06 14:37:35	ℹ 	4 :channels formed
+2013-11-06 14:37:35	ℹ 	I have 153 clients and 1 servers
+2013-11-06 14:37:35	ℹ 	153 205 :Current local users 153, max 205
+2013-11-06 14:37:35	ℹ 	161 500 :Current global users 161, max 500
+2013-11-06 14:37:35	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-06 14:37:35	ℹ 	- 16/8/2013 13:42
+2013-11-06 14:37:35	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-06 14:37:35	ℹ 	-
+2013-11-06 14:37:35	ℹ 	-  __  __                       __  __           __
+2013-11-06 14:37:35	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-06 14:37:35	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-06 14:37:35	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-06 14:37:35	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-06 14:37:35	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-06 14:37:35	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-06 14:37:35	ℹ 	-
+2013-11-06 14:37:35	ℹ 	-
+2013-11-06 14:37:35	ℹ 	- -- Beastie, 2013.
+2013-11-06 14:37:35	ℹ 	End of /MOTD command.
+2013-11-06 14:37:35	ℹ 	User mode [+iwx] by ep
+2013-11-06 14:37:41	ℹ 	Channel Users  Name
+2013-11-06 14:37:41	ℹ 	#unixhub(50): [+ntr] When you put a Unix shell to your ear, do you hear the C? | Read more about our shell accounts! http://forums.unixhub.net/showthread.php?tid=879
+2013-11-06 14:37:41	ℹ 	#opsec(4): [+ntr] the cats (backup) | DEFCON 5 | zygotb & dcat & dami0 & Mekaari & sticky & z3bra
+2013-11-06 14:37:41	ℹ 	#KinkyDebugIrc(92)
+2013-11-06 14:37:41	ℹ 	End of /LIST
+2013-11-06 14:56:06	ℹ 	irc: disconnected from server
+2013-11-06 14:56:14	ℹ 	irc: connecting to server irc.unixhub.net/6667...
+2013-11-06 14:56:14	ℹ 	irc: connected to irc.unixhub.net/6667 (99.99.74.138)
+2013-11-06 14:56:15	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Looking up your hostname...
+2013-11-06 14:56:15	ℹ 	irc.unixhub.net (irc.unixhub.net): *** Couldn't resolve your hostname; using your IP address instead
+2013-11-06 14:56:15	ℹ 	Welcome to the UnixHub IRC Network ep!ep@72.2.49.50
+2013-11-06 14:56:15	ℹ 	Your host is irc.unixhub.net, running version Unreal3.2.10
+2013-11-06 14:56:15	ℹ 	This server was created Sun Jan 6 2013 at 23:02:05 EST
+2013-11-06 14:56:15	ℹ 	irc.unixhub.net Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2013-11-06 14:56:15	ℹ 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2013-11-06 14:56:15	ℹ 	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=UnixHub CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2013-11-06 14:56:15	ℹ 	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2013-11-06 14:56:15	ℹ 	There are 7 users and 146 invisible on 2 servers
+2013-11-06 14:56:15	ℹ 	8 :operator(s) online
+2013-11-06 14:56:15	ℹ 	4 :channels formed
+2013-11-06 14:56:15	ℹ 	I have 145 clients and 1 servers
+2013-11-06 14:56:15	ℹ 	145 205 :Current local users 145, max 205
+2013-11-06 14:56:15	ℹ 	153 500 :Current global users 153, max 500
+2013-11-06 14:56:15	ℹ 	- irc.unixhub.net Message of the Day -
+2013-11-06 14:56:15	ℹ 	- 16/8/2013 13:42
+2013-11-06 14:56:15	ℹ 	- Hello and welcome to UnixHub IRC !
+2013-11-06 14:56:15	ℹ 	-
+2013-11-06 14:56:15	ℹ 	-  __  __                       __  __           __
+2013-11-06 14:56:15	ℹ 	- /\ \/\ \          __         /\ \/\ \         /\ \
+2013-11-06 14:56:15	ℹ 	- \ \ \ \ \    ___ /\_\   __  _\ \ \_\ \  __  __\ \ \____
+2013-11-06 14:56:15	ℹ 	-  \ \ \ \ \ /' _ `\/\ \ /\ \/'\\ \  _  \/\ \/\ \\ \ '__`\
+2013-11-06 14:56:15	ℹ 	-   \ \ \_\ \/\ \/\ \ \ \\/>  </ \ \ \ \ \ \ \_\ \\ \ \L\ \
+2013-11-06 14:56:15	ℹ 	-    \ \_____\ \_\ \_\ \_\/\_/\_\ \ \_\ \_\ \____/ \ \_,__/
+2013-11-06 14:56:15	ℹ 	-     \/_____/\/_/\/_/\/_/\//\/_/  \/_/\/_/\/___/   \/___/
+2013-11-06 14:56:15	ℹ 	-
+2013-11-06 14:56:15	ℹ 	-
+2013-11-06 14:56:15	ℹ 	- -- Beastie, 2013.
+2013-11-06 14:56:15	ℹ 	End of /MOTD command.
+2013-11-06 14:56:15	ℹ 	User mode [+iwx] by ep
+2013-11-06 16:15:10	ℹ 	irc: disconnected from server

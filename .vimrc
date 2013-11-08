@@ -14,15 +14,26 @@ filetype plugin indent on
 syntax on
 
 Bundle 'gmarik/vundle'
-Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdtree'
-Bundle 'majutsushi/tagbar'
-Bundle 'Yggdroot/indentLine'
-Bundle 'bling/vim-airline'
-Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-easytags'
-Bundle 'shougo/neocomplcache'
-Bundle 'klen/python-mode'
+"Bundle 'scrooloose/syntastic'
+"Bundle 'scrooloose/nerdtree'
+"Bundle 'majutsushi/tagbar'
+"Bundle 'Yggdroot/indentLine'
+"Bundle 'bling/vim-airline'
+"Bundle 'xolox/vim-misc'
+"Bundle 'xolox/vim-easytags'
+"Bundle 'shougo/neocomplcache'
+"Bundle 'chriskempson/base16-vim'
+
+
+"" Select theme
+"let base16colorspace=256
+"set background=dark
+"colorscheme base16-default
+"set guifont=Inconsolata\ 15
+"
+"let g:Powerline_symbols = 'fancy'
+"let g:airline_theme='base16'
+"let g:airline_powerline_fonts=1
 
 set modelines=0
 
@@ -30,21 +41,8 @@ set modelines=0
 set t_Co=256
 set term=xterm-256color
 
-
-" Define which version of molokai
-"colorscheme molokai
-"let g:molokai_original = 1
-"let g:rehash256 = 1
-
 " Sets the colors of my vertical indent lines
 let g:indentLine_color_term = 239
-
-" Select theme
-let base16colorspace=256
-set background=dark
-colorscheme base16-default
-"colorscheme molokai
-set guifont=Inconsolata\ 15
 
 " My default indentation settings "
 set tabstop=8
@@ -122,13 +120,8 @@ endif
 " Automatically remove trailing white space
 autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 
-" Calls the absolute path to Powerline installation directory
 set laststatus=2
 set encoding=utf-8
-"let g:Powerline_symbols = 'fancy'
-"let g:airline_theme='bubblegum'
-let g:airline_theme='evan'
-let g:airline_powerline_fonts=1
 
 " Turn off the start up message
 set shortmess+=I
@@ -175,18 +168,3 @@ let NERDTreeShowHidden=1
 
 " For neocomplcache autostart up
 let g:neocomplcache_enable_at_startup = 1
-
-
-" ::: All the Python-mode Stuff starts here :::
-" For Klen python-mode: autofold off:
-let g:pymode_folding = 0
-let g:pymode_syntax_all = 1
-
-let g:pymode_run = 1
-let g:pymode_run_key = '<F6>'
-
-let g:pymode_doc = 1
-let g:pymode_doc_key = 'K'
-
-" Turn off the pink indent chunks
-let g:pymode_syntax_space_errors = 0
