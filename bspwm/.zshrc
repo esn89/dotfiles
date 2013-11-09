@@ -26,15 +26,15 @@ if [[ $TERM == xterm-termite ]]; then
 fi
 
 export EDITOR="vim"
-export XDG_CONFIG_HOME="/home/ep/.config"
-export BSPWM_SOCKET="/tmp/bspwm-socket"
-export GTK2_RC_FILES="/usr/share/themes/FlatStudioDark/gtk-2.0/gtkrc"
+export GTK2_RC_FILES="/home/fenriz/.config/gtk-2.0/gtkrc"
+
 # Some aliases
 alias ls="ls --color=auto"
 alias dir="dir --color=auto"
 alias grep="grep --color=auto"
 alias dmesg="dmesg --color"
 alias rm="rm -iv"
+alias firefox="GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc firefox"
 
 # History search
 [[ -n "${key[PageUp]}" ]] && bindkey "${key[PageUp]}" history-beginning-search-backward
