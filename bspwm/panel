@@ -18,6 +18,23 @@ bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
 #clock -sf 'S%a %I:%M' > "$PANEL_FIFO" &
 
+panel_battery()
+{
+        batStats=$(acpi --battery | cut -d' ' -f3 | sed 's/,//')
+        if [ "$batStats" == "" ]
+        then
+                echo "\f7 AC"
+        elif [ "$batStats" == "Charging" ]
+        then
+                echo "\f4" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+        elif [ "$batStats" == "Discharging" ]
+        then
+                echo "\f1" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+        else    echo "\f2 Refreshing.."
+        fi
+
+}
+
 panel_clock() {
         echo $(clock -f '%a %I:%M:%S')
 }
@@ -36,7 +53,7 @@ panel_volume()
 }
 
 while true; do
-        echo "S" $(panel_volume) "\f0 || \f9" $(panel_clock) > "$PANEL_FIFO"
+        echo "S" $(panel_battery) "\f0 | " $(panel_volume) "\f0 | \f9" $(panel_clock) > "$PANEL_FIFO"
         sleep 1s
 done &
 
