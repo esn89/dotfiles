@@ -26,7 +26,7 @@ panel_battery()
                 echo "\f7 AC"
         elif [ "$batStats" == "Charging" ]
         then
-                echo "\f4" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+                echo "\f9" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
         elif [ "$batStats" == "Discharging" ]
         then
                 echo "\f1" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
@@ -35,8 +35,14 @@ panel_battery()
 
 }
 
-panel_clock() {
-        echo $(clock -f '%a %I:%M:%S')
+panel_clock()
+{
+        echo $(clock -f '%a %d %I:%M')
+}
+
+panel_essid()
+{
+        echo "\f3" $(essid -w wlp2s0)
 }
 
 panel_volume()
@@ -46,14 +52,16 @@ panel_volume()
         # is alsa muted or not muted?
         if [ "$volStatus" == "on" ]
         then
-                echo "\f6" $volLevel
+                #echo "\f6" ".:"$volLevel":."
+                echo "\f5" ".:""\f6"$volLevel"\f5"":."
         else
-                echo "\f9" $volLevel
+                #echo "\f9" ".:"$volLevel":."
+                echo "\f5" ".:""\f1"$volLevel"\f5"":."
         fi
 }
 
 while true; do
-        echo "S" $(panel_battery) "\f0 | " $(panel_volume) "\f0 | \f9" $(panel_clock) > "$PANEL_FIFO"
+        echo "S" $(panel_essid) "\f7 | "$(panel_battery) "\f7 | "$(panel_volume) "\f7 | \f4" $(panel_clock) > "$PANEL_FIFO"
         sleep 1s
 done &
 
