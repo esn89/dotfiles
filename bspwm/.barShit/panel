@@ -9,14 +9,62 @@ trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
 
 flavor=${1:-bar}
 
-[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
-mkfifo "$PANEL_FIFO"
+#[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+#mkfifo "$PANEL_FIFO"
 
 bspc config top_padding $PANEL_HEIGHT
 
 bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
-clock -sf 'S%a %H:%M' > "$PANEL_FIFO" &
+#clock -sf 'S%a %I:%M' > "$PANEL_FIFO" &
+
+panel_battery()
+{
+        batStats=$(acpi --battery | cut -d' ' -f3 | sed 's/,//')
+        if [ "$batStats" == "" ]
+        then
+                echo "\f7 AC"
+        elif [ "$batStats" == "Charging" ]
+        then
+                echo "\f9" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+        elif [ "$batStats" == "Discharging" ]
+        then
+                echo "\f1" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+        else    echo "\f2 Refreshing.."
+        fi
+
+}
+
+panel_clock()
+{
+        echo $(clock -f '%a %d %I:%M')
+}
+
+panel_essid()
+{
+        echo "\f3" $(essid -w wlp2s0)
+}
+
+panel_volume()
+{
+        volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+        volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/%.*//g')
+        # is alsa muted or not muted?
+        if [ "$volStatus" == "on" ]
+        then
+                #echo "\f6" ".:"$volLevel":."
+                echo "\f5" ".:""\f6"$volLevel"\f5"":."
+        else
+                #echo "\f9" ".:"$volLevel":."
+                echo "\f5" ".:""\f1"$volLevel"\f5"":."
+        fi
+}
+
+while true; do
+        echo "S" $(panel_essid) "\f7 | "$(panel_battery) "\f7 | "$(panel_volume) "\f7 | \f4" $(panel_clock) > "$PANEL_FIFO"
+        sleep 1s
+done &
+
 
 case "$flavor" in
     bar)
