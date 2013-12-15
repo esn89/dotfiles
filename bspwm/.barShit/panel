@@ -58,7 +58,7 @@ panel_volume()
 }
 
 while true; do
-        echo "S" "\f3  "$(panel_essid) "\f7  "$(panel_battery) "\f5  "$(panel_volume) "\f4  \f4" $(panel_clock) > "$PANEL_FIFO"
+        echo "S" "\f3  "$(panel_essid) "\f9  "$(panel_battery) "\f5  "$(panel_volume) "\f4  \f4" $(panel_clock) > "$PANEL_FIFO"
         sleep 1s
 done &
 
