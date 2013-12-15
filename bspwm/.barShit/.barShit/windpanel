@@ -5,16 +5,14 @@
 while read -r line ; do
     case $line in
         S*)
-            # clock output
-            sys_infos="\\br\\f6${line#?}"
+            sys_infos="\\r\\f5${line#?}\\fr"
             ;;
         T*)
-            # xtitle output
-            title="\\br\\f7${line#?}"
+            #title="\\f7  ${line#?}"
+#            title=""
             ;;
         W*)
-            # bspwm internal state
-            wm_infos=""
+            wm_infos="\\c"
             IFS=':'
             set -- ${line#?}
             while [ $# -gt 0 ] ; do
@@ -23,11 +21,11 @@ while read -r line ; do
                 case $item in
                     [OFU]*)
                         # active desktop
-                        wm_infos="$wm_infos\\u3\\f8 • \\fr\\br\\ur"
+                        wm_infos="$wm_infos\\f9 • \\fr\\br"
                         ;;
                     o*)
                         # inactive but occupied desktop
-                        wm_infos="$wm_infos\\f7 • \\fr"
+                        wm_infos="$wm_infos\\f8 • \\fr"
                         ;;
                     f*)
                         # inactive desktop
@@ -35,9 +33,11 @@ while read -r line ; do
                         ;;
                     u*)
                         # urgent desktop
-                        wm_infos="$wm_infos \\f1•\\fr "
+                        wm_infos="$wm_infos \\f3•\\fr "
                         ;;
                     L*)
+                        # layout
+#                        layout=$(printf "%s" "${name}" | sed 's/\(.\).*/\U\1/')
 			layout=""
                         wm_infos="$wm_infos \\b4\\f0$layout\\br\\fr"
                         ;;
@@ -46,5 +46,5 @@ while read -r line ; do
             done
             ;;
     esac
-    printf "%s\n" "\\l  $title \\c $wm_infos \\r $sys_infos  "
+    printf "%s\n" "$title $wm_infos $sys_infos"
 done

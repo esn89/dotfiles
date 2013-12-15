@@ -11,7 +11,8 @@
 /* Default bar position, overwritten by '-b' switch */
 #define BAR_BOTTOM 0
 /* The fonts used for the bar, comma separated. Only the first 2 will be used. */
-#define BAR_FONT       "-*-terminus-medium-r-normal-*-12-*-*-*-c-*-*-1","fixed"
+/*#define BAR_FONT       "-*-terminus-medium-r-normal-*-12-*-*-*-c-*-*-1","fixed" */
+#define BAR_FONT "-*-tewi-medium-*-*-*-*-*-*-*-*-*-*-*", "fixed"
 /* Some fonts don't set the right width for some chars, pheex it */
 #define BAR_FONT_FALLBACK_WIDTH 6
 /* Define the opacity of the bar (requires a compositor such as compton) */
@@ -27,6 +28,6 @@
 #define COLOR5 0xAA759F         //magenta
 #define COLOR6 0x75B5AA         //teal
 #define COLOR7 0x6C7A80         //light grey
-#define COLOR8 0x303030         //darker grey
+#define COLOR8 0x4B5C5E         //darker grey
 #define COLOR9 0x99CC99         //green
 #define FOREGROUND 0xc5c8c6
