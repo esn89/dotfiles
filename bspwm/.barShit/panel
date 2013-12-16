@@ -1,13 +1,16 @@
 #! /bin/sh
 
 if [ $(pgrep -cx panel) -gt 1 ] ; then
-    printf "%s\n" "The panel is already running." >&2
-    exit 1
+        printf "%s\n" "The panel is already running." >&2
+        exit 1
 fi
 
 trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
 
 flavor=${1:-bar}
+
+#[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+#mkfifo "$PANEL_FIFO"
 
 bspc config top_padding $PANEL_HEIGHT
 
@@ -23,7 +26,7 @@ panel_battery()
                 echo "\f7 AC"
         elif [ "$batStats" == "Charging" ]
         then
-                echo "\f9" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+                echo "\f4" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
         elif [ "$batStats" == "Discharging" ]
         then
                 echo "\f1" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
@@ -32,14 +35,8 @@ panel_battery()
 
 }
 
-panel_clock()
-{
+panel_clock() {
         echo $(clock -f '%a %d %I:%M')
-}
-
-panel_essid()
-{
-        echo "\f3" $(essid -w wlp2s0)
 }
 
 panel_volume()
@@ -49,30 +46,44 @@ panel_volume()
         # is alsa muted or not muted?
         if [ "$volStatus" == "on" ]
         then
-                #echo "\f6" ".:"$volLevel":."
+                #echo "\f6" $volLevel
                 echo "\f5" ".:""\f6"$volLevel"\f5"":."
         else
-                #echo "\f9" ".:"$volLevel":."
+                #echo "\f9" $volLevel
                 echo "\f5" ".:""\f1"$volLevel"\f5"":."
         fi
 }
 
+panel_gmail()
+{
+        inbox=$(curl -su email@gmail.com:password https://mail.google.com/mail/feed/atom | grep fullcount | sed 's/<fullcount>//' | sed 's/<\/fullcount>//')
+        echo $inbox "unread messages"
+}
+
+panel_ram()
+{
+        totalMem=$(free -h | awk 'FNR == 2 {print $2}')
+        usedMem=$(free -h | awk 'FNR == 3 {print $3}')
+        echo "\f9" $usedMem"/"$totalMem
+}
+
+
 while true; do
-        echo "S" "\f3  "$(panel_essid) "\f9  "$(panel_battery) "\f5  "$(panel_volume) "\f4  \f4" $(panel_clock) > "$PANEL_FIFO"
+        echo "S" "\f9 " $(panel_ram) "\f3 " "\f3" $(panel_gmail) "\f5 " $(panel_volume) "\f1  \f1" $(panel_clock) > "$PANEL_FIFO"
         sleep 1s
 done &
 
 
 case "$flavor" in
-    bar)
-        cat "$PANEL_FIFO" | panel_bar | bar &
-        ;;
-    dzen2)
-        . panel_colors
-        FONT_FAMILY='DejaVu Sans'
-        FONT_SIZE=11
-        cat "$PANEL_FIFO" | panel_dzen2 -f "$FONT_FAMILY" -s "$FONT_SIZE" | dzen2 -h $PANEL_HEIGHT -dock -ta l -title-name panel -fn "${FONT_FAMILY}:pixelsize=${FONT_SIZE}" -fg "$COLOR_FOREGROUND" -bg "$COLOR_BACKGROUND" &
-        ;;
+        bar)
+                cat "$PANEL_FIFO" | panel_bar | bar &
+                ;;
+        dzen2)
+                . panel_colors
+                FONT_FAMILY='DejaVu Sans'
+                FONT_SIZE=11
+                cat "$PANEL_FIFO" | panel_dzen2 -f "$FONT_FAMILY" -s "$FONT_SIZE" | dzen2 -h $PANEL_HEIGHT -dock -ta l -title-name panel -fn "${FONT_FAMILY}:pixelsize=${FONT_SIZE}" -fg "$COLOR_FOREGROUND" -bg "$COLOR_BACKGROUND" &
+                ;;
 esac
 
 wait
