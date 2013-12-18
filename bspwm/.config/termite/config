@@ -19,7 +19,7 @@ geometry = 635x390
 foreground = #D9C2B4
 foreground_bold = #fdf6e3
 foreground_dim = #888888
-background = #151915
+background = #151515
 cursor = #93a1a1
 
 #highlight = #839496

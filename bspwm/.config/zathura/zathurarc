@@ -1,0 +1,30 @@
+# zathurarc
+# colors
+
+set font                        "inconsolata 9"
+set default-bg                  "#151515"
+set default-fg                  "#202020"
+
+set statusbar-fg                "#B0B0B0"
+set statusbar-bg                "#202020"
+
+set inputbar-bg                 "#151515"
+set inputbar-fg                 "#303030"
+
+set notification-error-bg       "#AC4142"
+set notification-error-fg       "#E0E0E0"
+
+set notification-warning-bg     "#AC4142"
+set notification-warning-fg     "#E0E0E0"
+
+set highlight-color             "#F4BF75"
+set highlight-active-color      "#D28445"
+
+set completion-highlight-fg     "#303030"
+set completion-highlight-bg     "#75B5AA"
+
+set completion-bg               "#303030"
+set completion-fg               "#75B5AA"
+
+set notification-bg             "#99CC99"
+set notification-fg             "#F5F5F5"
