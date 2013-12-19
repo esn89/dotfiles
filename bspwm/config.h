@@ -19,7 +19,7 @@
 #define BAR_OPACITY 1.0 /* 0 is invisible, 1 is opaque */
 /* Color palette */
 //#define BACKGROUND 0x232c31
-#define BACKGROUND 0x303030
+#define BACKGROUND 0x151515
 #define COLOR0 0x2D3C46
 #define COLOR1 0xAC4142         //red
 #define COLOR2 0xF4BF75         //yellow
@@ -27,7 +27,7 @@
 #define COLOR4 0x6A9FB5         //light blue
 #define COLOR5 0xAA759F         //magenta
 #define COLOR6 0x75B5AA         //teal
-#define COLOR7 0x6C7A80         //light grey
-#define COLOR8 0x4B5C5E         //darker grey
+#define COLOR7 0xB0B0B00         //light grey
+#define COLOR8 0x505050E         //darker grey
 #define COLOR9 0x99CC99         //green
 #define FOREGROUND 0xc5c8c6
