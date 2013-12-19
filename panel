@@ -1,0 +1,143 @@
+#! /bin/sh
+
+if [ $(pgrep -cx panel) -gt 1 ] ; then
+        printf "%s\n" "The panel is already running." >&2
+        exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+flavor=${1:-bar}
+
+#[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+#mkfifo "$PANEL_FIFO"
+
+bspc config top_padding $PANEL_HEIGHT
+
+bspc control --subscribe > "$PANEL_FIFO" &
+xtitle -sf 'T%s' > "$PANEL_FIFO" &
+#clock -sf 'S%a %I:%M' > "$PANEL_FIFO" &
+
+panel_battery()
+{
+        batStats=$(acpi --battery | cut -d' ' -f3 | sed 's/,//')
+        if [ "$batStats" == "" ]
+        then
+                echo "\f7 AC"
+        elif [ "$batStats" == "Charging" ]
+        then
+                echo "\f4" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+        elif [ "$batStats" == "Discharging" ]
+        then
+                echo "\f1" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+        else    echo "\f2 Refreshing.."
+        fi
+
+}
+
+panel_clock() {
+        echo $(clock -f '%a %d %I:%M')
+}
+
+
+panel_volume()
+{
+        volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+        volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/\%].*//g')
+
+        case $volLevel in
+                100)   if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————————"
+                        else echo "\f1♬ \f1——————————"
+                        fi
+                        ;;
+                [0-9]) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1—\f7—————————"
+                        else echo "\f1♬ \f1—\f7—————————"
+                        fi
+                        ;;
+                1*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——\f7————————"
+                        else echo "\f1♬ \f1——\f7————————"
+                        fi
+                        ;;
+                2*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1———\f7———————"
+                        else echo "\f1♬ \f1———\f7———————"
+                        fi
+                        ;;
+                3*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1————\f7——————"
+                        else echo "\f1♬ \f1————\f7——————"
+                        fi
+                        ;;
+                4*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1—————\f7—————"
+                        else echo "\f1♬ \f1—————\f7—————"
+                        fi
+                        ;;
+                5*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————\f7————"
+                        else echo "\f1♬ \f1——————\f7————"
+                        fi
+                        ;;
+                6*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1———————\f7———"
+                        else echo "\f1♬ \f1———————\f7———"
+                        fi
+                        ;;
+                7*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1————————\f7——"
+                        else echo "\f1♬ \f1————————\f7——"
+                        fi
+                        ;;
+                8*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————————\f7—"
+                        else echo "\f1♬ \f1——————————\f7—"
+                        fi
+                        ;;
+                9*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————————"
+                        else echo "\f1♬ \f1——————————"
+                        fi
+                        ;;
+        esac
+}
+
+#panel_volume()
+#{
+#        volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+#        volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/%.*//g')
+#        # is alsa muted or not muted?
+#        if [ "$volStatus" == "on" ]
+#        then
+#                #echo "\f6" $volLevel
+#                echo "\f5" ".:""\f6"$volLevel"\f5"":."
+#        else
+#                #echo "\f9" $volLevel
+#                echo "\f5" ".:""\f1"$volLevel"\f5"":."
+#        fi
+#}
+
+panel_gmail()
+{
+        inbox=$(curl -su EMAIL:PASSWORD https://mail.google.com/mail/feed/atom | grep fullcount | sed 's/<fullcount>//' | sed 's/<\/fullcount>//')
+        echo $inbox "unread messages"
+}
+
+panel_ram()
+{
+        totalMem=$(free -h | awk 'FNR == 2 {print $2}')
+        usedMem=$(free -h | awk 'FNR == 3 {print $3}')
+        echo "\f9" $usedMem"/"$totalMem
+}
+
+
+while true; do
+        echo "S" "\f9 " $(panel_ram) "\f3 " "\f3" $(panel_gmail) "\f1 " $(panel_volume) "\f4  \f4" $(panel_clock) > "$PANEL_FIFO"
+        sleep 1s
+done &
+
+
+case "$flavor" in
+        bar)
+                cat "$PANEL_FIFO" | panel_bar | bar &
+                ;;
+        dzen2)
+                . panel_colors
+                FONT_FAMILY='DejaVu Sans'
+                FONT_SIZE=11
+                cat "$PANEL_FIFO" | panel_dzen2 -f "$FONT_FAMILY" -s "$FONT_SIZE" | dzen2 -h $PANEL_HEIGHT -dock -ta l -title-name panel -fn "${FONT_FAMILY}:pixelsize=${FONT_SIZE}" -fg "$COLOR_FOREGROUND" -bg "$COLOR_BACKGROUND" &
+                ;;
+esac
+
+wait
