@@ -1,38 +1,73 @@
-#
+# vim: set ft=sxhkdrc:
 # bspwm hotkeys
-#
+
+# Starts skype
+ctrl + shift + s
+    skype
+
+# Starts firefox
+ctrl + shift + f
+    GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc firefox
+
+# Starts chromium
+ctrl + shift + c
+    GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc chromium
+
+# Raises volume
+XF86AudioRaiseVolume
+    amixer set Master 3%+
+
+# Lowers volume
+XF86AudioLowerVolume
+    amixer set Master 3%-
+
+# Mutes
+XF86AudioMute
+    amixer set Master toggle
+
+###############################
+
+# Turns off laptop
+ctrl + Escape
+    systemctl poweroff
+
+# Reloads bspwm..don't know if it works
+ctrl + super + r
+    bspc reload
+
 super + alt + Escape
     bspc quit
 
+# Closes focused window
 super + q
     bspc window -c
 
+# Trying to figure out what this does
 super + t
     bspc desktop -l next
 
+# Balances the tree
 super + b
     bspc desktop -B
 
+# Toggles floating or fullscreen
 super + {s,f}
     bspc window -t {floating,fullscreen}
 
+# Toggles between last tag
 super + {grave,Tab}
     bspc {window,desktop} -f last
-
-super + apostrophe
-    bspc window -s last
 
 super + {o,i}
     bspc control --record-history off; \
     bspc window {older,newer} -f; \
     bspc control --record-history on
 
-super + y
-    bspc window -w last.manual
-
+# Move current window into the biggest panel
 super + m
     bspc window -s biggest
 
+# Moves window to (which ever direction)
 super + {_,shift + }{h,j,k,l}
     bspc window -{f,s} {left,down,up,right}
 
@@ -88,12 +123,3 @@ super + space
 # make sxhkd reload its configuration files:
 super + Escape
     pkill -USR1 -x sxhkd
-
-ctrl + shift + c
-        chromium
-
-ctrl + shift + f
-        firefox
-
-ctrl + Escape
-        systemctl poweroff
