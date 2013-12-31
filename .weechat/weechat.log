@@ -1,15 +1,44 @@
-[2013-11-08 11:44:28] WeeChat 0.4.2 (compiled on Oct 10 2013 15:26:45)
-[2013-11-08 11:44:28] Reading configuration file sec.conf
-[2013-11-08 11:44:28] Reading configuration file weechat.conf
-[2013-11-08 11:44:28] Reading configuration file plugins.conf
-[2013-11-08 11:44:28] Reading configuration file alias.conf
-[2013-11-08 11:44:28] Reading configuration file xfer.conf
-[2013-11-08 11:44:28] Reading configuration file relay.conf
-[2013-11-08 11:44:28] Reading configuration file script.conf
-[2013-11-08 11:44:28] Reading configuration file logger.conf
-[2013-11-08 11:44:29] Reading configuration file buffers.conf
-[2013-11-08 11:44:29] Reading configuration file rmodifier.conf
-[2013-11-08 11:44:29] Reading configuration file irc.conf
-[2013-11-08 11:44:29] Reading configuration file aspell.conf
-[2013-11-08 11:44:29] Reading configuration file charset.conf
-[2013-11-08 11:44:36] irc: connecting to server localhost/6667...
+[2013-12-30 20:15:46] WeeChat 0.4.2 (compiled on Nov 23 2013 17:53:08)
+[2013-12-30 20:15:46] Reading configuration file sec.conf
+[2013-12-30 20:15:46] Reading configuration file weechat.conf
+[2013-12-30 20:15:46] Reading configuration file plugins.conf
+[2013-12-30 20:15:46] Reading configuration file charset.conf
+[2013-12-30 20:15:46] Reading configuration file alias.conf
+[2013-12-30 20:15:46] Reading configuration file logger.conf
+[2013-12-30 20:15:46] Reading configuration file rmodifier.conf
+[2013-12-30 20:15:46] Reading configuration file irc.conf
+[2013-12-30 20:15:46] irc: connecting to server localhost/6667...
+[2013-12-30 20:15:46] irc: connecting to server irc.unixhub.net/6667...
+[2013-12-30 20:15:46] Reading configuration file aspell.conf
+[2013-12-30 20:15:46] Reading configuration file buffers.conf
+[2013-12-30 20:15:46] Reading configuration file relay.conf
+[2013-12-30 20:15:46] Reading configuration file xfer.conf
+[2013-12-30 20:15:52] Reading configuration file script.conf
+[2013-12-30 22:40:51] Signal SIGHUP received, reloading configuration files
+[2013-12-30 22:40:51] Reloading configuration file sec.conf
+[2013-12-30 22:40:51] Reloading configuration file weechat.conf
+[2013-12-30 22:40:51] Reloading configuration file plugins.conf
+[2013-12-30 22:40:52] Reloading configuration file charset.conf
+[2013-12-30 22:40:52] Reloading configuration file alias.conf
+[2013-12-30 22:40:52] Reloading configuration file logger.conf
+[2013-12-30 22:40:52] Reloading configuration file rmodifier.conf
+[2013-12-30 22:40:52] Reloading configuration file irc.conf
+[2013-12-30 22:40:52] Reloading configuration file aspell.conf
+[2013-12-30 22:40:52] Reloading configuration file buffers.conf
+[2013-12-30 22:40:52] Reloading configuration file relay.conf
+[2013-12-30 22:40:52] Reloading configuration file xfer.conf
+[2013-12-30 22:40:52] Reloading configuration file script.conf
+[2013-12-30 22:40:52] Terminal lost, exiting WeeChat...
+[2013-12-30 22:40:52] Writing configuration file plugins.conf 
+[2013-12-30 22:40:52] Writing configuration file script.conf 
+[2013-12-30 22:40:52] Writing configuration file xfer.conf 
+[2013-12-30 22:40:52] Writing configuration file relay.conf 
+[2013-12-30 22:40:52] Writing configuration file buffers.conf 
+[2013-12-30 22:40:52] Writing configuration file aspell.conf 
+[2013-12-30 22:40:52] Writing configuration file irc.conf 
+[2013-12-30 22:40:52] Writing configuration file rmodifier.conf 
+[2013-12-30 22:40:52] Writing configuration file logger.conf 
+[2013-12-30 22:40:52] Writing configuration file alias.conf 
+[2013-12-30 22:40:52] Writing configuration file charset.conf 
+[2013-12-30 22:40:52] Writing configuration file weechat.conf 
+[2013-12-30 22:40:52] Writing configuration file sec.conf 

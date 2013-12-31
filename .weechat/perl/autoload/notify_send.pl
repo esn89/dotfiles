@@ -21,8 +21,8 @@ weechat::register(SCRIPT_NAME, 'shmibs', '1.4', 'GPL3', 'execute a user-defined 
 my %pv_times;
 my %highlight_times;
 my %settings_default=(
-    'wait_pm'        => [ '180', 'necessary time delay between private messages (seconds) for command to be executed' ],
-    'wait_highlight' => [ '60', 'necessary time delay between highlights (seconds) for command to be executed' ],
+    'wait_pm'        => [ '5', 'necessary time delay between private messages (seconds) for command to be executed' ],
+    'wait_highlight' => [ '5', 'necessary time delay between highlights (seconds) for command to be executed' ],
     'ignore_nicks'   => [ '', 'comma-separated list of nicks to ignore' ],
     'command'        => [ 'notify-send $type: $name', 'system command to be executed ($type, $name, and $message will be interpreted as values)' ]
 );
@@ -82,9 +82,9 @@ sub new_notification {
 	# get the type of the message
 	my $type;
 	if($_[1] eq 'weechat_pv') {
-		$type='PM';
+		$type='pm:';
 	} else {
-		$type='HL';
+		$type='hl';
 	}
 
 	# boolean to determine whether or not a notification should
@@ -98,7 +98,7 @@ sub new_notification {
 
 	# determine whether a notification of the same type has been
 	# made recently. if so, ignore it
-	if($type eq 'PM'){
+	if($type eq 'pm'){
 		if(exists $pv_times{$name}) {
 			if(time-$pv_times{$name} < int($settings{'wait_pm'})) {
 				$send='false';
