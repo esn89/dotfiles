@@ -16,7 +16,6 @@ bspc config top_padding $PANEL_HEIGHT
 
 bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
-#clock -sf 'S%a %I:%M' > "$PANEL_FIFO" &
 
 panel_battery()
 {
@@ -32,13 +31,11 @@ panel_battery()
                 echo "\f1" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
         else    echo "\f2 Refreshing.."
         fi
-
 }
 
 panel_clock() {
         echo $(clock -f '%a %d %I:%M')
 }
-
 
 panel_volume()
 {
@@ -50,40 +47,40 @@ panel_volume()
                         else echo "\f1♬ \f1——————————"
                         fi
                         ;;
-                [0-9]) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1—\f7—————————"
-                        else echo "\f1♬ \f1—\f7—————————"
+                [0-9]) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1—\f0—————————"
+                        else echo "\f1♬ \f1—\f0—————————"
                         fi
                         ;;
-                1*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——\f7————————"
-                        else echo "\f1♬ \f1——\f7————————"
+                1*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——\f0————————"
+                        else echo "\f1♬ \f1——\f0————————"
                         fi
                         ;;
-                2*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1———\f7———————"
-                        else echo "\f1♬ \f1———\f7———————"
+                2*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1———\f0———————"
+                        else echo "\f1♬ \f1———\f0———————"
                         fi
                         ;;
-                3*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1————\f7——————"
-                        else echo "\f1♬ \f1————\f7——————"
+                3*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1————\f0——————"
+                        else echo "\f1♬ \f1————\f0——————"
                         fi
                         ;;
-                4*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1—————\f7—————"
-                        else echo "\f1♬ \f1—————\f7—————"
+                4*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1—————\f0—————"
+                        else echo "\f1♬ \f1—————\f0—————"
                         fi
                         ;;
-                5*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————\f7————"
-                        else echo "\f1♬ \f1——————\f7————"
+                5*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————\f0————"
+                        else echo "\f1♬ \f1——————\f0————"
                         fi
                         ;;
-                6*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1———————\f7———"
-                        else echo "\f1♬ \f1———————\f7———"
+                6*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1———————\f0———"
+                        else echo "\f1♬ \f1———————\f0———"
                         fi
                         ;;
-                7*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1————————\f7——"
-                        else echo "\f1♬ \f1————————\f7——"
+                7*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1————————\f0——"
+                        else echo "\f1♬ \f1————————\f0——"
                         fi
                         ;;
-                8*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————————\f7—"
-                        else echo "\f1♬ \f1——————————\f7—"
+                8*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————————\f0—"
+                        else echo "\f1♬ \f1——————————\f0—"
                         fi
                         ;;
                 9*) if [ "$volStatus" == "on" ]; then echo "\f6♬ \f1——————————"
@@ -107,19 +104,6 @@ panel_volume()
 #                echo "\f5" ".:""\f1"$volLevel"\f5"":."
 #        fi
 #}
-
-panel_gmail()
-{
-        inbox=$(curl -su EMAIL:PASSWORD https://mail.google.com/mail/feed/atom | grep fullcount | sed 's/<fullcount>//' | sed 's/<\/fullcount>//')
-        echo $inbox "unread messages"
-}
-
-panel_ram()
-{
-        totalMem=$(free -h | awk 'FNR == 2 {print $2}')
-        usedMem=$(free -h | awk 'FNR == 3 {print $3}')
-        echo "\f9" $usedMem"/"$totalMem
-}
 
 
 while true; do

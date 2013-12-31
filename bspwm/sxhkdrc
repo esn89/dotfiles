@@ -1,6 +1,10 @@
 # vim: set ft=sxhkdrc:
 # bspwm hotkeys
 
+# Excit bspwm
+alt + shift + q
+    bspc quit 1 && pkill bar
+
 # Starts skype
 ctrl + shift + s
     skype
@@ -38,9 +42,21 @@ ctrl + super + r
 super + alt + Escape
     bspc quit
 
+# Rotates my tree
+super + r
+    bspc desktop -R 90
+
 # Closes focused window
 super + q
     bspc window -c
+
+# Flips leaves horizontally
+super + c
+    bspc desktop -F horizontal
+
+# Flips leaves vertically
+super + v
+    bspc desktop -F vertical
 
 # Trying to figure out what this does
 super + t
