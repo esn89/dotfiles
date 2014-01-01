@@ -45,51 +45,61 @@ panel_volume()
 {
         volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
         volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/\%].*//g')
-        isMuted=$(amixer -c 0 contents | grep 17 -A 2 | tail -n 1 | cut -d '=' -f 2)
+        headphone=$(amixer -c 0 contents | grep 17 -A 2 | tail -n 1 | cut -d '=' -f 2)
+
+        if [ "$volStatus" == "on" ] && [ "$headphone" == "off" ];
+                then icon="\f5 ⮞"
+        elif [ "$volStatus" == "on" ] && [ "$headphone" == "on" ];
+                then icon="\f5 ⮜"
+        elif [ "$volStatus" == "off" ] && [ "$headphone" == "on" ];
+                then icon="\f1 ⮜"
+        else icon="\f1 ⮝"
+        fi
+
 
         case $volLevel in
-                100)   if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5——————————"
-                        else echo "\f1⮝ \f1——————————"
+                100)   if [ "$volStatus" == "on" ]; then echo "$icon" "\f5——————————"
+                        else echo "$icon" "\f1——————————"
                         fi
                         ;;
-                [0-9]) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5—\f0—————————"
-                        else echo "\f1⮝ \f1—\f0—————————"
+                [0-9]) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5—\f0—————————"
+                        else echo "$icon" "\f1—\f0—————————"
                         fi
                         ;;
-                1*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5——\f0————————"
-                        else echo "\f1⮝ \f1——\f0————————"
+                1*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5——\f0————————"
+                        else echo "$icon" "\f1——\f0————————"
                         fi
                         ;;
-                2*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5———\f0———————"
-                        else echo "\f1⮝ \f1———\f0———————"
+                2*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5———\f0———————"
+                        else echo "$icon" "\f1———\f0———————"
                         fi
                         ;;
-                3*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5————\f0——————"
-                        else echo "\f1⮝ \f1————\f0——————"
+                3*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5————\f0——————"
+                        else echo "$icon" "\f1————\f0——————"
                         fi
                         ;;
-                4*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5—————\f0—————"
-                        else echo "\f1⮝ \f1—————\f0—————"
+                4*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5—————\f0—————"
+                        else echo "$icon" "\f1—————\f0—————"
                         fi
                         ;;
-                5*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5——————\f0————"
-                        else echo "\f1⮝ \f1——————\f0————"
+                5*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5——————\f0————"
+                        else echo "$icon" "\f1——————\f0————"
                         fi
                         ;;
-                6*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5———————\f0———"
-                        else echo "\f1⮝ \f1———————\f0———"
+                6*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5———————\f0———"
+                        else echo "$icon" "\f1———————\f0———"
                         fi
                         ;;
-                7*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5————————\f0——"
-                        else echo "\f1⮝ \f1————————\f0——"
+                7*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5————————\f0——"
+                        else echo "$icon" "\f1————————\f0——"
                         fi
                         ;;
-                8*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5——————————\f0—"
-                        else echo "\f1⮝ \f1——————————\f0—"
+                8*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5——————————\f0—"
+                        else echo "$icon" "\f1——————————\f0—"
                         fi
                         ;;
-                9*) if [ "$volStatus" == "on" ]; then echo "\f5⮞ \f5——————————"
-                        else echo "\f1⮝ \f1——————————"
+                9*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f5——————————"
+                        else echo "$icon" "\f1——————————"
                         fi
                         ;;
         esac
