@@ -4,7 +4,6 @@ autoload -U compinit promptinit
 compinit
 promptinit
 
-# .dir_colors!
 if [[ -f ~/.dir_colors ]]; then
         eval $(dircolors -b ~/.dir_colors)
 elif [[ -f /etc/DIR_COLORS ]]; then
@@ -22,7 +21,6 @@ fi
 export EDITOR="vim"
 export GTK2_RC_FILES="/home/fenriz/.config/gtk-2.0/gtkrc"
 
-# Some aliases
 alias ls="ls --color=auto"
 alias dir="dir --color=auto"
 alias grep="grep --color=auto"
@@ -38,8 +36,14 @@ alias sshp="ssh pi@192.168.1.75"
 # Set name of the theme to load.
 ZSH_THEME="myown"
 
+# Comment this out to disable bi-weekly auto-update checks
+DISABLE_AUTO_UPDATE="true"
+
+# Uncomment following line if you want to disable command autocorrection
 DISABLE_CORRECTION="true"
 
+
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(git)
 plugins=(zsh-syntax-highlighting)
 

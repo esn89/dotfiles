@@ -28,7 +28,6 @@
     # Show how many messages are currently hidden (because of geometry)
     indicate_hidden = yes
 
-    # alignment of message text.
     # Possible values are "left", "center" and "right"
     alignment = right
 

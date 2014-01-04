@@ -8,7 +8,6 @@ xset fp rehash
 # Save my eyes
 redshift -l 49.26:-123.23 &
 # Capslock = Escape
-#xmodmap ~/.speedswapper &
 if [ -s ~/.xmodmaprc ]; then
     xmodmap ~/.xmodmaprc
 fi

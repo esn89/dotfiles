@@ -38,7 +38,7 @@ panel_clock()
 
 panel_essid()
 {
-        echo "\f3 ▬▪▮" $(essid -w wlp2s0)
+        echo "\f3 ‗▬▪▮" $(essid -w wlp2s0)
 }
 
 panel_volume()
@@ -106,14 +106,14 @@ panel_volume()
 }
 
 while true; do
-        echo "S" "\f3 ⮃ "$(panel_essid) "\f9 ⮃ "$(panel_battery) "\f5 ⮃ "$(panel_volume) "\f4 ⮃ \f4" $(panel_clock) > "$PANEL_FIFO"
-        sleep 1s
+        echo "S" "\f3 ⮃ "$(panel_essid) "\f9 ⮃ "$(panel_battery) "\f5 ⮃ "$(panel_volume) "\f4 ⮃ "$(panel_clock) > "$PANEL_FIFO"
+        sleep 0.7s
 done &
 
 
 case "$flavor" in
     bar)
-        cat "$PANEL_FIFO" | panel_bar | bar &
+        cat "$PANEL_FIFO" | panel_bar | bar
         ;;
     dzen2)
         . panel_colors
