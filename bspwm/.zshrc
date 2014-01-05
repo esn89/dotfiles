@@ -4,6 +4,11 @@ autoload -U compinit promptinit
 compinit
 promptinit
 
+#autocompletion
+#autoload -U compinit
+#compinit
+
+# .dir_colors!
 if [[ -f ~/.dir_colors ]]; then
         eval $(dircolors -b ~/.dir_colors)
 elif [[ -f /etc/DIR_COLORS ]]; then
@@ -21,6 +26,7 @@ fi
 export EDITOR="vim"
 export GTK2_RC_FILES="/home/fenriz/.config/gtk-2.0/gtkrc"
 
+# Some aliases
 alias ls="ls --color=auto"
 alias dir="dir --color=auto"
 alias grep="grep --color=auto"
@@ -53,7 +59,7 @@ man() {
         LESS_TERMCAP_md=$'\E[01;38;5;74m' \
         LESS_TERMCAP_me=$'\E[0m' \
         LESS_TERMCAP_se=$'\E[0m' \
-        LESS_TERMCAP_so=$'\E[38;5;246m' \
+        LESS_TERMCAP_so=$'\E[31;5;246m' \
         LESS_TERMCAP_ue=$'\E[0m' \
         LESS_TERMCAP_us=$'\E[04;38;5;146m' \
         man "$@"

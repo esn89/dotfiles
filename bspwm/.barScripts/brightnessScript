@@ -1,0 +1,13 @@
+#!/bin/sh
+
+brightnessLevel=$(cat /sys/class/backlight/acpi_video0/actual_brightness)
+maxBrightness=$(cat /sys/class/backlight/acpi_video0/max_brightness)
+
+#echo $brightnessLevel
+#echo $maxBrightness
+
+level=$(echo "scale=2; $brightnessLevel / $maxBrightness * 100" | bc | awk '{printf "%.0f\n", $1}')
+
+notify-send "Brightness:" "`echo $level`"
+
+
