@@ -6,8 +6,30 @@ maxBrightness=$(cat /sys/class/backlight/acpi_video0/max_brightness)
 #echo $brightnessLevel
 #echo $maxBrightness
 
-level=$(echo "scale=2; $brightnessLevel / $maxBrightness * 100" | bc | awk '{printf "%.0f\n", $1}')
+#level=$(echo "scale=2; $brightnessLevel / $maxBrightness * 100" | bc | awk '{printf "%.0f\n", $1}')
 
-notify-send "Brightness:" "`echo $level`"
+#notify-send "Brightness:" "`echo $level`"
+
+case $brightnessLevel in
+        0)      notify-send "Brightness:" "•○○○○○○○○○○○○○○○";;
+        1)      notify-send "Brightness:" "••○○○○○○○○○○○○○○";;
+        2)      notify-send "Brightness:" "•••○○○○○○○○○○○○○";;
+        3)      notify-send "Brightness:" "••••○○○○○○○○○○○○";;
+        4)      notify-send "Brightness:" "•••••○○○○○○○○○○○";;
+        5)      notify-send "Brightness:" "••••••○○○○○○○○○○";;
+        6)      notify-send "Brightness:" "•••••••○○○○○○○○○";;
+        7)      notify-send "Brightness:" "••••••••○○○○○○○○";;
+        8)      notify-send "Brightness:" "•••••••••○○○○○○○";;
+        9)      notify-send "Brightness:" "••••••••••○○○○○○";;
+        10)     notify-send "Brightness:" "•••••••••••○○○○○";;
+        11)     notify-send "Brightness:" "••••••••••••○○○○";;
+        12)     notify-send "Brightness:" "•••••••••••••○○○";;
+        13)     notify-send "Brightness:" "••••••••••••••○○";;
+        14)     notify-send "Brightness:" "•••••••••••••••○";;
+        15)     notify-send "Brightness:" "••••••••••••••••";;
+esac
+
+
+
 
 
