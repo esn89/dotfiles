@@ -19,14 +19,14 @@ panel_battery()
         batStats=$(acpi --battery | cut -d' ' -f3 | sed 's/,//')
         if [ "$batStats" == "" ]
         then
-                echo "\f7 ⮎ AC"
+                echo "\f7⮃ ⮎ AC"
         elif [ "$batStats" == "Charging" ]
         then
-                echo "\f9 ⮒" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+                echo "\f9⮃ ⮒" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
         elif [ "$batStats" == "Discharging" ]
         then
-                echo "\f1 ⮑" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
-        else    echo "\f2 Refreshing.."
+                echo "\f1⮃ ⮑" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+        else    echo "\f2⮃ Refreshing..."
         fi
 
 }
@@ -42,13 +42,13 @@ panel_sigStrength()
 
         if [ "$signalStrength" -gt 64 ]
         then
-                echo "‗▬▪▮"
+                echo "\f3‗▬▪▮"
         elif [ "$signalStrength" -lt 65 ] && [ "$signalStrength" -gt 39 ]
         then
-                echo "‗▬▪"
+                echo "\f3‗▬▪\f8▮\f3"
         elif [ "$signalStrength" -lt 40 ]
         then
-                echo "‗▬"
+                echo "\f3‗▬\f8▪▮\f3"
         else
                 echo "\f8 ‗▬▪▮ Not connected"
         fi
@@ -57,8 +57,7 @@ panel_sigStrength()
 
 panel_essid()
 {
-        #echo "\f3 ‗▬▪▮" $(essid -w wlp2s0)
-        echo "\f3" $(panel_sigStrength) $(essid -w wlp2s0)
+        echo $(panel_sigStrength) $(essid -w wlp2s0)
 }
 
 panel_volume()
@@ -128,7 +127,7 @@ panel_volume()
 }
 
 while true; do
-        echo "S" "\f3 ⮃ "$(panel_essid) "\f9 ⮃ "$(panel_battery) "\f5 ⮃ "$(panel_volume) "\f4 ⮃ "$(panel_clock) > "$PANEL_FIFO"
+        echo "S" "\f3 ⮃ "$(panel_essid) $(panel_battery)"\f5 ⮃"$(panel_volume) "\f4 ⮃ "$(panel_clock) > "$PANEL_FIFO"
         sleep 0.7s
 done &
 
