@@ -15,5 +15,5 @@ Thanks to earsplit for showing us bspwm noobs the way.
 
 CURRENT:
 ![Alt
-text](https://raw.github.com/esn89/dotfiles/master/current.jpg
+text](https://raw2.github.com/esn89/dotfiles/master/current.png
                 "SCREENSHOT")
