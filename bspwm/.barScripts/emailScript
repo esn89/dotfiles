@@ -1,0 +1,27 @@
+#!/bin/bash
+
+export DISPLAY=:0
+
+#am i connected?  This pings the default gateway
+online=$(ping -q -w 1 -c 1 `ip r | grep default | cut -d ' ' -f 3` > /dev/null && echo ok || echo error)
+
+if [ "$online" == "ok" ];
+then
+
+# email in format without the @gmail.com
+email="asdfasdf"
+password="NO!"
+
+emails=`wget -T 3 -t 1 -q --secure-protocol=TLSv1 \
+        --no-check-certificate \
+        --user=$email --password=$password \
+        https://mail.google.com/mail/feed/atom -O -
+        `
+echo $emails > /tmp/mail.xml
+fi
+
+if [ -a /tmp/mail.xml ]
+then
+        python3.3 /home/fenriz/.barShit/gmailFeedParser.py
+fi
+
