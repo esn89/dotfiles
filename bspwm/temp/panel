@@ -1,0 +1,147 @@
+#! /bin/sh
+
+if [ $(pgrep -cx panel) -gt 1 ] ; then
+    printf "%s\n" "The panel is already running." >&2
+    exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+flavor=${1:-bar}
+
+bspc config top_padding $PANEL_HEIGHT
+
+bspc control --subscribe > "$PANEL_FIFO" &
+xtitle -sf 'T%s' > "$PANEL_FIFO" &
+
+panel_battery()
+{
+        batStats=$(acpi --battery | cut -d' ' -f3 | sed 's/,//')
+        if [ "$batStats" == "" ]
+        then
+                echo "\f0 ⮎ AC"
+        elif [ "$batStats" == "Charging" ]
+        then
+                echo "\f0 ⮒" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+        elif [ "$batStats" == "Discharging" ]
+        then
+                echo "\f0 ⮑" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+        else    echo "\f0 Refreshing..."
+        fi
+
+}
+
+panel_clock()
+{
+        echo  "⭧" $(clock -f '%a %d %I: %M')
+}
+
+panel_sigStrength()
+{
+        signalStrength=$(cat /proc/net/wireless | awk 'NR==3 { print $3}' | sed 's/\.//')
+
+        if [ "$signalStrength" -gt 64 ]
+        then
+                echo "\f1‗▬▪▮\f0"
+        elif [ "$signalStrength" -lt 65 ] && [ "$signalStrength" -gt 39 ]
+        then
+                echo "\f1‗▬▪\f8▮\f0"
+        elif [ "$signalStrength" -lt 40 ]
+        then
+                echo "\f1‗▬\f8▪▮\f0"
+        else
+                echo "\f1 ‗▬▪▮ \f0Not connected"
+        fi
+}
+
+
+panel_essid()
+{
+        echo $(panel_sigStrength) $(essid -w wlp2s0)
+}
+
+panel_volume()
+{
+        volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+        volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/\%].*//g')
+        headphone=$(amixer -c 0 contents | grep 17 -A 2 | awk 'NR==3 { print $2 }' | cut -d '=' -f 2)
+
+        if [ "$volStatus" == "on" ] && [ "$headphone" == "off" ];
+                then icon="\f0 ⮞"
+        elif [ "$volStatus" == "on" ] && [ "$headphone" == "on" ];
+                then icon="\f0 ⮜"
+        elif [ "$volStatus" == "off" ] && [ "$headphone" == "on" ];
+                then icon="\f0 ⮜"
+        elif [ "$volStatus" == "off" ] && [ "$headphone" == "off" ];
+                then icon="\f0 ⮝"
+        #else icon="\f1 ⮝"
+        fi
+
+
+        case $volLevel in
+                100)    if [ "$volStatus" == "on" ]; then echo "$icon" "\f0——————————"
+                        else echo "$icon" "\f7——————————"
+                        fi
+                        ;;
+                [0-9]) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0—\f7—————————"
+                        else echo "$icon" "\f1—\f7—————————"
+                        fi
+                        ;;
+                1*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0——\f7————————"
+                        else echo "$icon" "\f1——\f7————————"
+                        fi
+                        ;;
+                2*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0———\f7———————"
+                        else echo "$icon" "\f1———\f7———————"
+                        fi
+                        ;;
+                3*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0————\f7——————"
+                        else echo "$icon" "\f1————\f7——————"
+                        fi
+                        ;;
+                4*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0—————\f7—————"
+                        else echo "$icon" "\f1—————\f7—————"
+                        fi
+                        ;;
+                5*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0——————\f7————"
+                        else echo "$icon" "\f1——————\f7————"
+                        fi
+                        ;;
+                6*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0———————\f7———"
+                        else echo "$icon" "\f1———————\f7———"
+                        fi
+                        ;;
+                7*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0————————\f7——"
+                        else echo "$icon" "\f1————————\f7——"
+                        fi
+                        ;;
+                8*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0——————————\f7—"
+                        else echo "$icon" "\f1——————————\f7—"
+                        fi
+                        ;;
+                9*) if [ "$volStatus" == "on" ]; then echo "$icon" "\f0——————————"
+                        else echo "$icon" "\f1——————————"
+                        fi
+                        ;;
+        esac
+}
+
+while true; do
+        echo "S" "\f9\b0⮂""\b9 "$(panel_essid) "\f3\b9⮂""\b3"$(panel_battery) "\f7\b3⮂""\b7"$(panel_volume)"\f4\b7⮂""\b4\f0 "$(panel_clock)" \b0" > "$PANEL_FIFO"
+        sleep 0.7s
+done &
+
+
+case "$flavor" in
+    bar)
+        cat "$PANEL_FIFO" | panel_bar | bar
+        ;;
+    dzen2)
+        . panel_colors
+        FONT_FAMILY='DejaVu Sans'
+        FONT_SIZE=11
+        cat "$PANEL_FIFO" | panel_dzen2 -f "$FONT_FAMILY" -s "$FONT_SIZE" | dzen2 -h $PANEL_HEIGHT -dock -ta l -title-name panel -fn "${FONT_FAMILY}:pixelsize=${FONT_SIZE}" -fg "$COLOR_FOREGROUND" -bg "$COLOR_BACKGROUND" &
+        ;;
+esac
+
+wait

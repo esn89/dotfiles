@@ -1,0 +1,51 @@
+#! /bin/sh
+#
+# Example panel for LemonBoy's bar
+
+while read -r line ; do
+    case $line in
+        S*)
+            # clock output
+            sys_infos="\\br\\f6\\b0${line#?}"
+            ;;
+        T*)
+            # xtitle output
+            title="\\br\\f7\\b0${line#?}"
+            ;;
+        W*)
+            # bspwm internal state
+            wm_infos=""
+            IFS=':'
+            set -- ${line#?}
+            while [ $# -gt 0 ] ; do
+                item=$1
+                name=${item#?}
+                case $item in
+                    [OFU]*)
+                        # active desktop
+                        wm_infos="$wm_infos\\u3\\f4 • \\fr\\br\\ur\\b0"
+                        ;;
+                    o*)
+                        # inactive but occupied desktop
+                        wm_infos="$wm_infos\\f7 • \\fr\\b0"
+                        ;;
+                    f*)
+                        # inactive desktop
+                        wm_infos="$wm_infos\\f8 ○ \\fr\\b0"
+                        ;;
+                    u*)
+                        # urgent desktop
+                        wm_infos="$wm_infos \\f1•\\fr\\b0"
+                        ;;
+                    L*)
+			layout=""
+                        wm_infos="$wm_infos \\b4\\f0$layout\\br\\fr\\b0"
+                        ;;
+                esac
+                shift
+            done
+            ;;
+    esac
+    #printf "%s\n\\b0" "\\l\\b0 ❭ $title \\c\\b0 $wm_infos \\r\\b0 $sys_infos "
+    printf "%s\n\\b0"  "\\l\\f4\\b7 ⮗ \\f7\\b0⮀\\b0 $title \\c\\b0 $wm_infos \\r\\b0 $sys_infos"
+done
