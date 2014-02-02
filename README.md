@@ -24,7 +24,11 @@ Plugged in without battery status:
 ![AC](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/adapter.png "Adapter")
 
 Charging:
-![Charging](https://github.com/esn89/dotfiles/blob/master/bspwm/screenshots/charging.png "Charging")
+![Charging](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/charging.png "Charging")
+
+Draining:
+![Draining](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/draining.png "Draining")
+
 ###SSID and wireless strength:
 
 ###Volume and headphones:
