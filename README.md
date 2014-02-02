@@ -1,17 +1,33 @@
 eng89's Arch + bspwm
+====================
 
 This set up uses:
+-----------------
 +  bspwm - to manage windows
-+  termite - my terminaljb
++  termite - my terminal
 +  sxhkd - hotkeys and stuff
-+  weechat - chat
 +  BAR - status bar
 
-For making things look nice, i use
+For making things look nice I use:
+----------------------------------
 +  hsetroot - to set wallpaper
 +  compton - to set shadows / transparency of windows
 
 Thanks to earsplit for showing us bspwm noobs the way.
+
+
+###Some features:
+
+####Battery and charging:
+
+####SSID and wireless strength:
+
+####Volume and headphones:
+
+####Gmail Notifier:
+
+####Brightness Notifier:
+
 
 CURRENT:
 ![Alt
