@@ -21,7 +21,10 @@ Thanks to earsplit for showing us bspwm noobs the way.
 ###Battery and charging:
 
 Plugged in without battery status:
-![charging](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/adapter.png "Adapter")
+![AC](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/adapter.png "Adapter")
+
+Charging:
+![Charging](https://github.com/esn89/dotfiles/blob/master/bspwm/screenshots/charging.png "Charging")
 ###SSID and wireless strength:
 
 ###Volume and headphones:
