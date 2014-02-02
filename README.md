@@ -1,32 +1,34 @@
 eng89's Arch + bspwm
 ====================
 
-This set up uses:
------------------
+##This set up uses:
+
 +  bspwm - to manage windows
 +  termite - my terminal
 +  sxhkd - hotkeys and stuff
 +  BAR - status bar
 
-For making things look nice I use:
-----------------------------------
+##For making things look nice I use:
+
 +  hsetroot - to set wallpaper
 +  compton - to set shadows / transparency of windows
 
 Thanks to earsplit for showing us bspwm noobs the way.
 
 
-###Some features:
+##Some features:
 
-####Battery and charging:
+###Battery and charging:
 
-####SSID and wireless strength:
+Plugged in without battery status:
+![charging](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/adapter.png "Adapter")
+###SSID and wireless strength:
 
-####Volume and headphones:
+###Volume and headphones:
 
-####Gmail Notifier:
+###Gmail Notifier:
 
-####Brightness Notifier:
+###Brightness Notifier:
 
 
 CURRENT:
