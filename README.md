@@ -31,12 +31,42 @@ Draining:
 
 ###SSID and wireless strength:
 
+Strong signal:
+![Strong](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/hiwifi.png "Strong")
+
+Medium signal:
+![Medium](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/medwifi.png "Medium")
+
 ###Volume and headphones:
+
+Music with speakers:
+![Speakers](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/volumeSp.png "Speakers")
+
+Speakers mute:
+![SpeakersMute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/volumeSpMute.png "Speakers Mute")
+
+Headphones:
+![Headphones](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/headphones.png "Headphones")
+
+Headphones mute:
+![Headphones
+mute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/headphonesMute.png "Headphones mute")
 
 ###Gmail Notifier:
 
+![Headphones
+mute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/email.png "email")
+Pops up every n minutes (depending on your crontab setting)
+        and stays on your desktop depending on your Dunst
+        settings
+Script available
+[here](https://github.com/esn89/dotfiles/tree/master/bspwm/.barScripts/GmailNotifier)
+
 ###Brightness Notifier:
 
+![Brightness](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/brightness.png "brightness")
+Script available
+[here](https://github.com/esn89/dotfiles/blob/master/bspwm/.barScripts/brightnessScript)
 
 CURRENT:
 ![Alt
