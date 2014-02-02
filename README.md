@@ -56,19 +56,29 @@ mute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/headphones
 
 ![Headphones
 mute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/email.png "email")
+
 Pops up every n minutes (depending on your crontab setting)
-        and stays on your desktop depending on your Dunst
-        settings
+and stays on your desktop depending on your Dunst settings
+
+
 Script available
 [here](https://github.com/esn89/dotfiles/tree/master/bspwm/.barScripts/GmailNotifier)
 
 ###Brightness Notifier:
 
 ![Brightness](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/brightness.png "brightness")
+
 Script available
 [here](https://github.com/esn89/dotfiles/blob/master/bspwm/.barScripts/brightnessScript)
 
+
 CURRENT:
 ![Alt
-text](https://raw2.github.com/esn89/dotfiles/master/current.png
-                "SCREENSHOT")
+text](https://raw2.github.com/esn89/dotfiles/master/current.png "SCREENSHOT")
+
+
+Solid Powerline option:
+![powerline](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/powerLine.png "powerline")
+
+...is available
+[here](https://github.com/esn89/dotfiles/tree/master/bspwm/.barScripts/powerLinePanelBar)
