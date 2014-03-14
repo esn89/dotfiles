@@ -167,4 +167,4 @@ map <F5> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 " For neocomplcache autostart up
-let g:neocomplcache_enable_at_startup = 1
+"let g:neocomplcache_enable_at_startup = 1
