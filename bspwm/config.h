@@ -18,16 +18,31 @@
 /* Define the opacity of the bar (requires a compositor such as compton) */
 #define BAR_OPACITY 1.0 /* 0 is invisible, 1 is opaque */
 /* Color palette */
-#define BACKGROUND      0x151515
-#define COLOR0          0x151515         //dark
-#define COLOR1          0xAC4142         //red
-#define COLOR2          0xF4BF75         //yellow
-#define COLOR3          0xD28445         //orange
-#define COLOR4          0x6A9FB5         //light blue
-#define COLOR5          0xAA759F         //magenta
-#define COLOR6          0x75B5AA         //teal
-#define COLOR7          0xB0B0B0         //light grey
-#define COLOR8          0x505050         //darker grey
-#define COLOR9          0x99CC99         //green
-#define FOREGROUND      0xc5c8c6
 
+//Base 16 Default Dark
+//#define BACKGROUND      0x151515
+//#define COLOR0          0x151515         //dark
+//#define COLOR1          0xAC4142         //red
+//#define COLOR2          0xF4BF75         //yellow
+//#define COLOR3          0xD28445         //orange
+//#define COLOR4          0x6A9FB5         //light blue
+//#define COLOR5          0xAA759F         //magenta
+//#define COLOR6          0x75B5AA         //teal
+//#define COLOR7          0xB0B0B0         //light grey
+//#define COLOR8          0x505050         //darker grey
+//#define COLOR9          0x99CC99         //green
+//#define FOREGROUND      0xc5c8c6
+
+//Base 16 Mocha Dark
+#define BACKGROUND      0x3B3228
+#define COLOR0          0x3B3228         //dark
+#define COLOR1          0xcb6077         //red
+#define COLOR2          0xf4bc87         //yellow
+#define COLOR3          0xd28b71         //orange
+#define COLOR4          0x8ab3b5         //light blue
+#define COLOR5          0xa89bb9         //magenta
+#define COLOR6          0x7bbda4         //teal
+#define COLOR7          0xb8afad         //light grey
+#define COLOR8          0x7e705a         //darker grey
+#define COLOR9          0x90a950         //green
+#define FOREGROUND      0xc5c8c6

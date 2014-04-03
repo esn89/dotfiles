@@ -69,6 +69,7 @@ EXEC 00;32
 .java 00;33
 .c 00;33
 .py 00;33
+.h 00;36
 .pdf 00;31
 
 .tar 01;35 # archives or compressed (bright red)

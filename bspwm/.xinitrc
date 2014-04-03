@@ -5,6 +5,8 @@ xset +fp /usr/share/fonts/misc
 xset +fp $HOME/.fonts
 xset fp rehash
 
+wmname LG3D
+
 # Save my eyes
 redshift -l 49.26:-123.23 &
 # Capslock = Escape
@@ -14,7 +16,7 @@ fi
 # Normal cursor
 xsetroot -cursor_name left_ptr &
 # Sets my warrpaper
-hsetroot -tile /home/fenriz/Pictures/wallpaper.jpg &
+hsetroot -fill /home/fenriz/Pictures/background.jpg &
 
 # Makes things nice 'n shadowy
 compton &

@@ -9,6 +9,10 @@ alt + shift + q
 ctrl + shift + s
     skype
 
+# Starts calcurse
+ctrl + shift + z
+    termite -e calcurse
+
 # Starts firefox
 ctrl + shift + f
     GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc firefox
@@ -16,6 +20,9 @@ ctrl + shift + f
 # Starts chromium
 ctrl + shift + c
     GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc chromium
+
+ctrl + shift + w
+    termite -e weechat
 
 # Raises volume
 XF86AudioRaiseVolume
@@ -29,6 +36,15 @@ XF86AudioLowerVolume
 XF86AudioMute
     amixer set Master toggle
 
+XF86MonBrightnessUp
+    brightnessScript
+
+XF86MonBrightnessDown
+    brightnessScript
+
+XF86ScreenSaver
+    slimlock
+
 ###############################
 
 # Turns off laptop
@@ -41,6 +57,10 @@ ctrl + super + r
 
 super + alt + Escape
     bspc quit
+
+# Starts gmrun
+alt + r
+    gmrun
 
 # Rotates my tree
 super + r

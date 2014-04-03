@@ -1,12 +1,11 @@
 ZSH=/usr/share/oh-my-zsh/
 
-autoload -U compinit promptinit
-compinit
+autoload -U promptinit
 promptinit
 
-#autocompletion
-#autoload -U compinit
-#compinit
+autoload -Uz compinit
+compinit
+
 
 # .dir_colors!
 if [[ -f ~/.dir_colors ]]; then
@@ -16,6 +15,8 @@ elif [[ -f /etc/DIR_COLORS ]]; then
 else
         eval $(dircolors)
 fi
+
+HIST_STAMPS="mm/dd/yyyy"
 
 # opening from current dir (termite feature)
 if [[ $TERM == xterm-termite ]]; then
@@ -27,13 +28,16 @@ export EDITOR="vim"
 export GTK2_RC_FILES="/home/fenriz/.config/gtk-2.0/gtkrc"
 
 # Some aliases
-alias ls="ls --color=auto"
+alias ls="ls --color=auto --group-directories-first"
 alias dir="dir --color=auto"
 alias grep="grep --color=auto"
 alias dmesg="dmesg --color"
 alias rm="rm -iv"
 alias firefox="GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc firefox"
-alias sshp="ssh pi@192.168.1.75"
+alias sshp="ssh server@NOT.MY.IP.HERE -p over9000 -t tmux a"
+alias sshpo="ssh server@NOT.MY.IP.HERE -p over9000 -t tmux a"
+alias sshu="ssh studentNumber@my.schools.host"
+alias udg="sudo pacaur -Syyu"
 
 # History search
 [[ -n "${key[PageUp]}" ]] && bindkey "${key[PageUp]}" history-beginning-search-backward

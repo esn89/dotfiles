@@ -1,10 +1,7 @@
 if has("syntax")
-  syntax on
+        syntax on
 endif
 
-"  First, a few lines that I  absolutely must have "
-
-" Not compatible with vi
 set nocompatible
 filetype off
 
@@ -23,17 +20,10 @@ Bundle 'gmarik/vundle'
 "Bundle 'xolox/vim-easytags'
 "Bundle 'shougo/neocomplcache'
 "Bundle 'chriskempson/base16-vim'
-
-
-"" Select theme
-"let base16colorspace=256
-"set background=dark
-"colorscheme base16-default
-"set guifont=Inconsolata\ 15
-"
-"let g:Powerline_symbols = 'fancy'
-"let g:airline_theme='base16'
-"let g:airline_powerline_fonts=1
+"Bundle 'MarcWeber/vim-addon-mw-utils'
+"Bundle 'tomtom/tlib_vim'
+"Bundle 'garbas/vim-snipmate'
+"Bundle 'honza/vim-snippets'
 
 set modelines=0
 
@@ -43,6 +33,12 @@ set term=xterm-256color
 
 " Sets the colors of my vertical indent lines
 let g:indentLine_color_term = 239
+set guifont=Inconsolata-g\ 11
+
+" Select theme
+let base16colorspace=256
+set background=dark
+colorscheme base16-mocha
 
 " My default indentation settings "
 set tabstop=8
@@ -63,12 +59,13 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop> nnoremap j gj
 nnoremap k gk
+
 ""TURNS OFF F1 AS HELP KEY"""""
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-"""""""""For indented tabs""""""""""""""""""""""
 
+"""""""""For indented tabs""""""""""""""""""""""
 set list lcs=tab:\|\
 hi Conceal ctermfg=white ctermbg=NONE
 
@@ -114,14 +111,19 @@ nnoremap <silent> <C-t> :tabnew<CR>
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+        au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
 " Automatically remove trailing white space
 autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 
+" Calls the absolute path to Powerline installation directory
 set laststatus=2
 set encoding=utf-8
+let g:Powerline_symbols = 'fancy'
+"let g:airline_theme='bubblegum'
+let g:airline_theme='base16'
+let g:airline_powerline_fonts=1
 
 " Turn off the start up message
 set shortmess+=I
@@ -167,4 +169,15 @@ map <F5> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 " For neocomplcache autostart up
-"let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_at_startup = 1
+
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
+
+set cursorline
+
+function! s:GetFromFile(...)
+        execute '! sed -n'. a:1 .','. a:2 .'p '. a:3
+endf
+command -nargs=+ -complete=file GetFromFile call s:GetFromFile(<f-args>)
