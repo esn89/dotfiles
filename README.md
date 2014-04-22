@@ -1,4 +1,4 @@
-eng89's Arch + bspwm
+esn89's Arch + bspwm
 ====================
 
 ##This set up uses:
