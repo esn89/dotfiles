@@ -22,6 +22,6 @@ fi
 
 if [ -a /tmp/mail.xml ]
 then
-        python3.3 /home/fenriz/.barShit/gmailFeedParser.py
+        python /home/fenriz/.barShit/gmailFeedParser.py
 fi
 
