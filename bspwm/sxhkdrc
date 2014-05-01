@@ -1,5 +1,4 @@
 # vim: set ft=sxhkdrc:
-# bspwm hotkeys
 
 # Excit bspwm
 alt + shift + q
@@ -8,6 +7,13 @@ alt + shift + q
 # Starts skype
 ctrl + shift + s
     skype
+
+# Starts ranger
+ctrl + shift + r
+    termite -e ranger
+
+ctrl + shift + m
+    mpv --no-terminal http://192.168.1.73:9884
 
 # Starts calcurse
 ctrl + shift + z
