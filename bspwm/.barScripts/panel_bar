@@ -4,16 +4,17 @@
 
 . panel_colors
 
-BLUE="%{F#FF8AB3B5}"
-RED="%{F#FFCB6077}"
-YELLOW="%{F#FFF4BC87}"
-ORANGE="%{F#FFD28B71}"
-MAGENTA="%{F#FFA89BB9}"
-TEAL="%{F#FF7BBdA4}"
-LIGHTGREY="%{F#FFb8AfAD}"
-DARKGREY="%{F#FF7E705A}"
-GREEN="%{F#FF90A950}"
-BG="%{F#FF3B3228}"
+BLUE="#FF8AB3B5"
+RED="#FFCB6077"
+YELLOW="#FFF4BC87"
+ORANGE="#FFD28B71"
+MAGENTA="#FFA89BB9"
+TEAL="#FF7BBdA4"
+LIGHTGREY="#FFb8AfAD"
+DARKGREY="#FF7E705A"
+GREEN="#FF90A950"
+BG="#FF3B3228"
+MIDDLE="#FF215666"
 
 while read -r line ; do
 	case $line in
@@ -24,6 +25,9 @@ while read -r line ; do
 		T*)
 			# xtitle output
 			title="%{F$COLOR_TITLE_FG}%{B$COLOR_TITLE_BG}${line#?}"
+			;;
+		E*)
+			thing="${line#?}"
 			;;
 		W*)
 			# bspwm internal state
@@ -36,7 +40,7 @@ while read -r line ; do
 				case $item in
 					[OU]*)
 						# focused occupied desktop
-						wm_infos="$wm_infos  %{F$COLOR_FOCUSED_OCCUPIED_FG}%{U$COLOR_FOREGROUND}%{+u}"•"%{-u}"
+						wm_infos="$wm_infos  %{F$COLOR_FOCUSED_OCCUPIED_FG}%{U$COLOR_FOREGROUND}%{+u}%{U$ORANGE}"•"%{-u}"
 						;;
 					F*)
 						#focused free desktop
@@ -59,5 +63,5 @@ while read -r line ; do
 			done
 			;;
 	esac
-	printf "%s\n" "%{l} $title %{c} $wm_infos %{r} $sys_infos  "
+	printf "%s\n" "%{l}$thing  $title %{c} %{F$BG}%{B$MIDDLE}⮀$wm_infos  %{F$BG}%{B$MIDDLE}⮂%{F$COLOR_TITLE_FG}%{B#FF3B3228}%{r} $sys_infos  "
 done

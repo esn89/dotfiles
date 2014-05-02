@@ -27,7 +27,7 @@ BG="%{F#FF3B3228}"
 
 bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
-
+echo 'E' $GREEN' '$DARKGREY'Fenriz' $TEAL'⮁' > "$PANEL_FIFO" &
 panel_volicon()
 {
         volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
@@ -154,7 +154,7 @@ case "$flavor" in
 	bar)
 		FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
-		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1400x15+20 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" &
+		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1400x14+20 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" &
 		;;
 	dzen2)
 		FONT_FAMILY='DejaVu Sans'
