@@ -2,49 +2,62 @@
 #
 # Example panel for LemonBoy's bar
 
+. panel_colors
+
+BLUE="%{F#FF8AB3B5}"
+RED="%{F#FFCB6077}"
+YELLOW="%{F#FFF4BC87}"
+ORANGE="%{F#FFD28B71}"
+MAGENTA="%{F#FFA89BB9}"
+TEAL="%{F#FF7BBdA4}"
+LIGHTGREY="%{F#FFb8AfAD}"
+DARKGREY="%{F#FF7E705A}"
+GREEN="%{F#FF90A950}"
+BG="%{F#FF3B3228}"
+
 while read -r line ; do
-    case $line in
-        S*)
-            # clock output
-            sys_infos="\\br\\f6${line#?}"
-            ;;
-        T*)
-            # xtitle output
-            title="\\br\\f7${line#?}"
-            ;;
-        W*)
-            # bspwm internal state
-            wm_infos=""
-            IFS=':'
-            set -- ${line#?}
-            while [ $# -gt 0 ] ; do
-                item=$1
-                name=${item#?}
-                case $item in
-                    [OFU]*)
-                        # active desktop
-                        wm_infos="$wm_infos\\u3\\f8 • \\fr\\br\\ur"
-                        ;;
-                    o*)
-                        # inactive but occupied desktop
-                        wm_infos="$wm_infos\\f7 • \\fr"
-                        ;;
-                    f*)
-                        # inactive desktop
-                        wm_infos="$wm_infos\\f8 ○ \\fr"
-                        ;;
-                    u*)
-                        # urgent desktop
-                        wm_infos="$wm_infos \\f1•\\fr "
-                        ;;
-                    L*)
-			layout=""
-                        wm_infos="$wm_infos \\b4\\f0$layout\\br\\fr"
-                        ;;
-                esac
-                shift
-            done
-            ;;
-    esac
-    printf "%s\n" "\\l ❭ $title \\c $wm_infos \\r $sys_infos "
+	case $line in
+		S*)
+			# clock output
+			sys_infos="%{F$COLOR_STATUS_FG}%{B$COLOR_STATUS_BG}${line#?}"
+			;;
+		T*)
+			# xtitle output
+			title="%{F$COLOR_TITLE_FG}%{B$COLOR_TITLE_BG}${line#?}"
+			;;
+		W*)
+			# bspwm internal state
+			wm_infos=""
+			IFS=':'
+			set -- ${line#?}
+			while [ $# -gt 0 ] ; do
+				item=$1
+				name=${item#?}
+				case $item in
+					[OU]*)
+						# focused occupied desktop
+						wm_infos="$wm_infos  %{F$COLOR_FOCUSED_OCCUPIED_FG}%{U$COLOR_FOREGROUND}%{+u}"•"%{-u}"
+						;;
+					F*)
+						#focused free desktop
+						wm_infos="$wm_infos  %{F$COLOR_FREE_FG}%{U$COLOR_FOREGROUND}%{+u}○%{-u}"
+						;;
+					o*)
+						# occupied desktop
+						wm_infos="$wm_infos  %{F$COLOR_OCCUPIED_FG}•"
+						;;
+					f*)
+						# free desktop
+						wm_infos="$wm_infos  %{F$COLOR_FREE_FG}○"
+						;;
+					u*)
+						# urgent desktop
+						wm_infos="$wm_infos  %{F$COLOR_URGENT_FG}•"
+						;;
+				esac
+				shift
+			done
+			;;
+	esac
+	printf "%s\n" "%{l} $title %{c} $wm_infos %{r} $sys_infos  "
 done
