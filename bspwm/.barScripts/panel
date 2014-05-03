@@ -32,14 +32,15 @@ echo 'E' $GREEN' '$DARKGREY'Fenriz' $TEAL'⮁' > "$PANEL_FIFO" &
 
 panel_emailStatus()
 {
+	icon=""
 	# if totalemail doesn't exist in the /tmp dir.
-	if [ ! -a /tmp/totalemail ]
+	if [ ! -f /tmp/totalemail ];
 	then
-		icon=""
 		echo $LIGHTGREY$icon  $LIGHTGREY 0
+		# it exists
 	else
 		totalEmail=$(cat /tmp/totalemail)
-		if [[ $totalEmail -gt 0 ]]; then
+		if [ $totalEmail -gt 0 ]; then
 			icon=""
 			echo $PURPLE$icon  $LIGHTGREY$totalEmail
 		else
@@ -49,7 +50,25 @@ panel_emailStatus()
 	fi
 }
 
-
+panel_updateStatus()
+{
+	updateIcon=" "
+	if [ ! -f /tmp/numOfUpdates ];
+	then
+		echo $YELLOW$updateIcon 0
+	else
+		numberOfUpdates=$(cat /tmp/numOfUpdates)
+		if [ $numberOfUpdates -eq 1 ];
+		then
+			echo $RED$updateIcon $numberOfUpdates
+		elif [ $numberOfUpdates -gt 1 ];
+		then
+			echo $RED$updateIcon $numberOfUpdates
+		else
+			echo $YELLOW$updateIcon $numberOfUpdates
+		fi
+	fi
+}
 
 panel_volicon()
 {
@@ -168,6 +187,7 @@ panel_clock()
 # Loop to check time, battery and volume statuses
 while true; do
 	echo "M" $(panel_emailStatus) $TEAL "⮁" > "$PANEL_FIFO" &
+	echo "U" $(panel_updateStatus) $TEAL "⮁" > "$PANEL_FIFO" &
 	echo "S" $(panel_battery) $(panel_essid) $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &

@@ -33,6 +33,9 @@ while read -r line ; do
 			# M is for mail
 			emailInfo="${line#?}"
 			;;
+		U*)
+			updates="${line#?}"
+			;;
 		W*)
 			# bspwm internal state
 			wm_infos=""
@@ -67,5 +70,5 @@ while read -r line ; do
 			done
 			;;
 	esac
-	printf "%s\n" "%{l}$userInfo $emailInfo  $title %{c} %{F$BG}%{B$MIDDLE}⮀$wm_infos  %{F$BG}%{B$MIDDLE}⮂%{F$COLOR_TITLE_FG}%{B#FF3B3228}%{r} $sys_infos  "
+	printf "%s\n" "%{l}$userInfo $emailInfo $updates  $title %{c} %{F$BG}%{B$MIDDLE}⮀$wm_infos  %{F$BG}%{B$MIDDLE}⮂%{F$COLOR_TITLE_FG}%{B#FF3B3228}%{r} $sys_infos  "
 done

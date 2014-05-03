@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export DISPLAY=:0
+
+#am i connected?  This pings the default gateway
+online=$(ping -q -w 1 -c 1 `ip r | grep default | cut -d ' ' -f 3` > /dev/null && echo ok || echo error)
+
+if [ "$online" == "ok" ];
+then
+	number=$(pacman -Qu | wc -l)
+	echo $number > /tmp/numOfUpdates
+fi
