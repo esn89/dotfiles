@@ -23,11 +23,34 @@ TEAL="%{F#FF7BBdA4}"
 LIGHTGREY="%{F#FFb8AfAD}"
 DARKGREY="%{F#FF7E705A}"
 GREEN="%{F#FF90A950}"
+PURPLE="%{F#FF9547C9}"
 BG="%{F#FF3B3228}"
 
 bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
 echo 'E' $GREEN' '$DARKGREY'Fenriz' $TEAL'⮁' > "$PANEL_FIFO" &
+
+panel_emailStatus()
+{
+	# if totalemail doesn't exist in the /tmp dir.
+	if [ ! -a /tmp/totalemail ]
+	then
+		icon=""
+		echo $LIGHTGREY$icon  $LIGHTGREY 0
+	else
+		totalEmail=$(cat /tmp/totalemail)
+		if [[ $totalEmail -gt 0 ]]; then
+			icon=""
+			echo $PURPLE$icon  $LIGHTGREY$totalEmail
+		else
+			icon=""
+			echo $LIGHTGREY$icon  $DARKGREY$totalEmail
+		fi
+	fi
+}
+
+
+
 panel_volicon()
 {
         volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
@@ -144,6 +167,7 @@ panel_clock()
 
 # Loop to check time, battery and volume statuses
 while true; do
+	echo "M" $(panel_emailStatus) $TEAL "⮁" > "$PANEL_FIFO" &
 	echo "S" $(panel_battery) $(panel_essid) $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &
@@ -154,7 +178,7 @@ case "$flavor" in
 	bar)
 		FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
-		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1400x14+20 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" &
+		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" &
 		;;
 	dzen2)
 		FONT_FAMILY='DejaVu Sans'

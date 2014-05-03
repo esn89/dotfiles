@@ -5,6 +5,9 @@ emailObject = feedparser.parse('/tmp/mail.xml')
 
 # How many emails do we have?
 totalEmails = len(emailObject.entries)
+f=open('/tmp/totalemail', 'w')
+f.write(str(totalEmails))
+f.close
 
 # Look through each entry tag to extract subject and the author
 for eachEmail in range(0, totalEmails):
