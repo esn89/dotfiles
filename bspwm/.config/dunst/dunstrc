@@ -61,7 +61,7 @@
     # right side of the screen.  Y is measured from the top and down respectevly.
     # The width can be negative. In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "250x30+1009-575"
+    geometry = "250x30+1140-575"
 
     # The transparency of the window. range: [0; 100]
     # This option will only work if a compositing windowmanager is present (e.g. xcompmgr, compiz, etc..)
@@ -127,7 +127,7 @@
 
 [frame]
     width = 0
-    color = "#505050"
+    color = "#606060"
 
 [shortcuts]
     # shortcuts are specified as [modifier+][modifier+]...key
@@ -151,17 +151,17 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
-    background = "#1A2B47"
+    background = "#404040"
     foreground = "#D7D0C7"
     timeout = 8
 
 [urgency_normal]
-    background = "#1A2B47"
+    background = "#303030"
     foreground = "#D7D0C7"
     timeout = 1
 
 [urgency_critical]
-    background = "#1A2B47"
+    background = "#202020"
     foreground = "#D7D0C7"
     timeout = 1
 
@@ -185,7 +185,7 @@
 # fitting options for rules.
 [irc_hilight]
         appname = weechat
-        urgency = critical
+        urgency = low
         format = "<span weight='normal' letter_spacing='3000' color='#4E9FB1'>%s</span>\n%b"
 
 [notify-send]
