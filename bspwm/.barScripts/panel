@@ -57,7 +57,7 @@ panel_updateStatus()
 	then
 		echo $YELLOW$updateIcon 0
 	else
-		numberOfUpdates=$(cat /tmp/numOfUpdates)
+		numberOfUpdates=$(cat /tmp/numOfUpdates | wc -l)
 		if [ $numberOfUpdates -eq 1 ];
 		then
 			echo $RED$updateIcon $numberOfUpdates
@@ -186,7 +186,7 @@ panel_clock()
 
 # Loop to check time, battery and volume statuses
 while true; do
-	echo "M" $(panel_emailStatus) $TEAL "⮁" > "$PANEL_FIFO" &
+	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
 	echo "U" $(panel_updateStatus) $TEAL "⮁" > "$PANEL_FIFO" &
 	echo "S" $(panel_battery) $(panel_essid) $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
@@ -198,7 +198,11 @@ case "$flavor" in
 	bar)
 		FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
-		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" &
+		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" | while read action; do
+			case $action in
+				opengmail) onClickEmail;;
+			esac
+		done &
 		;;
 	dzen2)
 		FONT_FAMILY='DejaVu Sans'
