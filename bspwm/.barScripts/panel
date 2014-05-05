@@ -187,7 +187,7 @@ panel_clock()
 # Loop to check time, battery and volume statuses
 while true; do
 	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
-	echo "U" $(panel_updateStatus) $TEAL "⮁" > "$PANEL_FIFO" &
+	echo "U"%{A:showUpdates:} $(panel_updateStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
 	echo "S" $(panel_battery) $(panel_essid) $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &
@@ -200,7 +200,9 @@ case "$flavor" in
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
 		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$COLOR_BACKGROUND" -B "$COLOR_FOREGROUND" | while read action; do
 			case $action in
-				opengmail) onClickEmail;;
+				opengmail) onClickEmail
+					;;
+				showUpdates) python onClickUpdates.py
 			esac
 		done &
 		;;
