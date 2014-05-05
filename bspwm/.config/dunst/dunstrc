@@ -1,6 +1,6 @@
 # vim: set ft=dunstrc:
 [global]
-    font = uushi 9
+    font = uushi 10
     #font = Inconsolata 9
 
     # allow a small subset of html markup:
@@ -31,7 +31,7 @@
 
     # alignment of message text.
     # Possible values are "left", "center" and "right"
-    alignment = right
+    alignment = center
 
     # The frequency with wich text that is longer than the notification
     # window allows bounces back and forth.
@@ -61,7 +61,8 @@
     # right side of the screen.  Y is measured from the top and down respectevly.
     # The width can be negative. In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "250x30+1140-575"
+    #geometry = "250x30+1140-575"
+    geometry = "250x30+655-100"
 
     # The transparency of the window. range: [0; 100]
     # This option will only work if a compositing windowmanager is present (e.g. xcompmgr, compiz, etc..)

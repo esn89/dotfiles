@@ -13,7 +13,7 @@ else:
     # now make a well-formed parameter to dunst:
     #
     title = "<span color='#D28B71'><u>Updates Available:</u></span>"
-    greyspan = "<span color='#B0B0B0'>"
+    greyspan = "<span color='#D0D0D0'>"
     greenspan = "<span color='#99CC99'>"
     endspan = "</span>"
     attribute = False

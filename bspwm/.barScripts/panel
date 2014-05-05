@@ -40,7 +40,8 @@ panel_emailStatus()
 		# it exists
 	else
 		totalEmail=$(cat /tmp/totalemail)
-		if [ $totalEmail -gt 0 ]; then
+		if [ $totalEmail -gt 0 ];
+		then
 			icon=""
 			echo $PURPLE$icon  $LIGHTGREY$totalEmail
 		else
