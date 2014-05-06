@@ -1,8 +1,10 @@
 import os.path
+import subprocess
 from subprocess import call
 
+
 if os.path.isfile('/tmp/numOfUpdates') == False:
-    call(["notify-send", "-u", "low", "You have no new updates"])
+    call(["notify-send", "-u", "low", "<span color='#F4BC87'>You have no new updates</span>"])
 else:
     # read the updates line by line into a list
     with open('/tmp/numOfUpdates') as f:
@@ -32,6 +34,7 @@ else:
         pkgNo = pkgNo - 1
     #print(query)
     call(["notify-send", "-u", "low", title, query])
-
+    call(["rm", "/tmp/numOfUpdates"])
+    call(["touch", "/tmp/numOfUpdates"])
 
 

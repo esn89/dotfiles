@@ -5,28 +5,35 @@ maxBrightness=$(cat /sys/class/backlight/acpi_video0/max_brightness)
 
 #echo $brightnessLevel
 #echo $maxBrightness
-
-#level=$(echo "scale=2; $brightnessLevel / $maxBrightness * 100" | bc | awk '{printf "%.0f\n", $1}')
-
-#notify-send "Brightness:" "`echo $level`"
+color1="#F7E599'>"
+color2="#F7E081'>"
+color2="#F7DB68'>"
+color3="#F7DB68'>"
+color4="#F5CF38'>"
+color5="#F5CC27'>"
+color6="#F7CA16'>"
+color7="#FACB0F'>"
+color8="#F7C600'>"
+col="<span color='"
+end="</span>"
 
 case $brightnessLevel in
-        0)      notify-send "Brightness:" "•○○○○○○○○○○○○○○○";;
-        1)      notify-send "Brightness:" "••○○○○○○○○○○○○○○";;
-        2)      notify-send "Brightness:" "•••○○○○○○○○○○○○○";;
-        3)      notify-send "Brightness:" "••••○○○○○○○○○○○○";;
-        4)      notify-send "Brightness:" "•••••○○○○○○○○○○○";;
-        5)      notify-send "Brightness:" "••••••○○○○○○○○○○";;
-        6)      notify-send "Brightness:" "•••••••○○○○○○○○○";;
-        7)      notify-send "Brightness:" "••••••••○○○○○○○○";;
-        8)      notify-send "Brightness:" "•••••••••○○○○○○○";;
-        9)      notify-send "Brightness:" "••••••••••○○○○○○";;
-        10)     notify-send "Brightness:" "•••••••••••○○○○○";;
-        11)     notify-send "Brightness:" "••••••••••••○○○○";;
-        12)     notify-send "Brightness:" "•••••••••••••○○○";;
-        13)     notify-send "Brightness:" "••••••••••••••○○";;
-        14)     notify-send "Brightness:" "•••••••••••••••○";;
-        15)     notify-send "Brightness:" "••••••••••••••••";;
+        0)      notify-send "Brightness:" "$col$color1•$end○○○○○○○○○○○○○○○";;
+        1)      notify-send "Brightness:" "$col$color1••$end○○○○○○○○○○○○○○";;
+        2)      notify-send "Brightness:" "$col$color2•••$end○○○○○○○○○○○○○";;
+        3)      notify-send "Brightness:" "$col$color2••••$end○○○○○○○○○○○○";;
+        4)      notify-send "Brightness:" "$col$color3•••••$end○○○○○○○○○○○";;
+        5)      notify-send "Brightness:" "$col$color3••••••$end○○○○○○○○○○";;
+        6)      notify-send "Brightness:" "$col$color4•••••••$end○○○○○○○○○";;
+        7)      notify-send "Brightness:" "$col$color4••••••••$end○○○○○○○○";;
+        8)      notify-send "Brightness:" "$col$color5•••••••••$end○○○○○○○";;
+        9)      notify-send "Brightness:" "$col$color5••••••••••$end○○○○○○";;
+        10)     notify-send "Brightness:" "$col$color6•••••••••••$end○○○○○";;
+        11)     notify-send "Brightness:" "$col$color6••••••••••••$end○○○○";;
+        12)     notify-send "Brightness:" "$col$color7•••••••••••••$end○○○";;
+        13)     notify-send "Brightness:" "$col$color7••••••••••••••$end○○";;
+        14)     notify-send "Brightness:" "$col$color8•••••••••••••••$end○";;
+        15)     notify-send "Brightness:" "$col$color8••••••••••••••••$end";;
 esac
 
 

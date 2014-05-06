@@ -176,6 +176,9 @@ panel_battery()
         elif [ "$batStats" == "Discharging" ]
         then
                 echo $RED "⮃ ⮑" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+	elif [ "$batStats" == "Unknown" ]
+	then
+                echo $GREEN"⮃ ⮒ Fully Charged"
         else    echo $YELLOW "⮃ Refreshing..."
         fi
 }
@@ -189,7 +192,7 @@ panel_clock()
 while true; do
 	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
 	echo "U"%{A:showUpdates:} $(panel_updateStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
-	echo "S" $(panel_battery) $(panel_essid) $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
+	echo "S" $(panel_battery)%{A:startWicd:} $(panel_essid)%{A} $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &
 
@@ -203,7 +206,10 @@ case "$flavor" in
 			case $action in
 				opengmail) onClickEmail
 					;;
-				showUpdates) python onClickUpdates.py
+				showUpdates) python /home/fenriz/.barShit/onClickUpdates.py
+					;;
+				startWicd) wicdScript
+					;;
 			esac
 		done &
 		;;

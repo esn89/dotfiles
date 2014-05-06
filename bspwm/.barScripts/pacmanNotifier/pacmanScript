@@ -7,6 +7,6 @@ online=$(ping -q -w 1 -c 1 `ip r | grep default | cut -d ' ' -f 3` > /dev/null &
 
 if [ "$online" == "ok" ];
 then
-	number=$(pacman -Qu | wc -l)
-	echo $number > /tmp/numOfUpdates
+
+	eval pacman -Qu > /tmp/numOfUpdates
 fi
