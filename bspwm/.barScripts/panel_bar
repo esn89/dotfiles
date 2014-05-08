@@ -24,7 +24,10 @@ while read -r line ; do
 			;;
 		T*)
 			# xtitle output
-			title="%{F$COLOR_TITLE_FG}%{B$COLOR_TITLE_BG}${line#?}"
+			# prevents titles from overshooting
+			# my tag layout in the middle
+			formatted=$(echo ${line#?} | cut -c1-85)
+			title="%{F$COLOR_TITLE_FG}%{B$COLOR_TITLE_BG}$formatted"
 			;;
 		E*)
 			userInfo="${line#?}"
