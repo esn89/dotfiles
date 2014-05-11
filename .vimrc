@@ -1,11 +1,12 @@
+set nocompatible
+filetype off
+
 if has("syntax")
         syntax on
 endif
 
-set nocompatible
-filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 filetype plugin indent on
 syntax on
@@ -16,16 +17,15 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'Yggdroot/indentLine'
 "Plugin 'bling/vim-airline'
 "Plugin 'xolox/vim-misc'
-"Plugin 'xolox/vim-easytags'
+"Plugin 'xolox/vim-easytag'
 "Plugin 'shougo/neocomplcache'
 "Plugin 'chriskempson/base16-vim'
-"Plugin 'MarcWeber/vim-addon-mw-utils'
-"Plugin 'tomtom/tlib_vim'
-"Plugin 'garbas/vim-snipmate'
-"Plugin 'honza/vim-snippets'
-call vundle#end()
-filetype plugin indent on
-
+"Bundle 'MarcWeber/vim-addon-mw-utils'
+"Bundle 'tomtom/tlib_vim'
+"Bundle 'garbas/vim-snipmate'
+"Bundle 'honza/vim-snippets'
+call vundle#end()            " required
+filetype plugin indent on    " required
 set modelines=0
 
 " Tell my terminal to go into 256 color mode
@@ -39,18 +39,18 @@ set guifont=Inconsolata-g\ 11
 " Select theme
 let base16colorspace=256
 set background=dark
-colorscheme base16-mocha
+colorscheme base16-default
 
 " My default indentation settings "
 set tabstop=8
 set shiftwidth=8
 set softtabstop=8
-set noexpandtab
+set expandtab
 set cindent
 set autoindent
 set smartindent
 
-" Turns off arrow keys and makes the J and K behave correctly "
+" Turns of arrow keys and makes the J and K behave correctly "
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -100,6 +100,15 @@ set smartcase
 " Sets the paste togle button to F2
 set pastetoggle=<F2>
 
+" Next tab
+nnoremap <silent> <C-l> :tabn<CR>
+
+" Previous tab
+nnoremap <silent> <C-h> :tabp<CR>
+
+" New tab
+nnoremap <silent> <C-t> :tabnew<CR>
+
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 if has("autocmd")
@@ -113,8 +122,11 @@ autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 set laststatus=2
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
+"let g:airline_theme='bubblegum'
 let g:airline_theme='base16'
-let g:airline_powerline_fonts=1
+"let g:airline_powerline_fonts=1
+"let g:airline_left_sep='⮀'
+"let g:airline_right_sep='⮂'
 
 " Turn off the start up message
 set shortmess+=I
@@ -144,7 +156,7 @@ autocmd Filetype cpp setlocal ts=8 sts=8 sw=8
 
 autocmd Filetype python setlocal ts=4 sts=4 sw=4 textwidth=80 smarttab expandtab smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
-autocmd Filetype c setlocal ts=8 sts=8 sw=8 textwidth=80 smarttab noexpandtab
+autocmd Filetype c setlocal ts=8 sts=8 sw=8 textwidth=80 smarttab expandtab
 
 " No Swap files
 set noswapfile
@@ -154,6 +166,10 @@ let g:easytags_updatetime_min=4
 
 " For tagbar toggle
 nmap <F8> :TagbarToggle<CR>
+
+" For NERDtree toggle
+map <F5> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " For neocomplcache autostart up
 let g:neocomplcache_enable_at_startup = 1
@@ -165,12 +181,6 @@ map <ScrollWheelDown> <C-E>
 set cursorline
 
 function! s:GetFromFile(...)
-        execute 'r! sed -n '. a:1 .','. a:2 .'p '. a:3
+        execute '! sed -n'. a:1 .','. a:2 .'p '. a:3
 endf
 command -nargs=+ -complete=file GetFromFile call s:GetFromFile(<f-args>)
-
-let g:loaded_matchparen=0
-
-set ttimeout
-set ttimeoutlen=100
-set timeoutlen=3000
