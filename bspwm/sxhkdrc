@@ -1,6 +1,6 @@
 # vim: set ft=sxhkdrc:
 
-# Excit bspwm
+# Exit bspwm
 alt + shift + q
     bspc quit 1 && pkill bar
 
@@ -12,6 +12,7 @@ ctrl + shift + s
 ctrl + shift + r
     termite -e ranger
 
+# Starts mpv
 ctrl + shift + m
     mpv --no-terminal http://192.168.1.73:9884
 
@@ -19,13 +20,9 @@ ctrl + shift + m
 ctrl + shift + z
     termite -e calcurse
 
-# Starts firefox
-ctrl + shift + f
-    GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc firefox
-
 # Starts chromium
 ctrl + shift + c
-    GTK2_RC_FILES=/home/fenriz/.config/gtk-2.0/gtkrc chromium
+    chromium
 
 ctrl + shift + w
     termite -e weechat
@@ -109,15 +106,29 @@ super + {o,i}
 super + m
     bspc window -s biggest
 
+# Move current floating window into presel area
+super + p
+    bspc window -t floating -w last.manual
+
+# Lock focused window's size.
+shift + alt + l
+    bspc window -t private
+
+# Resize floating windows
+alt + {Left,Right,Up,Down}
+    xdo move {-x -30,-x +30,-y -30,-y +30}
+
+# Resize floating windows
+alt + shift + {Left,Right,Up,Down}
+    xdo resize {-w -20,-w +20,-h -20,-h +20}
+
+# Focus on floating / tiled
+alt + {e,w}
+    bspc window -f {next.floating,next.tiled}
+
 # Moves window to (which ever direction)
 super + {_,shift + }{h,j,k,l}
     bspc window -{f,s} {left,down,up,right}
-
-super + {_,shift + }c
-    bspc window -f {next,prev}
-
-super + {comma,period}
-    bspc desktop -C {backward,forward}
 
 super + bracket{left,right}
     bspc desktop -f {prev,next}

@@ -9,5 +9,10 @@ fi
 rules=$(rulc -l)
 if [ -z "$rules" ] ; then
         rulc -a 'class=="Firefox"' 'desktop=^2'
+        rulc -a 'class=="Chromium"' 'desktop=^2'
+        rulc -a 'class=="Eclipse"' 'desktop=^3 -l monocle'
+        rulc -a 'class=="Skype"'   'desktop=^3 floating=on'
+        rulc -a 'class=="calcurse"'   'desktop=^3 private=on'
+	rulc -a 'class=="Wicd-client.py"'  'desktop=^1 floating=on'
 
 fi
