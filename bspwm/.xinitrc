@@ -7,6 +7,8 @@ xset fp rehash
 
 wmname LG3D
 
+powertop --auto-tune &
+
 # Save my eyes
 redshift -l 49.26:-123.23 &
 # Capslock = Escape
