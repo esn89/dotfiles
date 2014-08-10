@@ -1,5 +1,5 @@
 if has("syntax")
-        syntax on
+	syntax on
 endif
 
 set nocompatible
@@ -7,7 +7,6 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
-filetype plugin indent on
 syntax on
 
 Plugin 'gmarik/Vundle.vim'
@@ -20,21 +19,24 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'chriskempson/base16-vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 """"""""""""""""""""""""""""""""
 
-call vundle#end()
 filetype plugin indent on
+call vundle#end()
 
+
+let base16colorspace=256  " Access colors present in 256 colorspace
 set modelines=0
 
 " Tell my terminal to go into 256 color mode
-set t_Co=256
+"set t_Co=256
 
 " Sets the colors of my vertical indent lines
 let g:indentLine_color_term = 239
 
 " Select theme
-let base16colorspace=256
 set background=dark
 colorscheme base16-default
 
@@ -89,7 +91,7 @@ set pastetoggle=<F2>
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 if has("autocmd")
-        au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
 " Automatically remove trailing white space
@@ -107,28 +109,28 @@ set encoding=utf-8
 "
 " --- Lightline settings ---
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ 'active': {
-      \   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'], [ 'fileformat', 'fileencoding', 'filetype' ] ]
-      \ },
-      \ 'component': {
-      \   'readonly': '%{&readonly?"⭤":""}',
-      \ },
-      \ 'component_expand': {
-      \   'syntastic': 'SyntasticStatuslineFlag',
-      \ },
-      \ 'component_type': {
-      \   'syntastic': 'error',
-      \ }
-      \ }
+			\ 'colorscheme': 'wombat',
+			\ 'active': {
+			\   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'], [ 'fileformat', 'fileencoding', 'filetype' ] ]
+			\ },
+			\ 'component': {
+			\   'readonly': '%{&readonly?"⭤":""}',
+			\ },
+			\ 'component_expand': {
+			\   'syntastic': 'SyntasticStatuslineFlag',
+			\ },
+			\ 'component_type': {
+			\   'syntastic': 'error',
+			\ }
+			\ }
 
 augroup AutoSyntastic
-  autocmd!
-  autocmd BufWritePost * call s:syntastic()
+	autocmd!
+	autocmd BufWritePost * call s:syntastic()
 augroup END
 function! s:syntastic()
-  SyntasticCheck
-  call lightline#update()
+	SyntasticCheck
+	call lightline#update()
 endfunction
 
 " Turn off the start up message
@@ -174,13 +176,25 @@ nmap <F8> :TagbarToggle<CR>
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
+" Fuck it, YCM will not be given Tab
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
+
+" UltiSnips
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsListSnippets="<c-e>"
+let g:UltiSnipsExpandTrigger="<tab>"
+
+
+set runtimepath+=~/.vim/bundle/ultisnips
+"let g:UltiSnipsSnippetsDir="~/.vim/bundle/vim-snippets/UltiSnips"
 
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
 function! s:GetFromFile(...)
-        execute 'r! sed -n '. a:1 .','. a:2 .'p '. a:3
+	execute 'r! sed -n '. a:1 .','. a:2 .'p '. a:3
 endf
 command -nargs=+ -complete=file GetFromFile call s:GetFromFile(<f-args>)
 
@@ -188,3 +202,4 @@ let g:loaded_matchparen=0
 
 set lazyredraw
 set ttyfast
+set cursorline
