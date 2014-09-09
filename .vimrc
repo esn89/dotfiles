@@ -4,7 +4,6 @@ endif
 
 set nocompatible
 filetype off
-
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 syntax on
@@ -13,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 """"""""""""""""""""""""""""""""
 Plugin 'scrooloose/syntastic'
 Plugin 'majutsushi/tagbar'
-Plugin 'Yggdroot/indentLine'
+Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'itchyny/lightline.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
@@ -22,19 +21,14 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 """"""""""""""""""""""""""""""""
-
 filetype plugin indent on
 call vundle#end()
-
 
 let base16colorspace=256  " Access colors present in 256 colorspace
 set modelines=0
 
-" Tell my terminal to go into 256 color mode
-"set t_Co=256
-
-" Sets the colors of my vertical indent lines
-let g:indentLine_color_term = 239
+" Sets the size of my vertical indent lines
+let g:indent_guides_guide_size=1
 
 " Select theme
 set background=dark
@@ -101,12 +95,6 @@ autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 set laststatus=2
 set encoding=utf-8
 
-"  --- Powerline is temporarily scrapped in favor of
-"  lightline ---
-"let g:Powerline_symbols = 'fancy'
-"let g:airline_theme='base16'
-"let g:airline_powerline_fonts=1
-"
 " --- Lightline settings ---
 let g:lightline = {
 			\ 'colorscheme': 'wombat',
@@ -156,11 +144,14 @@ set tw=60
 
 " Set Java file type properties:
 autocmd Filetype java setlocal ts=4 sts=4 sw=4 noexpandtab
-" Set CPP file type properties:
+
+" Set cpp type properties:
 autocmd Filetype cpp setlocal ts=8 sts=8 sw=8
 
+" Set python file type properties:
 autocmd Filetype python setlocal ts=4 sts=4 sw=4 textwidth=80 smarttab expandtab smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
+" Set c file type properties:
 autocmd Filetype c setlocal ts=8 sts=8 sw=8 textwidth=80 smarttab noexpandtab
 
 " No Swap files
@@ -173,6 +164,20 @@ let g:easytags_updatetime_min=4
 nmap <F8> :TagbarToggle<CR>
 
 " For YouCompleteMe
+let g:ycm_semantic_triggers =  {
+			\   'c' : ['->', '.'],
+			\   'objc' : ['->', '.'],
+			\   'ocaml' : ['.', '#'],
+			\   'cpp,objcpp' : ['->', '.', '::'],
+			\   'perl' : ['->'],
+			\   'php' : ['->', '::'],
+			\   'cs,java,javascript,d,vim,python,perl6,scala,vb,elixir,go' : ['.'],
+			\   'ruby' : ['.', '::'],
+			\   'lua' : ['.', ':'],
+			\   'erlang' : [':'],
+			\ }
+"
+let g:ycm_global_ycm_extra_conf = '/home/fenriz/.ycm.py'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
@@ -180,19 +185,20 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
 
+
 " UltiSnips
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsListSnippets="<c-e>"
 let g:UltiSnipsExpandTrigger="<tab>"
-
-
 set runtimepath+=~/.vim/bundle/ultisnips
-"let g:UltiSnipsSnippetsDir="~/.vim/bundle/vim-snippets/UltiSnips"
 
+
+" Mouse settings
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
+" Function to pull lines from other files
 function! s:GetFromFile(...)
 	execute 'r! sed -n '. a:1 .','. a:2 .'p '. a:3
 endf
@@ -203,3 +209,60 @@ let g:loaded_matchparen=0
 set lazyredraw
 set ttyfast
 set cursorline
+
+" For vim splitting purposes:
+
+" Easier Split Navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
+"map <Up> <C-w>+
+" Window resizing mappings /*{{{*/
+nnoremap <S-Up> :normal <c-r>=Resize('+')<CR><CR>
+nnoremap <S-Down> :normal <c-r>=Resize('-')<CR><CR>
+nnoremap <S-Left> :normal <c-r>=Resize('<')<CR><CR>
+nnoremap <S-Right> :normal <c-r>=Resize('>')<CR><CR>
+
+function! Resize(dir)
+	let this = winnr()
+	if '+' == a:dir || '-' == a:dir
+		execute "normal \<c-w>k"
+		let up = winnr()
+		if up != this
+			execute "normal \<c-w>j"
+			let x = 'bottom'
+		else
+			let x = 'top'
+		endif
+	elseif '>' == a:dir || '<' == a:dir
+		execute "normal \<c-w>h"
+		let left = winnr()
+		if left != this
+			execute "normal \<c-w>l"
+			let x = 'right'
+		else
+			let x = 'left'
+		endif
+	endif
+	if ('+' == a:dir && 'bottom' == x) || ('-' == a:dir && 'top' == x)
+		return "5\<c-v>\<c-w>+"
+	elseif ('-' == a:dir && 'bottom' == x) || ('+' == a:dir && 'top' == x)
+		return "5\<c-v>\<c-w>-"
+	elseif ('<' == a:dir && 'left' == x) || ('>' == a:dir && 'right' == x)
+		return "5\<c-v>\<c-w><"
+	elseif ('>' == a:dir && 'left' == x) || ('<' == a:dir && 'right' == x)
+		return "5\<c-v>\<c-w>>"
+	else
+		echo "oops. check your ~/.vimrc"
+		return ""
+	endif
+endfunction
+" /*}}}*/
+
+
+
