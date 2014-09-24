@@ -164,18 +164,18 @@ let g:easytags_updatetime_min=4
 nmap <F8> :TagbarToggle<CR>
 
 " For YouCompleteMe
-let g:ycm_semantic_triggers =  {
-			\   'c' : ['->', '.'],
-			\   'objc' : ['->', '.'],
-			\   'ocaml' : ['.', '#'],
-			\   'cpp,objcpp' : ['->', '.', '::'],
-			\   'perl' : ['->'],
-			\   'php' : ['->', '::'],
-			\   'cs,java,javascript,d,vim,python,perl6,scala,vb,elixir,go' : ['.'],
-			\   'ruby' : ['.', '::'],
-			\   'lua' : ['.', ':'],
-			\   'erlang' : [':'],
-			\ }
+"let g:ycm_semantic_triggers =  {
+"			\   'c' : ['->', '.'],
+"			\   'objc' : ['->', '.'],
+"			\   'ocaml' : ['.', '#'],
+"			\   'cpp,objcpp' : ['->', '.', '::'],
+"			\   'perl' : ['->'],
+"			\   'php' : ['->', '::'],
+"			\   'cs,java,javascript,d,vim,python,perl6,scala,vb,elixir,go' : ['.'],
+"			\   'ruby' : ['.', '::'],
+"			\   'lua' : ['.', ':'],
+"			\   'erlang' : [':'],
+"			\ }
 "
 let g:ycm_global_ycm_extra_conf = '/home/fenriz/.ycm.py'
 let g:ycm_server_keep_logfiles = 1
@@ -184,6 +184,8 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
 " Fuck it, YCM will not be given Tab
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
+let g:ycm_register_as_syntastic_checker=0
+"let g:ycm_show_diagnostics_ui=1
 
 
 " UltiSnips
