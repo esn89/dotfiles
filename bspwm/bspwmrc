@@ -1,17 +1,20 @@
 #! /bin/sh
 
-bspc monitor -d I II III IV
 
 
 bspc config border_width                1
-bspc config window_gap                  24
+bspc config window_gap			23
 bspc config split_ratio                 0.50
+bspc config left_padding		0
+bspc config right_padding		0
+bspc config bottom_padding		-3
+bspc config top_padding 		15
 bspc config borderless_monocle          true
 bspc config gapless_monocle             true
 bspc config focus_follows_pointer       false
 bspc config auto_alternate              false
 bspc config auto_cancel                 true
-bspc config top_padding                 21
+bspc config top_padding                 24
 bspc config normal_border_color         "#181512"
 bspc config focused_border_color        "#A9A2A2"
 bspc config presel_border_color         "#AC4142"
@@ -19,9 +22,11 @@ bspc config presel_border_color         "#AC4142"
 bspc config normal_frame_opacity        0.0
 bspc config focused_frame_opacity       0.05
 
-#bspc rule -a Skype -d ^3 --floating
-bspc desktop ^2 -l monocle
-bspc desktop ^3 -l monocle
+bspc monitor -d I II III IV
+bspc rule -a Skype desktop=^3 pseudo_tiled=on
+bspc rule -a Chromium desktop=^2 floating=on
+bspc rule -a wicd-client.py desktop=^1 floating=on
+
 bspc config rule_command "$(which rule_command)"
 
 bspwm_rules

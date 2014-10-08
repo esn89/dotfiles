@@ -1,9 +1,8 @@
 # vim: set ft=sxhkdrc:
 
-# Exit bspwm
-alt + shift + q
-    bspc quit 1 && pkill bar
-
+##########################
+#Launcher
+##########################
 # Starts skype
 ctrl + shift + s
     skype
@@ -14,18 +13,23 @@ ctrl + shift + r
 
 # Starts mpv
 ctrl + shift + m
-    mpv --no-terminal http://192.168.1.73:9884
-
-# Starts calcurse
-ctrl + shift + z
-    termite -e calcurse
+    mpv --no-terminal http://23.16.5.141:9884
 
 # Starts chromium
-ctrl + shift + c
+ctrl + shift + a
     chromium
 
+# Starts weechat
 ctrl + shift + w
     termite -e weechat
+
+# Starts gmrun
+alt + r
+    gmrun
+
+##########################
+#System
+##########################
 
 # Raises volume
 XF86AudioRaiseVolume
@@ -39,16 +43,17 @@ XF86AudioLowerVolume
 XF86AudioMute
     amixer set Master toggle
 
+# Brightness goes up
 XF86MonBrightnessUp
     brightnessScript
 
+# Brightness goes down
 XF86MonBrightnessDown
     brightnessScript
 
+# Screen lock
 XF86ScreenSaver
     slimlock
-
-###############################
 
 # Turns off laptop
 ctrl + Escape
@@ -58,12 +63,9 @@ ctrl + Escape
 ctrl + super + r
     bspc reload
 
-super + alt + Escape
-    bspc quit
-
-# Starts gmrun
-alt + r
-    gmrun
+##########################
+#For bspwm itself
+##########################
 
 # Rotates my tree
 super + r
@@ -96,6 +98,9 @@ super + {s,f}
 # Toggles between last tag
 super + {grave,Tab}
     bspc {window,desktop} -f last
+
+super + apostrophe
+    bspc window -s last
 
 super + {o,i}
     bspc control --record-history off; \
@@ -130,9 +135,6 @@ alt + {e,w}
 super + {_,shift + }{h,j,k,l}
     bspc window -{f,s} {left,down,up,right}
 
-super + bracket{left,right}
-    bspc desktop -f {prev,next}
-
 super + ctrl + {h,j,k,l}
     bspc window -p {left,down,up,right}
 
@@ -140,10 +142,10 @@ super + ctrl + {_,shift + }space
     bspc {window -p cancel,desktop -c}
 
 super + alt + {h,j,k,l}
-    bspc window -e {left,down,up,right} push
+	bspc window -e {left -10,down +10,up -10,right +10}
 
 super + alt + shift + {h,j,k,l}
-    bspc window -e {right,up,down,left} pull
+	bspc window -e {right -10,up +10,down -10,left +10}
 
 super + ctrl + {1-9}
     bspc window -r 0.{1-9}
@@ -154,24 +156,24 @@ super + {_,shift + }{1-9,0}
 ~button1
     bspc pointer -g focus
 
+# Move or resize window
 super + button{1-3}
-    bspc pointer -g {move,resize_side,resize_corner}
+	bspc pointer -g {move,resize_side,resize_corner}
 
+# Needed for ^^^^
 super + !button{1-3}
-    bspc pointer -t %i %i
+	bspc pointer -t %i %i
 
 super + @button{1-3}
-    bspc pointer -u
+	bspc pointer -u
 
-#
-# wm independent hotkeys
-#
 
+super + @button{1-3}
+bspc pointer -u
+
+# launches termite
 super + Return
     termite
-
-super + space
-    dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape
