@@ -217,7 +217,7 @@ case "$flavor" in
 	bar)
 		FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
-		cat "$PANEL_FIFO" | panel_bar | bar -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$BG" -B "$BG" | while read action; do
+		cat "$PANEL_FIFO" | panel_bar | bar-aint-recursive -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$BG" -B "$BG" | while read action; do
 			case $action in
 				opengmail) onClickEmail
 					;;
