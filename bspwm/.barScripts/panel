@@ -29,21 +29,24 @@ bspc config top_padding $PANEL_HEIGHT
 #BG="%{F#FF3B3228}"
 
 # Colorscheme for default-dark
-BLUE="%{F#FF6A9FB5}"
-RED="%{F#FFAC4142}"
-YELLOW="%{F#FFFF4BF75}"
-ORANGE="%{F#FFD28B71}"
-MAGENTA="%{F#FFAA759F}"
-TEAL="%{F#FF75B5AA}"
-LIGHTGREY="%{F#FFB0B0B0}"
-DARKGREY="%{F#FF505050}"
-GREEN="%{F#FF99CC99}"
+BLUE="%{F#FF5F819D}"
+LIGHTBLUE="%{F#FF81A2BE}"
+RED="%{F#FFA54242}"
+LIGHTRED="%{F#FFCC6666}"
+YELLOW="%{F#FFF0C674}"
+ORANGE="%{F#FFDE935F}"
+MAGENTA="%{F#FF85678F}"
+TEAL="%{F#FF5E8D87}"
+LIGHTGREY="%{F#FFC5C8C6}"
+DARKGREY="%{F#FF707880}"
+GREEN="%{F#FF8C9440}"
+LIGHTGREEN="%{F#FFB5BD68}"
 PURPLE="%{F#FF9547C9}"
 BG="%{F#FF151515}"
 
 bspc control --subscribe > "$PANEL_FIFO" &
 xtitle -sf 'T%s' > "$PANEL_FIFO" &
-echo 'E' $GREEN' '$DARKGREY'Fenriz' $TEAL'⮁' > "$PANEL_FIFO" &
+echo 'E' $LIGHTGREEN' '$DARKGREY'Fenriz' $TEAL > "$PANEL_FIFO" &
 
 panel_emailStatus()
 {
@@ -58,30 +61,10 @@ panel_emailStatus()
 		if [ $totalEmail -gt 0 ];
 		then
 			icon=""
-			echo $PURPLE$icon  $LIGHTGREY$totalEmail
+			echo $LIGHTRED$icon  $LIGHTGREY$totalEmail
 		else
 			icon=""
-			echo $LIGHTGREY$icon  $DARKGREY$totalEmail
-		fi
-	fi
-}
-
-panel_updateStatus()
-{
-	updateIcon=" "
-	if [ ! -f /tmp/numOfUpdates ];
-	then
-		echo $YELLOW$updateIcon 0
-	else
-		numberOfUpdates=$(cat /tmp/numOfUpdates | wc -l)
-		if [ $numberOfUpdates -eq 1 ];
-		then
-			echo $RED$updateIcon $numberOfUpdates
-		elif [ $numberOfUpdates -gt 1 ];
-		then
-			echo $RED$updateIcon $numberOfUpdates
-		else
-			echo $YELLOW$updateIcon $numberOfUpdates
+			echo $DARKGREY$icon  $DARKGREY$totalEmail
 		fi
 	fi
 }
@@ -92,13 +75,13 @@ panel_volicon()
         headphone=$(amixer -c 0 contents | grep 17 -A 2 | awk 'NR==3 { print $2 }' | cut -d '=' -f 2)
 
         if [ "$volStatus" == "on" ] && [ "$headphone" == "off" ];
-                then echo $MAGENTA "⮃ ⮞"
+                then echo $LIGHTGREY " ⮞"
         elif [ "$volStatus" == "on" ] && [ "$headphone" == "on" ];
-                then echo $MAGENTA "⮃ ⮜"
+                then echo $LIGHTGREY "♪"
         elif [ "$volStatus" == "off" ] && [ "$headphone" == "on" ];
-                then echo $RED "⮃ ⮜"
+                then echo $LIGHTRED "♪"
         elif [ "$volStatus" == "off" ] && [ "$headphone" == "off" ];
-                then echo $RED "⮃ ⮝"
+                then echo $LIGHTRED " ⮝"
 	else echo "foo"
         fi
 }
@@ -109,68 +92,120 @@ panel_volume()
         volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
         volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/\%].*//g')
         case $volLevel in
-		100)    if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"——————————"
-		else echo $(panel_volicon) $RED"——————————"
+		#100)    if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"——————————"
+		#else echo $(panel_volicon) $RED"——————————"
+                #        fi
+                #        ;;
+		#[0-9]) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"—"$BG"—————————"
+		#else echo $(panel_volicon) $RED"—"$BG"—————————"
+                #        fi
+                #        ;;
+		#1*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"——"$BG"————————"
+		#else echo $(panel_volicon) $RED"——"$BG"————————"
+                #        fi
+                #        ;;
+		#2*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"———"$BG"———————"
+		#else echo $(panel_volicon) $RED"———"$BG"———————"
+                #        fi
+                #        ;;
+		#3*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"————"$BG"——————"
+		#else echo $(panel_volicon) $RED"————"$BG"——————"
+                #        fi
+                #        ;;
+		#4*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"—————"$BG"—————"
+		#else echo $(panel_volicon) $RED"—————"$BG"—————"
+                #        fi
+                #        ;;
+		#5*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"——————"$BG"————"
+		#else echo $(panel_volicon) $RED"——————"$BG"————"
+                #        fi
+                #        ;;
+		#6*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"———————"$BG"———"
+		#else echo $(panel_volicon) $RED"———————"$BG"———"
+                #        fi
+                #        ;;
+		#7*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"————————"$BG"——"
+		#else echo $(panel_volicon) $RED"————————"$BG"——"
+                #        fi
+                #        ;;
+		#8*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"——————————"$BG"—"
+		#else echo $(panel_volicon) $RED"——————————"$BG"—"
+                #        fi
+                #        ;;
+		#9*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY"——————————"
+		#else echo $(panel_volicon) $RED"——————————"
+                #        fi
+                #        ;;
+
+		100)    if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		[0-9]) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"—"$BG"—————————"
-		else echo $(panel_volicon) $RED"—"$BG"—————————"
+		[0-9]) if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		1*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"——"$BG"————————"
-		else echo $(panel_volicon) $RED"——"$BG"————————"
+		1*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		2*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"———"$BG"———————"
-		else echo $(panel_volicon) $RED"———"$BG"———————"
+		2*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		3*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"————"$BG"——————"
-		else echo $(panel_volicon) $RED"————"$BG"——————"
+		3*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		4*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"—————"$BG"—————"
-		else echo $(panel_volicon) $RED"—————"$BG"—————"
+		4*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		5*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"——————"$BG"————"
-		else echo $(panel_volicon) $RED"——————"$BG"————"
+		5*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		6*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"———————"$BG"———"
-		else echo $(panel_volicon) $RED"———————"$BG"———"
+		6*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		7*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"————————"$BG"——"
-		else echo $(panel_volicon) $RED"————————"$BG"——"
+		7*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		8*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"——————————"$BG"—"
-		else echo $(panel_volicon) $RED"——————————"$BG"—"
+		8*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
-		9*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $MAGENTA"——————————"
-		else echo $(panel_volicon) $RED"——————————"
+		9*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
+		else echo $(panel_volicon) $RED$volLevel
                         fi
                         ;;
+
         esac
 }
 
 panel_sigStrength()
 {
         signalStrength=$(cat /proc/net/wireless | awk 'NR==3 { print $3}' | sed 's/\.//')
+	isEthernet=$(connmanctl technologies | awk '/Connected/ { print $NF }')
 
-        if [ "$signalStrength" -gt 64 ]
+	final=$(echo $isEthernet | awk '{print $1}')
+
+	if [ "$final" == "True" ]
+	then
+                echo $LIGHTBLUE "Wired "
+        elif [ "$signalStrength" -gt 64 ]
         then
-                echo "⮃"$ORANGE " ‗▬▪▮"
+                echo $LIGHTBLUE "‗▬▪▮"
         elif [ "$signalStrength" -lt 65 ] && [ "$signalStrength" -gt 39 ]
         then
-                echo "⮃"$ORANGE " ‗▬▪"$DARKGREY"▮"$ORANGE
+                echo $LIGHTBLUE " ‗▬▪"$DARKGREY"▮"$BLUE
         elif [ "$signalStrength" -lt 40 ]
         then
-                echo "⮃"$ORANGE " ‗▬"$DARKGREY"▪▮"$ORANGE
+                echo $LIGHTBLUE " ‗▬"$DARKGREY"▪▮"$BLUE
         else
-                echo "⮃"$DARKGREY " ‗▬▪▮ Not connected"
+                echo $DARKGREY " ‗▬▪▮ Connecting..."
         fi
 }
 
@@ -184,30 +219,34 @@ panel_battery()
         batStats=$(acpi --battery | cut -d' ' -f3 | sed 's/,//')
         if [ "$batStats" == "" ]
         then
-                echo $LIGHTGREY "⮃ ⮎ AC"
+                echo $DARKGREY "AC"
         elif [ "$batStats" == "Charging" ]
         then
-                echo $GREEN"⮃ ⮒" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
+                echo $GREEN"" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"+"
         elif [ "$batStats" == "Discharging" ]
         then
-                echo $RED "⮃ ⮑" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
+                echo $RED "" $(acpi --battery | cut -d' ' -f4 | sed 's/%,//')"-"
 	elif [ "$batStats" == "Unknown" ]
 	then
-                echo $GREEN"⮃ ⮒ Fully Charged"
-        else    echo $YELLOW "⮃ Refreshing..."
+                echo $GREEN"⮒  Fully Charged"
+        else    echo $YELLOW "Refreshing..."
         fi
 }
 
 panel_clock()
 {
-	echo $BLUE "⮃ ⭧ " $(clock -f '%a %d %I: %M')
+	echo $BLUE " " $(clock -f '%a %d %I:%M')
+}
+
+panel_vancouver()
+{
+	echo $DARKGREY "Vancouver " $(date -d -8hours +"%I:%M%P")
 }
 
 # Loop to check time, battery and volume statuses
 while true; do
-	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
-	echo "U"%{A:showUpdates:} $(panel_updateStatus) $TEAL%{A} "⮁" > "$PANEL_FIFO" &
-	echo "S" $(panel_battery)%{A:startWicd:} $(panel_essid)%{A} $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
+	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} > "$PANEL_FIFO" &
+	echo "S" $(panel_battery)%{A:startWicd:} $(panel_essid)%{A} $(panel_volume) $(panel_vancouver) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &
 
@@ -215,13 +254,12 @@ done &
 
 case "$flavor" in
 	bar)
-		FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
+		#FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
+		FONT_FAMILY='-benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1'
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
-		cat "$PANEL_FIFO" | panel_bar | bar-aint-recursive -p -g 1394x14+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$BG" -B "$BG" | while read action; do
+		cat "$PANEL_FIFO" | panel_bar | bar-aint-recursive -p -g 1394x15+22+6 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$BG" -B "$BG" | while read action; do
 			case $action in
 				opengmail) onClickEmail
-					;;
-				showUpdates) python /home/fenriz/.barShit/onClickUpdates.py
 					;;
 				startWicd) wicdScript
 					;;

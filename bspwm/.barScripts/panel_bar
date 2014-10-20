@@ -19,19 +19,19 @@
 
 
 # Colorscheme for default-dark
-BLUE="#FF6A9FB5"
-RED="#FFAC4142"
-YELLOW="#FFFF4BF75"
-ORANGE="#FFD28B71"
-MAGENTA="#FFAA759F"
-TEAL="#FF75B5AA"
-LIGHTGREY="#FFB0B0B0"
-DARKGREY="#FF505050"
-GREEN="#FF99CC99"
+BLUE="#FF5F819D"
+LIGHTBLUE="#FF81A2BE"
+RED="#FFA54242"
+YELLOW="#FFF0C674"
+ORANGE="#FFDE935F"
+MAGENTA="#FF85678F"
+TEAL="#FF5E8D87"
+LIGHTGREY="#FFC5C8C6"
+DARKGREY="#FF707880"
+GREEN="#FF8C9440"
 PURPLE="#FF9547C9"
 BG="#FF151515"
-
-MIDDLE="#FF215666"
+MIDDLE="#FF373B41"
 
 while read -r line ; do
 	case $line in
@@ -67,15 +67,15 @@ while read -r line ; do
 				case $item in
 					[OU]*)
 						# focused occupied desktop
-						wm_infos="$wm_infos  %{F$COLOR_FOCUSED_OCCUPIED_FG}%{U$COLOR_FOREGROUND}%{+u}%{U$ORANGE}"•"%{-u}"
+						wm_infos="$wm_infos  %{F$COLOR_FOCUSED_OCCUPIED_FG}%{U$COLOR_FOREGROUND}%{+u}%{U$LIGHTBLUE}"●"%{-u}"
 						;;
 					F*)
 						#focused free desktop
-						wm_infos="$wm_infos  %{F$COLOR_FREE_FG}%{U$COLOR_FOREGROUND}%{+u}○%{-u}"
+						wm_infos="$wm_infos  %{F$COLOR_FREE_FG}%{U$COLOR_FOREGROUND}%{+u}%{U$LIGHTBLUE}○%{-u}"
 						;;
 					o*)
 						# occupied desktop
-						wm_infos="$wm_infos  %{F$COLOR_OCCUPIED_FG}•"
+						wm_infos="$wm_infos  %{F$COLOR_OCCUPIED_FG}●"
 						;;
 					f*)
 						# free desktop
@@ -83,12 +83,12 @@ while read -r line ; do
 						;;
 					u*)
 						# urgent desktop
-						wm_infos="$wm_infos  %{F$COLOR_URGENT_FG}•"
+						wm_infos="$wm_infos  %{F$COLOR_URGENT_FG}●"
 						;;
 				esac
 				shift
 			done
 			;;
 	esac
-	printf "%s\n" "%{l}$userInfo $emailInfo $updates  $title %{c} %{F$BG}%{B$MIDDLE}⮀$wm_infos  %{F$BG}%{B$MIDDLE}⮂%{F$COLOR_TITLE_FG}%{B$BG}%{r} $sys_infos  "
+	printf "%s\n" "%{l}$userInfo $emailInfo $updates  $title %{c} %{B$MIDDLE}$wm_infos  %{F$BG}%{B$MIDDLE}%{F$COLOR_TITLE_FG}%{B$BG}%{r} $sys_infos  "
 done
