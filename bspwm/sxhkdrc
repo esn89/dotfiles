@@ -13,7 +13,11 @@ ctrl + shift + r
 
 # Starts mpv
 ctrl + shift + m
-    mpv --no-terminal http://23.16.5.141:9884
+    mpv --no-terminal http://23.16.171.175:9884
+
+# Kills mpv
+ctrl + shift + j
+    killall mpv
 
 # Starts chromium
 ctrl + shift + a
@@ -22,6 +26,10 @@ ctrl + shift + a
 # Starts weechat
 ctrl + shift + w
     termite -e weechat
+
+# Starts nmcpcpp
+ctrl + shift + p
+    termite -e ncmpcpp
 
 # Starts gmrun
 alt + r
@@ -33,11 +41,11 @@ alt + r
 
 # Raises volume
 XF86AudioRaiseVolume
-    amixer set Master 3%+
+    amixer set Master 2%+
 
 # Lowers volume
 XF86AudioLowerVolume
-    amixer set Master 3%-
+    amixer set Master 2%-
 
 # Mutes
 XF86AudioMute
@@ -53,10 +61,10 @@ XF86MonBrightnessDown
 
 # Screen lock
 XF86ScreenSaver
-    slimlock
+    blur
 
 # Turns off laptop
-ctrl + Escape
+XF86Launch1
     systemctl poweroff
 
 # Reloads bspwm..don't know if it works
@@ -178,3 +186,7 @@ super + Return
 # make sxhkd reload its configuration files:
 super + Escape
     pkill -USR1 -x sxhkd
+
+# Change window gap
+alt + {minus,equal}
+    bspc config -d focused window_gap $((`bspc config -d focused window_gap` {+,-} 2 ))

@@ -70,9 +70,6 @@ set nolist
 " Searching"
 set ignorecase  "case insensitive
 
-" Highlighted Search terms:"
-set hlsearch!
-
 " Sets F3 to cancel the highlighting "
 nnoremap <F3> :set hlsearch!<CR>
 
@@ -185,7 +182,6 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
 let g:ycm_register_as_syntastic_checker=0
-"let g:ycm_show_diagnostics_ui=1
 
 
 " UltiSnips

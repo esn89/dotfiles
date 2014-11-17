@@ -54,14 +54,14 @@ panel_emailStatus()
 	# if totalemail doesn't exist in the /tmp dir.
 	if [ ! -f /tmp/totalemail ];
 	then
-		echo $LIGHTGREY$icon  $LIGHTGREY 0
+		echo $DARKGREY$icon  $DARKGREY 0
 		# it exists
 	else
 		totalEmail=$(cat /tmp/totalemail)
 		if [ $totalEmail -gt 0 ];
 		then
 			icon=""
-			echo $LIGHTRED$icon  $LIGHTGREY$totalEmail
+			echo $LIGHTRED$icon  $DARKGREY$totalEmail
 		else
 			icon=""
 			echo $DARKGREY$icon  $DARKGREY$totalEmail
@@ -138,47 +138,47 @@ panel_volume()
                 #        ;;
 
 		100)    if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		[0-9]) if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		1*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		2*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon) $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		3*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		4*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		5*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		6*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		7*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		8*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 		9*) if [ "$volStatus" == "on" ]; then echo $(panel_volicon)  $LIGHTGREY$volLevel
-		else echo $(panel_volicon) $RED$volLevel
+		else echo $(panel_volicon) $LIGHTRED$volLevel
                         fi
                         ;;
 
@@ -246,7 +246,7 @@ panel_vancouver()
 # Loop to check time, battery and volume statuses
 while true; do
 	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} > "$PANEL_FIFO" &
-	echo "S" $(panel_battery)%{A:startWicd:} $(panel_essid)%{A} $(panel_volume) $(panel_vancouver) $(panel_clock) > "$PANEL_FIFO" &
+	echo "S" $(panel_battery)%{A:startWicd:}$(panel_essid)%{A} $(panel_volume) $(panel_vancouver) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &
 
@@ -257,7 +257,7 @@ case "$flavor" in
 		#FONT_FAMILY='-benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1'
 		FONT_FAMILY='-benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1'
 		FONT_FAMILY2='-misc-xbmicons-Medium-R-Normal--12-120-72-72-C-60-ISO10646-1'
-		cat "$PANEL_FIFO" | panel_bar | bar-aint-recursive -p -g 1394x15+22+6 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$BG" -B "$BG" | while read action; do
+		cat "$PANEL_FIFO" | panel_bar | bar-aint-recursive -p -g 1394x15+22 -f "$FONT_FAMILY2","$FONT_FAMILY" -u 2 -F "$BG" -B "$BG" | while read action; do
 			case $action in
 				opengmail) onClickEmail
 					;;

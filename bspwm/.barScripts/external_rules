@@ -1,0 +1,19 @@
+#! /bin/sh
+
+wid=$1
+class=$2
+instance=$3
+
+if [ "$instance" = fontforge ] ; then
+	title=$(xtitle "$wid")
+	case "$title" in
+		"Open Font"|FontForge|Warning)
+			echo "floating=on"
+			;;
+	esac
+elif [ "$instance" = termite ]; then
+	thing=$(bspc query -D -d focused)
+	if [ "$thing" = II ] ; then
+		echo "floating=on"
+	fi
+fi

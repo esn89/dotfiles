@@ -1,11 +1,9 @@
 #! /bin/sh
 
-
-
 bspc config border_width                1
 bspc config window_gap			23
 bspc config split_ratio                 0.50
-bspc config left_padding		0
+bspc config left_padding		-3
 bspc config right_padding		0
 bspc config bottom_padding		-3
 bspc config top_padding 		15
@@ -23,10 +21,16 @@ bspc config normal_frame_opacity        0.0
 bspc config focused_frame_opacity       0.05
 
 bspc monitor -d I II III IV
-bspc rule -a Skype desktop=^3 pseudo_tiled=on
-bspc rule -a Chromium desktop=^2 floating=on
-bspc rule -a wicd-client.py desktop=^1 floating=on
 
+bspc rule -a scratchpad --sticky
+bspc rule -a Skype desktop=^3 pseudo_tiled=on
+bspc rule -a Chromium desktop=^2 floating=on follow=on
+bspc rule -a wicd-client.py desktop=^1 floating=on
+bspc rule -a sun-awt-X11-XFramePeer desktop=^3 floating=on
+bspc rule -a Deluge desktop=^3 floating=on
+bspc rule -a libreoffice floating=on
+
+bspc config external_rules_command "$(which external_rules)"
 bspc config rule_command "$(which rule_command)"
 
 bspwm_rules
