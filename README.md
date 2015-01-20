@@ -63,8 +63,3 @@ Script available
 Script available
 [here](https://github.com/esn89/dotfiles/blob/master/bspwm/.barScripts/brightnessScript)
 
-
-CURRENT:
-![Alt
-text](https://raw2.github.com/esn89/dotfiles/master/current.png "SCREENSHOT")
-
