@@ -21,41 +21,33 @@ Thanks to earsplit for showing us bspwm noobs the way.
 ###Battery and charging:
 
 Plugged in without battery status:
-![AC](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/adapter.png "Adapter")
+![AC](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/ac.png "Adapter")
 
 Charging:
-![Charging](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/charging.png "Charging")
+![Charging](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/batterycharge.png "Charging")
 
 Draining:
-![Draining](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/draining.png "Draining")
+![Draining](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/batterydischarge.png "Draining")
 
 ###SSID and wireless strength:
 
 Strong signal:
-![Strong](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/hiwifi.png "Strong")
+![Strong](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/fullstrengthwifi.png "Strong")
 
 Medium signal:
-![Medium](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/medwifi.png "Medium")
+![Medium](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/medistrenghthwifi.png "Medium")
 
 ###Volume and headphones:
 
 Music with speakers:
-![Speakers](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/volumeSp.png "Speakers")
+![Speakers](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/notmute.png "Speakers")
 
 Speakers mute:
-![SpeakersMute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/volumeSpMute.png "Speakers Mute")
-
-Headphones:
-![Headphones](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/headphones.png "Headphones")
-
-Headphones mute:
-![Headphones
-mute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/headphonesMute.png "Headphones mute")
+![SpeakersMute](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/mute.png "Speakers Mute")
 
 ###Gmail Notifier:
 
-![Headphones
-mute](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/email.png "email")
+![Gmail](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/emailicon.png "email")
 
 Pops up every n minutes (depending on your crontab setting)
 and stays on your desktop depending on your Dunst settings
@@ -66,7 +58,7 @@ Script available
 
 ###Brightness Notifier:
 
-![Brightness](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/brightness.png "brightness")
+![Brightness](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/brightness.png "brightness")
 
 Script available
 [here](https://github.com/esn89/dotfiles/blob/master/bspwm/.barScripts/brightnessScript)
@@ -76,9 +68,3 @@ CURRENT:
 ![Alt
 text](https://raw2.github.com/esn89/dotfiles/master/current.png "SCREENSHOT")
 
-
-Solid Powerline option:
-![powerline](https://raw2.github.com/esn89/dotfiles/master/bspwm/screenshots/powerLine.png "powerline")
-
-...is available
-[here](https://github.com/esn89/dotfiles/tree/master/bspwm/.barScripts/powerLinePanelBar)
