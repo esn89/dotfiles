@@ -52,7 +52,7 @@ The pop up itself:
 
 The notification on the status bar, which can be clicked,
 and it will direct you to Gmail
-![BarGmail](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/emailicon.png "BarGmail")
+![BarGmail](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/redmail.png "BarGmail")
 
 Pops up every n minutes (depending on your crontab setting)
 and stays on your desktop depending on your Dunst settings
