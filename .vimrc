@@ -5,24 +5,23 @@ endif
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#begin()
 syntax on
 
-Plugin 'gmarik/Vundle.vim'
-""""""""""""""""""""""""""""""""
-Plugin 'scrooloose/syntastic'
-Plugin 'majutsushi/tagbar'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'itchyny/lightline.vim'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'chriskempson/base16-vim'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-""""""""""""""""""""""""""""""""
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/syntastic'
+Plug 'itchyny/lightline.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'chriskempson/base16-vim'
+Plug 'tpope/vim-surround'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
 filetype plugin indent on
-call vundle#end()
 
 let base16colorspace=256  " Access colors present in 256 colorspace
 set modelines=0
@@ -49,8 +48,8 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 """""""""For indented tabs""""""""""""""""""""""
-set list lcs=tab:\|\
-hi Conceal ctermfg=white ctermbg=NONE
+"set list lcs=tab:\|\
+"hi Conceal ctermfg=white ctermbg=NONE
 
 " No annoying sound on errors:  "
 set noerrorbells
@@ -160,21 +159,7 @@ let g:easytags_updatetime_min=4
 " For tagbar toggle
 nmap <F8> :TagbarToggle<CR>
 
-" For YouCompleteMe
-"let g:ycm_semantic_triggers =  {
-"			\   'c' : ['->', '.'],
-"			\   'objc' : ['->', '.'],
-"			\   'ocaml' : ['.', '#'],
-"			\   'cpp,objcpp' : ['->', '.', '::'],
-"			\   'perl' : ['->'],
-"			\   'php' : ['->', '::'],
-"			\   'cs,java,javascript,d,vim,python,perl6,scala,vb,elixir,go' : ['.'],
-"			\   'ruby' : ['.', '::'],
-"			\   'lua' : ['.', ':'],
-"			\   'erlang' : [':'],
-"			\ }
-"
-let g:ycm_global_ycm_extra_conf = '/home/fenriz/.ycm.py'
+let g:ycm_global_ycm_extra_conf = '/home/ep/.ycm_extra_conf.py'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
@@ -189,7 +174,6 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsListSnippets="<c-e>"
 let g:UltiSnipsExpandTrigger="<tab>"
 set runtimepath+=~/.vim/bundle/ultisnips
-
 
 " Mouse settings
 set mouse=a
@@ -262,5 +246,26 @@ function! Resize(dir)
 endfunction
 " /*}}}*/
 
+let mapleader = "\<Space>"
 
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>s :Gstatus<CR>
+nnoremap <Leader>c :Gcommit<CR>
+nnoremap <Leader>p :Gpush<CR>
+nnoremap <Leader>a :Gwrite<CR>
+
+" Copy & paste to & from system clipboard with <Space>y &
+" <Space>p
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
+" Automatically jump to the end of the text you pasted:
+vnoremap <silent> y y`]
+vnoremap <silent> p p`]
+nnoremap <silent> p p`]
 
