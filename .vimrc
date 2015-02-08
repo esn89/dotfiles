@@ -117,6 +117,18 @@ function! s:syntastic()
 	call lightline#update()
 endfunction
 
+" Allow syntastic to jump between different errors
+let g:syntastic_always_populate_loc_list=1
+le g:syntastic_error_symbol="✗"
+let g:syntastic_warning_symbol="⚠"
+let g:syntastc_enable_signs=1
+highlight SyntasticErrorSign ctermfg=129 ctermbg=234
+highlight SyntasticWarningSign ctermfg=220 ctermbg=234
+hi SpellBad ctermfg=038 ctermbg=236 guifg=#707880 guibg=#303030
+hi SpellCap ctermfg=057 ctermbg=236 guifg=#707880 guibg=#303030
+highlight link SyntasticError SpellBad
+highlight link SyntasticWarning SpellCap
+
 " Turn off the start up message
 set shortmess+=I
 
@@ -254,6 +266,7 @@ nnoremap <Leader>s :Gstatus<CR>
 nnoremap <Leader>c :Gcommit<CR>
 nnoremap <Leader>p :Gpush<CR>
 nnoremap <Leader>a :Gwrite<CR>
+nnoremap <Leader>l :ll<CR>
 
 " Copy & paste to & from system clipboard with <Space>y &
 " <Space>p
