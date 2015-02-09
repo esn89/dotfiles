@@ -41,7 +41,7 @@ TERM screen-w
 NORMAL 00;37 # global default, although everything should be something.
 FILE 00;37 # normal file
 DIR 00;34    # directory
-LINK 01;36    # symbolic link.  (If you set this to 'target' instead of a
+LINK 00;36    # symbolic link.  (If you set this to 'target' instead of a
         # numerical value, the color is as for the file pointed to.)
 FIFO 40;33    # pipe
 SOCK 01;35    # socket
@@ -72,21 +72,21 @@ EXEC 00;32
 .h 00;36
 .pdf 00;31
 
-.tar 01;35 # archives or compressed (bright red)
-.tgz 01;35
-.arj 01;35
-.taz 01;35
-.lzh 01;35
-.zip 01;35
-.z   01;35
-.Z   01;35
-.gz  01;35
-.bz2 01;35
-.deb 01;35
-.rpm 01;35
-.jar 01;35
-.tbz 01;35
-.pkg.tar.gz 01;31;35
+.tar 00;35 # archives or compressed (bright red)
+.tgz 00;35
+.arj 00;35
+.taz 00;35
+.lzh 00;35
+.zip 00;35
+.z   00;35
+.Z   00;35
+.gz  00;35
+.bz2 00;35
+.deb 00;35
+.rpm 00;35
+.jar 00;35
+.tbz 00;35
+.pkg.tar.gz 00;31;35
 
 # image formats
 .jpg 00;32
@@ -94,15 +94,17 @@ EXEC 00;32
 .gif 00;32
 .bmp 00;32
 .png 00;32
+.JPG 00;32
 
 # movie formats
-.mp4 01;36
-.mpg 01;36
-.mpeg 01;36
-.wmv 01;36
-.avi 01;36
+.mp4 00;36
+.mpg 00;36
+.mpeg 00;36
+.wmv 00;36
+.avi 00;36
+.mkv 00;36
 
 
 # audio formats
-.mp3 01;36
-.flac 01;36
+.mp3 00;36
+.flac 00;36
