@@ -8,22 +8,21 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 syntax on
 
 call plug#begin('~/.vim/plugged')
-
 Plug 'scrooloose/syntastic'
 Plug 'itchyny/lightline.vim'
-Plug 'Valloric/YouCompleteMe'
-Plug 'chriskempson/base16-vim'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --clang-completer --system-libclang' }
+"Plug 'chriskempson/base16-vim'
+Plug 'w0ng/vim-hybrid'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'tpope/vim-fugitive'
-
+Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
+Plug 'tpope/vim-fugitive',
 call plug#end()
 
 filetype plugin indent on
 
-let base16colorspace=256  " Access colors present in 256 colorspace
+"let base16colorspace=256  " Access colors present in 256 colorspace
 set modelines=0
 
 " Sets the size of my vertical indent lines
@@ -31,7 +30,9 @@ let g:indent_guides_guide_size=1
 
 " Select theme
 set background=dark
-colorscheme base16-default
+"colorscheme base16-default
+let g:hybrid_use_Xresources = 1
+colorscheme hybrid
 
 " My default indentation settings "
 set tabstop=8
@@ -100,6 +101,9 @@ let g:lightline = {
 			\ 'component': {
 			\   'readonly': '%{&readonly?"⭤":""}',
 			\ },
+			\ 'component_function': {
+			\   'ctrlpmark': 'CtrlPMark',
+			\ },
 			\ 'component_expand': {
 			\   'syntastic': 'SyntasticStatuslineFlag',
 			\ },
@@ -119,7 +123,7 @@ endfunction
 
 " Allow syntastic to jump between different errors
 let g:syntastic_always_populate_loc_list=1
-le g:syntastic_error_symbol="✗"
+let g:syntastic_error_symbol="✗"
 let g:syntastic_warning_symbol="⚠"
 let g:syntastc_enable_signs=1
 highlight SyntasticErrorSign ctermfg=129 ctermbg=234
@@ -258,13 +262,16 @@ function! Resize(dir)
 endfunction
 " /*}}}*/
 
+" Let CtrlP show hidden files:
+let g:ctrlp_show_hidden = 1
+
 let mapleader = "\<Space>"
 
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>s :Gstatus<CR>
 nnoremap <Leader>c :Gcommit<CR>
-nnoremap <Leader>p :Gpush<CR>
+nnoremap <Leader>h :Gpush<CR>
 nnoremap <Leader>a :Gwrite<CR>
 nnoremap <Leader>l :ll<CR>
 
@@ -282,3 +289,10 @@ vnoremap <silent> y y`]
 vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
+" Go to line number without having to shift+g
+nnoremap <CR> G
+nnoremap <BS> gg
+
+" Tells ctrlp to persist the cache in the location
+" so it will read from there and load the cache
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
