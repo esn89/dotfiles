@@ -11,27 +11,18 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/syntastic'
 Plug 'itchyny/lightline.vim'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --clang-completer --system-libclang' }
-"Plug 'chriskempson/base16-vim'
 Plug 'w0ng/vim-hybrid'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
-Plug 'tpope/vim-fugitive',
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 filetype plugin indent on
-
-"let base16colorspace=256  " Access colors present in 256 colorspace
 set modelines=0
 
-" Sets the size of my vertical indent lines
-let g:indent_guides_guide_size=1
-
 " Select theme
-set background=dark
-"colorscheme base16-default
-let g:hybrid_use_Xresources = 1
 colorscheme hybrid
 
 " My default indentation settings "
@@ -47,10 +38,6 @@ set smartindent
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-
-"""""""""For indented tabs""""""""""""""""""""""
-"set list lcs=tab:\|\
-"hi Conceal ctermfg=white ctermbg=NONE
 
 " No annoying sound on errors:  "
 set noerrorbells
@@ -125,6 +112,8 @@ endfunction
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_error_symbol="✗"
 let g:syntastic_warning_symbol="⚠"
+let g:syntastic_style_warning_symbol="⚑"
+let g:syntastic_style_error_symbol="⚑"
 let g:syntastc_enable_signs=1
 highlight SyntasticErrorSign ctermfg=129 ctermbg=234
 highlight SyntasticWarningSign ctermfg=220 ctermbg=234
@@ -172,9 +161,6 @@ set noswapfile
 " For easytags
 let g:easytags_updatetime_min=4
 
-" For tagbar toggle
-nmap <F8> :TagbarToggle<CR>
-
 let g:ycm_global_ycm_extra_conf = '/home/ep/.ycm_extra_conf.py'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
@@ -183,7 +169,6 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
 let g:ycm_register_as_syntastic_checker=0
-
 
 " UltiSnips
 let g:UltiSnipsJumpForwardTrigger="<tab>"
@@ -204,67 +189,19 @@ command -nargs=+ -complete=file GetFromFile call s:GetFromFile(<f-args>)
 
 let g:loaded_matchparen=0
 
-set lazyredraw
-set ttyfast
+"set lazyredraw
+"set ttyfast
 set cursorline
-
-" For vim splitting purposes:
 
 " Easier Split Navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
 set splitbelow
 set splitright
 
-"map <Up> <C-w>+
-" Window resizing mappings /*{{{*/
-nnoremap <S-Up> :normal <c-r>=Resize('+')<CR><CR>
-nnoremap <S-Down> :normal <c-r>=Resize('-')<CR><CR>
-nnoremap <S-Left> :normal <c-r>=Resize('<')<CR><CR>
-nnoremap <S-Right> :normal <c-r>=Resize('>')<CR><CR>
-
-function! Resize(dir)
-	let this = winnr()
-	if '+' == a:dir || '-' == a:dir
-		execute "normal \<c-w>k"
-		let up = winnr()
-		if up != this
-			execute "normal \<c-w>j"
-			let x = 'bottom'
-		else
-			let x = 'top'
-		endif
-	elseif '>' == a:dir || '<' == a:dir
-		execute "normal \<c-w>h"
-		let left = winnr()
-		if left != this
-			execute "normal \<c-w>l"
-			let x = 'right'
-		else
-			let x = 'left'
-		endif
-	endif
-	if ('+' == a:dir && 'bottom' == x) || ('-' == a:dir && 'top' == x)
-		return "5\<c-v>\<c-w>+"
-	elseif ('-' == a:dir && 'bottom' == x) || ('+' == a:dir && 'top' == x)
-		return "5\<c-v>\<c-w>-"
-	elseif ('<' == a:dir && 'left' == x) || ('>' == a:dir && 'right' == x)
-		return "5\<c-v>\<c-w><"
-	elseif ('>' == a:dir && 'left' == x) || ('<' == a:dir && 'right' == x)
-		return "5\<c-v>\<c-w>>"
-	else
-		echo "oops. check your ~/.vimrc"
-		return ""
-	endif
-endfunction
-" /*}}}*/
-
-" Let CtrlP show hidden files:
-let g:ctrlp_show_hidden = 1
-
+" Follow the leader
 let mapleader = "\<Space>"
 
 nnoremap <Leader>o :CtrlP<CR>
@@ -276,7 +213,7 @@ nnoremap <Leader>a :Gwrite<CR>
 nnoremap <Leader>l :ll<CR>
 
 " Copy & paste to & from system clipboard with <Space>y &
-" <Space>p
+" <Space>p (must compile vim with +xclipboard)
 vmap <Leader>y "+y
 vmap <Leader>d "+d
 nmap <Leader>p "+p
@@ -296,3 +233,14 @@ nnoremap <BS> gg
 " Tells ctrlp to persist the cache in the location
 " so it will read from there and load the cache
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+"
+" Let CtrlP show hidden files:
+let g:ctrlp_show_hidden = 1
+
+" Do not clear the cache on exit please and thank you
+let g:ctrlp_clear_cache_on_exit=0
+
+let g:ctrlp_mruf_max=100
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|vim|adobe|android|aurStuff|fonts|gnome|gimp-2.8|Skype|weechat)$'
