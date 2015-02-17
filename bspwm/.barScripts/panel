@@ -200,10 +200,10 @@ panel_sigStrength()
                 echo $LIGHTBLUE "‗▬▪▮"
         elif [ "$signalStrength" -lt 65 ] && [ "$signalStrength" -gt 39 ]
         then
-                echo $LIGHTBLUE " ‗▬▪"$DARKGREY"▮"$BLUE
+                echo $LIGHTBLUE " ‗▬▪"$DARKGREY"▮"$LIGHTBLUE
         elif [ "$signalStrength" -lt 40 ]
         then
-                echo $LIGHTBLUE " ‗▬"$DARKGREY"▪▮"$BLUE
+                echo $LIGHTBLUE " ‗▬"$DARKGREY"▪▮"$LIGHTBLUE
         else
                 echo $DARKGREY " ‗▬▪▮ Connecting..."
         fi
@@ -238,15 +238,10 @@ panel_clock()
 	echo $BLUE " " $(clock -f '%a %d %I:%M')
 }
 
-panel_vancouver()
-{
-	echo $DARKGREY "Vancouver " $(date -d -8hours +"%I:%M%P")
-}
-
 # Loop to check time, battery and volume statuses
 while true; do
 	echo "M"%{A:opengmail:} $(panel_emailStatus) $TEAL%{A} > "$PANEL_FIFO" &
-	echo "S" $(panel_battery)%{A:startWicd:}$(panel_essid)%{A} $(panel_volume) $(panel_vancouver) $(panel_clock) > "$PANEL_FIFO" &
+	echo "S" $(panel_battery)%{A:startWicd:}$(panel_essid)%{A} $(panel_volume) $(panel_clock) > "$PANEL_FIFO" &
 	sleep 0.5s
 done &
 

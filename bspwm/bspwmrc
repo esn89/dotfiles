@@ -5,7 +5,7 @@ bspc config window_gap			23
 bspc config split_ratio                 0.50
 bspc config left_padding		0
 bspc config right_padding		0
-bspc config bottom_padding		-3
+bspc config bottom_padding		0
 bspc config top_padding 		15
 bspc config borderless_monocle          true
 bspc config gapless_monocle             true
@@ -22,13 +22,14 @@ bspc config focused_frame_opacity       0.05
 
 bspc monitor -d I II III IV
 
-bspc rule -a scratchpad --sticky
+bspc rule -a scratchpad sticky=on floating=on
+bspc rule -a Chromium desktop=^2 floating=on follow=on
 bspc rule -a Skype desktop=^3 floating=on
 bspc rule -a Gimp desktop=^3 floating=on
-bspc rule -a Chromium desktop=^2 floating=on follow=on
 bspc rule -a wicd-client.py desktop=^1 floating=on
 bspc rule -a sun-awt-X11-XFramePeer desktop=^3 floating=on
 bspc rule -a Deluge desktop=^3 floating=on
+bspc rule -a Puddletag desktop=^3 floating=on
 bspc rule -a libreoffice floating=on
 
 bspc config external_rules_command "$(which external_rules)"

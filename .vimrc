@@ -109,6 +109,9 @@ function! s:syntastic()
 endfunction
 
 " Allow syntastic to jump between different errors
+let g:syntastic_python_python_exec = '/usr/bin/python2.7'
+let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_flake8_exec = 'flake8-python2'
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_error_symbol="✗"
 let g:syntastic_warning_symbol="⚠"
@@ -189,8 +192,8 @@ command -nargs=+ -complete=file GetFromFile call s:GetFromFile(<f-args>)
 
 let g:loaded_matchparen=0
 
-"set lazyredraw
-"set ttyfast
+set lazyredraw
+set ttyfast
 set cursorline
 
 " Easier Split Navigation
@@ -204,13 +207,14 @@ set splitright
 " Follow the leader
 let mapleader = "\<Space>"
 
-nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>o :CtrlP /home/fenriz/<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>s :Gstatus<CR>
 nnoremap <Leader>c :Gcommit<CR>
 nnoremap <Leader>h :Gpush<CR>
 nnoremap <Leader>a :Gwrite<CR>
 nnoremap <Leader>l :ll<CR>
+nnoremap <Leader>v :PlugUpdate<CR>
 
 " Copy & paste to & from system clipboard with <Space>y &
 " <Space>p (must compile vim with +xclipboard)

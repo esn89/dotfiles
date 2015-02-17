@@ -9,11 +9,12 @@ ctrl + shift + s
 
 # Starts ranger
 ctrl + shift + r
-    termite -e ranger
+    urxvt -e ranger
 
 # Starts mpv
 ctrl + shift + m
-    mpv --no-terminal http://23.16.171.175:9884
+#mpv --no-terminal http://23.16.171.175:9884
+    mpv --no-terminal http://192.168.1.73:9884
 
 # Kills mpv
 ctrl + shift + j
@@ -190,3 +191,7 @@ super + Escape
 # Change window gap
 alt + {minus,equal}
     bspc config -d focused window_gap $((`bspc config -d focused window_gap` {+,-} 2 ))
+
+# Scratchpad?
+super + o
+    xdotool search --onlyvisible --classname scratchpad windowunmap || xdotool search --classname scratchpad windowmap || termite --class=scratchpad --geometry=900x400+460 &

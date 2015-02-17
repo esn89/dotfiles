@@ -16,6 +16,8 @@ else
 fi
 
 HIST_STAMPS="mm/dd/yyyy"
+
+setopt completeinword
 setopt extended_glob
 
 # opening from current dir (termite feature)
@@ -37,7 +39,7 @@ alias rm="rm -iv"
 alias sshp="ssh pi@192.168.1.73 -p 2302 -t tmux a"
 alias sshpo="ssh pi@23.16.171.175 -p 2302 -t tmux a"
 alias sshu="ssh -YC s2o7@remote.ugrad.cs.ubc.ca"
-alias udg="sudo pacaur -Syyu"
+alias udg="pacaur -Syyu"
 alias gimme="sudo pacman -S"
 alias doihave="pacman -Ss"
 alias chk="ps aux | grep"
@@ -47,6 +49,8 @@ alias bspwmrc="vim ~/.config/bspwm/bspwmrc"
 alias sxhkdrc="vim ~/.config/sxhkd/sxhkdrc"
 alias zshrc="vim ~/.zshrc"
 alias vi="vim"
+alias python="/usr/bin/python2.7"
+alias vimrc="vim ~/.vimrc"
 
 # History search
 [[ -n "${key[PageUp]}" ]] && bindkey "${key[PageUp]}" history-beginning-search-backward
@@ -123,3 +127,5 @@ _bspc() {
 _bspc "$@"
 
 source $ZSH/oh-my-zsh.sh
+alias grep="/usr/bin/grep $GREP_OPTIONS"
+unset GREP_OPTIONS

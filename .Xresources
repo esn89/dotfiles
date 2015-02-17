@@ -10,35 +10,13 @@ Xft.dpi:        96
 URxvt*transparent:false
 
 
-!*foreground:#c5c8c6
-!*background:#151515
 URxvt.cursorColor:#505050
-!*color0:#282a2e
-!*color1:#a54242
-!*color2:#8c9440
-!*color3:#de935f
-!*color4:#5f819d
-!*color5:#85678f
-!*color6:#5e8d87
-!*color7:#707880
-!*color8:#505050
-!*color9:#cc6666
-!*color10:#b5bd68
-!*color11:#f0c674
-!*color12:#81a2be
-!*color13:#b294bb
-!*color14:#8abeb7
-!*color15:#c5c8c6
-!*color16:#d28445
-!*color17:#8f5536
-!*color18:#202020
-!*color19:#303030
-!*color20:#b0b0b0
-*background: #1D1F21
+*background: #151515
 *foreground: #C5C8C6
 !black
 *color0: #282A2E
-*color8: #373B41
+!*color8: #373B41
+*color8: #505050
 ! red
 *color1: #A54242
 *color9: #CC6666
@@ -69,7 +47,7 @@ URxvt*scrollBar:false
 
 
 ! Size of my terminal
-!URxvt.geometry:79x24
+URxvt.geometry:90x20+890+630
 URxvt.imLocale:en_US.UTF8
 
 URxvt*skipBuiltinGlyphs: true
@@ -79,6 +57,9 @@ URxvt.saveLines: 12000
 
 ! Underline URLs
 URxvt.underlineURLs:true
+
+URxvt.iso14755_52:false
+URxvt.iso14755:false
 
 ! Add color to my!man pages:
 URxvt.colorIT: #87af5f
