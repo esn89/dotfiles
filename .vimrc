@@ -13,8 +13,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --clang-completer --system-libclang' }
 Plug 'w0ng/vim-hybrid'
 Plug 'tpope/vim-surround'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
 Plug 'tpope/vim-fugitive'
 call plug#end()
@@ -168,16 +166,7 @@ let g:ycm_global_ycm_extra_conf = '/home/ep/.ycm_extra_conf.py'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 let g:ycm_path_to_python_interpreter = '/usr/bin/python2.7'
-" Fuck it, YCM will not be given Tab
-let g:ycm_key_list_select_completion=[]
-let g:ycm_key_list_previous_completion=[]
-let g:ycm_register_as_syntastic_checker=0
-
-" UltiSnips
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsListSnippets="<c-e>"
-let g:UltiSnipsExpandTrigger="<tab>"
-set runtimepath+=~/.vim/bundle/ultisnips
+let g:ycm_confirm_extra_conf = 0
 
 " Mouse settings
 set mouse=a
@@ -247,4 +236,7 @@ let g:ctrlp_clear_cache_on_exit=0
 let g:ctrlp_mruf_max=100
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|vim|adobe|android|aurStuff|fonts|gnome|gimp-2.8|Skype|weechat)$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|vim|adobe|android|aurStuff|fonts|gnome|gimp-2.8|weechat|cache|dbus|frozenwaste|gitconfig|gnupg|icons|java|local|lyrics|mozilla|pki|ssh|swt|terminfo|urxvt|w3m|wicd|wireshark)$'
+
+" Make the switch from modes have no delay
+set ttimeoutlen=50
