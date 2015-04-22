@@ -4,7 +4,6 @@ endif
 
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim/
 syntax on
 
 call plug#begin('~/.vim/plugged')
@@ -222,6 +221,7 @@ nnoremap <silent> p p`]
 " Go to line number without having to shift+g
 nnoremap <CR> G
 nnoremap <BS> gg
+
 
 " Tells ctrlp to persist the cache in the location
 " so it will read from there and load the cache

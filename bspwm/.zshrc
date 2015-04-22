@@ -27,9 +27,21 @@ if [[ $TERM == xterm-termite ]]; then
 fi
 
 export EDITOR="vim"
-#export DISPLAY=localhost:0
 export GTK2_RC_FILES="/home/fenriz/.gtkrc-2.0"
 export INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS="true|false"
+# This is for compiling your own vte
+#export PATH=$PATH:/etc/ld.so.conf.d/vte.conf
+export DEXTERNAL_LIBCLANG_PATH="/usr/lib/llvm-3.4/lib/libclang.so"
+export XDG_CONFIG_HOME="/home/ep/.config"
+#export TERM="xterm-termite"
+export TERM="screen-256color"
+export LS_COLORS="no=00:fi=00;37:di=00;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:ex=00;32:\
+*.sh=00;33:*.cpp=00;33:*.py=00;33:*.c=00;33:*.java=00;33:*.h=00;36:\
+*.tar=01;35:*.tgz=01;35:*.taz=01;35:*.zip=01;35:*.gz=01;35:*.bz2=01;35:*.deb=01;35:*.rpm=01;35:*.jar=01;35:*.pkg.tar.gz=01;31;35:\
+*.jpg=00;32:*.jpeg=00;32:*.gif=00;32:*.bmp=00;32:*.png=00;32:\
+*.mp4=01;36:*.mpg=01;36:*.mpeg=01;36:*.wmv=01;36:*.avi=01;36:\
+*.mp3=01;36:*.flac=01;36\
+*.odt=00;31:*.pdf=00;31"
 
 # Some aliases
 alias ls="ls --color=auto --group-directories-first"
@@ -38,7 +50,7 @@ alias dmesg="dmesg --color"
 alias rm="rm -iv"
 alias sshp="ssh pi@192.168.1.73 -p 2302 -t tmux a"
 alias sshpo="ssh pi@23.16.171.175 -p 2302 -t tmux a"
-alias sshu="ssh -YC s2o7@remote.ugrad.cs.ubc.ca"
+alias sshu="ssh -YC @remote.schoolnamehere.ca"
 alias udg="pacaur -Syyu"
 alias gimme="sudo pacman -S"
 alias doihave="pacman -Ss"
@@ -81,8 +93,6 @@ man() {
 		man "$@"
 }
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-
-
 zstyle ':completion::complete:cd::' tag-order '! users' -
 zstyle ':completion::complete:-command-::' tag-order '! users' -
 zstyle ':completion:*:corrections' format "- %d - (errors %e})"
@@ -101,30 +111,6 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' use-cache on
 #zstyle ':completion:*' verbose yes
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
-
-
-#compdef bspc
-_bspc() {
-	local -a commands settings
-	commands=('window' 'desktop' 'monitor' 'query' 'pointer' 'rule' 'restore' 'control' 'config' 'quit')
-	settings=('external_rules_command' 'status_prefix' 'focused_border_color' 'active_border_color' 'normal_border_color' 'presel_border_color' 'focused_locked_border_color' 'active_locked_border_color' 'normal_locked_border_color' 'focused_sticky_border_color' 'normal_sticky_border_color' 'focused_private_border_color' 'active_private_border_color' 'normal_private_border_color' 'urgent_border_color' 'border_width' 'window_gap' 'top_padding' 'right_padding' 'bottom_padding' 'left_padding' 'split_ratio' 'borderless_monocle' 'gapless_monocle' 'focus_follows_pointer' 'pointer_follows_focus' 'pointer_follows_monitor' 'apply_floating_atom' 'auto_alternate' 'auto_cancel' 'history_aware_focus' 'focus_by_distance' 'ignore_ewmh_focus' 'remove_disabled_monitors' 'remove_unplugged_monitors' 'merge_overlapping_monitors')
-	if (( CURRENT == 2 )) ; then
-		_values 'command' "$commands[@]"
-	elif (( CURRENT == 3 )) ; then
-		case $words[2] in
-			config)
-				_values 'setting' "$settings[@]"
-				;;
-			*)
-				return 1
-				;;
-		esac
-	else
-		return 1
-	fi
-}
-
-_bspc "$@"
 
 source $ZSH/oh-my-zsh.sh
 alias grep="/usr/bin/grep $GREP_OPTIONS"
