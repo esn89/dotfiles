@@ -1,4 +1,4 @@
-ZSH=/usr/share/oh-my-zsh/
+ZSH=/home/fenriz/.oh-my-zsh
 
 autoload -U promptinit
 promptinit
@@ -6,33 +6,18 @@ promptinit
 autoload -Uz compinit
 compinit
 
-# .dir_colors!
-if [[ -f ~/.dir_colors ]]; then
-	eval $(dircolors -b ~/.dir_colors)
-elif [[ -f /etc/DIR_COLORS ]]; then
-	eval ~(dircolors -b /etc/DIR_COLORS)
-else
-	eval $(dircolors)
-fi
-
 HIST_STAMPS="mm/dd/yyyy"
 
 setopt completeinword
 setopt extended_glob
 
-# opening from current dir (termite feature)
-if [[ $TERM == xterm-termite ]]; then
-        . /etc/profile.d/vte.sh
-        __vte_osc7
-fi
-
 export EDITOR="vim"
+export LC_ALL="en_US.UTF-8"
 export GTK2_RC_FILES="/home/fenriz/.gtkrc-2.0"
-export INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS="true|false"
 # This is for compiling your own vte
 #export PATH=$PATH:/etc/ld.so.conf.d/vte.conf
 export DEXTERNAL_LIBCLANG_PATH="/usr/lib/llvm-3.4/lib/libclang.so"
-export XDG_CONFIG_HOME="/home/ep/.config"
+export XDG_CONFIG_HOME="/home/fenriz/.config"
 #export TERM="xterm-termite"
 export TERM="screen-256color"
 export LS_COLORS="no=00:fi=00;37:di=00;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:ex=00;32:\
@@ -51,9 +36,7 @@ alias rm="rm -iv"
 alias sshp="ssh pi@192.168.1.73 -p 2302 -t tmux a"
 alias sshpo="ssh pi@23.16.171.175 -p 2302 -t tmux a"
 alias sshu="ssh -YC @remote.schoolnamehere.ca"
-alias udg="pacaur -Syyu"
-alias gimme="sudo pacman -S"
-alias doihave="pacman -Ss"
+alias udg="sudo apt-get update && sudo apt-get upgrade"
 alias chk="ps aux | grep"
 alias hst="history | grep"
 alias orphans="pacman -Qtd"
@@ -63,6 +46,16 @@ alias zshrc="vim ~/.zshrc"
 alias vi="vim"
 alias python="/usr/bin/python2.7"
 alias vimrc="vim ~/.vimrc"
+alias agi="sudo apt-get install"
+alias search="apt-cache search"
+alias ver="apt-cache policy"
+alias remove="sudo apt-get remove"
+alias purge="sudo apt-get purge"
+
+# For two finger vert scroll:
+synclient VertTwoFingerScroll=1
+# For two finger horiz scroll
+synclient HorizTwoFingerScroll=1
 
 # History search
 [[ -n "${key[PageUp]}" ]] && bindkey "${key[PageUp]}" history-beginning-search-backward
@@ -113,5 +106,3 @@ zstyle ':completion:*' use-cache on
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
 
 source $ZSH/oh-my-zsh.sh
-alias grep="/usr/bin/grep $GREP_OPTIONS"
-unset GREP_OPTIONS

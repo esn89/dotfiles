@@ -108,7 +108,6 @@ endfunction
 " Allow syntastic to jump between different errors
 let g:syntastic_python_python_exec = '/usr/bin/python2.7'
 let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_exec = 'flake8-python2'
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_error_symbol="✗"
 let g:syntastic_warning_symbol="⚠"
@@ -157,9 +156,6 @@ autocmd Filetype c setlocal ts=8 sts=8 sw=8 textwidth=80 smarttab noexpandtab
 
 " No Swap files
 set noswapfile
-
-" For easytags
-let g:easytags_updatetime_min=4
 
 let g:ycm_global_ycm_extra_conf = '/home/ep/.ycm_extra_conf.py'
 let g:ycm_server_keep_logfiles = 1
@@ -236,7 +232,32 @@ let g:ctrlp_clear_cache_on_exit=0
 let g:ctrlp_mruf_max=100
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|vim|adobe|android|aurStuff|fonts|gnome|gimp-2.8|weechat|cache|dbus|frozenwaste|gitconfig|gnupg|icons|java|local|lyrics|mozilla|pki|ssh|swt|terminfo|urxvt|w3m|wicd|wireshark)$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|vim||android|fonts|gnome|gimp-2.8|weechat|compiled|cache|dbus|fw|gitconfig|gnupg|icons|oh-my-zsh|local|lyrics|mozilla|pki|ssh|swt|terminfo|urxvt|w3m|wicd|wireshark)$'
+
+
+""" Uses <Leader>u for commenting blocks of code
+nnoremap <Leader>u :<c-u>.,.+<c-r>=v:count<cr>call <SID>toggleComment()<cr>
+nnoremap <Leader>u :<c-u>set opfunc=<SID>commentOp<cr>g@
+xnoremap <Leader>u :call <SID>toggleComment()<cr>
+
+function! s:commentOp(...)
+  '[,']call s:toggleComment()
+endfunction
+
+function! s:toggleComment() range
+  let comment = substitute(get(b:, 'commentstring', &commentstring), '\s*\(%s\)\s*', '%s', '')
+  let pattern = '\V' . printf(escape(comment, '\'), '\(\s\{-}\)\s\(\S\.\{-}\)\s\=')
+  let replace = '\1\2'
+  if getline('.') !~ pattern
+    let indent = matchstr(getline('.'), '^\s*')
+    let pattern = '^' . indent . '\zs\(\s*\)\(\S.*\)'
+    let replace = printf(comment, '\1 \2' . (comment =~ '%s$' ? '' : ' '))
+  endif
+  for lnum in range(a:firstline, a:lastline)
+    call setline(lnum, substitute(getline(lnum), pattern, replace, ''))
+  endfor
+endfunction
+"""
 
 " Make the switch from modes have no delay
-set ttimeoutlen=50
+" set ttimeoutlen=50
