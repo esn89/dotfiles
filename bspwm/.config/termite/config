@@ -9,13 +9,14 @@ mouse_autohide          = false
 allow_bold              = false
 dynamic_title           = true
 urgent_on_bell          = false
-browser                 = chromium
+browser                 = chromium-browser
 clickable_url           = true
 #font                    = inconsolata-g 7
-font                    = EnvyCodeR 8
+#font                    = EnvyCodeR 8
+font                    = PragmataPro 9
 scrollback_lines        = 5000
 search_wrap             = true
-geometry                = 535x290+900+600
+geometry                = 600x600
 
 [colors]
 foreground_bold         = #d0d0d0
