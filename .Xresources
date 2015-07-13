@@ -1,68 +1,72 @@
 URxvt*termName:rxvt-unicode-256color
+
+!-- xft settings -- !
 Xft.antialias:  true
 !Xft.autohint:   true
 Xft.hinting:    true
-Xft.hintstyle:  hintslight
+Xft.hintstyle:  hintsfull
 !Xft.lcdfilter:  lcdlight
 Xft.rgba:       rgb
 Xft.dpi:        96
 
 URxvt*transparent:false
 
-
 URxvt.cursorColor:#505050
-*background: #151515
-*foreground: #C5C8C6
-!black
-*color0: #282A2E
-!*color8: #373B41
-*color8: #505050
+! PaperColor Theme
+URxvt.foreground: #4D4D4C
+URxvt.background: #EEEEEE
+! black
+URxvt.color0: #EDEDED
+URxvt.color8: #969694
 ! red
-*color1: #A54242
-*color9: #CC6666
+URxvt.color1: #D7005F
+URxvt.color9: #D7005F
 ! green
-*color2: #8C9440
-*color10: #B5BD68
-! yellow
-*color3: #DE935F
-*color11: #F0C674
+URxvt.color2: #718C00
+URxvt.color10: #718C00
+! yellow / orange
+URxvt.color3: #D75F00
+URxvt.color11: #D75F00
 ! blue
-*color4: #5F819D
-*color12: #81A2BE
+URxvt.color4: #4271AE
+URxvt.color12: #4271AE
 ! magenta
-*color5: #85678F
-*color13: #B294BB
+URxvt.color5: #8959A8
+URxvt.color13: #8959A8
 ! cyan
-*color6: #5E8D87
-*color14: #8ABEB7
+URxvt.color6: #3E999F
+URxvt.color14: #3E999F
 ! white
-*color7: #707880
-*color15: #C5C8C6
-
+URxvt.color7: #4D4D4C
+URxvt.color15: #F5F5F5
 !Fonts
-URxvt*font:xft:EnvyCodeR:pixelsize=11:antialias=true:hinting=true,xft:Inconsolata-g:pixelsize=11:antialias=true:hinting=true
+URxvt*font:xft:PragmataPro:regular:pixelsize=12:antialias=true:hinting=true
+URxvt.letterSpace: -2
+URxvt.boldFont:
 
 !Say no to scrollbars
 URxvt*scrollBar:false
 
-
 ! Size of my terminal
-URxvt.geometry:90x20+890+630
+URxvt.geometry:90x20
 URxvt.imLocale:en_US.UTF8
 
-URxvt*skipBuiltinGlyphs: true
-!
 ! Amount that I can scroll up
 URxvt.saveLines: 12000
 
 ! Underline URLs
 URxvt.underlineURLs:true
 
-URxvt.iso14755_52:false
-URxvt.iso14755:false
+! Url-Select:
+URxvt.perl-ext-common: ...,url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/chromium
 
 ! Add color to my!man pages:
 URxvt.colorIT: #87af5f
 URxvt.colorBD: #d7dfdf
 !URxvt.colorUL:
 
+! Disable annoying ISo keycap mode pop up:
+URxvt.iso14755: false
+URxvt.iso14755_52: false

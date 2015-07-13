@@ -1,7 +1,0 @@
-#!/bin/sh
-
-#setxkbmap -option ctrl:nocaps
-setxkbmap -option 'caps:ctrl_modifier'
-ALT='Alt_L=F12;Alt_R=F12'
-CAPS='Control_L=Escape'
-xcape -e "$ALT;$CAPS" &

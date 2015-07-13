@@ -9,8 +9,9 @@ syntax on
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/syntastic'
 Plug 'itchyny/lightline.vim'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --clang-completer --system-libclang' }
-Plug 'w0ng/vim-hybrid'
+Plug 'Valloric/YouCompleteMe'
+"Plug 'w0ng/vim-hybrid'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
 Plug 'tpope/vim-fugitive'
@@ -19,8 +20,21 @@ call plug#end()
 filetype plugin indent on
 set modelines=0
 
+" Turns on line numbers "
+set number
+set laststatus=2
+set t_Co=256
+set encoding=utf-8
+
 " Select theme
-colorscheme hybrid
+colorscheme PaperColor
+
+" Folds
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
+set foldnestmax=1
 
 " My default indentation settings "
 set tabstop=8
@@ -41,9 +55,6 @@ set noerrorbells
 
 " No annoying visual errors either "
 set novisualbell
-
-" Turns on line numbers "
-set number
 
 " Wraps words that are too long
 " Want word wrapping, but only want line breaks inserted when you explicitly press the Enter key:
@@ -72,13 +83,10 @@ endif
 " Automatically remove trailing white space
 autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 
-" Calls the absolute path to Powerline installation directory
-set laststatus=2
-set encoding=utf-8
 
 " --- Lightline settings ---
 let g:lightline = {
-			\ 'colorscheme': 'wombat',
+			\ 'colorscheme': 'Tomorrow',
 			\ 'active': {
 			\   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'], [ 'fileformat', 'fileencoding', 'filetype' ] ]
 			\ },
@@ -178,7 +186,7 @@ let g:loaded_matchparen=0
 
 set lazyredraw
 set ttyfast
-set cursorline
+"set cursorline
 
 " Easier Split Navigation
 nnoremap <C-J> <C-W><C-J>
@@ -232,7 +240,7 @@ let g:ctrlp_clear_cache_on_exit=0
 let g:ctrlp_mruf_max=100
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|vim||android|fonts|gnome|gimp-2.8|weechat|compiled|cache|dbus|fw|gitconfig|gnupg|icons|oh-my-zsh|local|lyrics|mozilla|pki|ssh|swt|terminfo|urxvt|w3m|wicd|wireshark)$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(aptitude|cache|compiled|dbus|fonts|frozenwasteland|gconf|gimp-2.8|gnome|gnupg|gstreamer-0.10|local|lyrics|mozilla|oh-my-zsh|pki|PlayOnLinux|puddletag|qws|ssh|steam|terminfo|thumbnails|wine)$'
 
 
 """ Uses <Leader>u for commenting blocks of code
@@ -260,4 +268,4 @@ endfunction
 """
 
 " Make the switch from modes have no delay
-" set ttimeoutlen=50
+set ttimeoutlen=0
