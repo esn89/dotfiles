@@ -18,7 +18,7 @@ export GTK2_RC_FILES="/home/fenriz/.gtkrc-2.0"
 #export PATH=$PATH:/etc/ld.so.conf.d/vte.conf
 export DEXTERNAL_LIBCLANG_PATH="/usr/lib/llvm-3.4/lib/libclang.so"
 export XDG_CONFIG_HOME="/home/fenriz/.config"
-export TERM="rxvt-unicode-256color"
+#export TERM="rxvt-unicode-256color"
 #export TERM="screen-256color"
 export LS_COLORS="no=00:fi=00;37:di=00;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:ex=00;32:\
 *.sh=00;33:*.cpp=00;33:*.py=00;33:*.c=00;33:*.java=00;33:*.h=00;36:\

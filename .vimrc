@@ -122,10 +122,10 @@ let g:syntastic_warning_symbol="⚠"
 let g:syntastic_style_warning_symbol="⚑"
 let g:syntastic_style_error_symbol="⚑"
 let g:syntastc_enable_signs=1
-highlight SyntasticErrorSign ctermfg=129 ctermbg=234
-highlight SyntasticWarningSign ctermfg=220 ctermbg=234
-hi SpellBad ctermfg=038 ctermbg=236 guifg=#707880 guibg=#303030
-hi SpellCap ctermfg=057 ctermbg=236 guifg=#707880 guibg=#303030
+highlight SyntasticErrorSign ctermfg=161 ctermbg=255
+highlight SyntasticWarningSign ctermfg=220 ctermbg=255
+hi SpellBad ctermfg=040 ctermbg=255 guifg=#707880 guibg=#303030
+hi SpellCap ctermfg=057 ctermbg=255 guifg=#707880 guibg=#303030
 highlight link SyntasticError SpellBad
 highlight link SyntasticWarning SpellCap
 
@@ -133,7 +133,7 @@ highlight link SyntasticWarning SpellCap
 set shortmess+=I
 
 " Turn off recording mode
-nnoremap q <nop>
+"nnoremap q <nop>
 
 " Hide the default mode text before the statusline
 set noshowmode

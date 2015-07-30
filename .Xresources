@@ -43,12 +43,13 @@ URxvt.color15: #F5F5F5
 URxvt*font:xft:PragmataPro:regular:pixelsize=12:antialias=true:hinting=true
 URxvt.letterSpace: -2
 URxvt.boldFont:
+URxvt.intensityStyles: false
 
 !Say no to scrollbars
 URxvt*scrollBar:false
 
 ! Size of my terminal
-URxvt.geometry:90x20
+URxvt.geometry:75x20
 URxvt.imLocale:en_US.UTF8
 
 ! Amount that I can scroll up
@@ -60,13 +61,41 @@ URxvt.underlineURLs:true
 ! Url-Select:
 URxvt.perl-ext-common: ...,url-select
 URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /usr/bin/chromium
+URxvt.url-select.launcher: /usr/bin/iceweasel
 
 ! Add color to my!man pages:
 URxvt.colorIT: #87af5f
-URxvt.colorBD: #d7dfdf
+URxvt.colorBD: #969694
 !URxvt.colorUL:
 
 ! Disable annoying ISo keycap mode pop up:
 URxvt.iso14755: false
 URxvt.iso14755_52: false
+
+! Try this colorscheme sometime:
+!urxvt*background:       #ffffff
+!urxvt*foreground:       #767E8A
+!
+! *color0:  #2d2d2d
+! *color8: #767E8A
+!!red
+! *color1:  #767E8A
+! *color9:  #767E8A
+!!green
+! *color2:  #51c4d4
+! *color10: #767E8A
+!!yellow
+! *color3:  #767E8A
+! *color11: #767E8A
+!!blue   ranger folders
+! *color4:  #51c4d4
+! *color12: #51c4d4
+!!magenta
+! *color5:  #767E8A
+! *color13: #767E8A
+!!cyan
+! *color6:  #73D2D7
+! *color14: #767E8A
+!!white
+! *color7:  #767E8A
+! *color15: #767E8A
