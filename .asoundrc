@@ -1,0 +1,14 @@
+# pcm.!default {
+#     type hw
+#     card "Audio"
+#     device 1
+# }
+
+# ctl.!default {
+#     type hw
+#     card "Audio"
+# }
+defaults.pcm.!card "Audio"
+defaults.ctl.!card "Audio"
+defaults.pcm.!device 0
+defaults.ctl.!device 0
