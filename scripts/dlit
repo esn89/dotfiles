@@ -1,0 +1,9 @@
+#!/bin/sh
+
+torr="$@"
+
+for var in "$@"
+do
+	scp -P 2302 "$var" loki@192.168.1.73:torrents/
+done
+#echo "$torr"

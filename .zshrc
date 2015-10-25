@@ -1,4 +1,4 @@
-ZSH=/home/fenriz/.oh-my-zsh
+ZSH=/home/ep/.oh-my-zsh
 
 autoload -U promptinit
 promptinit
@@ -13,13 +13,11 @@ setopt extended_glob
 
 export EDITOR="vim"
 export LC_ALL="en_US.UTF-8"
-export GTK2_RC_FILES="/home/fenriz/.gtkrc-2.0"
-# This is for compiling your own vte
-#export PATH=$PATH:/etc/ld.so.conf.d/vte.conf
+export LANG="en_US.utf-8"
+export LANGUAGE="en_US.UTF-8"
 export DEXTERNAL_LIBCLANG_PATH="/usr/lib/llvm-3.4/lib/libclang.so"
-export XDG_CONFIG_HOME="/home/fenriz/.config"
+export XDG_CONFIG_HOME="/home/ep/.config"
 #export TERM="rxvt-unicode-256color"
-#export TERM="screen-256color"
 export LS_COLORS="no=00:fi=00;37:di=00;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:ex=00;32:\
 *.sh=00;33:*.cpp=00;33:*.py=00;33:*.c=00;33:*.java=00;33:*.h=00;36:\
 *.tar=01;35:*.tgz=01;35:*.taz=01;35:*.zip=01;35:*.gz=01;35:*.bz2=01;35:*.deb=01;35:*.rpm=01;35:*.jar=01;35:*.pkg.tar.gz=01;31;35:\
@@ -33,16 +31,12 @@ alias ls="ls --color=auto --group-directories-first"
 alias grep="grep --color=auto"
 alias dmesg="dmesg --color"
 alias rm="rm -iv"
-alias sshp="ssh pi@192.168.1.73 -p 2302 -t tmux a"
-alias sshpo="ssh pi@23.16.171.175 -p 2302 -t tmux a"
-alias sshu="ssh -YC @remote.schoolnamehere.ca"
+alias sshp="empty"
+alias sshpo="empty"
 alias udg="sudo apt-get update && sudo apt-get upgrade"
 alias chk="ps aux | grep"
 alias hst="history | grep"
 alias dih="dpkg -l | grep"
-alias orphans="pacman -Qtd"
-alias bspwmrc="vim ~/.config/bspwm/bspwmrc"
-alias sxhkdrc="vim ~/.config/sxhkd/sxhkdrc"
 alias zshrc="vim ~/.zshrc"
 alias vi="vim"
 alias python="/usr/bin/python2.7"
@@ -52,14 +46,15 @@ alias search="apt-cache search"
 alias ver="apt-cache policy"
 alias remove="sudo apt-get remove"
 alias purge="sudo apt-get purge"
-alias clang++="clang++-3.5"
 alias xup="xrdb -merge ~/.Xresources"
 alias xdef="vim ~/.Xresources"
+alias sbox="thunar sftp://loki@<cannot have my ip> &"
+alias sourcez="source ~/.zshrc"
 
 # For two finger vert scroll:
-synclient VertTwoFingerScroll=1
+#synclient VertTwoFingerScroll=1
 # For two finger horiz scroll
-synclient HorizTwoFingerScroll=1
+#synclient HorizTwoFingerScroll=1
 
 # History search
 [[ -n "${key[PageUp]}" ]] && bindkey "${key[PageUp]}" history-beginning-search-backward
@@ -97,16 +92,45 @@ zstyle ':completion:*:default' list-prompt '%S%M matches%s'
 zstyle ':completion:*:descriptions' format "- %d -"
 zstyle ':completion:*:*:*:*:hosts' list-colors '=*=30;41'
 zstyle ':completion:*:kill:*:processes' command "ps x"
-#zstyle ':completion:*:manuals.(^1*)' insert-sections true
 zstyle ':completion:*:manuals' separate-sections true
-#zstyle ':completion:*:*:*:*:users' list-colors'=*=$color[green]=$color[red]'
 zstyle ':completion:*' cache-path ~/.zsh/cache
 zstyle ':completion:*' group-name ''
-##zstyle ':completion:*' list-colors 'reply=( "=(#b)(*$VAR)(?)*=00=$color[green]=$color[bg-green]" )'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-#zstyle ':completion:*' menu select
 zstyle ':completion:*' use-cache on
-#zstyle ':completion:*' verbose yes
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
 
+# Setup cdc function
+# ------------------
+unalias cdc 2> /dev/null
+cdc() {
+   local dest_dir=$(cdscuts_glob_echo | fzf )
+   if [[ $dest_dir != '' ]]; then
+      cd "$dest_dir"
+   fi
+}
+export -f cdc > /dev/null
+
+# Setup fsearch function
+# ----------------------
+unalias fsearch 2> /dev/null
+fsearch() {
+	local pkg="$(apt-cache search "$@" | fzf )"
+	local final="$(echo $pkg | awk '{print $1}')"
+	if [[ $final != '' ]]; then
+		sudo apt-get install $final
+	fi
+}
+
+# Setup fhist function
+# ----------------------
+unalias fhist 2> /dev/null
+fhist() {
+	local cmd="$(history | fzf )"
+	local strippedcmd="$(echo $cmd | awk '{$1=$2=$3=""; print $0;}')"
+	if [[ $strippedcmd != '' ]]; then
+		eval ${strippedcmd}
+	fi
+}
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source $ZSH/oh-my-zsh.sh
