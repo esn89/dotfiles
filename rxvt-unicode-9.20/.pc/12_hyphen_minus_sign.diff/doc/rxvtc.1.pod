@@ -1,0 +1,63 @@
+=head1 NAME
+
+@@RXVT_NAME@@c - control the @@RXVT_NAME@@d daemon
+
+=head1 SYNOPSIS
+
+B<@@RXVT_NAME@@c> [same options as for @@RXVT_NAME@@]
+
+=head1 DESCRIPTION
+
+This manpage describes the B<@@RXVT_NAME@@c> client program. It connects
+to the B<@@RXVT_NAME@@d> daemon and requests a new terminal window. It
+takes the same arguments as the B<@@RXVT_NAME@@> program. The environment
+will also be respected. Currently, it always returns immediately after
+contacting the daemon.
+
+=head1 OPTIONS
+
+All options that are valid for B<@@RXVT_NAME@@> are valid for
+B<@@RXVT_NAME@@c>, too. Please note that options are interpreted in the
+context of the daemon process. However, as current working directory,
+process environment and any file descriptor (e.g. for C<-pty-fd>) are
+preserved, this rarely makes a difference.
+
+=head1 EXIT STATUS
+
+If everything went well, @@RXVT_NAME@@c returns with an exit status of C<0>.
+If contacting the daemon fails, it exits with the exit status C<2>. In all other error
+cases it returns with status C<1>.
+
+This can be used to implement auto-starting behaviour, by checking for an
+exit status of C<2>, running C<@@RXVT_NAME@@d -f -q> and retrying the call
+to @@RXVT_NAME@@c, like this:
+
+   #!/bin/sh
+   @@RXVT_NAME@@c "$@"
+   if [ $? -eq 2 ]; then
+      @@RXVT_NAME@@d -q -o -f
+      @@RXVT_NAME@@c "$@"
+   fi
+
+=head1 ENVIRONMENT
+
+All environment variables of the current process will be made available
+to the new instance, and will be interpreted as if B<@@RXVT_NAME@@> were
+started directly.
+
+=over 4
+
+=item B<RXVT_SOCKET>
+
+Both @@RXVT_NAME@@c and @@RXVT_NAME@@d use the environment variable
+F<RXVT_SOCKET> to create a listening socket and to contact the
+@@RXVT_NAME@@d, respectively. If the variable is missing,
+F<<< $HOME/.urxvt/urxvtd-I<< <nodename> >> >>> is used.  The variable must
+specify the absolute path of the socket to create.
+
+=back
+
+=head1 SEE ALSO
+
+@@RXVT_NAME@@(7), @@RXVT_NAME@@d(1)
+

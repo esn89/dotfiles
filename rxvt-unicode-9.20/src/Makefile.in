@@ -1,0 +1,291 @@
+DATE = @DATE@
+VERSION = @VERSION@
+RXVTNAME = @RXVTNAME@
+SHELL = /bin/sh
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+bindir = @bindir@
+libdir = @libdir@
+man1dir = @mandir@/man1
+man1ext = 1
+man3dir = @mandir@/man3
+man3ext = 3
+PODOPTS = quotes => q<"> , center => q<RXVT-UNICODE>, release => q<$(VERSION)>
+CXX = @CXX@
+PERL = @PERL@
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL@ -m 755
+INSTALL_DATA = @INSTALL@ -m 644
+CXXFLAGS = @CXXFLAGS@
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+DEFS = @DEFS@
+LIBS = @LIBS@
+XINC = @X_CFLAGS@ @PIXBUF_CFLAGS@ @STARTUP_NOTIFICATION_CFLAGS@
+XLIB = @X_LIBS@ -lX11 @X_EXTRA_LIBS@ @PIXBUF_LIBS@ @STARTUP_NOTIFICATION_LIBS@
+COMPILE = $(CXX) -I.. -I$(srcdir) -I. -I$(srcdir)/../libev -I$(srcdir)/../libptytty/src $(DEFS) $(CPPFLAGS) $(CXXFLAGS) $(XINC)
+LINK = @LINKER@ $(LDFLAGS)
+EXEEXT = @EXEEXT@
+PERLFLAGS = @PERLFLAGS@
+PERLLIB = @PERLLIB@
+
+srcdir = @srcdir@
+VPATH = @srcdir@
+
+first_rule: all
+dummy:
+
+COMMON = \
+	background.o command.o rxvtfont.o init.o main.o misc.o \
+	screen.o scrollbar.o scrollbar-next.o scrollbar-rxvt.o \
+	scrollbar-xterm.o scrollbar-plain.o xdefaults.o encoding.o \
+	rxvttoolkit.o rxvtutil.o keyboard.o rxvtimg.o \
+	ev_cpp.o fdpass_wrapper.o ptytty_wrapper.o @PERL_O@
+
+COMMON_DAEMON = rxvtdaemon.o
+
+RXVT_BINNAME=$(DESTDIR)$(bindir)/$(RXVTNAME)$(EXEEXT)
+RXVTC_BINNAME=$(DESTDIR)$(bindir)/$(RXVTNAME)c$(EXEEXT)
+RXVTD_BINNAME=$(DESTDIR)$(bindir)/$(RXVTNAME)d$(EXEEXT)
+
+#
+# Distribution variables
+#
+
+.SUFFIXES:	.C .c .o
+
+#-------------------------------------------------------------------------
+# inference rules
+.C.o:
+	$(COMPILE) -c $<
+
+#-------------------------------------------------------------------------
+
+all: allbin
+
+rxvt: rxvt.o $(COMMON)
+	$(LINK) -o $@ rxvt.o $(COMMON) $(LIBS) $(XLIB) $(PERLLIB)
+
+rxvtd: rxvtd.o $(COMMON) $(COMMON_DAEMON)
+	$(LINK) -o $@ rxvtd.o $(COMMON) $(COMMON_DAEMON) $(LIBS) $(XLIB) $(PERLLIB)
+
+rxvtc: rxvtc.o $(COMMON_DAEMON) fdpass_wrapper.o
+	$(LINK) -o $@ rxvtc.o $(COMMON_DAEMON) fdpass_wrapper.o $(LIBS)
+
+#-------------------------------------------------------------------------
+
+#EXUBERANT_OPTS = -I NOTHROW -I THROW
+
+tags: *.[Ch]
+	ctags $(EXUBERANT_OPTS) *.[Ch]
+
+TAGS: *.[Ch]
+	etags $(EXUBERANT_OPTS) *.[Ch]
+
+allbin: rxvt rxvtd rxvtc
+
+alldoc:
+
+clean:
+	rm -f rxvt rxvtc rxvtd perlxsi.c rxvtperl.C manlst mantmp
+	rm -f *.o
+
+distclean: clean
+	rm -f Makefile
+
+realclean: distclean
+	rm -f tags TAGS
+
+cleandir: realclean
+
+install-perl:
+@IF_PERL@	$(INSTALL) -d $(DESTDIR)$(libdir)
+@IF_PERL@	$(INSTALL) -d $(DESTDIR)$(libdir)/urxvt
+@IF_PERL@	$(INSTALL) -d $(DESTDIR)$(libdir)/urxvt/perl
+@IF_PERL@	$(INSTALL) -d $(DESTDIR)$(man1dir)
+@IF_PERL@	$(INSTALL) -d $(DESTDIR)$(man3dir)
+@IF_PERL@	$(INSTALL_DATA) $(srcdir)/urxvt.pm $(DESTDIR)$(libdir)/urxvt/urxvt.pm
+@IF_PERL@	for ext in $(srcdir)/perl/*; do \
+@IF_PERL@	   test -f "$$ext" || continue; \
+@IF_PERL@	   base="$${ext##*/}"; \
+@IF_PERL@	   $(INSTALL_DATA) "$$ext" $(DESTDIR)$(libdir)/urxvt/perl/; \
+@IF_PERL@	   < "$$ext" \
+@IF_PERL@	   $(PERL) -MPod::Man -e '(new Pod::Man name => "'urxvt-$$base'", $(PODOPTS))->parse_from_file' \
+@IF_PERL@	   > mantmp; \
+@IF_PERL@	   test -s mantmp && $(INSTALL_DATA) mantmp $(DESTDIR)$(man1dir)/$(RXVTNAME)-$$base.$(man1ext); \
+@IF_PERL@	   < "$$ext" $(PERL) -ne '<>, (print <> . "\n"), exit if /^=head1/' >&3; \
+@IF_PERL@	done 3>manlst
+@IF_PERL@	cat $(srcdir)/../doc/extensions.pod.top manlst $(srcdir)/../doc/extensions.pod.bot | \
+@IF_PERL@	$(PERL) -MPod::Man -e '(new Pod::Man name => "$(RXVTNAME)-extensions", $(PODOPTS))->parse_from_file' \
+@IF_PERL@	> mantmp
+@IF_PERL@	$(INSTALL_DATA) mantmp $(DESTDIR)$(man1dir)/$(RXVTNAME)-extensions.$(man1ext)
+@IF_PERL@	< $(srcdir)/urxvt.pm \
+@IF_PERL@	$(PERL) -MPod::Man -e '(new Pod::Man name => "$(RXVTNAME)perl", section => 3, $(PODOPTS))->parse_from_file' \
+@IF_PERL@	> mantmp
+@IF_PERL@	$(INSTALL_DATA) mantmp $(DESTDIR)$(man3dir)/$(RXVTNAME)perl.$(man3ext)
+
+install-bin: allbin
+	$(INSTALL) -d $(DESTDIR)$(bindir)
+	$(INSTALL_PROGRAM) rxvt  $(RXVT_BINNAME)
+	$(INSTALL_PROGRAM) rxvtc $(RXVTC_BINNAME)
+	$(INSTALL_PROGRAM) rxvtd $(RXVTD_BINNAME)
+
+install: install-bin install-perl
+
+perlxsi.c: Makefile
+	$(PERL) -MExtUtils::Embed -e xsinit -- -std urxvt
+
+rxvtperl.C: rxvtperl.xs iom_perl.h iom_perl.xs typemap typemap.iom
+	PERL="$(PERL)" $(PERL) @PERLPRIVLIBEXP@/ExtUtils/xsubpp -C++ -typemap @PERLPRIVLIBEXP@/ExtUtils/typemap -typemap typemap.iom -typemap typemap -prototypes $(srcdir)/rxvtperl.xs >$@
+
+rxvtperl.o: rxvtperl.C perlxsi.c
+	$(COMPILE) $(PERLFLAGS) -DLIBDIR="\"$(libdir)/urxvt\"" -c $<
+
+depend:
+	makedepend -f Makefile.in -I. -I.. -I../libptytty/src -I../libev -Y *.C *.xs >/dev/null 2>&1
+
+# DO NOT DELETE: nice dependency list follows
+
+background.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+background.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+background.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h
+background.o: ../libev/ev.h callback.h rxvtimg.h scrollbar.h
+background.o: ../libptytty/src/libptytty.h rxvtperl.h hookinc.h rsinc.h
+background.o: optinc.h
+command.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+command.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+command.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+command.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+command.o: rxvtperl.h hookinc.h rsinc.h optinc.h version.h command.h
+command.o: keyboard.h
+encoding.o: ../config.h encoding.h rxvtutil.h ../libptytty/src/ecb.h
+encoding.o: ../libptytty/src/estl.h emman.h table/iso8859_1.h
+encoding.o: table/iso8859_15.h table/iso8859_2.h table/iso8859_3.h
+encoding.o: table/iso8859_4.h table/iso8859_5.h table/iso8859_6.h
+encoding.o: table/iso8859_7.h table/iso8859_8.h table/iso8859_9.h
+encoding.o: table/iso8859_10.h table/iso8859_11.h table/iso8859_13.h
+encoding.o: table/iso8859_14.h table/iso8859_16.h table/koi8_r.h
+encoding.o: table/koi8_u.h table/ksc5601_1987_0.h table/big5.h table/gbk_0.h
+encoding.o: table/gb2312_1980_0.h table/cns11643_1992_1.h
+encoding.o: table/cns11643_1992_2.h table/cns11643_1992_3.h
+encoding.o: table/cns11643_1992_4.h table/cns11643_1992_5.h
+encoding.o: table/cns11643_1992_6.h table/cns11643_1992_7.h
+encoding.o: table/cns11643_1992_f.h table/big5_ext.h table/big5_plus.h
+encoding.o: table/viscii.h table/jis0201_1976_0.h table/jis0208_1990_0.h
+encoding.o: table/jis0212_1990_0.h table/jis0213_1.h table/jis0213_2.h
+encoding.o: table/compose.h table/category.h
+ev_cpp.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h ../libev/ev.c
+ev_cpp.o: ../libev/ev_vars.h ../libev/ev_epoll.c ../libev/ev_select.c
+fdpass_wrapper.o: ../libptytty/src/fdpass.C ../config.h
+fdpass_wrapper.o: ../libptytty/src/libptytty.h
+init.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+init.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+init.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h callback.h
+init.o: rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+init.o: hookinc.h rsinc.h optinc.h init.h keyboard.h
+keyboard.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+keyboard.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+keyboard.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+keyboard.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+keyboard.o: rxvtperl.h hookinc.h rsinc.h optinc.h keyboard.h
+main.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+main.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+main.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h callback.h
+main.o: rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+main.o: hookinc.h rsinc.h optinc.h init.h keyboard.h
+misc.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+misc.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+misc.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h callback.h
+misc.o: rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+misc.o: hookinc.h rsinc.h optinc.h
+ptytty_wrapper.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h
+ptytty_wrapper.o: encoding.h rxvtutil.h ../libptytty/src/estl.h emman.h
+ptytty_wrapper.o: rxvtfont.h rxvttoolkit.h ev_cpp.h ../libev/ev++.h
+ptytty_wrapper.o: ../libev/ev.h callback.h rxvtimg.h scrollbar.h
+ptytty_wrapper.o: ../libptytty/src/libptytty.h rxvtperl.h hookinc.h rsinc.h
+ptytty_wrapper.o: optinc.h ../libptytty/src/logging.C
+ptytty_wrapper.o: ../libptytty/src/ptytty.h ../libptytty/src/ptytty_conf.h
+ptytty_wrapper.o: ../libptytty/src/proxy.C ../libptytty/src/ptytty.C
+rxvt.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+rxvt.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+rxvt.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h callback.h
+rxvt.o: rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+rxvt.o: hookinc.h rsinc.h optinc.h
+rxvtc.o: ../config.h rxvtdaemon.h rxvtutil.h ../libptytty/src/ecb.h
+rxvtc.o: ../libptytty/src/estl.h emman.h ../libptytty/src/libptytty.h
+rxvtd.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+rxvtd.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+rxvtd.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h callback.h
+rxvtd.o: rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+rxvtd.o: hookinc.h rsinc.h optinc.h rxvtdaemon.h
+rxvtdaemon.o: rxvtdaemon.h rxvtutil.h ../libptytty/src/ecb.h
+rxvtdaemon.o: ../libptytty/src/estl.h emman.h
+rxvtfont.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+rxvtfont.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+rxvtfont.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+rxvtfont.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+rxvtfont.o: rxvtperl.h hookinc.h rsinc.h optinc.h table/linedraw.h
+rxvtimg.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+rxvtimg.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+rxvtimg.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+rxvtimg.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+rxvtimg.o: rxvtperl.h hookinc.h rsinc.h optinc.h
+rxvtperl.o: ../config.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+rxvtperl.o: rxvt.h feature.h ../libptytty/src/ecb.h encoding.h rxvtutil.h
+rxvtperl.o: ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+rxvtperl.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+rxvtperl.o: rxvtperl.h hookinc.h rsinc.h optinc.h keyboard.h perlxsi.c
+rxvtperl.o: iom_perl.h
+rxvttoolkit.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+rxvttoolkit.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+rxvttoolkit.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h
+rxvttoolkit.o: ../libev/ev.h callback.h rxvtimg.h scrollbar.h
+rxvttoolkit.o: ../libptytty/src/libptytty.h rxvtperl.h hookinc.h rsinc.h
+rxvttoolkit.o: optinc.h
+rxvtutil.o: rxvtutil.h ../libptytty/src/ecb.h ../libptytty/src/estl.h emman.h
+rxvtutil.o: emman.c
+screen.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+screen.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+screen.o: ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h callback.h
+screen.o: rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+screen.o: hookinc.h rsinc.h optinc.h
+scrollbar-next.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h
+scrollbar-next.o: encoding.h rxvtutil.h ../libptytty/src/estl.h emman.h
+scrollbar-next.o: rxvtfont.h rxvttoolkit.h ev_cpp.h ../config.h
+scrollbar-next.o: ../libev/ev++.h ../libev/ev.h callback.h rxvtimg.h
+scrollbar-next.o: scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+scrollbar-next.o: hookinc.h rsinc.h optinc.h
+scrollbar-plain.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h
+scrollbar-plain.o: encoding.h rxvtutil.h ../libptytty/src/estl.h emman.h
+scrollbar-plain.o: rxvtfont.h rxvttoolkit.h ev_cpp.h ../config.h
+scrollbar-plain.o: ../libev/ev++.h ../libev/ev.h callback.h rxvtimg.h
+scrollbar-plain.o: scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+scrollbar-plain.o: hookinc.h rsinc.h optinc.h
+scrollbar-rxvt.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h
+scrollbar-rxvt.o: encoding.h rxvtutil.h ../libptytty/src/estl.h emman.h
+scrollbar-rxvt.o: rxvtfont.h rxvttoolkit.h ev_cpp.h ../config.h
+scrollbar-rxvt.o: ../libev/ev++.h ../libev/ev.h callback.h rxvtimg.h
+scrollbar-rxvt.o: scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+scrollbar-rxvt.o: hookinc.h rsinc.h optinc.h
+scrollbar-xterm.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h
+scrollbar-xterm.o: encoding.h rxvtutil.h ../libptytty/src/estl.h emman.h
+scrollbar-xterm.o: rxvtfont.h rxvttoolkit.h ev_cpp.h ../config.h
+scrollbar-xterm.o: ../libev/ev++.h ../libev/ev.h callback.h rxvtimg.h
+scrollbar-xterm.o: scrollbar.h ../libptytty/src/libptytty.h rxvtperl.h
+scrollbar-xterm.o: hookinc.h rsinc.h optinc.h
+scrollbar.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+scrollbar.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+scrollbar.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+scrollbar.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+scrollbar.o: rxvtperl.h hookinc.h rsinc.h optinc.h
+xdefaults.o: ../config.h rxvt.h feature.h ../libptytty/src/ecb.h encoding.h
+xdefaults.o: rxvtutil.h ../libptytty/src/estl.h emman.h rxvtfont.h
+xdefaults.o: rxvttoolkit.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+xdefaults.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+xdefaults.o: rxvtperl.h hookinc.h rsinc.h optinc.h version.h keyboard.h
+rxvtperl.o: ../config.h ev_cpp.h ../config.h ../libev/ev++.h ../libev/ev.h
+rxvtperl.o: rxvt.h feature.h ../libptytty/src/ecb.h encoding.h rxvtutil.h
+rxvtperl.o: ../libptytty/src/estl.h emman.h rxvtfont.h rxvttoolkit.h
+rxvtperl.o: callback.h rxvtimg.h scrollbar.h ../libptytty/src/libptytty.h
+rxvtperl.o: rxvtperl.h hookinc.h rsinc.h optinc.h keyboard.h perlxsi.c
+rxvtperl.o: iom_perl.h

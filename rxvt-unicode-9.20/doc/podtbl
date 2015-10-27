@@ -1,0 +1,95 @@
+#!/usr/bin/perl
+
+use Pod::Parser;
+use List::Util qw(max);
+
+@ISA = Pod::Parser::;
+
+sub stripfcodes {
+   # strip formatting codes, dumb version
+   map {
+         s/[IBCLFSXZ]<< (.*?) >>/$1/gs;
+         s/[IBCLFSXZ]<(.*?)>/$1/gs;
+         $_
+       } @$_;
+}
+
+sub htmlfcodes {
+   my %tag = (
+      I => "i",
+      B => "b",
+      C => "tt",
+      L => "i",    # broken
+      F => "tt",
+      S => "nobr", # non-std
+      X => "span", # broken
+      Z => "span", # broken
+   );
+   # strip formatting codes, dumb version
+   map {
+         s/([IBCLFSXZ])<< (.*?) >>/<$tag{$1}>$2<\/$tag{$1}>/gs;
+         s/([IBCLFSXZ])<(.*?)>/<$tag{$1}>$2<\/$tag{$1}>/gs;
+         $_
+       } @$_;
+}
+
+sub command {
+   my ($self, $command, $paragraph) = @_;
+
+   if ($command eq "begin" && $paragraph =~ /^\s*table\s*$/s) {
+      $table++;
+   } elsif ($command eq "end" && $paragraph =~ /^\s*table\s*$/s) {
+      $table--;
+   } else {
+      shift;
+      return $self->SUPER::command (@_);
+   }
+}
+
+sub verbatim {
+   my ($self, $para) = @_;
+   shift;
+
+   return $self->SUPER::verbatim (@_) unless $table;
+
+   my $table = [ map [$_ =~ /\t([^\t]*)/g], split /\n/, $para ];
+   my $cols = max map scalar @$_, @$table;
+
+   my $fh = $self->output_handle;
+
+   # format the table
+   # text
+   print $fh "=begin text\n\n";
+
+   for (@$table) {
+      print $fh "   ", (map +(sprintf "%-15s ", $_), stripfcodes @$_), "\n";
+   }
+
+   print $fh "\n=end text\n\n";
+
+
+   # tbl
+   print $fh "=begin roff\n\n";
+
+   print $fh ".TS\n" . ("l " x $cols) . ".\n";
+   print $fh map +(join "\t", stripfcodes @$_) . "\n", @$table;
+   print $fh ".TE\n";
+
+   print $fh "\n=end roff\n\n";
+
+   # html
+   # pod::xhtml fails on begin/end blocks
+#   print $fh "=begin xhtml\n\n";
+
+   print $fh "=for html <table>";
+   print $fh map "<tr><td>" . +(join "</td><td>", htmlfcodes @$_) . "</td></tr>", @$table;
+   print $fh "</table>\n\n";
+
+#   print $fh "\n=end xhtml\n\n";
+
+}
+
+__PACKAGE__->new->parse_from_filehandle;
+
+
+

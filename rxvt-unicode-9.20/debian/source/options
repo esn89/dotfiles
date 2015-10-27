@@ -1,0 +1,2 @@
+# Ignore changes to these files
+extend-diff-ignore = "^(README.FAQ|README.configure|doc/rxvt.1.man.in|doc/rxvt.7.man.in|doc/rxvtc.1.man.in)$"

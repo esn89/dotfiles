@@ -1,0 +1,78 @@
+
+	- nuke the pid check when !PTYTTY_REENTRANT: it breaks urxvtd, and
+          serves little purpose as it is off in normal builds anyway.
+	- add ecb.h.
+
+1.6  Sat Jan 21 16:59:22 CET 2012
+	- fix compilation on solaris.
+	- remove dependency on STL.
+
+1.5  Thu Dec 22 23:32:08 CET 2011
+	- INCOMPATIBLE CHANGE: ptytty::get no longer sets the pty fd
+	  non-blocking.
+	- the login_shell argument of ptytty::login is now properly
+	  honoured.
+	- ptytty::get no longer makes the pty a controlling terminal
+	  when using posix_openpt.
+	- remove support for utmpx ut_session extension, it serves no
+	  purpose.
+	- remove support for writing lastlog when the lastlog file is a
+	  directory, no system is known to require this code.
+	- do not clear ut_user in utmpx logout records because
+	  pututxline fails otherwise on solaris.
+	- fix writing of bsd style utmp when the tty is closed before
+	  calling ptytty::login.
+	- fix compilation on systems with bsd style utmp and no utmpx,
+	  such as openbsd.
+
+1.4  Wed Jun 29 14:36:19 CEST 2011
+	- push stream modules in ptytty::get rather than in
+	  ptytty::make_controlling_tty. This makes tty ioctls (such as
+	  TIOCSWINSZ, to set the window size) work even if
+	  make_controlling_tty has not been called.
+	- clear user and host fields in utmp(x) logout records.
+	- fix utmpx detection on upcoming FreeBSD 9.
+	- switch to automake.
+	- refactoring and cleanup.
+
+1.3  Sun May  3 23:44:16 CEST 2009
+	- fedora 9 apparently has isastream but not the stropts.h header
+          file for it, work around this (reported by Tuncer Ayaz).
+        - detect if lastlog is a directory at runtime.
+        - assume ttyslot availability for bsd style utmp.
+        - make sure the alignment for fd passing control messages
+          is correct and work around some NetBSD issues (Taylor R Campbell).
+        - add some missing include statements.
+
+1.2  Thu Aug  2 15:50:02 CEST 2007
+        - restore the SysV way of acquiring a controlling terminal
+          (for systems having no TIOCSCTTY such as cygwin or solaris).
+        - when using openpty, get the slave name with ttyname.
+        - fix invalid free when using _getpty.
+        - update config.guess and config.sub.
+
+1.1  Mon Feb 12 18:25:07 CET 2007
+        - when using the helper, close the pty and tty fd also in the main
+          process (patch by Andrei Paskevich).
+        - implement ptytty::sanitise_stdfd to ensure stdin/out/error exist
+          and are usable and use it.
+
+1.0  Tue Oct  3 13:18:00 CEST 2006
+        - do not call chmod/chown with 0 argument.
+        - reformatted ptytty.C to hopefully be more clear.
+
+0.2  Thu Jul 20 04:57:26 CEST 2006
+        - move include files outside #ifdef PTYTTY_HELPER in proxy.C.
+        - added proxy.C to cvs (was missing before).
+
+0.1  Wed Jan 25 22:56:36 CET 2006
+        - added the C API.
+        - small freebsd patch to fdpass.C by Thierry Thomas.
+        - added eg/c-sample.c.
+        - small fixes to the C api.
+        - restructured source files.
+        - added set*uid checks to ptytty.m4.
+
+0.0
+        - originally cloned from rxvt-unicode.
+

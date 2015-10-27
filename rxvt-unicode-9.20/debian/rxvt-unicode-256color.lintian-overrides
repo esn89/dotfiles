@@ -1,0 +1,2 @@
+rxvt-unicode-256color: setgid-binary usr/bin/urxvt 2755 root/utmp
+rxvt-unicode-256color: setgid-binary usr/bin/urxvtd 2755 root/utmp

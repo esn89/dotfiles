@@ -1,0 +1,57 @@
+overlay *		OVERLAY
+
+Time			T_UV
+Atom			T_UV
+Window			T_UV
+Pixmap			T_UV
+rxvt_img::nv		T_NV
+
+urxvt::pixbuf           T_PTROBJ
+
+octet_string            OCTET_STRING
+utf8_string             UTF8_STRING
+
+rxvt_term *		TERM
+rxvt_img *		IMG
+
+GError **		T_UV
+
+render_repeat_mode	RENDER_REPEAT_MODE
+
+INPUT
+
+TERM
+	$var = SvTERM ($arg);
+OVERLAY
+	$var = SvOVERLAY ($arg);
+
+OCTET_STRING
+        $var = SvPVbyte_nolen ($arg)
+
+UTF8_STRING
+        $var = SvPVutf8_nolen ($arg) /* imperfect, destroys references */
+
+IMG
+        if (SvROK ($arg) && sv_derived_from ($arg, \"urxvt::img\"))
+          $var = INT2PTR ($type, SvIV ((SV *) SvRV ($arg)));
+        else
+          croak (\"%s is not of type urxvt::img\", \"$var\")
+
+RENDER_REPEAT_MODE
+	if (SvOK ($arg))
+          {
+	    $var = SvIV ($arg);
+            if ($var != RepeatNone && $var != RepeatNormal && $var != RepeatPad && $var != RepeatReflect)
+              croak (\"invalid repeat mode specified (%d)\\n\", $var);
+          }
+        else
+          $var = RepeatNormal;
+
+OUTPUT
+
+TERM
+	$arg = newSVterm ($var);
+
+IMG
+        sv_setref_pv ($arg, "urxvt::img", (void *)$var);
+

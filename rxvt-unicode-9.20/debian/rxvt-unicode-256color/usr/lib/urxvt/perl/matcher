@@ -1,0 +1,341 @@
+#! perl
+
+# Author: Tim Pope <rxvt-unicodeNOSPAM@tpope.org>
+#          Bob Farrell <robertanthonyfarrell@gmail.com>
+
+#:META:X_RESOURCE:%.launcher:string:default launcher command
+#:META:X_RESOURCE:%.button:string:the button, yeah
+#:META:X_RESOURCE:%.pattern.:string:extra pattern to match
+#:META:X_RESOURCE:%.launcher.:string:custom launcher for pattern
+#:META:X_RESOURCE:%.rend.:string:custom rednition for pattern
+
+=head1 NAME
+
+matcher - match strings in terminal output and change their rendition
+
+=head1 DESCRIPTION
+
+Uses per-line display filtering (C<on_line_update>) to underline text
+matching a certain pattern and make it clickable. When clicked with the
+mouse button specified in the C<matcher.button> resource (default 2, or
+middle), the program specified in the C<matcher.launcher> resource
+(default, the C<urlLauncher> resource, C<sensible-browser>) will be started
+with the matched text as first argument.  The default configuration is
+suitable for matching URLs and launching a web browser, like the
+former "mark-urls" extension.
+
+The default pattern to match URLs can be overridden with the
+C<matcher.pattern.0> resource, and additional patterns can be specified
+with numbered patterns, in a manner similar to the "selection" extension.
+The launcher can also be overridden on a per-pattern basis.
+
+It is possible to activate the most recently seen match or a list of matches
+from the keyboard.  Simply bind a keysym to "perl:matcher:last" or
+"perl:matcher:list" as seen in the example below.
+
+Example configuration:
+
+    URxvt.perl-ext:           default,matcher
+    URxvt.url-launcher:       sensible-browser
+    URxvt.keysym.C-Delete:    perl:matcher:last
+    URxvt.keysym.M-Delete:    perl:matcher:list
+    URxvt.matcher.button:     1
+    URxvt.matcher.pattern.1:  \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+    URxvt.matcher.pattern.2:  \\B(/\\S+?):(\\d+)(?=:|$)
+    URxvt.matcher.launcher.2: gvim +$2 $1
+
+=cut
+
+my $url =
+   qr{
+      (?:https?://|ftp://|news://|mailto:|file://|\bwww\.)
+      [\w\-\@;\/?:&=%\$.+!*\x27,~#]*
+      (
+         \([\w\-\@;\/?:&=%\$.+!*\x27,~#]*\)| # Allow a pair of matched parentheses
+         [\w\-\@;\/?:&=%\$+*~]  # exclude some trailing characters (heuristic)
+      )+
+   }x;
+
+sub on_key_press {
+   my ($self, $event, $keysym, $octets) = @_;
+
+   if (! $self->{showing} ) {
+      return;
+   }
+
+   my $i = ($keysym == 96 ? 0 : $keysym - 48);
+   if (($i > scalar(@{$self->{urls}})) || ($i < 0)) {
+      $self->matchlist();
+      return;
+   }
+
+   my @args = ($self->{urls}[ -$i-1 ]);
+   $self->matchlist();
+
+   $self->exec_async( $self->{launcher}, @args );
+}
+
+sub on_user_command {
+   my ($self, $cmd) = @_;
+
+   if($cmd =~ s/^matcher:list\b//) {
+      $self->matchlist();
+   } else {
+      if($cmd =~ s/^matcher:last\b//) {
+         $self->most_recent;
+      }
+   # For backward compatibility
+    else {
+      if($cmd =~ s/^matcher\b//) {
+         $self->most_recent;
+      }
+   }
+  }
+   ()
+}
+
+sub matchlist {
+   my ($self) = @_;
+   if ( $self->{showing} ) {
+     $self->{url_overlay}->hide();
+     $self->{showing} = 0;
+     return;
+   }
+  @{$self->{urls}} = ();
+  my $line;
+  for (my $i = 0; $i < $self->nrow; $i ++) {
+     $line = $self->line($i);
+     next if ($line->beg != $i);
+     for my $url ($self->get_urls_from_line($line->t)) {
+        if (scalar(@{$self->{urls}}) == 10) {
+            shift @{$self->{urls}};
+        }
+        push @{$self->{urls}}, $url;
+     }
+  }
+
+  if (! scalar(@{$self->{urls}})) {
+    return;
+  }
+
+  my $max = 0;
+  my $i = scalar( @{$self->{urls}} ) - 1 ;;
+
+  my @temp = ();
+
+  for my $url (@{$self->{urls}}) {
+     my $url = "$i-$url";
+     my $xpos = 0;
+
+     if ($self->ncol + (length $url) >= $self->ncol) {
+        $url = substr( $url, 0, $self->ncol );
+     }
+
+     push @temp, $url;
+
+     if( length $url > $max ) {
+        $max = length $url;
+     }
+
+     $i--;
+  }
+
+  @temp = reverse @temp;
+
+  $self->{url_overlay} = $self->overlay(0, 0, $max, scalar( @temp ), urxvt::OVERLAY_RSTYLE, 2);
+  my $i = 0;
+  for my $url (@temp) {
+     $self->{url_overlay}->set( 0, $i, $url, [(urxvt::OVERLAY_RSTYLE) x length $url]);
+	$self->{showing} = 1;
+     $i++;
+  }
+
+}
+
+sub most_recent {
+   my ($self) = shift;
+   my $row = $self->nrow;
+   my @exec;
+   while($row-- > $self->top_row) {
+      @exec = $self->command_for($row);
+      last if(@exec);
+   }
+   if(@exec) {
+      return $self->exec_async (@exec);
+   }
+   ()
+}
+
+sub my_resource {
+   $_[0]->x_resource ("%.$_[1]")
+}
+
+# turn a rendition spec in the resource into a sub that implements it on $_
+sub parse_rend {
+   my ($self, $str) = @_;
+   my ($mask, $fg, $bg, $failed) = $str ? urxvt::rend2mask($str)
+                                        : (urxvt::RS_Uline, undef, undef, []);
+   warn "Failed to parse rendition string: " . join(',', @$failed) if @$failed;
+   my @rend;
+   push @rend, sub { $_ |= $mask } if $mask;
+   push @rend, sub { $_ = urxvt::SET_FGCOLOR($_, $fg) } if defined $fg;
+   push @rend, sub { $_ = urxvt::SET_BGCOLOR($_, $bg) } if defined $bg;
+   sub {
+      for my $s ( @rend ) { &$s };
+   }
+}
+
+sub on_start {
+   my ($self) = @_;
+
+   $self->{launcher} = $self->my_resource ("launcher") || $self->x_resource("url-launcher") || "sensible-browser";
+
+   $self->{urls} = [];
+   $self->{showing} = 0;
+   $self->{button}  = 2;
+   $self->{state}   = 0;
+   if($self->{argv}[0] || $self->my_resource ("button")) {
+      my @mods = split '', $self->{argv}[0] || $self->my_resource ("button");
+      for my $mod (@mods) {
+         if($mod =~ /^\d+$/) {
+            $self->{button} = $mod;
+         } elsif($mod eq "C") {
+            $self->{state} |= urxvt::ControlMask;
+         } elsif($mod eq "S") {
+            $self->{state} |= urxvt::ShiftMask;
+         } elsif($mod eq "M") {
+            $self->{state} |= $self->ModMetaMask;
+         } elsif($mod ne "-" && $mod ne " ") {
+            warn("$mod is invalid in $self->{_name}<$self->{argv}[0]>\n");
+         }
+      }
+   }
+
+   my @defaults = ($url);
+   my @matchers;
+   for (my $idx = 0; defined (my $res = $self->my_resource ("pattern.$idx") || $defaults[$idx]); $idx++) {
+      $res = $self->locale_decode ($res);
+      utf8::encode $res;
+      my $launcher = $self->my_resource ("launcher.$idx");
+      $launcher =~ s/\$&|\$\{&\}/\${0}/g if $launcher;
+      my $rend = $self->parse_rend($self->my_resource ("rend.$idx"));
+      unshift @matchers, [qr($res)x,$launcher,$rend];
+   }
+   $self->{matchers} = \@matchers;
+
+   ()
+}
+
+sub get_urls_from_line {
+   my ($self, $line) = @_;
+   my @urls;
+   for my $matcher (@{$self->{matchers}}) {
+     while ($line =~ /$matcher->[0]/g) {
+        push @urls, substr( $line, $-[0], $+[0] - $-[0] );
+     }
+   }
+   return @urls;
+}
+
+sub on_line_update {
+   my ($self, $row) = @_;
+
+   # fetch the line that has changed
+   my $line = $self->line ($row);
+   my $text = $line->t;
+   my $i = 0;
+
+   # find all urls (if any)
+   for my $matcher (@{$self->{matchers}}) {
+      while ($text =~ /$matcher->[0]/g) {
+         #print "$&\n";
+         my $rend = $line->r;
+
+         # mark all characters as underlined. we _must_ not toggle underline,
+         # as we might get called on an already-marked url.
+         &{$matcher->[2]}
+         for @{$rend}[ $-[0] .. $+[0] - 1];
+
+         $line->r ($rend);
+      }
+   }
+
+   ()
+}
+
+sub valid_button {
+   my ($self, $event) = @_;
+   my $mask = $self->ModLevel3Mask | $self->ModMetaMask
+   | urxvt::ShiftMask | urxvt::ControlMask;
+   return ($event->{button} == $self->{button} &&
+      ($event->{state} & $mask) == $self->{state});
+}
+
+sub command_for {
+   my ($self, $row, $col) = @_;
+   my $line = $self->line ($row);
+   my $text = $line->t;
+
+   for my $matcher (@{$self->{matchers}}) {
+      my $launcher = $matcher->[1] || $self->{launcher};
+      while (($text =~ /$matcher->[0]/g)) {
+         my $match = $&;
+         my @begin = @-;
+         my @end = @+;
+         if (!defined($col) || ($-[0] <= $col && $+[0] >= $col)) {
+            if ($launcher !~ /\$/) {
+               return ($launcher,$match);
+            } else {
+               # It'd be nice to just access a list like ($&,$1,$2...),
+               # but alas, m//g behaves differently in list context.
+               my @exec = map { s/\$(\d+)|\$\{(\d+)\}/
+                  substr($text,$begin[$1||$2],$end[$1||$2]-$begin[$1||$2])
+                  /egx; $_ } split(/\s+/, $launcher);
+               return @exec;
+            }
+         }
+      }
+   }
+
+   ()
+}
+
+sub on_button_press {
+   my ($self, $event) = @_;
+   if($self->valid_button($event)
+      && (my @exec = $self->command_for($event->{row},$event->{col}))) {
+      $self->{row} = $event->{row};
+      $self->{col} = $event->{col};
+      $self->{cmd} = \@exec;
+      return 1;
+   } else {
+      delete $self->{row};
+      delete $self->{col};
+      delete $self->{cmd};
+   }
+
+   ()
+}
+
+sub on_button_release {
+   my ($self, $event) = @_;
+
+   my $row = delete $self->{row};
+   my $col = delete $self->{col};
+   my $cmd = delete $self->{cmd};
+
+   return if !defined $row;
+
+   if($row == $event->{row} && abs($col-$event->{col}) < 2
+      && join("\x00", @$cmd) eq join("\x00", $self->command_for($row,$col))) {
+      if($self->valid_button($event)) {
+
+	 $self->exec_async (@$cmd);
+
+      }
+   }
+
+   1;
+}
+
+# vim:set sw=3 sts=3 et:

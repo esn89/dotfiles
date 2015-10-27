@@ -1,0 +1,2 @@
+rxvt-unicode-lite: setgid-binary usr/bin/urxvt 2755 root/utmp
+rxvt-unicode-lite: setgid-binary usr/bin/urxvtd 2755 root/utmp

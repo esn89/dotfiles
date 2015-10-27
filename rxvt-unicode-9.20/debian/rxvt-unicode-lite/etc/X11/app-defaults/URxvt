@@ -1,0 +1,50 @@
+! System-wide defaults for rxvt-unicode
+!
+! PLEASE NOTE: URxvt.* resources set here will override users' Rxvt.*
+! resources. Edit with care.
+
+! Uncomment to use the historical terminfo entry
+
+!URxvt.termName: rxvt
+
+! Uncomment for color/font settings like in Debian's uxterm
+
+!URxvt.font: -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1
+!URxvt.color0: black
+!URxvt.color1: red3
+!URxvt.color2: green3
+!URxvt.color3: yellow3
+!URxvt.color4: DodgerBlue1
+!URxvt.color5: magenta3
+!URxvt.color6: cyan3
+!URxvt.color7: gray90
+!URxvt.color8: gray50
+!URxvt.color9: red
+!URxvt.color10: green
+!URxvt.color11: yellow
+!URxvt.color12: SteelBlue1
+!URxvt.color13: magenta
+!URxvt.color14: cyan
+!URxvt.color15: white
+!URxvt.colorUL: white
+!URxvt.colorBD: yellow
+!URxvt.reverseVideo: true
+
+! Examples for custom keysyms overrides
+
+!URxvt.keysym.KP_Up: ^[[A
+!URxvt.keysym.KP_Right: ^[[C
+!URxvt.keysym.KP_Left: ^[[D
+!URxvt.keysym.KP_Down: ^[[B
+!URxvt.keysym.KP_Insert: ^[[2~
+!URxvt.keysym.KP_Delete: ^[[3~
+!URxvt.keysym.KP_Add: +
+!URxvt.keysym.KP_Subtract: -
+!URxvt.keysym.KP_Multiply: *
+!URxvt.keysym.KP_Divide: /
+!URxvt.keysym.KP_Enter: ^M
+
+! Uncomment for aterm-like scrolling keys
+
+!URxvt.keysym.Shift-Up: command:\033]720;1\007
+!URxvt.keysym.Shift-Down: command:\033]721;1\007

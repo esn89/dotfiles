@@ -1,0 +1,1744 @@
+=head1 NAME
+
+rxvt-unicode (ouR XVT, unicode) - (a VT102 emulator for the X window system)
+
+=head1 SYNOPSIS
+
+B<@@RXVT_NAME@@> [options] [-e command [ args ]]
+
+=head1 DESCRIPTION
+
+B<rxvt-unicode>, version B<@@RXVT_VERSION@@>, is a colour vt102 terminal
+emulator intended as an I<xterm>(1) replacement for users who do not
+require features such as Tektronix 4014 emulation and toolkit-style
+configurability. As a result, B<rxvt-unicode> uses much less swap space --
+a significant advantage on a machine serving many X sessions.
+
+This document is also available on the World-Wide-Web at
+L<http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod>.
+
+=head1 FREQUENTLY ASKED QUESTIONS
+
+See @@RXVT_NAME@@(7) (try C<man 7 @@RXVT_NAME@@>) for a list of
+frequently asked questions and answer to them and some common
+problems. That document is also accessible on the World-Wide-Web at
+L<http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.7.pod>.
+
+=head1 RXVT-UNICODE VS. RXVT
+
+Unlike the original rxvt, B<rxvt-unicode> stores all text in Unicode
+internally. That means it can store and display most scripts in the
+world. Being a terminal emulator, however, some things are very difficult,
+especially cursive scripts such as arabic, vertically written scripts
+like mongolian or scripts requiring extremely complex combining rules,
+like tibetan or devanagari. Don't expect pretty output when using these
+scripts. Most other scripts, latin, cyrillic, kanji, thai etc. should work
+fine, though. A somewhat difficult case are right-to-left scripts, such
+as hebrew: B<rxvt-unicode> adopts the view that bidirectional algorithms
+belong in the application, not the terminal emulator (too many things --
+such as cursor-movement while editing -- break otherwise), but that might
+change.
+
+If you are looking for a terminal that supports more exotic scripts, let
+me recommend C<mlterm>, which is a very user friendly, lean and clean
+terminal emulator. In fact, the reason rxvt-unicode was born was solely
+because the author couldn't get C<mlterm> to use one font for latin1 and
+another for japanese.
+
+Therefore another design rationale was the use of multiple fonts to
+display characters: The idea of a single unicode font which many other
+programs force onto its users never made sense to me: You should be able
+to choose any font for any script freely.
+
+Apart from that, rxvt-unicode is also much better internationalised than
+its predecessor, supports things such as XFT and ISO 14755 that are handy
+in i18n-environments, is faster, and has a lot bugs less than the original
+rxvt. This all in addition to dozens of other small improvements.
+
+It is still faithfully following the original rxvt idea of being lean
+and nice on resources: for example, you can still configure rxvt-unicode
+without most of its features to get a lean binary. It also comes with
+a client/daemon pair that lets you open any number of terminal windows
+from within a single process, which makes startup time very fast and
+drastically reduces memory usage. See @@RXVT_NAME@@d(1) (daemon) and
+@@RXVT_NAME@@c(1) (client).
+
+It also makes technical information about escape sequences (which have
+been extended) more accessible: see @@RXVT_NAME@@(7) for technical
+reference documentation (escape sequences etc.).
+
+=head1 OPTIONS
+
+The B<@@RXVT_NAME@@> options (mostly a subset of I<xterm>'s) are listed
+below. In keeping with the smaller-is-better philosophy, options may be
+eliminated or default values chosen at compile-time, so options and
+defaults listed may not accurately reflect the version installed on
+your system. `@@RXVT_NAME@@ -h' gives a list of major compile-time options on
+the I<Options> line. Option descriptions may be prefixed with which
+compile option each is dependent upon. e.g. `Compile I<XIM>:' requires
+I<XIM> on the I<Options> line. Note: `@@RXVT_NAME@@ -help' gives a list of all
+command-line options compiled into your version.
+
+Note that B<@@RXVT_NAME@@> permits the resource name to be used as a
+long-option (--/++ option) so the potential command-line options are
+far greater than those listed. For example: `@@RXVT_NAME@@ --loginShell --color1
+Orange'.
+
+The following options are available:
+
+=over 4
+
+=item B<-help>, B<--help>
+
+Print out a message describing available options.
+
+=item B<-display> I<displayname>
+
+Attempt to open a window on the named X display (the older form B<-d>
+is still respected. but deprecated). In the absence of this option, the
+display specified by the B<DISPLAY> environment variable is used.
+
+=item B<-depth> I<bitdepth>
+
+Compile I<frills>: Attempt to find a visual with the given bit depth;
+resource B<depth>.
+
+[Please note that many X servers (and libXft) are buggy with
+respect to C<-depth 32> and/or alpha channels, and will cause all sorts
+of graphical corruption. This is harmless, but we can't do anything about
+this, so watch out]
+
+=item B<-visual> I<visualID>
+
+Compile I<frills>: Use the given visual (see e.g. C<xdpyinfo> for possible
+visual ids).
+
+=item B<-geometry> I<geom>
+
+Window geometry (B<-g> still respected); resource B<geometry>.
+
+=item B<-rv>|B<+rv>
+
+Turn on/off simulated reverse video; resource B<reverseVideo>.
+
+=item B<-j>|B<+j>
+
+Turn on/off jump scrolling (allow multiple lines per refresh); resource B<jumpScroll>.
+
+=item B<-ss>|B<+ss>
+
+Turn on/off skip scrolling (allow multiple screens per refresh); resource B<skipScroll>.
+
+=item B<-fade> I<number>
+
+Fade the text by the given percentage when focus is lost. Small values
+fade a little only, 100 completely replaces all colours by the fade
+colour; resource B<fading>.
+
+=item B<-fadecolor> I<colour>
+
+Fade to this colour when fading is used (see B<-fade>). The default colour
+is opaque black. resource B<fadeColor>.
+
+=item B<-icon> I<file>
+
+Compile I<pixbuf>: Use the specified image as application icon. This
+is used by many window managers, taskbars and pagers to represent the
+application window; resource I<iconFile>.
+
+=item B<-bg> I<colour>
+
+Window background colour; resource B<background>.
+
+=item B<-fg> I<colour>
+
+Window foreground colour; resource B<foreground>.
+
+=item B<-cr> I<colour>
+
+The cursor colour; resource B<cursorColor>.
+
+=item B<-pr> I<colour>
+
+The mouse pointer foreground colour; resource B<pointerColor>.
+
+=item B<-pr2> I<colour>
+
+The mouse pointer background colour; resource B<pointerColor2>.
+
+=item B<-bd> I<colour>
+
+The colour of the border around the text area and between the scrollbar and the text;
+resource B<borderColor>.
+
+=item B<-fn> I<fontlist>
+
+Select the fonts to be used. This is a comma separated list of font names
+that are checked in order when trying to find glyphs for characters. The
+first font defines the cell size for characters; other fonts might be
+smaller, but not (in general) larger. A (hopefully) reasonable default
+font list is always appended to it. See resource B<font> for more details.
+
+In short, to specify an X11 core font, just specify its name or prefix it
+with C<x:>. To specify an XFT-font, you need to prefix it with C<xft:>,
+e.g.:
+
+   @@RXVT_NAME@@ -fn "xft:Bitstream Vera Sans Mono:pixelsize=15"
+   @@RXVT_NAME@@ -fn "9x15bold,xft:Bitstream Vera Sans Mono"
+
+See also the question "How does rxvt-unicode choose fonts?" in the FAQ
+section of @@RXVT_NAME@@(7).
+
+=item B<-fb> I<fontlist>
+
+Compile I<font-styles>: The bold font list to use when B<bold> characters
+are to be printed. See resource B<boldFont> for details.
+
+=item B<-fi> I<fontlist>
+
+Compile I<font-styles>: The italic font list to use when I<italic>
+characters are to be printed. See resource B<italicFont> for details.
+
+=item B<-fbi> I<fontlist>
+
+Compile I<font-styles>: The bold italic font list to use when B<< I<bold
+italic> >> characters are to be printed. See resource B<boldItalicFont>
+for details.
+
+=item B<-is>|B<+is>
+
+Compile I<font-styles>: Bold/Blink font styles imply high intensity
+foreground/background (default). See resource B<intensityStyles> for
+details.
+
+=item B<-name> I<name>
+
+Specify the application name under which resources are to be obtained,
+rather than the default executable file name. Name should not contain
+`.' or `*' characters. Also sets the icon and title name.
+
+=item B<-ls>|B<+ls>
+
+Start as a login-shell/sub-shell; resource B<loginShell>.
+
+=item B<-ut>|B<+ut>
+
+Compile I<utmp>: Inhibit/enable writing a utmp entry; resource
+B<utmpInhibit>.
+
+=item B<-vb>|B<+vb>
+
+Turn on/off visual bell on receipt of a bell character; resource
+B<visualBell>.
+
+=item B<-sb>|B<+sb>
+
+Turn on/off scrollbar; resource B<scrollBar>.
+
+=item B<-sr>|B<+sr>
+
+Put scrollbar on right/left; resource B<scrollBar_right>.
+
+=item B<-st>|B<+st>
+
+Display rxvt (non XTerm/NeXT) scrollbar without/with a trough;
+resource B<scrollBar_floating>.
+
+=item B<-si>|B<+si>
+
+Turn on/off scroll-to-bottom on TTY output inhibit; resource
+B<scrollTtyOutput> has opposite effect.
+
+=item B<-sk>|B<+sk>
+
+Turn on/off scroll-to-bottom on keypress; resource
+B<scrollTtyKeypress>.
+
+=item B<-sw>|B<+sw>
+
+Turn on/off scrolling with the scrollback buffer as new lines appear.
+This only takes effect if B<-si> is also given; resource
+B<scrollWithBuffer>.
+
+=item B<-ptab>|B<+ptab>
+
+If enabled (default), "Horizontal Tab" characters are being stored as
+actual wide characters in the screen buffer, which makes it possible to
+select and paste them. Since a horizontal tab is a cursor movement and
+not an actual glyph, this can sometimes be visually annoying as the cursor
+on a tab character is displayed as a wide cursor; resource B<pastableTabs>.
+
+=item B<-bc>|B<+bc>
+
+Blink the cursor; resource B<cursorBlink>.
+
+=item B<-uc>|B<+uc>
+
+Make the cursor underlined; resource B<cursorUnderline>.
+
+=item B<-iconic>
+
+Start iconified, if the window manager supports that option.
+Alternative form is B<-ic>.
+
+=item B<-sl> I<number>
+
+Save I<number> lines in the scrollback buffer. See resource entry for
+limits; resource B<saveLines>.
+
+=item B<-b> I<number>
+
+Compile I<frills>: Internal border of I<number> pixels. See resource
+entry for limits; resource B<internalBorder>.
+
+=item B<-w> I<number>
+
+Compile I<frills>: External border of I<number> pixels. Also, B<-bw>
+and B<-borderwidth>. See resource entry for limits; resource
+B<externalBorder>.
+
+=item B<-bl>
+
+Compile I<frills>: Set MWM hints to request a borderless window, i.e.
+if honoured by the WM, the rxvt-unicode window will not have window
+decorations; resource B<borderLess>. If the window manager does not
+support MWM hints (e.g. kwin), enables override-redirect mode.
+
+=item B<-override-redirect>
+
+Compile I<frills>: Sets override-redirect on the window; resource
+B<override-redirect>.
+
+=item B<-sbg>
+
+Compile I<frills>: Disable the usage of the built-in block graphics/line
+drawing characters and just rely on what the specified fonts provide. Use
+this if you have a good font and want to use its block graphic glyphs;
+resource B<skipBuiltinGlyphs>.
+
+=item B<-lsp> I<number>
+
+Compile I<frills>: Lines (pixel height) to insert between each row of
+the display. Useful to work around font rendering problems; resource
+B<lineSpace>.
+
+=item B<-letsp> I<number>
+
+Compile I<frills>: Amount to adjust the computed character width by
+to control overall letter spacing. Negative values will tighten up the
+letter spacing, positive values will space letters out more. Useful to
+work around odd font metrics; resource B<letterSpace>.
+
+=item B<-tn> I<termname>
+
+This option specifies the name of the terminal type to be set in the
+B<TERM> environment variable. This terminal type must exist in the
+I<termcap(5)> database and should have I<li#> and I<co#> entries;
+resource B<termName>.
+
+=item B<-e> I<command [arguments]>
+
+Run the command with its command-line arguments in the B<@@RXVT_NAME@@>
+window; also sets the window title and icon name to be the basename of
+the program being executed if neither I<-title> (I<-T>) nor I<-n> are
+given on the command line. If this option is used, it must be the last
+on the command-line. If there is no B<-e> option then the default is to
+run the program specified by the B<SHELL> environment variable or,
+failing that, I<sh(1)>.
+
+Please note that you must specify a program with arguments. If you want to
+run shell commands, you have to specify the shell, like this:
+
+  @@RXVT_NAME@@ -e sh -c "shell commands"
+
+=item B<-title> I<text>
+
+Window title (B<-T> still respected); the default title is the basename
+of the program specified after the B<-e> option, if any, otherwise the
+application name; resource B<title>.
+
+=item B<-n> I<text>
+
+Icon name; the default name is the basename of the program specified
+after the B<-e> option, if any, otherwise the application name;
+resource B<iconName>.
+
+=item B<-C>
+
+Capture system console messages.
+
+=item B<-pt> I<style>
+
+Compile I<XIM>: input style for input method; B<OverTheSpot>,
+B<OffTheSpot>, B<Root>; resource B<preeditType>.
+
+=item B<-im> I<text>
+
+Compile I<XIM>: input method name. resource B<inputMethod>.
+
+=item B<-imlocale> I<string>
+
+The locale to use for opening the IM. You can use an C<LC_CTYPE> of e.g.
+C<de_DE.UTF-8> for normal text processing but C<ja_JP.EUC-JP> for the
+input extension to be able to input japanese characters while staying in
+another locale. resource B<imLocale>.
+
+=item B<-imfont> I<fontset>
+
+Set the font set to use for the X Input Method, see resource B<imFont>
+for more info.
+
+=item B<-tcw>
+
+Change the meaning of triple-click selection with the left mouse
+button. Only effective when the original (non-perl) selection code is
+in-use. Instead of selecting a full line it will extend the selection to
+the end of the logical line only. resource B<tripleclickwords>.
+
+=item B<-insecure>
+
+Enable "insecure" mode, which currently enables most of the escape
+sequences that echo strings. See the resource B<insecure> for more
+info.
+
+=item B<-mod> I<modifier>
+
+Override detection of Meta modifier with specified key: B<alt>,
+B<meta>, B<hyper>, B<super>, B<mod1>, B<mod2>, B<mod3>, B<mod4>,
+B<mod5>; resource I<modifier>.
+
+=item B<-ssc>|B<+ssc>
+
+Turn on/off secondary screen (default enabled); resource
+B<secondaryScreen>.
+
+=item B<-ssr>|B<+ssr>
+
+Turn on/off secondary screen scroll (default enabled); resource
+B<secondaryScroll>.
+
+=item B<-hold>|B<+hold>
+
+Turn on/off hold window after exit support. If enabled, @@RXVT_NAME@@
+will not immediately destroy its window when the program executed within
+it exits. Instead, it will wait till it is being killed or closed by the
+user; resource B<hold>.
+
+=item B<-cd> I<path>
+
+Sets the working directory for the shell (or the command specified via
+B<-e>). The I<path> must be an absolute path and it must exist for
+@@RXVT_NAME@@ to start; resource B<chdir>.
+
+=item B<-xrm> I<string>
+
+Works like the X Toolkit option of the same name, by adding the I<string>
+as if it were specified in a resource file. Resource values specified this
+way take precedence over all other resource specifications.
+
+Note that you need to use the I<same> syntax as in the .Xdefaults file,
+e.g. C<*.background: black>. Also note that all @@RXVT_NAME@@-specific
+options can be specified as long-options on the commandline, so use
+of B<-xrm> is mostly limited to cases where you want to specify other
+resources (e.g. for input methods) or for compatibility with other
+programs.
+
+=item B<-keysym.>I<sym> I<string>
+
+Remap a key symbol. See resource B<keysym>.
+
+=item B<-embed> I<windowid>
+
+Tells @@RXVT_NAME@@ to embed its windows into an already-existing window,
+which enables applications to easily embed a terminal.
+
+Right now, @@RXVT_NAME@@ will first unmap/map the specified window, so it
+shouldn't be a top-level window. @@RXVT_NAME@@ will also reconfigure it
+quite a bit, so don't expect it to keep some specific state. It's best to
+create an extra subwindow for @@RXVT_NAME@@ and leave it alone.
+
+The window will not be destroyed when @@RXVT_NAME@@ exits.
+
+It might be useful to know that @@RXVT_NAME@@ will not close file
+descriptors passed to it (except for stdin/out/err, of course), so you
+can use file descriptors to communicate with the programs within the
+terminal. This works regardless of whether the C<-embed> option was used or
+not.
+
+Here is a short Gtk2-perl snippet that illustrates how this option can be
+used (a longer example is in F<doc/embed>):
+
+   my $rxvt = new Gtk2::Socket;
+   $rxvt->signal_connect_after (realize => sub {
+      my $xid = $_[0]->window->get_xid;
+      system "@@RXVT_NAME@@ -embed $xid &";
+   });
+
+=item B<-pty-fd> I<file descriptor>
+
+Tells @@RXVT_NAME@@ NOT to execute any commands or create a new pty/tty
+pair but instead use the given file descriptor as the tty master. This is
+useful if you want to drive @@RXVT_NAME@@ as a generic terminal emulator
+without having to run a program within it.
+
+If this switch is given, @@RXVT_NAME@@ will not create any utmp/wtmp
+entries and will not tinker with pty/tty permissions - you have to do that
+yourself if you want that.
+
+As an extremely special case, specifying C<-1> will completely suppress
+pty/tty operations, which is probably only useful in conjunction with some
+perl extension that manages the terminal.
+
+Here is a example in perl that illustrates how this option can be used (a
+longer example is in F<doc/pty-fd>):
+
+   use IO::Pty;
+   use Fcntl;
+
+   my $pty = new IO::Pty;
+   fcntl $pty, F_SETFD, 0; # clear close-on-exec
+   system "@@RXVT_NAME@@ -pty-fd " . (fileno $pty) . "&";
+   close $pty;
+
+   # now communicate with rxvt
+   my $slave = $pty->slave;
+   while (<$slave>) { print $slave "got <$_>\n" }
+
+=item B<-pe> I<string>
+
+Comma-separated list of perl extension scripts to use (or not to use) in
+this terminal instance. See resource B<perl-ext> for details.
+
+=back
+
+=head1 RESOURCES
+
+Note: `@@RXVT_NAME@@ --help' gives a list of all resources (long
+options) compiled into your version. All resources are also available as
+long-options.
+
+You can set and change the resources using X11 tools like B<xrdb>. Many
+distribution do also load settings from the B<~/.Xresources> file when X
+starts. @@RXVT_NAME@@ will consult the following files/resources in order,
+with later settings overwriting earlier ones:
+
+  1. app-defaults file in $XAPPLRESDIR
+  2. $HOME/.Xdefaults
+  3. RESOURCE_MANAGER property on root-window of screen 0
+  4. SCREEN_RESOURCES property on root-window of the current screen
+  5. $XENVIRONMENT file OR $HOME/.Xdefaults-<nodename>
+  6. resources specified via -xrm on the commandline
+
+Note that when reading X resources, B<@@RXVT_NAME@@> recognizes two class
+names: B<Rxvt> and B<URxvt>. The class name B<Rxvt> allows resources
+common to both B<@@RXVT_NAME@@> and the original I<rxvt> to be easily
+configured, while the class name B<URxvt> allows resources unique to
+B<@@RXVT_NAME@@>, to be shared between different B<@@RXVT_NAME@@>
+configurations. If no resources are specified, suitable defaults will
+be used. Command-line arguments can be used to override resource
+settings. The following resources are supported (you might want to
+check the @@RXVT_NAME@@perl(3) manpage for additional settings by perl
+extensions not documented here):
+
+=over 4
+
+=item B<depth:> I<bitdepth>
+
+Compile I<xft>: Attempt to find a visual with the given bit depth;
+option B<-depth>.
+
+=item B<buffered:> I<boolean>
+
+Compile I<xft>: Turn on/off double-buffering for xft (default enabled).
+On some card/driver combination enabling it slightly decreases
+performance, on most it greatly helps it. The slowdown is small, so it
+should normally be enabled.
+
+=item B<geometry:> I<geom>
+
+Create the window with the specified X window geometry [default 80x24];
+option B<-geometry>.
+
+=item B<background:> I<colour>
+
+Use the specified colour as the window's background colour [default
+White]; option B<-bg>.
+
+=item B<foreground:> I<colour>
+
+Use the specified colour as the window's foreground colour [default
+Black]; option B<-fg>.
+
+=item B<color>I<n>B<:> I<colour>
+
+Use the specified colour for the colour value I<n>, where 0-7
+corresponds to low-intensity (normal) colours and 8-15 corresponds to
+high-intensity (bold = bright foreground, blink = bright background)
+colours. The canonical names are as follows: 0=black, 1=red, 2=green,
+3=yellow, 4=blue, 5=magenta, 6=cyan, 7=white, but the actual colour
+names used are listed in the B<COLOURS AND GRAPHICS> section.
+
+Colours higher than 15 cannot be set using resources (yet), but can be
+changed using an escape command (see @@RXVT_NAME@@(7)).
+
+Colours 16-79 form a standard 4x4x4 colour cube (the same as xterm with
+88 colour support). Colours 80-87 are evenly spaces grey steps.
+
+=item B<colorBD:> I<colour>
+
+=item B<colorIT:> I<colour>
+
+Use the specified colour to display bold or italic characters when the
+foreground colour is the default. If font styles are not available
+(Compile I<styles>) and this option is unset, reverse video is used instead.
+
+=item B<colorUL:> I<colour>
+
+Use the specified colour to display underlined characters when the
+foreground colour is the default.
+
+=item B<underlineColor:> I<colour>
+
+If set, use the specified colour as the colour for the underline
+itself. If unset, use the foreground colour.
+
+=item B<highlightColor:> I<colour>
+
+If set, use the specified colour as the background for highlighted
+characters. If unset, use reverse video.
+
+=item B<highlightTextColor:> I<colour>
+
+If set and highlightColor is set, use the specified colour as the
+foreground for highlighted characters.
+
+=item B<cursorColor:> I<colour>
+
+Use the specified colour for the cursor. The default is to use the
+foreground colour; option B<-cr>.
+
+=item B<cursorColor2:> I<colour>
+
+Use the specified colour for the colour of the cursor text. For this to
+take effect, B<cursorColor> must also be specified. The default is to
+use the background colour.
+
+=item B<reverseVideo:> I<boolean>
+
+B<True>: simulate reverse video by foreground and background colours;
+option B<-rv>. B<False>: regular screen colours [default]; option
+B<+rv>. See note in B<COLOURS AND GRAPHICS> section.
+
+=item B<jumpScroll:> I<boolean>
+
+B<True>: specify that jump scrolling should be used. When receiving lots
+of lines, @@RXVT_NAME@@ will only scroll once a whole screen height of lines
+has been read, resulting in fewer updates while still displaying every
+received line; option B<-j>.
+
+B<False>: specify that smooth scrolling should be used. @@RXVT_NAME@@ will
+force a screen refresh on each new line it received; option B<+j>.
+
+=item B<skipScroll:> I<boolean>
+
+B<True>: (the default) specify that skip scrolling should be used. When
+receiving lots of lines, @@RXVT_NAME@@ will only scroll once in a while
+(around 60 times per second), resulting in far fewer updates. This can
+result in @@RXVT_NAME@@ not ever displaying some of the lines it receives;
+option B<-ss>.
+
+B<False>: specify that everything is to be displayed, even
+if the refresh is too fast for the human eye to read anything (or the
+monitor to display anything); option B<+ss>.
+
+=item B<fading:> I<number>
+
+Fade the text by the given percentage when focus is lost; option B<-fade>.
+
+=item B<fadeColor:> I<colour>
+
+Fade to this colour, when fading is used (see B<fading:>). The default
+colour is black; option B<-fadecolor>.
+
+=item B<iconFile:> I<file>
+
+Set the application icon pixmap; option B<-icon>.
+
+=item B<scrollColor:> I<colour>
+
+Use the specified colour for the scrollbar [default #B2B2B2].
+
+=item B<troughColor:> I<colour>
+
+Use the specified colour for the scrollbar's trough area [default
+#969696]. Only relevant for rxvt (non XTerm/NeXT) scrollbar.
+
+=item B<borderColor:> I<colour>
+
+The colour of the border around the text area and between the scrollbar
+and the text.
+
+=item B<font:> I<fontlist>
+
+Select the fonts to be used. This is a comma separated list of font names
+that are checked in order when trying to find glyphs for characters. The
+first font defines the cell size for characters; other fonts might be
+smaller, but not (in general) larger. A (hopefully) reasonable default
+font list is always appended to it; option B<-fn>.
+
+Each font can either be a standard X11 core font (XLFD) name, with
+optional prefix C<x:> or a Xft font (Compile I<xft>), prefixed with C<xft:>.
+
+In addition, each font can be prefixed with additional hints and
+specifications enclosed in square brackets (C<[]>). The only available
+hint currently is C<codeset=codeset-name>, and this is only used for Xft
+fonts.
+
+For example, this font resource
+
+   URxvt.font: 9x15bold,\
+               -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso10646-1,\
+               -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1, \
+               [codeset=JISX0208]xft:Kochi Gothic:antialias=false, \
+               xft:Code2000:antialias=false
+
+specifies five fonts to be used. The first one is C<9x15bold> (actually
+the iso8859-1 version of the second font), which is the base font (because
+it is named first) and thus defines the character cell grid to be 9 pixels
+wide and 15 pixels high.
+
+The second font is just used to add additional unicode characters not in
+the base font, likewise the third, which is unfortunately non-bold, but
+the bold version of the font does contain fewer characters, so this is a
+useful supplement.
+
+The third font is an Xft font with aliasing turned off, and the characters
+are limited to the B<JIS 0208> codeset (i.e. japanese kanji). The font
+contains other characters, but we are not interested in them.
+
+The last font is a useful catch-all font that supplies most of the
+remaining unicode characters.
+
+=item B<boldFont:> I<fontlist>
+
+=item B<italicFont:> I<fontlist>
+
+=item B<boldItalicFont:> I<fontlist>
+
+The font list to use for displaying B<bold>, I<italic> or B<< I<bold
+italic> >> characters, respectively.
+
+If specified and non-empty, then the syntax is the same as for the
+B<font>-resource, and the given font list will be used as is, which makes
+it possible to substitute completely different font styles for bold and
+italic.
+
+If unset (the default), a suitable font list will be synthesized by
+"morphing" the normal text font list into the desired shape. If that is
+not possible, replacement fonts of the desired shape will be tried.
+
+If set, but empty, then this specific style is disabled and the normal
+text font will being used for the given style.
+
+=item B<intensityStyles:> I<boolean>
+
+When font styles are not enabled, or this option is enabled (B<True>,
+option B<-is>, the default), bold/blink font styles imply high
+intensity foreground/background colours. Disabling this option (B<False>,
+option B<+is>) disables this behaviour, the high intensity colours are not
+reachable.
+
+=item B<title:> I<string>
+
+Set window title string, the default title is the command-line
+specified after the B<-e> option, if any, otherwise the application
+name; option B<-title>.
+
+=item B<iconName:> I<string>
+
+Set the name used to label the window's icon or displayed in an icon
+manager window, it also sets the window's title unless it is explicitly
+set; option B<-n>.
+
+=item B<mapAlert:> I<boolean>
+
+B<True>: de-iconify (map) on receipt of a bell character. B<False>: no
+de-iconify (map) on receipt of a bell character [default].
+
+=item B<urgentOnBell:> I<boolean>
+
+B<True>: set the urgency hint for the wm on receipt of a bell character.
+B<False>: do not set the urgency hint [default].
+
+@@RXVT_NAME@@ resets the urgency hint on every focus change.
+
+=item B<visualBell:> I<boolean>
+
+B<True>: use visual bell on receipt of a bell character; option B<-vb>.
+B<False>: no visual bell [default]; option B<+vb>.
+
+=item B<loginShell:> I<boolean>
+
+B<True>: start as a login shell by prepending a `-' to B<argv[0]> of
+the shell; option B<-ls>. B<False>: start as a normal sub-shell
+[default]; option B<+ls>.
+
+=item B<utmpInhibit:> I<boolean>
+
+B<True>: inhibit writing record into the system log file B<utmp>;
+option B<-ut>. B<False>: write record into the system log file B<utmp>
+[default]; option B<+ut>.
+
+=item B<print-pipe:> I<string>
+
+Specify a command pipe for vt100 printer [default I<lpr(1)>]. Use
+B<Print> to initiate a screen dump to the printer and B<Ctrl-Print> or
+B<Shift-Print> to include the scrollback as well.
+
+The string will be interpreted as if typed into the shell as-is.
+
+Example:
+
+   URxvt.print-pipe: cat > $(TMPDIR=$HOME mktemp urxvt.XXXXXX)
+
+This creates a new file in your home directory with the screen contents
+every time you hit C<Print>.
+
+=item B<scrollstyle:> I<mode>
+
+Set scrollbar style to B<rxvt>, B<plain>, B<next> or B<xterm>. B<plain> is
+the author's favourite.
+
+=item B<thickness:> I<number>
+
+Set the scrollbar width in pixels.
+
+=item B<scrollBar:> I<boolean>
+
+B<True>: enable the scrollbar [default]; option B<-sb>. B<False>:
+disable the scrollbar; option B<+sb>.
+
+=item B<scrollBar_right:> I<boolean>
+
+B<True>: place the scrollbar on the right of the window; option B<-sr>.
+B<False>: place the scrollbar on the left of the window; option B<+sr>.
+
+=item B<scrollBar_floating:> I<boolean>
+
+B<True>: display an rxvt scrollbar without a trough; option B<-st>.
+B<False>: display an rxvt scrollbar with a trough; option B<+st>.
+
+=item B<scrollBar_align:> I<mode>
+
+Align the B<top>, B<bottom> or B<centre> [default] of the scrollbar
+thumb with the pointer on middle button press/drag.
+
+=item B<scrollTtyOutput:> I<boolean>
+
+B<True>: scroll to bottom when tty receives output; option B<-si>.
+B<False>: do not scroll to bottom when tty receives output; option
+B<+si>.
+
+=item B<scrollWithBuffer:> I<boolean>
+
+B<True>: scroll with scrollback buffer when tty receives new lines (i.e.
+try to show the same lines) and B<scrollTtyOutput> is False; option
+B<-sw>. B<False>: do not scroll with scrollback buffer when tty receives
+new lines; option B<+sw>.
+
+=item B<scrollTtyKeypress:> I<boolean>
+
+B<True>: scroll to bottom when a non-special key is pressed. Special keys
+are those which are intercepted by rxvt-unicode for special handling and
+are not passed onto the shell; option B<-sk>. B<False>: do not scroll to
+bottom when a non-special key is pressed; option B<+sk>.
+
+=item B<saveLines:> I<number>
+
+Save I<number> lines in the scrollback buffer [default 64]. This
+resource is limited on most machines to 65535; option B<-sl>.
+
+=item B<internalBorder:> I<number>
+
+Internal border of I<number> pixels. This resource is limited to 100;
+option B<-b>.
+
+=item B<externalBorder:> I<number>
+
+External border of I<number> pixels. This resource is limited to 100;
+option B<-w>, B<-bw>, B<-borderwidth>.
+
+=item B<borderLess:> I<boolean>
+
+Set MWM hints to request a borderless window, i.e. if honoured by the
+WM, the rxvt-unicode window will not have window decorations; option B<-bl>.
+
+=item B<skipBuiltinGlyphs:> I<boolean>
+
+Compile I<frills>: Disable the usage of the built-in block graphics/line
+drawing characters and just rely on what the specified fonts provide. Use
+this if you have a good font and want to use its block graphic glyphs;
+option B<-sbg>.
+
+=item B<termName:> I<termname>
+
+Specifies the terminal type name to be set in the B<TERM> environment
+variable; option B<-tn>.
+
+=item B<lineSpace:> I<number>
+
+Specifies number of lines (pixel height) to insert between each row of
+the display [default 0]; option B<-lsp>.
+
+=item B<meta8:> I<boolean>
+
+B<True>: handle Meta (Alt) + keypress to set the 8th bit. B<False>:
+handle Meta (Alt) + keypress as an escape prefix [default].
+
+=item B<mouseWheelScrollPage:> I<boolean>
+
+B<True>: the mouse wheel scrolls a page full. B<False>: the mouse wheel
+scrolls five lines [default].
+
+=item B<pastableTabs:> I<boolean>
+
+B<True>: store tabs as wide characters. B<False>: interpret tabs as cursor
+movement only; option C<-ptab>.
+
+=item B<cursorBlink:> I<boolean>
+
+B<True>: blink the cursor. B<False>: do not blink the cursor [default];
+option B<-bc>.
+
+=item B<cursorUnderline:> I<boolean>
+
+B<True>: Make the cursor underlined. B<False>: Make the cursor a box [default];
+option B<-uc>.
+
+=item B<pointerBlank:> I<boolean>
+
+B<True>: blank the pointer when a key is pressed or after a set number
+of seconds of inactivity. B<False>: the pointer is always visible
+[default].
+
+=item B<pointerColor:> I<colour>
+
+Mouse pointer foreground colour.
+
+=item B<pointerColor2:> I<colour>
+
+Mouse pointer background colour.
+
+=item B<pointerBlankDelay:> I<number>
+
+Specifies number of seconds before blanking the pointer [default 2]. Use a
+large number (e.g. C<987654321>) to effectively disable the timeout.
+
+=item B<backspacekey:> I<string>
+
+The string to send when the backspace key is pressed. If set to B<DEC>
+or unset it will send B<Delete> (code 127) or, with control, B<Backspace>
+(code 8) - which can be reversed with the appropriate DEC private mode
+escape sequence.
+
+=item B<deletekey:> I<string>
+
+The string to send when the delete key (not the keypad delete key) is
+pressed. If unset it will send the sequence traditionally associated
+with the B<Execute> key.
+
+=item B<cutchars:> I<string>
+
+The characters used as delimiters for double-click word selection
+(whitespace delimiting is added automatically if resource is given).
+
+When the perl selection extension is in use (the default if compiled
+in, see the @@RXVT_NAME@@perl(3) manpage), a suitable regex using these
+characters will be created (if the resource exists, otherwise, no regex
+will be created). In this mode, characters outside ISO-8859-1 can be used.
+
+When the selection extension is not used, only ISO-8859-1 characters can
+be used. If not specified, the built-in default is used:
+
+B<< BACKSLASH `"'&()*,;<=>?@[]^{|} >>
+
+=item B<preeditType:> I<style>
+
+B<OverTheSpot>, B<OffTheSpot>, B<Root>; option B<-pt>.
+
+=item B<inputMethod:> I<name>
+
+I<name> of inputMethod to use; option B<-im>.
+
+=item B<imLocale:> I<name>
+
+The locale to use for opening the IM. You can use an C<LC_CTYPE> of e.g.
+C<de_DE.UTF-8> for normal text processing but C<ja_JP.EUC-JP> for the
+input extension to be able to input japanese characters while staying in
+another locale; option B<-imlocale>.
+
+=item B<imFont:> I<fontset>
+
+Specify the font-set used for XIM styles C<OverTheSpot> or
+C<OffTheSpot>. It must be a standard X font set (XLFD patterns separated
+by commas), i.e. it's not in the same format as the other font lists used
+in @@RXVT_NAME@@. The default will be set-up to chose *any* suitable found
+found, preferably one or two pixels differing in size to the base font.
+option B<-imfont>.
+
+=item B<tripleclickwords:> I<boolean>
+
+Change the meaning of triple-click selection with the left mouse
+button. Instead of selecting a full line it will extend the selection to
+the end of the logical line only; option B<-tcw>.
+
+=item B<insecure:> I<boolean>
+
+Enables "insecure" mode. Rxvt-unicode offers some escape sequences that
+echo arbitrary strings like the icon name or the locale. This could be
+abused if somebody gets 8-bit-clean access to your display, whether
+through a mail client displaying mail bodies unfiltered or through
+write(1) or any other means. Therefore, these sequences are disabled by
+default. (Note that many other terminals, including xterm, have these
+sequences enabled by default, which doesn't make it safer, though).
+
+You can enable them by setting this boolean resource or specifying
+B<-insecure> as an option. At the moment, this enables display-answer,
+locale, findfont, icon label and window title requests.
+
+=item B<modifier:> I<modifier>
+
+Set the key to be interpreted as the Meta key to: B<alt>, B<meta>,
+B<hyper>, B<super>, B<mod1>, B<mod2>, B<mod3>, B<mod4>, B<mod5>; option
+B<-mod>.
+
+=item B<answerbackString:> I<string>
+
+Specify the reply rxvt-unicode sends to the shell when an ENQ (control-E)
+character is passed through. It may contain escape values as described
+in the entry on B<keysym> following.
+
+=item B<secondaryScreen:> I<boolean>
+
+Turn on/off secondary screen (default enabled).
+
+=item B<secondaryScroll:> I<boolean>
+
+Turn on/off secondary screen scroll (default enabled). If this
+option is enabled, scrolls on the secondary screen will change the
+scrollback buffer and, when secondaryScreen is off, switching
+to/from the secondary screen will instead scroll the screen up.
+
+=item B<hold>: I<boolean>
+
+Turn on/off hold window after exit support. If enabled, @@RXVT_NAME@@
+will not immediately destroy its window when the program executed within
+it exits. Instead, it will wait till it is being killed or closed by the
+user.
+
+=item B<chdir>: I<path>
+
+Sets the working directory for the shell (or the command specified via
+B<-e>). The I<path> must be an absolute path and it must exist for
+@@RXVT_NAME@@ to start. If it isn't specified then the current working
+directory will be used; option B<-cd>.
+
+=item B<keysym.>I<sym>: I<string>
+
+Compile I<frills>: Associate I<string> with keysym I<sym>. The
+intervening resource name B<keysym.> cannot be omitted.
+
+The format of I<sym> is "I<(modifiers-)key>", where I<modifiers> can be
+any combination of B<ISOLevel3>, B<AppKeypad>, B<Control>, B<NumLock>,
+B<Shift>, B<Meta>, B<Lock>, B<Mod1>, B<Mod2>, B<Mod3>, B<Mod4>, B<Mod5>,
+and the abbreviated B<I>, B<K>, B<C>, B<N>, B<S>, B<M>, B<A>, B<L>, B<1>,
+B<2>, B<3>, B<4>, B<5>.
+
+The B<NumLock>, B<Meta> and B<ISOLevel3> modifiers are usually aliased to
+whatever modifier the NumLock key, Meta/Alt keys or ISO Level3 Shift/AltGr
+keys are being mapped. B<AppKeypad> is a synthetic modifier mapped to the
+current application keymap mode state.
+
+The spellings of I<key> can be obtained by using B<xev>(1) command or
+searching keysym macros from B</usr/X11R6/include/X11/keysymdef.h> and
+omitting the prefix B<XK_>. Alternatively you can specify I<key> by its hex
+keysym value (B<0x0000 - 0xFFFF>). Note that the lookup of I<sym>s is not
+performed in an exact manner; however, the closest match is assured.
+
+I<string> may contain escape values (C<\n>: newline, C<\000>: octal
+number), see RESOURCES in C<man 7 X> for further details.
+
+You can define a range of keysyms in one shot by
+loading the C<keysym-list> perl extension and providing a I<string>
+with pattern B<list/PREFIX/MIDDLE/SUFFIX>, where the delimiter `/'
+should be a character not used by the strings.
+
+Its usage can be demonstrated by an example:
+
+  URxvt.keysym.M-C-0x61:    list|\033<|abc|>
+
+The above line is equivalent to the following three lines:
+
+  URxvt.keysym.Meta-Control-0x61:    \033<a>
+  URxvt.keysym.Meta-Control-0x62:    \033<b>
+  URxvt.keysym.Meta-Control-0x63:    \033<c>
+
+If I<string> takes the form of C<command:STRING>, the specified B<STRING>
+is interpreted and executed as @@RXVT_NAME@@'s control sequence. For
+example the following means "change the current locale to C<zh_CN.GBK>
+when Control-Meta-c is being pressed":
+
+  URxvt.keysym.M-C-c: command:\033]701;zh_CN.GBK\007
+
+If I<string> takes the form C<perl:STRING>, then the specified B<STRING>
+is passed to the C<on_user_command> perl handler. See the @@RXVT_NAME@@perl(3)
+manpage. For example, the F<selection> extension (activated via
+C<@@RXVT_NAME@@ -pe selection>) listens for C<selection:rot13> events:
+
+  URxvt.keysym.M-C-c: perl:selection:rot13
+
+Due the the large number of modifier combinations, a defined key mapping
+will match if I<at least> the specified identifiers are being set, and
+no other key mappings with those and more bits are being defined. That
+means that defining a key map for C<a> will automatically provide
+definitions for C<Meta-a>, C<Shift-a> and so on, unless some of those are defined
+mappings themselves.
+
+Unfortunately, this will override built-in key mappings. For example
+if you overwrite the C<Insert> key you will disable @@RXVT_NAME@@'s
+C<Shift-Insert> mapping. To re-enable that, you can poke "holes" into the
+user-defined keymap using the C<builtin:> replacement:
+
+  URxvt.keysym.Insert: <my insert key sequence>
+  URxvt.keysym.S-Insert: builtin:
+
+The first line defines a mapping for C<Insert> and I<any> combination
+of modifiers. The second line re-establishes the default mapping for
+C<Shift-Insert>.
+
+The following example will map Control-Meta-1 and Control-Meta-2 to
+the fonts C<suxuseuro> and C<9x15bold>, so you can have some limited
+font-switching at runtime:
+
+  URxvt.keysym.M-C-1: command:\033]50;suxuseuro\007
+  URxvt.keysym.M-C-2: command:\033]50;9x15bold\007
+
+Other things are possible, e.g. resizing (see @@RXVT_NAME@@(7) for more
+info):
+
+  URxvt.keysym.M-C-3: command:\033[8;25;80t
+  URxvt.keysym.M-C-4: command:\033[8;48;110t
+
+=item B<perl-ext-common>: I<string>
+
+=item B<perl-ext>: I<string>
+
+Comma-separated list(s) of perl extension scripts (default: C<default>) to
+use in this terminal instance; option B<-pe>.
+
+Extension names can be prefixed with a C<-> sign to prohibit using
+them. This can be useful to selectively disable some extensions loaded
+by default, or specified via the C<perl-ext-common> resource. For
+example, C<default,-selection> will use all the default extension except
+C<selection>.
+
+Extension names can also be followed by an argument in angle brackets
+(e.g.  C<< searchable-scrollback<M-s> >>, which binds the hotkey for
+searchable scrollback to Alt/Meta-s). Mentioning the same extension
+multiple times with different arguments will pass multiple arguments to
+the extension.
+
+Each extension is looked up in the library directories, loaded if
+necessary, and bound to the current terminal instance.
+
+If both of these resources are the empty string, then the perl
+interpreter will not be initialized. The idea behind two options is that
+B<perl-ext-common> will be used for extensions that should be available to
+all instances, while B<perl-ext> is used for specific instances.
+
+=item B<perl-eval>: I<string>
+
+Perl code to be evaluated when all extensions have been registered. See
+the @@RXVT_NAME@@perl(3) manpage.
+
+=item B<perl-lib>: I<path>
+
+Colon-separated list of additional directories that hold extension
+scripts. When looking for perl extensions, @@RXVT_NAME@@ will first look
+in these directories, then in C<$URXVT_PERL_LIB>, F<$HOME/.urxvt/ext> and
+lastly in F<@@RXVT_LIBDIR@@/urxvt/perl/>.
+
+See the @@RXVT_NAME@@perl(3) manpage.
+
+=item B<< selection.pattern-I<idx> >>: I<perl-regex>
+
+Additional selection patterns, see the @@RXVT_NAME@@perl(3) manpage for
+details.
+
+=item B<< selection-autotransform.I<idx> >>: I<perl-transform>
+
+Selection auto-transform patterns, see the @@RXVT_NAME@@perl(3) manpage
+for details.
+
+=item B<searchable-scrollback:> I<keysym>
+
+Sets the hotkey that starts the incremental scrollback buffer search
+(default: C<M-s>).
+
+=item B<url-launcher>: I<string>
+
+Specifies the program to be started with a URL argument. Used by the
+C<selection-popup> and C<matcher> perl extensions.
+
+=item B<transient-for>: I<windowid>
+
+Compile I<frills>: Sets the WM_TRANSIENT_FOR property to the given window id.
+
+=item B<override-redirect>: I<boolean>
+
+Compile I<frills>: Sets override-redirect for the terminal window, making
+it almost invisible to window managers; option B<-override-redirect>.
+
+=item B<iso14755:> I<boolean>
+
+Turn on/off ISO 14755 (default enabled).
+
+=item B<iso14755_52:> I<boolean>
+
+Turn on/off ISO 14755 5.2 mode (default enabled).
+
+=back
+
+=head1 BACKGROUND IMAGE OPTIONS AND RESOURCES
+
+=over 4
+
+=item B<-pixmap> I<file[;oplist]>
+
+=item B<backgroundPixmap:> I<file[;oplist]>
+
+Compile I<pixbuf>: Use the specified image file as the window's
+background and also optionally specify a colon separated list of
+operations to modify it. Note that you may need to quote the C<;>
+character when using the command line option, as C<;> is usually a
+metacharacter in shells. Supported operations are:
+
+=over 4
+
+=item B<WxH+X+Y>
+
+sets scale and position. B<"W" / "H"> specify the horizontal/vertical
+scale (percent), and B<"X" / "Y"> locate the image centre (percent). A
+scale of 0 disables scaling.
+
+=item B<op=tile>
+
+enables tiling
+
+=item B<op=keep-aspect>
+
+maintain the image aspect ratio when scaling
+
+=item B<op=root-align>
+
+use the position of the terminal window relative to the root window as
+the image offset, simulating a root window background
+
+=back
+
+The default scale and position setting is C<100x100+50+50>.
+Alternatively, a predefined set of templates can be used to achieve
+the most common setups:
+
+=over 4
+
+=item B<style=tiled>
+
+the image is tiled with no scaling. Equivalent to 0x0+0+0:op=tile
+
+=item B<style=aspect-stretched>
+
+the image is scaled to fill the whole window maintaining the aspect
+ratio and centered. Equivalent to 100x100+50+50:op=keep-aspect
+
+=item B<style=stretched>
+
+the image is scaled to fill the whole window. Equivalent to 100x100
+
+=item B<style=centered>
+
+the image is centered with no scaling. Equivalent to 0x0+50+50
+
+=item B<style=root-tiled>
+
+the image is tiled with no scaling and using 'root' positioning.
+Equivalent to 0x0:op=tile:op=root-align
+
+=back
+
+If multiple templates are specified the last one wins. Note that a
+template overrides all the scale, position and operations settings.
+
+If used in conjunction with pseudo-transparency, the specified pixmap
+will be blended over the transparent background using alpha-blending.
+
+=item B<-tr>|B<+tr>
+
+=item B<transparent:> I<boolean>
+
+Turn on/off pseudo-transparency by using the root pixmap as background.
+
+B<-ip> (B<inheritPixmap>) is still accepted as an obsolete alias but
+will be removed in future versions.
+
+=item B<-tint> I<colour>
+
+=item B<tintColor:> I<colour>
+
+Tint the transparent background with the given colour. Note that a
+black tint yields a completely black image while a white tint yields
+the image unchanged.
+
+=item B<-sh> I<number>
+
+=item B<shading:> I<number>
+
+Darken (0 .. 99) or lighten (101 .. 200) the transparent background.
+A value of 100 means no shading.
+
+=item B<-blr> I<HxV>
+
+=item B<blurRadius:> I<HxV>
+
+Apply gaussian blur with the specified radius to the transparent
+background. If a single number is specified, the vertical and
+horizontal radii are considered to be the same. Setting one of the
+radii to 1 and the other to a large number creates interesting effects
+on some backgrounds. The maximum radius value is 128. An horizontal or
+vertical radius of 0 disables blurring.
+
+=item B<path:> I<path>
+
+Specify the colon-delimited search path for finding background image files.
+
+=back
+
+=head1 THE SCROLLBAR
+
+Lines of text that scroll off the top of the B<@@RXVT_NAME@@> window
+(resource: B<saveLines>) and can be scrolled back using the scrollbar
+or by keystrokes. The normal B<@@RXVT_NAME@@> scrollbar has arrows and
+its behaviour is fairly intuitive. The B<xterm-scrollbar> is without
+arrows and its behaviour mimics that of I<xterm>
+
+Scroll down with B<Button1> (B<xterm-scrollbar>) or B<Shift-Next>.
+Scroll up with B<Button3> (B<xterm-scrollbar>) or B<Shift-Prior>.
+Continuous scroll with B<Button2>.
+
+=head1 MOUSE REPORTING
+
+To temporarily override mouse reporting, for either the scrollbar or
+the normal text selection/insertion, hold either the Shift or the Meta
+(Alt) key while performing the desired mouse action.
+
+If mouse reporting mode is active, the normal scrollbar actions are
+disabled -- on the assumption that we are using a fullscreen
+application. Instead, pressing Button1 and Button3 sends B<ESC [ 6 ~>
+(Next) and B<ESC [ 5 ~> (Prior), respectively. Similarly, clicking on the
+up and down arrows sends B<ESC [ A> (Up) and B<ESC [ B> (Down),
+respectively.
+
+=head1 THE SELECTION: SELECTING AND PASTING TEXT
+
+The behaviour of text selection and insertion/pasting mechanism is similar
+to I<xterm>(1).
+
+=over 4
+
+=item B<Selecting>:
+
+Left click at the beginning of the region, drag to the end of the region
+and release; Right click to extend the marked region; Left double-click
+to select a word; Left triple-click to select the entire logical line
+(which can span multiple screen lines), unless modified by resource
+B<tripleclickwords>.
+
+Starting a selection while pressing the B<Meta> key (or B<Meta+Ctrl> keys)
+(Compile: I<frills>) will create a rectangular selection instead of a
+normal one. In this mode, every selected row becomes its own line in the
+selection, and trailing whitespace is visually underlined and removed from
+the selection.
+
+=item B<Pasting>:
+
+Pressing and releasing the Middle mouse button in an B<@@RXVT_NAME@@>
+window causes the value of the PRIMARY selection (or CLIPBOARD with the
+B<Meta> modifier) to be inserted as if it had been typed on the keyboard.
+
+Pressing B<Shift-Insert> causes the value of the PRIMARY selection to be
+inserted too.
+
+rxvt-unicode also provides the bindings B<Ctrl-Meta-c> and
+<Ctrl-Meta-v> to interact with the CLIPBOARD selection. The first
+binding causes the value of the internal selection to be copied to the
+CLIPBOARD selection, while the second binding causes the value of the
+CLIPBOARD selection to be inserted.
+
+=back
+
+=head1 CHANGING FONTS
+
+Changing fonts (or font sizes, respectively) via the keypad is not yet
+supported in rxvt-unicode. Bug me if you need this.
+
+You can, however, switch fonts at runtime using escape sequences, e.g.:
+
+   printf '\e]710;%s\007' "9x15bold,xft:Kochi Gothic"
+
+You can use keyboard shortcuts, too:
+
+   URxvt.keysym.M-C-1: command:\033]710;suxuseuro\007\033]711;suxuseuro\007
+   URxvt.keysym.M-C-2: command:\033]710;9x15bold\007\033]711;9x15bold\007
+
+rxvt-unicode will automatically re-apply these fonts to the output so far.
+
+=head1 ISO 14755 SUPPORT
+
+ISO 14755 is a standard for entering and viewing unicode characters
+and character codes using the keyboard. It consists of 4 parts. The
+first part is available if rxvt-unicode has been compiled with
+C<--enable-frills>, the rest is available when rxvt-unicode was compiled
+with C<--enable-iso14755>.
+
+=over 4
+
+=item * 5.1: Basic method
+
+This allows you to enter unicode characters using their hexcode.
+
+Start by pressing and holding both C<Control> and C<Shift>, then enter
+hex-digits (between one and six). Releasing C<Control> and C<Shift> will
+commit the character as if it were typed directly. While holding down
+C<Control> and C<Shift> you can also enter multiple characters by pressing
+C<Space>, which will commit the current character and lets you start a new
+one.
+
+As an example of use, imagine a business card with a japanese e-mail
+address, which you cannot type. Fortunately, the card has the e-mail
+address printed as hexcodes, e.g. C<671d 65e5>. You can enter this easily
+by pressing C<Control> and C<Shift>, followed by C<6-7-1-D-SPACE-6-5-E-5>,
+followed by releasing the modifier keys.
+
+=item * 5.2: Keyboard symbols entry method
+
+This mode lets you input characters representing the keycap symbols of
+your keyboard, if representable in the current locale encoding.
+
+Start by pressing C<Control> and C<Shift> together, then releasing
+them. The next special key (cursor keys, home etc.) you enter will not
+invoke its usual function but instead will insert the corresponding
+keycap symbol. The symbol will only be entered when the key has been
+released, otherwise pressing e.g. C<Shift> would enter the symbol for
+C<ISO Level 2 Switch>, although your intention might have been to enter a
+reverse tab (Shift-Tab).
+
+=item * 5.3: Screen-selection entry method
+
+While this is implemented already (it's basically the selection
+mechanism), it could be extended by displaying a unicode character map.
+
+=item * 5.4: Feedback method for identifying displayed characters for later input
+
+This method lets you display the unicode character code associated with
+characters already displayed.
+
+You enter this mode by holding down C<Control> and C<Shift> together, then
+pressing and holding the left mouse button and moving around. The unicode
+hex code(s) (it might be a combining character) of the character under the
+pointer is displayed until you release C<Control> and C<Shift>.
+
+In addition to the hex codes it will display the font used to draw this
+character - due to implementation reasons, characters combined with
+combining characters, line drawing characters and unknown characters will
+always be drawn using the built-in support font.
+
+=back
+
+With respect to conformance, rxvt-unicode is supposed to be compliant to
+both scenario A and B of ISO 14755, including part 5.2.
+
+=head1 LOGIN STAMP
+
+B<@@RXVT_NAME@@> tries to write an entry into the I<utmp>(5) file so that
+it can be seen via the I<who(1)> command, and can accept messages.  To
+allow this feature, B<@@RXVT_NAME@@> may need to be installed setuid root
+on some systems or setgid to root or to some other group on others.
+
+=head1 COLOURS AND GRAPHICS
+
+In addition to the default foreground and background colours,
+B<@@RXVT_NAME@@> can display up to 88/256 colours: 8 ANSI colours plus
+high-intensity (potentially bold/blink) versions of the same, and 72 (or
+240 in 256 colour mode) colours arranged in an 4x4x4 (or 6x6x6) colour RGB
+cube plus a 8 (24) colour greyscale ramp.
+
+Here is a list of the ANSI colours with their names.
+
+=begin table
+
+	B<color0>	(black)	= Black
+	B<color1>	(red)	= Red3
+	B<color2>	(green)	= Green3
+	B<color3>	(yellow)	= Yellow3
+	B<color4>	(blue)	= Blue3
+	B<color5>	(magenta)	= Magenta3
+	B<color6>	(cyan)	= Cyan3
+	B<color7>	(white)	= AntiqueWhite
+	B<color8>	(bright black)	= Grey25
+	B<color9>	(bright red)	= Red
+	B<color10>	(bright green)	= Green
+	B<color11>	(bright yellow)	= Yellow
+	B<color12>	(bright blue)	= Blue
+	B<color13>	(bright magenta)	= Magenta
+	B<color14>	(bright cyan)	= Cyan
+	B<color15>	(bright white)	= White
+	B<foreground>		= Black
+	B<background>		= White
+
+=end table
+
+It is also possible to specify the colour values of B<foreground>,
+B<background>, B<cursorColor>, B<cursorColor2>, B<colorBD>, B<colorUL> as
+a number 0-15, as a convenient shorthand to reference the colour name of
+color0-color15.
+
+The following text gives values for the standard 88 colour mode (and
+values for the 256 colour mode in parentheses).
+
+The RGB cube uses indices 16..79 (16..231) using the following formulas:
+
+   index_88  = (r * 4 + g) * 4 + b + 16   # r, g, b = 0..3
+   index_256 = (r * 6 + g) * 6 + b + 16   # r, g, b = 0..5
+
+The grayscale ramp uses indices 80..87 (232..239), from 10% to 90% in 10%
+steps (1/26 to 25/26 in 1/26 steps) - black and white are already part of
+the RGB cube.
+
+Together, all those colours implement the 88 (256) colour xterm
+colours. Only the first 16 can be changed using resources currently, the
+rest can only be changed via command sequences ("escape codes").
+
+Applications are advised to use terminfo or command sequences to discover
+number and RGB values of all colours (yes, you can query this...).
+
+Note that B<-rv> (B<"reverseVideo: True">) simulates reverse video by
+always swapping the foreground/background colours. This is in contrast to
+I<xterm>(1) where the colours are only swapped if they have not otherwise
+been specified. For example,
+
+   @@RXVT_NAME@@ -fg Black -bg White -rv
+
+would yield White on Black, while on I<xterm>(1) it would yield Black on
+White.
+
+=head2 ALPHA CHANNEL SUPPORT
+
+If Xft support has been compiled in and as long as Xft/Xrender/X don't get
+their act together, rxvt-unicode will do its own alpha channel management:
+
+You can prefix any colour with an opaqueness percentage enclosed in
+brackets, i.e. C<[percent]>, where C<percent> is a decimal percentage
+(0-100) that specifies the opacity of the colour, where C<0> is completely
+transparent and C<100> is completely opaque. For example, C<[50]red> is a
+half-transparent red, while C<[95]#00ff00> is an almost opaque green. This
+is the recommended format to specify transparency values, and works with
+all ways to specify a colour.
+
+For complete control, rxvt-unicode also supports
+C<rgba:rrrr/gggg/bbbb/aaaa> (exactly four hex digits/component) colour
+specifications, where the additional C<aaaa> component specifies opacity
+(alpha) values. The minimum value of C<0000> is completely transparent,
+while C<ffff> is completely opaque). The two example colours from
+earlier could also be specified as C<rgba:ff00/0000/0000/8000> and
+C<rgba:0000/ff00/0000/f332>.
+
+You probably need to specify B<"-depth 32">, too, to force a visual with
+alpha channels, and have the luck that your X-server uses ARGB pixel
+layout, as X is far from just supporting ARGB visuals out of the box, and
+rxvt-unicode just fudges around.
+
+For example, the following selects an almost completely transparent black
+background, and an almost opaque pink foreground:
+
+   @@RXVT_NAME@@ -depth 32 -bg rgba:0000/0000/0000/4444 -fg "[80]pink"
+
+When not using a background image, then the interpretation of the
+alpha channel is up to your compositing manager (most interpret it as
+transparency of course).
+
+When using a background pixmap or pseudo-transparency, then the background
+colour will always behave as if it were completely transparent (so the
+background image shows instead), regardless of how it was specified, while
+other colours will either be transparent as specified (the background
+image will show through) on servers supporting the RENDER extension, or
+fully opaque on servers not supporting the RENDER EXTENSION.
+
+Please note that due to bugs in Xft, specifying alpha values might result
+in garbage being displayed when the X-server does not support the RENDER
+extension.
+
+=head1 ENVIRONMENT
+
+B<@@RXVT_NAME@@> sets and/or uses the following environment variables:
+
+=over 4
+
+=item B<TERM>
+
+Normally set to C<rxvt-unicode>, unless overwritten at configure time, via
+resources or on the command line.
+
+=item B<COLORTERM>
+
+Either C<rxvt>, C<rxvt-xpm>, depending on whether @@RXVT_NAME@@ was
+compiled with background image support, and optionally with the added
+extension C<-mono> to indicate that rxvt-unicode runs on a monochrome
+screen.
+
+=item B<COLORFGBG>
+
+Set to a string of the form C<fg;bg> or C<fg;xpm;bg>, where C<fg> is
+the colour code used as default foreground/text colour (or the string
+C<default> to indicate that the default-colour escape sequence is to be
+used), C<bg> is the colour code used as default background colour (or the
+string C<default>), and C<xpm> is the string C<default> if @@RXVT_NAME@@
+was compiled with background image support. Libraries like C<ncurses>
+and C<slang> can (and do) use this information to optimize screen output.
+
+=item B<WINDOWID>
+
+Set to the (decimal) X Window ID of the @@RXVT_NAME@@ window (the toplevel
+window, which usually has subwindows for the scrollbar, the terminal
+window and so on).
+
+=item B<TERMINFO>
+
+Set to the terminfo directory iff @@RXVT_NAME@@ was configured with
+C<--with-terminfo=PATH>.
+
+=item B<DISPLAY>
+
+Used by @@RXVT_NAME@@ to connect to the display and set to the correct
+display in its child processes if C<-display> isn't used to override. It
+defaults to C<:0> if it doesn't exist.
+
+=item B<SHELL>
+
+The shell to be used for command execution, defaults to C</bin/sh>.
+
+=item B<RXVT_SOCKET> [I<sic>]
+
+The unix domain socket path used by @@RXVT_NAME@@c(1) and
+@@RXVT_NAME@@d(1).
+
+Default F<<< $HOME/.urxvt/urxvtd-I<< <nodename> >> >>>.
+
+=item B<URXVT_PERL_LIB>
+
+Additional F<:>-separated library search path for perl extensions. Will be
+searched after B<-perl-lib> but before F<~/.urxvt/ext> and the system library
+directory.
+
+=item B<URXVT_PERL_VERBOSITY>
+
+See L<@@RXVT_NAME@@perl>(3).
+
+=item B<HOME>
+
+Used to locate the default directory for the unix domain socket for
+daemon communications and to locate various resource files (such as
+C<.Xdefaults>)
+
+=item B<XAPPLRESDIR>
+
+Directory where application-specific X resource files are located.
+
+=item B<XENVIRONMENT>
+
+If set and accessible, gives the name of a X resource file to be loaded by
+@@RXVT_NAME@@.
+
+=back
+
+=head1 FILES
+
+=over 4
+
+=item B</usr/lib/X11/rgb.txt>
+
+Colour names.
+
+=back
+
+=head1 SEE ALSO
+
+@@RXVT_NAME@@(7), @@RXVT_NAME@@c(1), @@RXVT_NAME@@d(1), @@RXVT_NAME@@-extensions(1),
+@@RXVT_NAME@@perl(3), xterm(1), sh(1), resize(1), X(1), pty(4), tty(4), utmp(5)
+
+=head1 CURRENT PROJECT COORDINATOR
+
+=over 4
+
+=item Project Coordinator
+
+Marc A. Lehmann <rxvt-unicode@schmorp.de>.
+
+L<http://software.schmorp.de/pkg/rxvt-unicode.html>
+
+=back
+
+=head1 AUTHORS
+
+=over 4
+
+=item John Bovey
+
+University of Kent, 1992, wrote the original Xvt.
+
+=item Rob Nation <nation@rocket.sanders.lockheed.com>
+
+very heavily modified Xvt and came up with Rxvt
+
+=item Angelo Haritsis <ah@doc.ic.ac.uk>
+
+wrote the Greek Keyboard Input (no longer in code)
+
+=item mj olesen <olesen@me.QueensU.CA>
+
+Wrote the menu system.
+
+Project Coordinator (changes.txt 2.11 to 2.21)
+
+=item Oezguer Kesim <kesim@math.fu-berlin.de>
+
+Project Coordinator (changes.txt 2.21a to 2.4.5)
+
+=item Geoff Wing <gcw@pobox.com>
+
+Rewrote screen display and text selection routines.
+
+Project Coordinator (changes.txt 2.4.6 - rxvt-unicode)
+
+=item Marc Alexander Lehmann <rxvt-unicode@schmorp.de>
+
+Forked rxvt-unicode, unicode support, rewrote almost all the code, perl
+extension, random hacks, numerous bugfixes and extensions.
+
+Project Coordinator (Changes 1.0 -)
+
+=item Emanuele Giaquinta <emanuele.giaquinta@gmail.com>
+
+pty/utmp code rewrite, image code improvements, many random hacks and bugfixes.
+
+=back
+

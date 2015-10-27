@@ -1,0 +1,23 @@
+Description: Fix tabbed extension to conform to Perl 5.18
+ Perl 5.18 no longer implicitly puts parentheses around qw(..), but instead
+ requires them explicitly. The lack of these caused the tabbed extension to
+ fail.
+Origin: http://bugs.debian.org/721456
+Author: gregor herrmann <gregoa@debian.org>
+Bug-Debian: http://bugs.debian.org/721456
+Applied-Upstream: already applied ages ago
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: rxvt-unicode/src/perl/tabbed
+===================================================================
+--- rxvt-unicode.orig/src/perl/tabbed	2013-02-16 19:41:38.000000000 -0500
++++ rxvt-unicode/src/perl/tabbed	2013-09-01 08:29:58.048828703 -0400
+@@ -402,7 +402,7 @@
+ # simply proxies all interesting calls back to the tabbed class.
+ 
+ {
+-   for my $hook qw(start destroy key_press property_notify) {
++   for my $hook (qw(start destroy key_press property_notify)) {
+       eval qq{
+          sub on_$hook {
+             my \$parent = \$_[0]{term}{parent}

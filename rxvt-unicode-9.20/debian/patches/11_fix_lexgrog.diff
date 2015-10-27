@@ -1,0 +1,50 @@
+Description: Fix malformed whatis entries
+ lexgrog cannot parse names containing whitespace, quoting lexgrog(1):
+ .
+   Names  containing  whitespace will be ignored to avoid pathological
+   behaviour on certain ill-formed NAME sections.
+ .
+ This will fix the "manpage-has-bad-whatis-entry" lintian warnings and will let
+ us have whatis entries.
+Forwarded: no
+Author: Ryan Kavanagh <ryanakca@kubuntu.org>
+Origin: vendor
+Reviewed-By: Ryan Kavanagh <ryanakca@kubuntu.org>
+Last-Updated: 2011-03-11
+Index: pkg-urxvt/doc/rxvt.1.pod
+===================================================================
+--- pkg-urxvt.orig/doc/rxvt.1.pod	2013-03-20 15:07:13.994297775 -0400
++++ pkg-urxvt/doc/rxvt.1.pod	2013-03-20 15:07:13.990297680 -0400
+@@ -1,6 +1,6 @@
+ =head1 NAME
+ 
+-rxvt-unicode (ouR XVT, unicode) - (a VT102 emulator for the X window system)
++rxvt-unicode - (ouR XVT, unicode), a VT102 emulator for the X window system
+ 
+ =head1 SYNOPSIS
+ 
+Index: pkg-urxvt/doc/rxvt.7.pod
+===================================================================
+--- pkg-urxvt.orig/doc/rxvt.7.pod	2013-03-20 15:07:13.994297775 -0400
++++ pkg-urxvt/doc/rxvt.7.pod	2013-03-20 17:33:16.000000000 -0400
+@@ -1,6 +1,6 @@
+ =head1 NAME
+ 
+-RXVT REFERENCE - FAQ, command sequences and other background information
++RXVT_REFERENCE - FAQ, command sequences and other background information
+ 
+ =head1 SYNOPSIS
+ 
+Index: pkg-urxvt/src/perl/selection-popup
+===================================================================
+--- pkg-urxvt.orig/src/perl/selection-popup	2013-02-12 12:12:29.227728891 -0500
++++ pkg-urxvt/src/perl/selection-popup	2013-03-20 17:34:07.049845487 -0400
+@@ -4,7 +4,7 @@
+ 
+ =head1 NAME
+ 
+-selection-popup (enabled by default)
++selection-popup - (enabled by default)
+ 
+ =head1 DESCRIPTION
+ 

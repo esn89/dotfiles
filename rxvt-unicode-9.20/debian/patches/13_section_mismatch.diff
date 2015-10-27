@@ -1,0 +1,26 @@
+Description: Set urxvtperl(3)'s .TH to 3 since we're installing in section 3
+ Fixes warnings of a manpage with section header 1 installed in the section 3
+ directory.
+Author: Ryan Kavanagh <rak@debian.org>
+Origin: vendor
+Forwarded: no
+Applied-Upstream: no
+Reviewed-by: Ryan Kavanagh <rak@debian.org>
+Last-Update: 2012-03-20
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: pkg-urxvt/src/Makefile.in
+===================================================================
+--- pkg-urxvt.orig/src/Makefile.in	2013-02-12 12:12:29.255729563 -0500
++++ pkg-urxvt/src/Makefile.in	2013-03-20 15:15:33.486168796 -0400
+@@ -120,8 +120,8 @@
+ @IF_PERL@	> mantmp
+ @IF_PERL@	$(INSTALL_DATA) mantmp $(DESTDIR)$(man1dir)/$(RXVTNAME)-extensions.$(man1ext)
+ @IF_PERL@	< $(srcdir)/urxvt.pm \
+-@IF_PERL@	$(PERL) -MPod::Man -e '(new Pod::Man name => "$(RXVTNAME)perl", $(PODOPTS))->parse_from_file' \
+-@IF_PERL@	> mantmp
++@IF_PERL@	$(PERL) -MPod::Man -e '(new Pod::Man name => "$(RXVTNAME)perl", section => 3, \
++@IF_PERL@		$(PODOPTS))->parse_from_file' > mantmp
+ @IF_PERL@	$(INSTALL_DATA) mantmp $(DESTDIR)$(man3dir)/$(RXVTNAME)perl.$(man3ext)
+ 
+ install-bin: allbin

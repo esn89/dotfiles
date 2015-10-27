@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = upgrade ]; then
+    # clean up after old versions, unless the admin chose urxvtcd
+    if ! update-alternatives --query x-terminal-emulator | grep -q \
+            '^Value: /usr/bin/urxvtcd$'; then
+        update-alternatives --remove x-terminal-emulator /usr/bin/urxvtcd
+    fi
+fi
+
+
