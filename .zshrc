@@ -1,23 +1,49 @@
-ZSH=/home/ep/.oh-my-zsh
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
 
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
 autoload -U promptinit
 promptinit
+
+unsetopt correct
 
 autoload -Uz compinit
 compinit
 
-HIST_STAMPS="mm/dd/yyyy"
-
+# "HIST_STAMPS="mm/dd/yyyy"
 setopt completeinword
 setopt extended_glob
 
+synclient VertTwoFingerScroll=1
+synclient HorizTwoFingerScroll=1
+synclient PalmDetect=1
+synclient PalmMinWidth=8
+synclient PalmMinZ=100
+
+# Menu to Super_L
+if [[ $TERM == xterm-termite ]]; then
+    . /etc/profile.d/vte-2.91.sh
+    __vte_osc7
+fi
+
+#export PS1="%F{green}%n%f in %F{blue}%1~%f %(?::%F{red}✖ %f)"
+export PS1="%F{green}%n%f in %F{blue}%/%f %(?::%F{red}✖ %f)"
 export EDITOR="vim"
+#export TERM="rxvt-unicode-256color"
+export TERM="screen-256color"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.utf-8"
 export LANGUAGE="en_US.UTF-8"
-export DEXTERNAL_LIBCLANG_PATH="/usr/lib/llvm-3.4/lib/libclang.so"
-export XDG_CONFIG_HOME="/home/ep/.config"
-#export TERM="rxvt-unicode-256color"
+export XDG_CONFIG_HOME="/home/evan/.config"
 export LS_COLORS="no=00:fi=00;37:di=00;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:ex=00;32:\
 *.sh=00;33:*.cpp=00;33:*.py=00;33:*.c=00;33:*.java=00;33:*.h=00;36:\
 *.tar=01;35:*.tgz=01;35:*.taz=01;35:*.zip=01;35:*.gz=01;35:*.bz2=01;35:*.deb=01;35:*.rpm=01;35:*.jar=01;35:*.pkg.tar.gz=01;31;35:\
@@ -26,52 +52,41 @@ export LS_COLORS="no=00:fi=00;37:di=00;34:ln=01;36:pi=40;33:so=01;35:bd=40;33;01
 *.mp3=01;36:*.flac=01;36\
 *.odt=00;31:*.pdf=00;31"
 
-# Some aliases
+export PATH=$PATH:~/.barScripts
+export PATH=$PATH:/opt/pgadmin
+export HISTSIZE=10000
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_DEFAULT_OPTS="-e --inline-info"
+
 alias ls="ls --color=auto --group-directories-first"
-alias grep="grep --color=auto"
 alias dmesg="dmesg --color"
 alias rm="rm -iv"
-alias sshp="empty"
+alias hst="history 1 | grep"
+alias sshp="ssh -p 2302 loki@192.168.1.73 -t tmux a"
 alias sshpo="empty"
-alias udg="sudo apt-get update && sudo apt-get upgrade"
+alias udg="sudo apt update && sudo apt upgrade"
 alias chk="ps aux | grep"
-alias hst="history | grep"
 alias dih="dpkg -l | grep"
-alias zshrc="vim ~/.zshrc"
-alias vi="vim"
-alias python="/usr/bin/python2.7"
-alias vimrc="vim ~/.vimrc"
-alias agi="sudo apt-get install"
-alias search="apt-cache search"
-alias ver="apt-cache policy"
-alias remove="sudo apt-get remove"
+alias zshrc="nvim ~/.zshrc"
+alias vim="nvim"
+alias vimrc="nvim ~/.config/nvim/init.vim"
+alias agi="sudo apt install"
+alias search="apt search"
+alias ver="apt policy"
+alias remove="sudo apt remove"
+alias autoremove="sudo apt autoremove"
 alias purge="sudo apt-get purge"
 alias xup="xrdb -merge ~/.Xresources"
 alias xdef="vim ~/.Xresources"
-alias sbox="thunar sftp://loki@<cannot have my ip> &"
+alias sbox="thunar sftp://loki@192.168.1.73:2302 &"
 alias sourcez="source ~/.zshrc"
-
-# For two finger vert scroll:
-#synclient VertTwoFingerScroll=1
-# For two finger horiz scroll
-#synclient HorizTwoFingerScroll=1
-
-# History search
-[[ -n "${key[PageUp]}" ]] && bindkey "${key[PageUp]}" history-beginning-search-backward
-[[ -n "${key[PageDown]}" ]] && bindkey "${key[PageDown]}" history-beginning-search-forward
-
-# Set name of the theme to load.
-ZSH_THEME="myown"
-
-# Comment this out to disable bi-weekly auto-update checks
-DISABLE_AUTO_UPDATE="true"
-
-# Uncomment following line if you want to disable command autocorrection
-DISABLE_CORRECTION="true"
-
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git)
-plugins=(zsh-syntax-highlighting)
+alias bspwmrc="vim ~/.config/bspwm/bspwmrc"
+alias sxhkdrc="vim ~/.config/sxhkd/sxhkdrc"
+alias tunnel="ssh -L 5432:db.trustyou.com:5432 evann@vmx.trustyou.com"
+alias egrep="egrep --color"
+alias gc="git clone"
+alias tconf="vim ~/.config/termite/config"
 
 # Coloured man pages
 man() {
@@ -84,31 +99,22 @@ man() {
 		LESS_TERMCAP_us=$'\E[04;38;5;146m' \
 		man "$@"
 }
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion::complete:cd::' tag-order '! users' -
-zstyle ':completion::complete:-command-::' tag-order '! users' -
-zstyle ':completion:*:corrections' format "- %d - (errors %e})"
-zstyle ':completion:*:default' list-prompt '%S%M matches%s'
-zstyle ':completion:*:descriptions' format "- %d -"
-zstyle ':completion:*:*:*:*:hosts' list-colors '=*=30;41'
-zstyle ':completion:*:kill:*:processes' command "ps x"
-zstyle ':completion:*:manuals' separate-sections true
-zstyle ':completion:*' cache-path ~/.zsh/cache
-zstyle ':completion:*' group-name ''
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion:*' use-cache on
-zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
 
-# Setup cdc function
-# ------------------
-unalias cdc 2> /dev/null
-cdc() {
-   local dest_dir=$(cdscuts_glob_echo | fzf )
-   if [[ $dest_dir != '' ]]; then
-      cd "$dest_dir"
-   fi
-}
-export -f cdc > /dev/null
+
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+#zstyle ':completion::complete:cd::' tag-order '! users' -
+#zstyle ':completion::complete:-command-::' tag-order '! users' -
+#zstyle ':completion:*:corrections' format "- %d - (errors %e})"
+#zstyle ':completion:*:default' list-prompt '%S%M matches%s'
+#zstyle ':completion:*:descriptions' format "- %d -"
+#zstyle ':completion:*:*:*:*:hosts' list-colors '=*=30;41'
+#zstyle ':completion:*:kill:*:processes' command "ps x"
+#zstyle ':completion:*:manuals' separate-sections true
+#zstyle ':completion:*' cache-path ~/.zsh/cache
+#zstyle ':completion:*' group-name ''
+#zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+#zstyle ':completion:*' use-cache on
+#zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
 
 # Setup fsearch function
 # ----------------------
@@ -132,5 +138,19 @@ fhist() {
 	fi
 }
 
+# Setup flocate function
+# ----------------------
+unalias flocate 2> /dev/null
+flocate() {
+	local path="$(locate "$@" | fzf)"
+	if [[ $path != '' ]]; then
+		cd "$path"
+	fi
+}
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source $ZSH/oh-my-zsh.sh
+
+
+export NVM_DIR="/home/evan/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
