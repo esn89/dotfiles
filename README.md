@@ -1,14 +1,14 @@
 esn89's Arch + bspwm
 ====================
 
-##This set up uses:
+## This set up uses:
 
 +  bspwm - to manage windows
 +  termite - my terminal
 +  sxhkd - hotkeys and stuff
 +  BAR - status bar
 
-##For making things look nice I use:
+## For making things look nice I use:
 
 +  hsetroot - to set wallpaper
 +  compton - to set shadows / transparency of windows
@@ -16,9 +16,9 @@ esn89's Arch + bspwm
 Thanks to earsplit for showing us bspwm noobs the way.
 
 
-##Some features:
+## Some features:
 
-###Battery and charging:
+### Battery and charging:
 
 Plugged in without battery status:
 ![AC](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/ac.png "Adapter")
@@ -29,7 +29,7 @@ Charging:
 Draining:
 ![Draining](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/batterydischarge.png "Draining")
 
-###SSID and wireless strength:
+### SSID and wireless strength:
 
 Strong signal:
 ![Strong](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/fullstrengthwifi.png "Strong")
@@ -37,7 +37,7 @@ Strong signal:
 Medium signal:
 ![Medium](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/medistrenghthwifi.png "Medium")
 
-###Volume and headphones:
+### Volume and headphones:
 
 Music with speakers:
 ![Speakers](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/notmute.png "Speakers")
@@ -45,7 +45,7 @@ Music with speakers:
 Speakers mute:
 ![SpeakersMute](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/mute.png "Speakers Mute")
 
-###Gmail Notifier:
+### Gmail Notifier:
 
 The pop up itself:
 ![Gmail](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/emailicon.png "email")
@@ -61,7 +61,7 @@ and stays on your desktop depending on your Dunst settings
 Script available
 [here](https://github.com/esn89/dotfiles/tree/master/bspwm/.barScripts/GmailNotifier)
 
-###Brightness Notifier:
+### Brightness Notifier:
 
 ![Brightness](https://raw.githubusercontent.com/esn89/dotfiles/master/scrots/brightness.png "brightness")
 
