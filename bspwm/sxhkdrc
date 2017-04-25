@@ -3,13 +3,10 @@
 ##########################
 #Launcher
 ##########################
-# Starts skype
-ctrl + shift + s
-    skype
 
 # Starts ranger
 ctrl + shift + r
-    urxvt -e ranger
+    urxvt -name ranger -e ranger
 
 # Starts mpv
 ctrl + shift + m
@@ -20,21 +17,17 @@ ctrl + shift + m
 ctrl + shift + j
     killall mpv
 
-# Starts chromium
+# Starts iceweasel
 ctrl + shift + a
-    chromium
+    firefox
 
 # Starts weechat
 ctrl + shift + w
-    termite -e weechat
+    urxvt -e weechat
 
 # Starts nmcpcpp
-ctrl + shift + p
-    termite -e ncmpcpp
-
-# Starts gmrun
-alt + r
-    gmrun
+#ctrl + shift + p
+#    urxvt -e ncmpcpp
 
 ##########################
 #System
@@ -50,7 +43,10 @@ XF86AudioLowerVolume
 
 # Mutes
 XF86AudioMute
-    amixer set Master toggle
+#amixer set Master toggle
+    amixer -D pulse set Master 1+ toggle
+
+
 
 # Brightness goes up
 XF86MonBrightnessUp
@@ -68,10 +64,6 @@ XF86ScreenSaver
 XF86Launch1
     systemctl poweroff
 
-# Reloads bspwm..don't know if it works
-ctrl + super + r
-    bspc reload
-
 ##########################
 #For bspwm itself
 ##########################
@@ -82,7 +74,7 @@ super + r
 
 # Closes focused window
 super + q
-    bspc window -c
+    bspc node -c
 
 # Flips leaves horizontally
 super + c
@@ -92,41 +84,31 @@ super + c
 super + v
     bspc desktop -F vertical
 
-# Trying to figure out what this does
-super + t
-    bspc desktop -l next
-
 # Balances the tree
 super + b
     bspc desktop -B
 
-# Toggles floating or fullscreen
-super + {s,f}
-    bspc window -t {floating,fullscreen}
+super + {t,p,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # Toggles between last tag
 super + {grave,Tab}
     bspc {window,desktop} -f last
 
 super + apostrophe
-    bspc window -s last
-
-super + {o,i}
-    bspc control --record-history off; \
-    bspc window {older,newer} -f; \
-    bspc control --record-history on
+    bspc node -s last
 
 # Move current window into the biggest panel
 super + m
-    bspc window -s biggest
+    bspc node -s biggest
 
 # Move current floating window into presel area
 super + p
-    bspc window -t floating -w last.manual
+    bspc node -t ~floating -w last.manual
 
 # Lock focused window's size.
 shift + alt + l
-    bspc window -t private
+    bspc node -t private
 
 # Resize floating windows
 alt + {Left,Right,Up,Down}
@@ -138,29 +120,29 @@ alt + shift + {Left,Right,Up,Down}
 
 # Focus on floating / tiled
 alt + {e,w}
-    bspc window -f {next.floating,next.tiled}
+    bspc node -f {next.floating,next.tiled}
 
 # Moves window to (which ever direction)
 super + {_,shift + }{h,j,k,l}
-    bspc window -{f,s} {left,down,up,right}
+    bspc node -{f,s} {west,south,north,east}
 
 super + ctrl + {h,j,k,l}
-    bspc window -p {left,down,up,right}
+    bspc node -p {west,south,north,east}
 
 super + ctrl + {_,shift + }space
-    bspc {window -p cancel,desktop -c}
+    bspc {node -p cancel,desktop -c}
 
 super + alt + {h,j,k,l}
-	bspc window -e {left -10,down +10,up -10,right +10}
+	bspc node -e {west -10,south +10,north -10,east +10}
 
 super + alt + shift + {h,j,k,l}
-	bspc window -e {right -10,up +10,down -10,left +10}
+	bspc node -e {east -10,north +10,south -10,west +10}
 
 super + ctrl + {1-9}
-    bspc window -r 0.{1-9}
+    bspc node -r 0.{1-9}
 
 super + {_,shift + }{1-9,0}
-    bspc {desktop -f,window -d} ^{1-9,10}
+    bspc {desktop -f,node -d} ^{1-9,10}
 
 ~button1
     bspc pointer -g focus
@@ -180,8 +162,9 @@ super + @button{1-3}
 super + @button{1-3}
 bspc pointer -u
 
-# launches termite
+# launches terminal
 super + Return
+#urxvt -geometry 90x23+1175+690
     termite
 
 # make sxhkd reload its configuration files:
@@ -192,6 +175,73 @@ super + Escape
 alt + {minus,equal}
     bspc config -d focused window_gap $((`bspc config -d focused window_gap` {+,-} 2 ))
 
-# Scratchpad?
-super + o
-    xdotool search --onlyvisible --classname scratchpad windowunmap || xdotool search --classname scratchpad windowmap || termite --class=scratchpad --geometry=900x400+460 &
+# Finally a working scratchpad!!
+super + backslash
+  xdotool search --onlyvisible --classname URxvtQuake windowunmap \
+    || xdotool search --classname URxvtQuake windowmap \
+    || urxvt -name URxvtQuake -geometry 110x20+297+1
+
+#alt + m
+#  D=$(bspc query --desktops --desktop focused); \
+#      W=$(bspc query --windows --window focused); \
+#        bspc query --desktops | grep -q "'$D" || bspc monitor --add-desktops \'$D; \
+#	  bspc window $W --to-desktop \'$D
+#
+#alt + shift + m
+#  D=$(bspc query --desktops --desktop focused); \
+#  if bspc query --desktops | grep -q "'$D"; then \
+#    for i in $(bspc query --windows --desktop \'$D); do \
+#      bspc window $i --to-desktop $D; \
+#      break; \
+#    done; \
+#    bspc window $i --focus; \
+#    bspc window --swap biggest; \
+#    (( $(bspc query --windows --desktop \'$D | wc -l) )) || bspc desktop \'$D --remove; \
+#  fi
+
+# lock screen:
+ctrl + grave
+    dm-tool lock
+
+# Sound shit:
+
+# Raises volume
+Pause
+   amixer -c1 sset Master 3%+
+
+# Lowers volume
+Scroll_Lock
+   amixer -c1 sset Master 3%-
+
+# Mutes
+Print
+   amixer set Master toggle
+   #amixer -D pulse set Master 1+ toggle
+
+### MPC ###
+shift + Print
+    mpc toggle
+
+shift + Scroll_Lock
+    mpc prev
+
+shift + Pause
+    mpc next
+
+shift + Home
+    albumnotification
+
+F1
+    pass -c integration
+
+F2
+    pass -c staging
+
+F3
+    pass -c app
+
+F4
+    pass -c build
+
+F7
+    pass -c tools

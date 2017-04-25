@@ -1,39 +1,32 @@
 #! /bin/sh
 
-bspc config border_width                1
-bspc config window_gap			23
-bspc config split_ratio                 0.50
-bspc config left_padding		0
-bspc config right_padding		0
-bspc config bottom_padding		0
-bspc config top_padding 		15
-bspc config borderless_monocle          true
-bspc config gapless_monocle             true
-bspc config focus_follows_pointer       false
-bspc config auto_alternate              false
-bspc config auto_cancel                 true
-bspc config top_padding                 24
-bspc config normal_border_color         "#181512"
-bspc config focused_border_color        "#A9A2A2"
-bspc config presel_border_color         "#AC4142"
+bspc config border_width        2
+bspc config window_gap		23
+bspc config top_padding		24
 
-bspc config normal_frame_opacity        0.0
-bspc config focused_frame_opacity       0.05
+bspc config split_ratio			0.50
+bspc config borderless_monocle		true
+bspc config gapless_monocle		true
+bspc config focus_follows_pointer	false
+#bspc config auto_alternate		false
+bspc config focus_by_distance		true
+#bspc config auto_cancel			true
 
-bspc monitor -d I II III IV
+bspc config normal_border_color         "#B3BDCB"
+bspc config focused_border_color        "#5294E2"
+bspc config presel_feedback_color         "#CC575D"
 
-bspc rule -a scratchpad sticky=on floating=on
-bspc rule -a Chromium desktop=^2 floating=on follow=on
-bspc rule -a Skype desktop=^3 floating=on
-bspc rule -a Gimp desktop=^3 floating=on
-bspc rule -a wicd-client.py desktop=^1 floating=on
-bspc rule -a sun-awt-X11-XFramePeer desktop=^3 floating=on
-bspc rule -a Deluge desktop=^3 floating=on
-bspc rule -a Puddletag desktop=^3 floating=on
-bspc rule -a libreoffice floating=on
+#bspc monitor -d    
+bspc monitor -d I II III IV V VI
 
-bspc config external_rules_command "$(which external_rules)"
-bspc config rule_command "$(which rule_command)"
-
-bspwm_rules
-panel &
+bspc desktop II -l monocle
+bspc rule -a Chromium desktop=^2
+bspc rule -a weechat desktop=^1 locked=on
+bspc rule -a Iceweasel desktop=^2
+bspc rule -a mpv state=floating
+bspc rule -a URxvtQuake sticky=on state=floating
+bspc rule -a Orage state=floating
+bspc rule -a ranger desktop=^4
+bspc rule -a KeePass2 desktop=^3
+bspc rule -a Slack desktop=^3
+bspc config external_rules_command /home/evan/.barScripts/external_rules
