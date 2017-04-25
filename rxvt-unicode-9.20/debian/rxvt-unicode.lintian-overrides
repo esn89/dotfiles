@@ -1,3 +1,0 @@
-rxvt-unicode: manpage-has-errors-from-man usr/share/man/man7/urxvt.7.gz *
-rxvt-unicode: setgid-binary usr/bin/urxvt 2755 root/utmp
-rxvt-unicode: setgid-binary usr/bin/urxvtd 2755 root/utmp

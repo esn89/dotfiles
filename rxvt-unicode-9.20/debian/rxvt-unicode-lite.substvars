@@ -1,2 +1,0 @@
-shlibs:Depends=libc6 (>= 2.17), libgcc1 (>= 1:4.1.1), libx11-6, libxrender1
-misc:Depends=

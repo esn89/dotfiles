@@ -1,8 +1,0 @@
-?package(rxvt-unicode-256color):needs="x11" \
-   section="Applications/Terminal Emulators" \
-   longtitle="Rxvt-Unicode: terminal emulator for X" \
-   title="Rxvt-Unicode" \
-   command="rxvt-unicode" \
-   icon="/usr/share/pixmaps/urxvt.xpm" \
-   icon16x16="/usr/share/pixmaps/urxvt_16x16.xpm" \
-   icon32x32="/usr/share/pixmaps/urxvt_32x32.xpm"
